@@ -1,0 +1,525 @@
+{
+  "nav": {
+    "home": "Domů",
+    "routes": "Trasa",
+    "informations": "Praktické informace",
+    "prices": "Ceny & Jízdenky",
+    "pricesShort": "Ceny",
+    "privatisation": "Pronájem",
+    "faqs": "FAQ",
+    "careers": "Kariéra",
+    "book": "Rezervovat",
+    "viewPrices": "Zobrazit ceny"
+  },
+  "navbar": {
+    "bannerPrefix": "Tato stránka je součástí sítě Petits Trains du Morbihan. Objevte naše další trasy v",
+    "bannerLinkVannes": "Vannes",
+    "bannerAnd": "a",
+    "bannerLinkQuiberon": "Quiberon.",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu",
+    "languageLabel": "Jazyk"
+  },
+  "footer": {
+    "ctaHeading": "Připraveni objevit Carnac jednoduše a příjemně?",
+    "ctaBody": "Nastupte na palubu Petit Train de Carnac a užijte si průvodcovský výlet spojující historii, krajinu a pohodlí. Objevte slavné menhiry v Carnaci, bílé písečné pláže a přístav La Trinité-sur-Mer – bez námahy a s jasným audio komentářem po celou dobu trasy.",
+    "tagline": "Petit Train de Carnac nabízí průvodcovský výlet jedním z nejpozoruhodnějších regionů jižní Bretagne. Pohodlně usazeni na palubě návštěvníci objevují Carnac, jeho slavné megalitické památky, pláže a sousední přístav uvolněně a přístupnou formou.",
+    "quickLinks": "Rychlé odkazy",
+    "contactUs": "Kontaktujte nás",
+    "other": "Ostatní",
+    "mentionsLegales": "Mentions légales",
+    "privacy": "Politique de Confidentialité",
+    "copyrightPrefix": "© 2026 Built by",
+    "copyrightSuffix": "Všechna práva vyhrazena."
+  },
+  "breadcrumb": {
+    "home": "Domů",
+    "prices": "Ceny & Jízdenky",
+    "routes": "Trasa",
+    "book": "Rezervace",
+    "informations": "Praktické informace",
+    "faqs": "FAQ",
+    "careers": "Kariéra",
+    "privatisation": "Pronájem"
+  },
+  "shared": {
+    "googleReviewsCount": "6 000+ recenzí",
+    "googleRatingDescription": "Petit Train de Carnac je hodnocen 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+    "googleRatingDescriptionAlt": "Petit Train de Carnac je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+    "starsAlt": "5 hvězd",
+    "fourSevenStarsAlt": "4,7 z 5 hvězd"
+  },
+  "hero": {
+    "label": "Le Petit Trains de Morbihan · Carnac",
+    "headingPrefix": "Objevte",
+    "headingHighlight": "Carnac",
+    "headingSuffix": "na palubě Petit Train",
+    "description": "Petit Train de Carnac nabízí průvodcovský turistický výlet městem a jeho okolím. Objevte nejkrásnější neolitické naleziště světa při tomto <strong>55minutovém průvodcovském výletu.</strong> Je to jednoduchý a pohodlný způsob, jak poznat Carnac, jeho dědictví a ikonické krajiny – bez potřeby dlouhých procházek.",
+    "tagline": "Ideální pro rodiny, páry, seniory a návštěvníky všech věkových kategorií.",
+    "buttonBook": "Rezervujte svůj výlet",
+    "buttonPrices": "Zobrazit ceny",
+    "googleBadge": "Petit Train de Carnac je hodnocen 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+    "rightCardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
+    "rightCardBody": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky.",
+    "rightCardFlagsAlt": "Vlajky jazyků",
+    "rightImageAlt": "Petit Train de Carnac na malebné trase",
+    "noteImportanteLabel": "Důležitá poznámka",
+    "noteImportanteHeading": "Online rezervace",
+    "noteImportanteBody": "Rezervace je možná, ale není povinná. Rezervovat lze až <strong>2 hodiny</strong> před plánovaným odjezdem. Nezapomeňte si naplánovat čas na cestu a parkování. Po uplynutí této doby se dostavte přímo na místo odjezdu a kupte jízdenky na pokladně nebo u řidiče.",
+    "noteImportanteBodyExtra": "Ne všechna místa jsou dostupná k prodeji online."
+  },
+  "metadata": {
+    "home": {
+      "title": "Petit Train de Carnac, Morbihan — Menhiry & výlet",
+      "description": "Průvodcovský výlet k megalitům v Carnaci na palubě Petit Train — 55minutový okruh, vícejazyčný audio komentář, pláže a přístav La Trinité-sur-Mer."
+    },
+    "prices": {
+      "title": "Ceny & Jízdenky — Petit Train de Carnac, Morbihan",
+      "description": "Ceny výletu k megalitům na Petit Train de Carnac: 8,50 € dospělý, 5 € dítě, zdarma pro děti do 3 let. Skupinové ceny a online rezervace."
+    },
+    "routes": {
+      "title": "Trasa & Itinerář — Petit Train de Carnac, Morbihan",
+      "description": "Objevte trasu Petit Train de Carnac: menhiry v Carnaci, Carnac-Plage a přístav La Trinité-sur-Mer. Průvodcovský výlet 55 minut s audio komentářem v 16 jazycích."
+    },
+    "book": {
+      "title": "Rezervujte svůj výlet — Petit Train de Carnac, Morbihan",
+      "description": "Rezervujte si výlet k megalitům v Carnaci na Petit Train. Průvodcovský výlet 55 minut, vícejazyčné audio, odjezd z parkoviště Ménec."
+    },
+    "informations": {
+      "title": "Praktické informace — Petit Train de Carnac, Morbihan",
+      "description": "Praktické informace pro přípravu vašeho výletu k megalitům na Petit Train de Carnac: jízdní řád, místa odjezdu, délka trasy, přístup."
+    },
+    "faqs": {
+      "title": "FAQ — Petit Train de Carnac, Morbihan",
+      "description": "Časté dotazy k výletu k megalitům v Carnaci na Petit Train: délka, ceny, trasa, přístupnost, rezervace."
+    },
+    "careers": {
+      "title": "Kariéra — Petit Train de Carnac, Morbihan",
+      "description": "Připojte se k týmu Petit Train de Carnac. Sezónní pozice řidiče, pokladní a nástupního dispečera."
+    },
+    "privatisation": {
+      "title": "Pronájem & skupiny — Petit Train de Carnac, Morbihan",
+      "description": "Pronajměte si Petit Train de Carnac pro vaše firemní akce, semináře, svatby nebo školní skupiny."
+    }
+  },
+  "pages": {
+    "prices": {
+      "heroLabel": "Ceny & Jízdenky",
+      "heroHeadingPrefix": "Ceny jízdenek",
+      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroDescription": "Najděte všechny ceny a informace o rezervaci pro Petit Train de Carnac. Tato stránka uvádí individuální a skupinové ceny, slevy pro děti a způsob, jak si s jistotou rezervovat průvodcovský výlet v Carnaci.",
+      "btnFlyerIndividual": "Leták pro jednotlivce",
+      "btnFlyerGroup": "Skupinový leták",
+      "reviewQuote": "« Nečekal jsem za 8,50 eura tolik. Opravdu krásný zážitek. »",
+      "reviewAuthor": "Dom L. · Recenze Google",
+      "faqLabel": "Časté dotazy",
+      "faqHeadingPrefix": "Často kladené otázky",
+      "faqHeadingHighlight": "ohledně cen",
+      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně cen, skupinových slev a způsobu rezervace Petit Train de Carnac.",
+      "faq": {
+        "q1": "Jaká je cena jízdenky na Petit Train de Carnac?",
+        "a1": "Ceny se liší podle věku a velikosti skupiny. Pro individuální návštěvníky je standardní cena dospělého 8,50 €. Děti do 12 let mají zvýhodněnou cenu 5 €. Skupinové ceny se vztahují na skupiny od 20 osob.",
+        "q2": "Jsou pro děti zvýhodněné ceny?",
+        "a2": "Ano. Děti do 12 let mají zvýhodněnou cenu. Jejich jízdenka umožňuje přístup ke stejnému průvodcovskému výletu a audio komentáři, včetně speciální verze určené pro děti.",
+        "q3": "Potřebují děti jízdenku pro nastoupení do Petit Train?",
+        "a3": "Ano. Každý cestující musí mít jízdenku, aby mohl nastoupit do Petit Train de Carnac. Dětem do 12 let jsou uplatňovány zvýhodněné ceny.",
+        "q4": "Existují skupinové slevy?",
+        "a4": "Ano. Skupinové ceny jsou dostupné od 20 nastupujících osob. Tyto zvýhodněné ceny se vztahují na dospělé i děti. Doporučuje se předem rezervovat.",
+        "q5": "Co je zahrnuto v ceně jízdenky?",
+        "a5": "Každá jízdenka zahrnuje kompletní průvodcovský výlet v délce přibližně 55 minut, vícejazyčný audio komentář, verzi pro děti a pohodlný zážitek na palubě. Nepředpokládají se žádné příplatky.",
+        "q6": "Lze koupit jízdenky na místě?",
+        "a6": "Ano. Jízdenky lze koupit u pokladny na parkovišti Ménec, v závislosti na dostupnosti. V hlavní turistické sezóně se doporučuje předem rezervovat.",
+        "q7": "Lze rezervovat jízdenky online?",
+        "a7": "Ano. Online rezervace je dostupná a doporučována, zejména ve špičkách. Online rezervace musí být provedeny nejméně dvě hodiny před odjezdem."
+      }
+    },
+    "routes": {
+      "heroLabel": "Trasa",
+      "heroHeadingPrefix": "Trasa",
+      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroDescriptionP1": "Objevte celou trasu Petit Train de Carnac přes menhiry v Carnaci, Carnac-Plage a přístav La Trinité-sur-Mer.",
+      "heroDescriptionP2": "Průvodcovský výlet 55 minut s audio komentářem v 16 jazycích, který kombinuje nejpozoruhodnější místa regionu do jednoho pohodlného okruhu.",
+      "heroImageAlt": "Mapa trasy Petit Train de Carnac — klikněte pro zvětšení",
+      "faqLabel": "Časté dotazy",
+      "faqHeadingPrefix": "Často kladené otázky",
+      "faqHeadingHighlight": "ohledně trasy",
+      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně trasy, zastávek a délky výletu Petit Train de Carnac."
+    },
+    "informations": {
+      "heroLabel": "Praktické informace",
+      "heroHeadingPrefix": "Praktické informace pro",
+      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroDescription": "Zde najdete veškeré praktické informace pro přípravu vašeho výletu: jízdní řád, přístup, délka trasy, přístupnost a užitečné tipy.",
+      "heroImageAlt": "Petit Train de Carnac u moře"
+    },
+    "faqs": {
+      "heroLabel": "FAQ",
+      "heroHeadingPrefix": "Často kladené otázky",
+      "heroDescription": "Najděte odpovědi na nejčastější otázky o Petit Train de Carnac: délka, ceny, trasa, přístupnost a rezervace."
+    },
+    "careers": {
+      "heroLabel": "Kariéra",
+      "heroHeadingPrefix": "Vaše kariéra v",
+      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingSuffix": "začíná zde",
+      "heroDescription": "Naše filozofie je jednoduchá: vřelá, spolehlivá a vstřícná obsluha každého návštěvníka. Hledáme pozorné, profesionální a nadšené lidi, kteří rádi sdílejí kouzlo Carnace s jeho návštěvníky.",
+      "buttonApply": "Požádat o práci a poslat životopis",
+      "jobsLabel": "Otevřené pozice:",
+      "jobBadgeSeasonal": "Sezónní pozice"
+    },
+    "privatisation": {
+      "overlayLabel": "Pronájem & B2B nájmy",
+      "overlayHeading": "Pronajměte si Petit Train de Carnac pro vaši akci",
+      "overlayDescription": "Petit Train de Carnac lze pronajmout pro firemní akce, semináře, svatby, školní skupiny nebo VIP prohlídky. Kontaktujte nás pro individuální nabídku."
+    },
+    "mentionsLegales": {
+      "title": "Mentions Légales"
+    },
+    "privacy": {
+      "title": "Politique de Confidentialité"
+    }
+  },
+  "sections": {
+    "practicalInfo": {
+      "label": "Informace",
+      "heading": "Praktické informace",
+      "description": "Abychom vám pomohli naplánovat výlet turistickým vlakem v Carnaci, zde jsou základní informace, které byste měli vědět před rezervací.",
+      "duration": {
+        "title": "Délka trasy",
+        "description": "Turistická prohlídka trvá přibližně <strong>55 minut.</strong> Tato délka vám umožní objevit Carnac uvolněným tempem a užít si komentář a krajinu bez spěchu nebo únavy."
+      },
+      "departure": {
+        "title": "Odjezd",
+        "description": "Povinné místo odjezdu pro <strong>skupiny</strong> a <strong>individuální rezervace</strong>. Nachází se na <strong>parkovišti Ménec</strong> v Carnaci, přímo naproti Maison des Mégalithes. Zastávka je jasně označena a snadno dostupná."
+      },
+      "schedule": {
+        "title": "Jízdní řád",
+        "description": "Odjezdy probíhají <strong>od dubna do září</strong>, několikrát denně. Vlak jezdí každý den v hlavní sezóně. Aktuální jízdní řády naleznete na stránce s přesnými časy odjezdů a sezónními úpravami."
+      },
+      "accessibility": {
+        "title": "Přístupnost",
+        "description": "Petit Train je <strong>přístupný pro všechny</strong>. Je ideální pro rodiny s malými dětmi, starší návštěvníky a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám při poznávání to nejlepšího z Carnace."
+      },
+      "payment": {
+        "title": "Platba",
+        "description": "Jízdenky lze koupit <strong>přímo na palubě</strong> nebo na místě odjezdu. Přijímáme platbu v hotovosti i kartou. Skupinové a školní ceny jsou k dispozici — kontaktujte nás pro nabídku."
+      },
+      "cta": {
+        "heading": "Více informací",
+        "description": "Prohlédněte si naše kompletní informace o cenách jízdenek, způsobech platby a dalších tipech, jak co nejlépe využít svou cestu přes megalitické památky.",
+        "button": "Zjistit více"
+      }
+    },
+    "prices": {
+      "label": "Ceny",
+      "heading": "Dostupné dobrodružství pro celou rodinu",
+      "description": "Od sólových cestovatelů po velké rodiny — najděte ideální cenu pro svůj výlet. Využijte naše speciální ceny pro děti a rodiny.",
+      "rowAdults": "Dospělí",
+      "rowChildren": "Děti do 12 let",
+      "individual": {
+        "title": "Individuální jízdenky",
+        "note": "<strong>Pro jednotlivce:</strong> místo srazu je u odjezdového bodu; pokladna na místě. <strong>Zdarma:</strong> děti do 3 let a psi."
+      },
+      "earlyBird": {
+        "title": "První ranní odjezdy",
+        "badge": "Výhodná cena",
+        "note": "<strong>Zvýhodněná cena:</strong> sleva -1,50 € na jízdenku, platí pouze pro první ranní odjezdy (před 10:20 nebo 10:30 podle cíle). Jízdenky dostupné u pokladny na místě."
+      },
+      "group": {
+        "title": "Skupinová rezervace",
+        "text": "Pro skupinové ceny nás kontaktujte přímo:",
+        "note": "<strong>Pro skupiny:</strong> zvýhodněná cena od 20 nastupujících osob. Doporučuje se předem rezervovat."
+      }
+    },
+    "beforeYouBook": {
+      "heading": "Před rezervací",
+      "description": "Před potvrzením rezervace si věnujte chvíli přečtení praktických informací o výletu Petit Train de Carnac. Tyto informace vám pomohou zajistit hladký průběh v den výletu a vyhnout se případným nejasnostem ohledně jízdních řádů, odjezdu a průběhu výletu.",
+      "imageAlt": "Megality v Carnaci u odjezdového bodu",
+      "bullet1": "Přijďte prosím alespoň 15 minut před odjezdem",
+      "bullet2": "Online rezervace musí být provedena nejméně dvě hodiny před odjezdem",
+      "bullet3": "Individuální návštěvníci začínají i končí výlet v odjezdovém místě Ménec",
+      "bullet4": "Výlet trvá přibližně 55 minut",
+      "bullet5": "Audio komentář je dostupný v několika jazycích, včetně verze pro děti",
+      "bullet6": "Petit Train jezdí za každého počasí",
+      "bullet7": "Odjezd je zajištěn od 6 platících dospělých na palubě"
+    },
+    "features": {
+      "label": "Přehled trasy",
+      "heading": "Jednoduchý a příjemný způsob, jak prozkoumat Carnac",
+      "p1": "Petit Train de Carnac vás zve k objevování města uvolněným tempem, pohodlně usazené na palubě turistického vlaku navrženého pro návštěvníky, kteří chtějí poznat Carnac bez námahy.",
+      "p2": "Během výletu poskytuje audio komentář jasné a přístupné informace o místech, kudy projíždíme, a pomáhá vám pochopit historii, památky a atmosféru Carnace. Tento turistický vlak je ideální pro návštěvníky, kteří hledají příjemné uvedení do Carnace a jeho okolí.",
+      "imageAlt": "Malebný výhled z Petit Train de Carnac",
+      "f1Title": "Pohodlný turistický vláček",
+      "f1Desc": "Objevte nejkrásnější místa Carnace pohodlně usazeni na palubě našeho turistického vlaku, navrženého pro návštěvníky, kteří chtějí prozkoumávat bez námahy.",
+      "f2Title": "Audio komentář v 16 jazycích — součást jízdenky",
+      "f2Desc": "Audio komentář je dostupný v 16 jazycích, s hygienickými sluchátky v ceně jízdenky. K dispozici je také verze pro děti.",
+      "f3Title": "Objevování dědictví a krajiny Carnace",
+      "f3Desc": "Prohlédněte si 47 komentovaných zajímavostí: zarovnání Ménec, Kermario a Kerlescan, bílé písečné pláže a přístav La Trinité-sur-Mer v jediné malebné cestě.",
+      "f4Title": "Vhodné pro rodiny, seniory a skupiny",
+      "f4Desc": "Náš vlak vítá všechny věkové kategorie a velikosti skupin — žádné dlouhé pochody, žádná námaha, jen pohodlný a příjemný zážitek pro všechny."
+    },
+    "groupBookingCta": {
+      "label": "Skupinová rezervace — Pronájem",
+      "heading": "Rezervace pro soukromé výlety",
+      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Carnac pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
+      "button": "Rezervace pronájmu"
+    },
+    "locations": {
+      "label": "Destinace",
+      "heading": "Objevte naše další trasy turistickým vlakem v Morbihanu",
+      "description": "Prodlužte svou návštěvu Morbihanu s našimi dalšími turistickými vlaky. Ve Vannes a Quiberon objevte nové krajiny, jedinečné dědictví a nezapomenutelné chvíle.",
+      "discover": "Objevit",
+      "vannes": {
+        "title": "Petit Train de Vannes",
+        "tagline": "Objevte historické srdce Vannes",
+        "description": "Nastupte na Petit Train de Vannes a objevte středověké hradby, přístav a malebné uličky starého města.",
+        "cta": "Objevit Petit Train de Vannes",
+        "imageAlt": "Historické centrum Vannes"
+      },
+      "quiberon": {
+        "title": "Petit Train de Quiberon",
+        "tagline": "Prozkoumejte nádherný poloostrov Quiberon",
+        "description": "Nastupte na Petit Train de Quiberon a užijte si nezapomenutelný pobřežní výlet: pláže, útesy a malebné vesničky na programu.",
+        "cta": "Objevit Petit Train de Quiberon",
+        "imageAlt": "Pobřežní výhledy poloostrova Quiberon"
+      }
+    },
+    "reviews": {
+      "label": "Recenze",
+      "heading": "Co říkají návštěvníci vlaku?",
+      "description": "Petit Train de Carnac je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+      "googleReview": "Recenze Google",
+      "slideAriaLabel": "Recenze {n} z {total}",
+      "regionAriaLabel": "Recenze návštěvníků",
+      "prevAriaLabel": "Předchozí recenze",
+      "nextAriaLabel": "Další recenze"
+    },
+    "bookingSection": {
+      "label": "Rezervace",
+      "headingPrefix": "Rezervujte svůj výlet na",
+      "headingHighlight": "Petit Train",
+      "headingSuffix": "v Carnaci",
+      "description": "Vyberte si datum a čas, zvolte počet jízdenek a potvrďte rezervaci online. Výlet trvá <strong>55 minut</strong> s audio komentářem dostupným v 16 jazycích."
+    },
+    "gallery": {
+      "label": "Galerie",
+      "heading": "Vzpomínky z vašeho výletu",
+      "description": "Náhled toho, co vás čeká na palubě Petit Train de Carnac. Klikněte pro zvětšení.",
+      "expandImage": "Zvětšit obrázek {n}",
+      "prevImage": "Předchozí obrázek",
+      "nextImage": "Další obrázek",
+      "close": "Zavřít"
+    },
+    "ourLocation": {
+      "label": "Naše poloha",
+      "heading": "Jak se dostat k Petit Train de Carnac",
+      "description": "Petit Train de Carnac je snadno dostupný autem, vlakem nebo autobusem. Zde jsou hlavní odjezdové body a tipy pro váš příjezd.",
+      "seeRoute": "Zobrazit trasu",
+      "arrivalTipTitle": "Tip pro příjezd",
+      "arrivalTipDescription": "Přijďte prosím alespoň 15 minut před odjezdem.",
+      "item1Title": "Hlavní odjezdový bod — Parkoviště Ménec",
+      "item1Description": "Povinné místo odjezdu pro skupiny a individuální rezervace. Nachází se na parkovišti Ménec v Carnaci, přímo naproti Maison des Mégalithes.",
+      "item2Title": "Bod 2 — Carnac Plage (Port-En-Drô)",
+      "item2Description": "Kupte si jízdenky na místě u řidiče, v závislosti na dostupnosti.",
+      "item3Title": "Bod 3 — La Trinité-sur-Mer",
+      "item3Description": "Autobusová zastávka Cours des Quais, u moře (před kruhovým objezdem Alain Barrière). Kupte si jízdenky na místě u řidiče, v závislosti na dostupnosti.",
+      "item4Title": "Autem",
+      "item4Description": "Pokud jedete autem, sledujte směr Carnac a parkoviště Ménec. Parkování je zdarma.",
+      "item5Title": "Vlakem",
+      "item5Description": "Nejbližší vlakové nádraží je Auray, přibližně 13 km od Carnace. V hlavní sezóně jezdí autobusy mezi Auray a Carnac."
+    },
+    "informationsIntro": {
+      "label": "Důležitá poznámka",
+      "heading": "Online rezervace",
+      "description": "Rezervace je možná, ale není povinná. Rezervovat lze až <strong>2 hodiny</strong> před plánovaným odjezdem. Nezapomeňte si naplánovat čas na cestu a parkování. Po uplynutí této doby se dostavte přímo na místo odjezdu a kupte jízdenky na pokladně nebo u řidiče."
+    },
+    "informationsCta": {
+      "label": "Skupinová rezervace — Pronájem",
+      "heading": "Rezervace pro soukromé výlety",
+      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Carnac pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
+      "button": "Rezervace pronájmu"
+    },
+    "faqsHero": {
+      "label": "FAQ",
+      "heading": "Často kladené otázky",
+      "description": "Najděte odpovědi na nejčastější otázky o Petit Train de Carnac: délka, ceny, trasa, přístupnost a rezervace.",
+      "cardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
+      "languages": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky."
+    },
+    "faq": {
+      "defaultLabel": "FAQ",
+      "defaultHeading": "Často kladené otázky",
+      "defaultDescription": "Najděte jasné odpovědi na nejčastější otázky o Petit Train de Carnac.",
+      "button": "Rezervujte svůj výlet",
+      "default": {
+        "q1": "Co je Petit Train de Carnac?",
+        "a1": "Petit Train de Carnac je průvodcovský turistický vlak, který projíždí Carnacem a jeho okolím: menhiry, plážemi a přístavem La Trinité-sur-Mer.",
+        "q2": "Jak dlouho trvá výlet Petit Train de Carnac?",
+        "a2": "Průvodcovský výlet trvá celkem přibližně 55 minut s vícejazyčným audio komentářem po celou dobu trasy.",
+        "q3": "Odkud odjíždí Petit Train de Carnac?",
+        "a3": "Hlavní odjezdové a příjezdové místo se nachází na parkovišti Ménec naproti Maison des Mégalithes.",
+        "q4": "Co uvidím během výletu Petit Train de Carnac?",
+        "a4": "Během výletu projdete kolem slavných zarovnání menhirů, tumulu Saint-Michel, Carnac-Plage a přístavu La Trinité-sur-Mer.",
+        "q5": "Je Petit Train de Carnac vhodný pro děti a rodiny?",
+        "a5": "Ano, Petit Train de Carnac je vhodný pro rodiny s dětmi, starší osoby a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám.",
+        "q6": "V jakých jazycích je dostupný průvodcovský komentář?",
+        "a6": "Audio průvodcovský komentář je dostupný v 16 jazycích, včetně francouzštiny, angličtiny, němčiny, španělštiny, italštiny a nizozemštiny.",
+        "q7": "Je nutné si Petit Train de Carnac předem rezervovat?",
+        "a7": "Předem rezervovat se doporučuje, zejména v hlavní sezóně. Jízdenky lze také koupit na místě, v závislosti na dostupnosti."
+      }
+    },
+    "routesTimeline": {
+      "label": "Chronologie trasy",
+      "headingPrefix": "Zastávky a trasa",
+      "headingHighlight": "Petit Train de Carnac",
+      "intro": "Během průvodcovského výletu projíždí Petit Train de Carnac několika klíčovými místy a nabízí ucelený přehled Carnace a jeho okolí.",
+      "introBold": "Petit Train de Carnac navštěvuje během výletu následující zastávky:",
+      "btnBook": "Rezervujte svůj výlet",
+      "btnPrices": "Zobrazit ceny",
+      "stop1Name": "Parkoviště Ménec, Carnac",
+      "stop1Bullet1": "Nachází se naproti Maison des Mégalithes",
+      "stop1Bullet2": "Odjezdový bod č. 1",
+      "stop1Bullet3": "Povinné místo odjezdu pro individuální návštěvníky",
+      "stop1Bullet4": "Pokladna na místě",
+      "stop1Note": "Toto je jediné garantované místo nástupu pro individuální jízdenky.",
+      "stop1ImageAlt": "Parkoviště Ménec, Carnac — odjezdový bod Petit Train",
+      "stop2Name": "Port-En-Drô, Carnac plage",
+      "stop2Bullet1": "Zastávka poblíž pláže v Carnaci",
+      "stop2Bullet2": "Ideální pro návštěvníky ubytované u moře",
+      "stop2Note": "Kupte si jízdenky na místě v okamžiku odjezdu (rezervace není možná).",
+      "stop2ImageAlt": "Pláž v Carnaci — zastávka Port-En-Drô",
+      "stop3Name": "Přístav La Trinité-sur-Mer",
+      "stop3Bullet1": "Nachází se u autobusové zastávky « Cours des Quais »",
+      "stop3Bullet2": "V blízkosti slavné mariny a plachetnicového zálivu",
+      "stop3ImageAlt": "Přístav La Trinité-sur-Mer"
+    },
+    "faqsSection": {
+      "q1": "Co je Petit Train de Carnac?",
+      "a1": "Petit Train de Carnac je průvodcovský turistický vlak, který umožňuje návštěvníkům pohodlně a přístupně poznat Carnac a jeho okolí. Výlet zahrnuje menhiry v Carnaci, pláž Carnac a přístav La Trinité-sur-Mer s audio komentářem po celou dobu trasy.",
+      "q2": "Jak dlouho trvá výlet?",
+      "a2": "Průvodcovský výlet trvá přibližně 55 minut. Tato délka umožňuje návštěvníkům vidět hlavní zajímavosti Carnace bez dlouhých pěších vzdáleností.",
+      "q3": "Odkud odjíždí Petit Train de Carnac?",
+      "a3": "Hlavní odjezdové a příjezdové místo pro individuální návštěvníky je parkoviště Ménec v Carnaci, naproti Maison des Mégalithes.",
+      "q4": "Jezdí Petit Train každý den?",
+      "a4": "Ano. Petit Train de Carnac jezdí každý den od dubna do konce října, včetně nedělí a svátků.",
+      "q5": "Funguje výlet za špatného počasí?",
+      "a5": "Ano. Petit Train jezdí za každého počasí. V případě deště nebo silného větru je vlak ze tří stran zasklený, takže si výlet plně užijete.",
+      "q6": "Co uvidím během výletu?",
+      "a6": "Během výletu projdete kolem menhirů v Carnaci, včetně zarovnání Ménec, Kermario a Kerlescan. Uvidíte také pláž Carnac, její bílé písečné pláže a přístav La Trinité-sur-Mer.",
+      "q7": "V jakých jazycích je dostupný audio komentář?",
+      "a7": "Audio průvodcovský komentář je dostupný v 16 jazycích: francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, polsky, rusky, švédsky, dánsky, česky, čínsky, japonsky a dalších jazycích. Audio komentář je zahrnut v ceně jízdenky — bez příplatku. K dispozici je také speciální verze pro děti.",
+      "q8": "Je výlet vhodný pro děti?",
+      "a8": "Ano. Petit Train de Carnac je vhodný pro děti a rodiny. Audio komentář pro děti nabízí zážitek, který je zároveň zábavný a vzdělávací.",
+      "q9": "Kolik stojí jízdenka?",
+      "q9Pre": "Ceny se liší podle věku a velikosti skupiny. Dospělí a děti do 12 let mají různé ceny. Kompletní ceník je dostupný na ",
+      "q9LinkText": "stránce Ceny a Jízdenky",
+      "q9Post": ".",
+      "q10": "Je nutné rezervovat předem?",
+      "a10": "Předem rezervovat se doporučuje, zejména v rušných turistických obdobích. Online rezervace musí být provedeny nejméně dvě hodiny před odjezdem.",
+      "q11": "Mohu koupit jízdenky na místě?",
+      "a11": "Ano. Jízdenky lze koupit u pokladny na parkovišti Ménec, v závislosti na dostupnosti.",
+      "q12": "Jak dlouho před odjezdem mám přijít?",
+      "a12": "Návštěvníci jsou požádáni, aby přišli alespoň 15 minut před odjezdem, aby si ověřili jízdenku a nastoupili.",
+      "q13": "Jsou dostupné skupinové rezervace?",
+      "a13": "Ano. Skupinové rezervace jsou dostupné pro skupiny 20 a více osob. Doporučuje se předem rezervovat.",
+      "q14": "Mohu pronajmout Petit Train pro akci?",
+      "q14Pre": "Ano. Petit Train de Carnac lze pronajmout pro firemní akce, spolky, školní skupiny a soukromé příležitosti. Dedikovaný formulář žádosti je dostupný na ",
+      "q14LinkText": "stránce Pronájem",
+      "q14Post": "."
+    },
+    "informationsScheduleLabels": {
+      "operatingPeriodTitle": "Provozní období",
+      "operatingPeriodBody": "Petit Train de Carnac jezdí 7 dní v týdnu od dubna do konce října, včetně nedělí a svátků.",
+      "weatherTitle": "Počasí",
+      "weatherBody": "V případě deště nebo silného větru je vlak ze tří stran zasklený, takže si výlet plně užijete.",
+      "timetableHeading": "Jízdní řády",
+      "departurePrefix": "Odjezd —",
+      "saturdayRule": "<strong>Soboty v červenci a srpnu:</strong> odjezdy Carnac Plage a La Trinité-sur-Mer se řídí «oranžovými» mimosezónními jízdními řády.",
+      "onlineBookingNote": "<strong>Online rezervace:</strong> dostupná pouze pro odjezd č. 1 — Parkoviště Ménec.",
+      "closuresHeading": "Svátky a zavírací dny",
+      "closuresBody": "Svátky se řídí běžnými jízdními řády. Petit Train je <strong>uzavřen od 9. do 16. října</strong> a dále <strong>od listopadu do března včetně</strong>.",
+      "viewPlanButton": "Zobrazit plán",
+      "viewPlanImageAlt": "Plán trasy — Menhiry Tour Petit Train de Carnac",
+      "lightboxClose": "Zavřít"
+    },
+    "routesHeroDefaults": {
+      "primaryButton": "Leták pro jednotlivce",
+      "secondaryButton": "Skupinový leták",
+      "googleReviewsCount": "6 000+ recenzí",
+      "googleBadgeText": "<strong>Petit Train de Carnac</strong> je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+      "lightboxClose": "Zavřít",
+      "lightboxEnlarge": "Zvětšit: {alt}",
+      "lightboxAriaLabel": "Zvětšený pohled: {alt}"
+    },
+    "careersHero": {
+      "sectionLabel": "Kariéra",
+      "headingPrefix": "Vaše kariéra v",
+      "headingSuffix": "začíná zde",
+      "description": "Naše filozofie je jednoduchá: nabídnout návštěvníkům vřelé přivítání a plynulý turistický zážitek při objevování Carnace a jeho okolí. V Petit Train de Carnac hraje každý člen týmu důležitou roli při vytváření přátelské a nezapomenutelné návštěvy pro lidi všech věkových kategorií z celého světa.",
+      "ctaButton": "Požádat o práci a poslat životopis",
+      "openPositionsLabel": "Otevřené pozice:",
+      "seasonalBadge": "Sezónní pozice",
+      "job1Title": "Řidič turistického vlaku",
+      "job1Description": "Bezpečně řídit Petit Train po turistické trase a vítat návštěvníky na palubě. Tato pozice zahrnuje řízení vlaku, zajišťování pohodlí cestujících a přispívání k pozitivní atmosféře po celou dobu výletu.",
+      "job1Requirement": "Vyžadován řidičský průkaz D (hromadná doprava). Předchozí zkušenosti s turistickými vozidly jsou výhodou.",
+      "job2Title": "Pokladní",
+      "job2Description": "Vítejte návštěvníky, prodávejte jízdenky a poskytujte jasné informace o jízdních řádech, cenách a výletu. Tato pozice je ideální pro lidi, kteří rádi pracují s veřejností a v rušném turistickém prostředí.",
+      "job2Requirement": "Dobré komunikační schopnosti a přátelský přístup jsou nezbytné. Znalost cizích jazyků je výhodou.",
+      "job3Title": "Nástupní dispečer",
+      "job3Description": "Doprovázejte cestující při nástupu a zajišťujte hladký průběh odjezdů a příjezdů. Tato pozice podporuje jak řidiče, tak tým pokladny.",
+      "job3Requirement": "Pozitivní přístup, spolehlivost a pohodová komunikace s návštěvníky všech věkových kategorií jsou nezbytné.",
+      "imageAlt": "Práce v Petit Train de Carnac"
+    },
+    "careersInfo": {
+      "panel1Heading": "Koho hledáme",
+      "panel1P1": "Hledáme motivované a spolehlivé lidi, kteří rádi pracují s veřejností a přispívají ke kvalitnímu turistickému zážitku.",
+      "panel1P2": "Jste v pohodě s mezinárodními návštěvníky, dostupní během turistické sezóny a schopni pracovat o víkendech a svátcích podle potřeby.",
+      "panel2Heading": "Práce s námi",
+      "panel2P1": "Pozice jsou převážně sezónní a jsou v Carnaci. Před nástupem do práce je poskytnuto školení. Pracovní doba závisí na sezóně a návštěvnosti.",
+      "panel2P2": "Budete pracovat venku a v malém přátelském týmu zaměřeném na spokojenost návštěvníků.",
+      "panel3Heading": "Jak požádat",
+      "panel3P1": "Chcete-li požádat o práci, vyplňte prosím přihlašovací formulář a přiložte svůj životopis. Pokud váš profil odpovídá naším potřebám, náš tým vás bude kontaktovat.",
+      "panel4Heading": "Připojte se k týmu Petit Train de Carnac",
+      "panel4P1": "Požádejte hned teď a staňte se součástí místního turistického zážitku, který pomáhá návštěvníkům objevovat Carnac jednoduchým a příjemným způsobem.",
+      "ctaButton": "Požádat o práci a poslat životopis",
+      "imageAlt": "Koho hledáme v Petit Train de Carnac"
+    },
+    "privatisationForm": {
+      "yourDetailsHeading": "Vaše údaje",
+      "eventDetailsHeading": "Podrobnosti akce",
+      "firstNameLabel": "Vaše jméno*",
+      "firstNamePlaceholder": "Jan",
+      "lastNameLabel": "Vaše příjmení*",
+      "lastNamePlaceholder": "Novák",
+      "phoneLabel": "Vaše telefonní číslo*",
+      "phonePlaceholder": "+00 000 000 0000",
+      "emailLabel": "Váš email*",
+      "emailPlaceholder": "jmeno@email.com",
+      "companyNameLabel": "Název společnosti",
+      "companyNamePlaceholder": "Název společnosti",
+      "eventTypeLabel": "Typ akce*",
+      "eventTypePlaceholder": "Firemní akce, spolková návštěva, školní skupina, rodinná akce, soukromý výlet…",
+      "departureLocationLabel": "Požadované místo odjezdu*",
+      "departureLocationAriaLabel": "Požadované místo odjezdu",
+      "departureTimeLabel": "Požadovaný čas odjezdu*",
+      "departureTimeAriaLabel": "Požadovaný čas odjezdu",
+      "eventDateLabel": "Datum vaší akce",
+      "eventDateAriaLabel": "Datum vaší akce",
+      "guestCountLabel": "Počet hostů",
+      "guestCountMin": "(min. 10 hostů)",
+      "guestCountPlaceholder": "např.: 10 - 15, 25 - 35…",
+      "additionalInfoLabel": "Další informace",
+      "additionalInfoPlaceholder": "Zvláštní požadavky, časová omezení, preferovaný jazyk nebo jiné podrobnosti",
+      "infoNote": "ⓘ Čím více podrobností nám poskytnete, tím lépe budeme moci vyhovět vašemu požadavku",
+      "submitButton": "Odeslat žádost",
+      "loadingButton": "Odesílání…",
+      "successHeading": "Žádost odeslána!",
+      "successBody": "Děkujeme za váš zájem. Náš tým přezkoumá vaši žádost a co nejdříve vás kontaktuje, aby potvrdil dostupnost a prodiskutoval podrobnosti.",
+      "sectionLabel": "Pronájem & B2B nájmy",
+      "imageHeading": "Pronajměte si Petit Train de Carnac pro vaši akci",
+      "imageDescription": "Petit Train de Carnac lze pronajmout pro skupinové výlety, firemní akce a zvláštní příležitosti. Toto flexibilní řešení vám umožní nabídnout vašim hostům průvodcovský výlet přes Carnac, pohodlný a originální, přizpůsobený vašim potřebám a programu.",
+      "googleReviewsCount": "6 000+ recenzí",
+      "imageAlt": "Pronájem Petit Train de Carnac"
+    }
+  }
+}

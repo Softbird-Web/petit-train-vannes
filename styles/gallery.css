@@ -1,0 +1,177 @@
+/* Osmo Supply lightbox gallery — styles preserved as-shipped */
+
+.gallery-masonry {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.gallery-col {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gallery-grid__item {
+  width: 100%;
+  /* aspect-ratio is set inline per item to drive varied portrait/square/landscape crops */
+  /* Important: no overflow:hidden here — it breaks the GSAP Flip animation. */
+}
+
+.gallery-item__button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 24px;
+  cursor: zoom-in;
+  line-height: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.gallery-item__button:focus-visible {
+  outline: 2px solid #f5ebdd;
+  outline-offset: 2px;
+}
+
+.gallery-item__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.lightbox-wrap {
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+  display: none;
+  position: fixed;
+  inset: 0% 0% auto;
+}
+
+.lightbox-wrap.is-active {
+  display: flex;
+}
+
+.lightbox-img__wrap {
+  width: 90vw;
+  height: calc(100svh - 10em);
+}
+
+.lightbox-img__container {
+  width: 100%;
+  height: 100%;
+}
+
+.lightbox-img__list {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.lightbox-img__item {
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.lightbox-img__item.is-active {
+  visibility: visible;
+}
+
+.lightbox-img {
+  object-fit: contain;
+  border-radius: .375em;
+  min-width: auto;
+  max-height: 100%;
+}
+
+.lightbox-img__item img {
+  object-fit: contain !important;
+  min-width: auto;
+  width: auto;
+  max-height: 100%;
+}
+
+.lightbox-nav {
+  z-index: 2;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+  right: 2em;
+}
+
+.lightbox-nav__col {
+  width: 33.333%;
+}
+
+.lightbox-nav__col.start {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.lightbox-nav__col.center {
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.lightbox-nav__col.end {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.lightbox-nav__text {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.lightbox-nav__button {
+  grid-column-gap: .5em;
+  grid-row-gap: .5em;
+  background-color: #0000;
+  justify-content: flex-start;
+  align-items: center;
+  margin: -1em;
+  padding: 1em;
+  display: flex;
+  cursor: pointer;
+  color: inherit;
+}
+
+.lightbox-nav__dot {
+  background-color: currentColor;
+  border-radius: 10em;
+  width: .375em;
+  height: .375em;
+  margin-bottom: -.1em;
+  transition-property: transform;
+  transition-duration: .45s;
+  transition-timing-function: cubic-bezier(.625, .05, 0, 1);
+}
+

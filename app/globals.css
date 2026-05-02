@@ -1,0 +1,351 @@
+@import "../styles/figma-tokens.css";
+@import "tailwindcss";
+@import "../styles/gallery.css";
+
+/* ── Box sizing ─────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #f5ebdd;
+}
+
+/* ── Scroll-reveal system ───────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(8px);
+  will-change: opacity, transform, filter;
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.from-left {
+  transform: translateX(-40px);
+  filter: blur(8px);
+}
+.reveal.from-right {
+  transform: translateX(40px);
+  filter: blur(8px);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+  filter: blur(0px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+    will-change: auto;
+  }
+}
+
+/* ── Button base classes (hover handled by Osmo stagger below) ── */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-secondary {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Nav link underline ─────────────────────────────────────── */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: currentColor;
+  transition: width 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nav-link:hover::after,
+.nav-link[aria-current="page"]::after {
+  width: 100%;
+}
+
+/* ── Footer link hover ──────────────────────────────────────── */
+.footer-link {
+  transition:
+    opacity 0.2s,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.footer-link:hover {
+  opacity: 0.75;
+  transform: translateX(3px);
+}
+
+/* ── Card hover ─────────────────────────────────────────────── */
+.card-hover {
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Social icon hover ──────────────────────────────────────── */
+.social-icon {
+  transition:
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.2s;
+}
+.social-icon:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+/* ── Reviews GSAP draggable slider ──────────────────────────── */
+.gsap-reviews-slider {
+  --slider-status: on;
+  --slider-spv: 1;
+  --slider-gap: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .gsap-reviews-slider {
+    --slider-gap: 1em;
+  }
+}
+
+.gsap-reviews-slider__collection {
+  width: 100%;
+  overflow: hidden;
+}
+
+.gsap-reviews-slider__list {
+  user-select: none;
+  will-change: transform;
+  touch-action: pan-y;
+  backface-visibility: hidden;
+  display: flex;
+}
+
+.gsap-reviews-slider__item {
+  width: calc((100% - (var(--slider-spv) - 1) * var(--slider-gap)) / var(--slider-spv));
+  margin-right: var(--slider-gap);
+  flex: none;
+}
+
+.gsap-reviews-slider__item:last-child {
+  margin-right: 0;
+}
+
+[data-gsap-slider-list-status="grab"] {
+  cursor: grab;
+}
+
+[data-gsap-slider-list-status="grabbing"] {
+  cursor: grabbing;
+}
+
+
+[data-gsap-slider-control-status="not-active"] {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gsap-reviews-slider__list {
+    touch-action: auto;
+  }
+}
+
+/* ── Navbar scroll shadow ───────────────────────────────────── */
+.navbar-scrolled {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  transition: box-shadow 0.3s ease;
+}
+
+/* ── FAQ accordion ──────────────────────────────────────────── */
+.faq-answer-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.faq-answer-wrap.open {
+  grid-template-rows: 1fr;
+}
+.faq-answer-inner {
+  overflow: hidden;
+}
+
+/* ── Timeline line ──────────────────────────────────────────── */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #54206d 8%,
+    #54206d 92%,
+    transparent 100%
+  );
+  z-index: 0;
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 2s ease-in-out;
+}
+.timeline-line--visible {
+  clip-path: inset(0 0 0% 0);
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 16px;
+    transform: none;
+  }
+}
+
+/* ── Page transition overlay ────────────────────────────────── */
+[data-transition-wrap] {
+  z-index: 9999;
+  pointer-events: none;
+  visibility: hidden;
+  position: fixed;
+  inset: 0;
+  overflow: clip;
+}
+
+[data-transition-wrap].is-active {
+  pointer-events: all;
+  visibility: visible;
+}
+
+.transition__panel {
+  color: #4d1c64;
+  background-color: currentColor;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  will-change: transform;
+}
+
+.transition__panel-top {
+  transform-origin: bottom;
+  align-items: center;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  bottom: calc(100% - 1px);
+  left: 0;
+  overflow: hidden;
+}
+
+.transition__panel-bottom {
+  transform-origin: top;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 0%;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 0;
+  overflow: hidden;
+}
+
+.transition__panel-circle {
+  background-color: currentColor;
+  border-radius: 50%;
+  width: 125%;
+  height: 500%;
+  aspect-ratio: auto;
+  position: absolute;
+}
+
+.transition__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-transition-wrap] {
+    display: none !important;
+  }
+}
+
+/* ── Osmo character stagger button ─────────────────────────── */
+.btn-animate-chars {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-animate-chars__bg {
+  border-radius: inherit;
+  position: absolute;
+  inset: 0;
+  transition: inset 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  pointer-events: none;
+}
+
+.btn-animate-chars:hover .btn-animate-chars__bg {
+  inset: 3px;
+}
+
+.btn-animate-chars [data-button-animate-chars] {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  line-height: 1.3;
+}
+
+.btn-animate-chars [data-button-animate-chars] span {
+  display: inline-block;
+  position: relative;
+  text-shadow: 0px 1.3em currentColor;
+  transform: translateY(0em) rotate(0.001deg);
+  transition: transform 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+}
+
+.btn-animate-chars:hover [data-button-animate-chars] span {
+  transform: translateY(-1.3em) rotate(0.001deg);
+}
