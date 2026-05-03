@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill *)",
+      "Bash(npx oxlint *)",
+      "Bash(grep -rn *)",
+      "Bash(grep -n *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '=== AUTO-LOADED: docs/lessons.md (read in full before any code work) ===' && cat docs/lessons.md 2>/dev/null | head -400"
+          }
+        ]
+      }
+    ]
+  }
+}
