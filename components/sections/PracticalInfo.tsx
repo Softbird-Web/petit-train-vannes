@@ -14,7 +14,7 @@ export default function PracticalInfo() {
   const t = useTranslations("sections.practicalInfo");
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#ffffff] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col gap-12 items-start">
         {/* Header */}
         <div data-anim-item className="flex flex-col gap-3 max-w-[615px]">
@@ -32,7 +32,7 @@ export default function PracticalInfo() {
               {t("label")}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#181d27] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#1c1b29] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
             {t("heading")}
           </h2>
           <p className="font-['Manrope',sans-serif] text-[18px] text-[#535862] leading-[1.2] tracking-[-0.54px]">
@@ -45,7 +45,7 @@ export default function PracticalInfo() {
           {/* Row 1: 4 photo cards */}
           {cardKeys.map((key) => {
             const { photo, icon, href } = cardConfig[key];
-            const cardClassName = "group relative h-[423px] rounded-xl overflow-hidden bg-[#4d1c64]";
+            const cardClassName = "group relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]";
             const cardContent = (
               <>
                 <div
@@ -53,14 +53,14 @@ export default function PracticalInfo() {
                   className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 >
                   <Image src={photo} alt="" fill className="object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-b from-[rgba(77,28,100,0.52)] from-[34%] to-[rgba(77,28,100,0.8)]" />
+                  <div className="absolute inset-0 bg-gradient-to-b from-[rgba(28,27,41,0.52)] from-[34%] to-[rgba(28,27,41,0.8)]" />
                 </div>
                 <Image
                   src={icon}
                   alt=""
                   width={48}
                   height={48}
-                  className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(77,28,100,0.2)] z-10"
+                  className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(28,27,41,0.2)] z-10"
                   aria-hidden="true"
                 />
                 <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-white z-10">
@@ -90,20 +90,20 @@ export default function PracticalInfo() {
           })}
 
           {/* Row 2 col 1-2: wide photo card (Paiement) */}
-          <div className="group col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#4d1c64]">
+          <div className="group col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]">
             <div
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
             >
               <Image src="/figma-assets/PracticalInfo5.jpg" alt="" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-b from-[rgba(77,28,100,0.52)] from-[34%] to-[rgba(77,28,100,0.8)]" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[rgba(28,27,41,0.52)] from-[34%] to-[rgba(28,27,41,0.8)]" />
             </div>
             <Image
               src="/figma-assets/Icon05.svg"
               alt=""
               width={48}
               height={48}
-              className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(77,28,100,0.2)] z-10"
+              className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(28,27,41,0.2)] z-10"
               aria-hidden="true"
             />
             <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-white z-10">
@@ -119,7 +119,7 @@ export default function PracticalInfo() {
           </div>
 
           {/* Row 2 col 3-4: purple CTA card */}
-          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#4d1c64]">
+          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]">
             <div
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-40"
@@ -137,7 +137,7 @@ export default function PracticalInfo() {
             <div className="absolute bottom-6 right-6">
               <TransitionLink
                 href="/informations"
-                className="btn-animate-chars btn-primary inline-flex items-center justify-center h-[45px] px-[22px] bg-[#f5ebdd] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#4d1c64] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+                className="btn-animate-chars btn-primary inline-flex items-center justify-center h-[45px] px-[22px] bg-[#ffffff] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
                 <div className="btn-animate-chars__bg" />
                 <span data-button-animate-chars="" className="btn-animate-chars__text">

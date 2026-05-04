@@ -6,10 +6,10 @@ export default function FAQsHero() {
   const tShared = useTranslations('shared')
 
   return (
-    <section data-anim-section="hero" className="bg-[#f5ebdd] w-full overflow-hidden">
+    <section data-anim-section="hero" className="bg-[#ffffff] w-full overflow-hidden">
       <div className="flex flex-col xl:flex-row min-h-[540px] xl:min-h-[721px]">
         {/* Left: text content */}
-        <div className="flex-1 flex items-center justify-end py-16 xl:py-24 bg-[#f5ebdd] relative z-10">
+        <div className="flex-1 flex items-center justify-end py-16 xl:py-24 bg-[#ffffff] relative z-10">
           <div className="w-full max-w-[640px] px-5 xl:px-0">
             <div className="xl:pr-8 flex flex-col gap-10 max-w-[576px]">
               <div className="flex flex-col gap-6">
@@ -17,12 +17,12 @@ export default function FAQsHero() {
                   <div className="relative shrink-0 w-[19px] h-[19px]">
                     <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
                   </div>
-                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px]">
+                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
                     {t('label')}
                   </p>
                 </div>
 
-                <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#181d27] leading-[1.2] tracking-[-2.5px] xl:tracking-[-4.2px] [text-wrap:balance]">
+                <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#1c1b29] leading-[1.2] tracking-[-2.5px] xl:tracking-[-4.2px] [text-wrap:balance]">
                   {t('heading')}
                 </h1>
 
@@ -74,7 +74,7 @@ export default function FAQsHero() {
             priority
           />
 
-          <div className="absolute bottom-8 right-0 left-1/4 xl:left-[189px] mx-4 xl:mx-0 backdrop-blur-sm bg-[rgba(84,32,109,0.65)] border border-[rgba(255,255,255,0.2)] rounded-[12px] shadow-[0px_-10px_80px_0px_rgba(22,61,92,0.5)] p-6">
+          <div className="absolute bottom-8 right-0 left-1/4 xl:left-[189px] mx-4 xl:mx-0 backdrop-blur-sm bg-[rgba(28,27,41,0.75)] border border-[rgba(255,255,255,0.2)] rounded-[12px] shadow-[0px_-10px_80px_0px_rgba(22,61,92,0.5)] p-6">
             <div className="flex items-start justify-between gap-4 mb-3">
               <p className="font-['Manrope',sans-serif] font-semibold text-[18px] xl:text-[20px] text-white leading-[1.2] tracking-[-0.8px] max-w-[312px]">
                 {t('cardHeading')}

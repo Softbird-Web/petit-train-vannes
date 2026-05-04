@@ -22,66 +22,32 @@ type Departure = {
 const departures: Departure[] = [
   {
     number: 1,
-    name: "Parking du Ménec",
-    location: "Maison des Mégalithes",
+    name: "Place Gambetta",
+    location: "Au cœur de Vannes, à deux pas des remparts",
     periods: [
       {
-        label: "Avril · Mai · Juin · Septembre · 1er – 8 octobre",
+        label: "01 avril – 12 juin · 26 août – 13 oct · 22 oct – 07 nov",
         band: "yellow",
-        hours: "10H – 17H30",
-        frequency: "Un départ toutes les 20 min",
+        hours: "10H – 12H et 14H – 17H20",
+        frequency: "Un départ toutes les 40 min",
       },
       {
-        label: "Juillet & Août",
+        label: "13 juin – 15 juillet",
+        band: "orange",
+        hours: "10H – 12H40 et 14H – 18H",
+        frequency: "Un départ toutes les 40 min",
+      },
+      {
+        label: "16 juillet – 25 août",
         band: "purple",
-        hours: "9H30 – 18H30",
-        frequency: "Un départ toutes les 20 min",
+        hours: "10H – 12H40 et 14H – 18H40",
+        frequency: "Un départ toutes les 40 min",
       },
       {
-        label: "17 – 31 octobre",
+        label: "13 octobre – 21 octobre",
         band: "green",
-        hours: "10H – 17H",
-        frequency: "Un départ toutes les 30 min",
-      },
-    ],
-  },
-  {
-    number: 2,
-    name: "Carnac Plage — Port-En-Drô",
-    location: "À 50 m de la Base nautique",
-    periods: [
-      {
-        label: "Avril · Mai · Juin · Septembre · 1er – 8 octobre",
-        band: "orange",
-        hours: "10H15 – 17H15",
-        frequency: "Un départ toutes les 30 min",
-        note: "Samedi inclus",
-      },
-      {
-        label: "Juillet & Août",
-        band: "blue",
-        hours: "10H · 11H · 12H · 14H · 15H · 16H · 17H · 18H",
-        note: "Sauf le samedi (le samedi : horaires « orange »)",
-      },
-    ],
-  },
-  {
-    number: 3,
-    name: "La Trinité-sur-Mer",
-    location: "Arrêt de bus Cours des Quais, côté mer — avant le rond-point Alain Barrière",
-    periods: [
-      {
-        label: "Avril · Mai · Juin · Septembre · 1er – 8 octobre",
-        band: "orange",
-        hours: "10H30 – 17H",
-        frequency: "Un départ toutes les 30 min",
-        note: "Samedi inclus",
-      },
-      {
-        label: "Juillet & Août",
-        band: "blue",
-        hours: "10H15 · 11H15 · 14H15 · 15H15 · 16H15 · 17H15",
-        note: "Sauf le samedi (le samedi : horaires « orange »)",
+        hours: "Fermé",
+        note: "Fermeture exceptionnelle",
       },
     ],
   },
@@ -90,13 +56,13 @@ const departures: Departure[] = [
 const BAND_STYLES: Record<Band, { bg: string; text: string; pill: string }> = {
   yellow: {
     bg: "bg-[#fde68a]",
-    text: "text-[#4d1c64]",
-    pill: "bg-[#fde68a] text-[#4d1c64]",
+    text: "text-[#1c1b29]",
+    pill: "bg-[#fde68a] text-[#1c1b29]",
   },
   purple: {
     bg: "bg-[#c4b5fd]",
-    text: "text-[#4d1c64]",
-    pill: "bg-[#c4b5fd] text-[#4d1c64]",
+    text: "text-[#1c1b29]",
+    pill: "bg-[#c4b5fd] text-[#1c1b29]",
   },
   green: {
     bg: "bg-[#a7f3d0]",
@@ -105,8 +71,8 @@ const BAND_STYLES: Record<Band, { bg: string; text: string; pill: string }> = {
   },
   orange: {
     bg: "bg-[#fdba74]",
-    text: "text-[#4d1c64]",
-    pill: "bg-[#fdba74] text-[#4d1c64]",
+    text: "text-[#1c1b29]",
+    pill: "bg-[#fdba74] text-[#1c1b29]",
   },
   blue: {
     bg: "bg-[#7dd3fc]",
@@ -119,7 +85,7 @@ export default function InformationsSchedule() {
   const t = useTranslations("sections.informationsScheduleLabels");
 
   return (
-    <section id="horaires" data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
+    <section id="horaires" data-anim-section className="bg-[#ffffff] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 flex flex-col gap-8">
 
         {/* Info cards — Operating period + Weather */}
@@ -133,10 +99,10 @@ export default function InformationsSchedule() {
                 fill
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-[rgba(77,28,100,0.9)]" />
+              <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
-              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#4d1c64] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
+              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#1c1b29] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[41px] h-[41px]">
                   <Image
                     src="/figma-assets/CalendarIconBig.svg"
@@ -167,10 +133,10 @@ export default function InformationsSchedule() {
                 fill
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-[rgba(77,28,100,0.9)]" />
+              <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
-              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#4d1c64] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
+              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#1c1b29] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[40px] h-[40px]">
                   <Image
                     src="/figma-assets/WeatherIconBig.svg"
@@ -194,7 +160,7 @@ export default function InformationsSchedule() {
         </div>
 
         {/* Timetable — 3 departure panels on purple gradient */}
-        <div data-anim-item className="rounded-[32px] overflow-hidden" style={{ background: "linear-gradient(112deg, #4d1c64 23%, #7b3a94 85%)" }}>
+        <div data-anim-item className="rounded-[32px] overflow-hidden" style={{ background: "linear-gradient(112deg, #1c1b29 23%, #2d2c40 85%)" }}>
           <div className="px-6 md:px-10 py-12 flex flex-col gap-10">
 
             {/* Heading */}
@@ -207,12 +173,12 @@ export default function InformationsSchedule() {
             </div>
 
             {/* 3 departure panels */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               {departures.map((dep) => (
                 <div key={dep.number} className="bg-white/8 rounded-[20px] p-6 flex flex-col gap-5 border border-white/15">
                   {/* Departure header */}
                   <div className="flex items-start gap-3">
-                    <div className="shrink-0 w-9 h-9 rounded-full bg-white text-[#4d1c64] font-['Bricolage_Grotesque',sans-serif] font-normal text-[20px] flex items-center justify-center">
+                    <div className="shrink-0 w-9 h-9 rounded-full bg-white text-[#1c1b29] font-['Bricolage_Grotesque',sans-serif] font-normal text-[20px] flex items-center justify-center">
                       {dep.number}
                     </div>
                     <div className="flex flex-col gap-1">
@@ -292,15 +258,15 @@ export default function InformationsSchedule() {
         </div>
 
         {/* Closures — standalone cream box */}
-        <div data-anim-item className="rounded-[32px] border border-[rgba(0,0,0,0.1)] bg-[#f5ebdd] px-5 py-8 sm:px-10 sm:py-12 flex flex-col items-center gap-6 text-center">
+        <div data-anim-item className="rounded-[32px] border border-[rgba(0,0,0,0.1)] bg-[#ffffff] px-5 py-8 sm:px-10 sm:py-12 flex flex-col items-center gap-6 text-center">
           <div className="flex items-center gap-4 w-full">
             <div className="hidden sm:flex flex-1 h-px bg-[rgba(0,0,0,0.12)]" />
-            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] italic text-[#4d1c64] text-[28px] tracking-[-1.5px] text-center w-full sm:w-auto">
+            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-[28px] tracking-[-1.5px] text-center w-full sm:w-auto">
               {t("closuresHeading")}
             </h2>
             <div className="hidden sm:flex flex-1 h-px bg-[rgba(0,0,0,0.12)]" />
           </div>
-          <p className="font-['Manrope',sans-serif] text-[#181d27] text-base leading-[1.5] max-w-[560px]">
+          <p className="font-['Manrope',sans-serif] text-[#1c1b29] text-base leading-[1.5] max-w-[560px]">
             {t.rich("closuresBody", { strong: (chunks) => <strong>{chunks}</strong> })}
           </p>
         </div>

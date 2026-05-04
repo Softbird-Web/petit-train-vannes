@@ -26,7 +26,7 @@ export default async function PricesPage({ params }: PageProps) {
   const t = await getTranslations({ locale });
 
   const pricesRightCard = (
-    <div className="absolute bottom-[514px] lg:bottom-[30px] left-1/2 -translate-x-1/2 lg:left-[189px] lg:translate-x-0 bg-[rgba(84,32,109,0.65)] border border-[rgba(255,255,255,0.2)] rounded-xl p-6 w-[499px] max-w-[calc(100%-32px)] flex flex-col gap-4 z-20">
+    <div className="absolute bottom-[514px] lg:bottom-[30px] left-1/2 -translate-x-1/2 lg:left-[189px] lg:translate-x-0 bg-[rgba(28,27,41,0.75)] border border-[rgba(255,255,255,0.2)] rounded-xl p-6 w-[499px] max-w-[calc(100%-32px)] flex flex-col gap-4 z-20">
       <div className="flex items-start justify-between gap-4">
         <p className="font-['Manrope',sans-serif] font-semibold text-[20px] leading-[1.2] text-white tracking-[-0.8px] max-w-[312px]">
           {t("pages.prices.reviewQuote")}
@@ -65,7 +65,7 @@ export default async function PricesPage({ params }: PageProps) {
           heading={
             <>
               {t("pages.prices.heroHeadingPrefix")}{" "}
-              <em className="italic text-[#4d1c64]">{t("pages.prices.heroHeadingHighlight")}</em>
+              <em className="italic text-[#1c1b29]">{t("pages.prices.heroHeadingHighlight")}</em>
             </>
           }
           description={t("pages.prices.heroDescription")}
@@ -76,7 +76,7 @@ export default async function PricesPage({ params }: PageProps) {
                 href="/figma-assets/FlyerIndividual.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-animate-chars btn-primary gap-2 bg-[#54206d] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap inline-flex items-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
+                className="btn-animate-chars btn-primary gap-2 bg-[#f7a427] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap inline-flex items-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
               >
                 <div className="btn-animate-chars__bg" />
                 <div className="relative w-4 h-4 shrink-0">
@@ -90,7 +90,7 @@ export default async function PricesPage({ params }: PageProps) {
                 href="/figma-assets/GroupFlyer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-animate-chars btn-secondary gap-2 bg-[#f5ebdd] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap inline-flex items-center"
+                className="btn-animate-chars btn-secondary gap-2 bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap inline-flex items-center"
               >
                 <div className="btn-animate-chars__bg" />
                 <div className="relative w-4 h-4 shrink-0">
@@ -120,7 +120,7 @@ export default async function PricesPage({ params }: PageProps) {
           heading={
             <>
               {t("pages.prices.faqHeadingPrefix")}{" "}
-              <em className="text-[#4d1c64]">{t("pages.prices.faqHeadingHighlight")}</em>
+              <em className="text-[#1c1b29]">{t("pages.prices.faqHeadingHighlight")}</em>
             </>
           }
           description={t("pages.prices.faqDescription")}

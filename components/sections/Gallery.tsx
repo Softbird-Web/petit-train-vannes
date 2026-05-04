@@ -355,7 +355,7 @@ export default function Gallery() {
   }, [numColumns])
 
   return (
-    <section data-anim-section className="bg-[#4d1c64] py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#1c1b29] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col gap-12">
         {/* Header */}
         <div data-anim-item className="flex flex-col gap-3 max-w-[615px]">
@@ -369,11 +369,11 @@ export default function Gallery() {
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t('label')}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#f5ebdd] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#ffffff] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
             {t('heading')}
           </h2>
           <p className="font-['Manrope',sans-serif] text-[18px] text-white/75 leading-[1.2] tracking-[-0.54px]">

@@ -22,12 +22,12 @@ export default function GroupBookingCTA() {
               <div className="relative shrink-0 w-[19px] h-[19px]">
                 <Image src="/figma-assets/icon-train-white.svg" alt="" fill className="object-contain" aria-hidden="true" />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                 {t("label")}
               </p>
             </div>
 
-            <h2 data-anim="hero-title" className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] text-[#f5ebdd] not-italic break-words">
+            <h2 data-anim="hero-title" className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] text-[#ffffff] not-italic break-words">
               {t("heading")}
             </h2>
           </div>
@@ -42,7 +42,7 @@ export default function GroupBookingCTA() {
               <TransitionLink
                 href="/privatisation"
                 aria-label={t("button")}
-                className="btn-animate-chars btn-primary h-[45px] px-[22px] bg-[#f5ebdd] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+                className="btn-animate-chars btn-primary h-[45px] px-[22px] bg-[#ffffff] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
                 <div className="btn-animate-chars__bg" />
                 <span data-button-animate-chars="" className="btn-animate-chars__text">

@@ -31,7 +31,7 @@ export default async function Page({ params }: PageProps) {
 
   return (
     <main>
-      <Hero rightVideoSrc="/figma-assets/carnac-hero.mp4" backgroundVariant="gradient-to-white" />
+      <Hero rightVideoSrc="/figma-assets/hero.mp4" backgroundVariant="gradient-to-white" />
       <BookingSection />
       <Gallery />
       <Features />

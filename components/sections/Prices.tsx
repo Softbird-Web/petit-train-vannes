@@ -10,7 +10,7 @@ export default function Prices() {
   const rowLabels = [t("rowAdults"), t("rowChildren")] as const;
 
   return (
-    <section data-anim-section className="relative bg-[#4d1c64] py-20 overflow-hidden">
+    <section data-anim-section className="relative bg-[#1c1b29] py-20 overflow-hidden">
       {/* Decorative hexagonal pattern */}
       <div
         aria-hidden="true"
@@ -32,14 +32,14 @@ export default function Prices() {
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#f5ebdd] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[581px] w-full [text-wrap:balance] break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#ffffff] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[581px] w-full [text-wrap:balance] break-words">
             {t("heading")}
           </h2>
-          <p className="font-['Manrope',sans-serif] text-[#f5ebdd] text-[16px] leading-[1.2] tracking-[-0.48px] max-w-[551px] w-full">
+          <p className="font-['Manrope',sans-serif] text-[#ffffff] text-[16px] leading-[1.2] tracking-[-0.48px] max-w-[551px] w-full">
             {t("description")}
           </p>
         </div>
@@ -47,12 +47,12 @@ export default function Prices() {
         {/* Pricing Cards */}
         <div data-anim-item className="relative flex flex-col lg:flex-row gap-8 items-start justify-center">
           {/* Individual Tickets */}
-          <div className="bg-[#f5ebdd] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 relative rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
+          <div className="bg-[#ffffff] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 relative rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
             <div className="flex items-center gap-2.5 mb-3">
               <div className="relative shrink-0 w-6 h-6">
                 <Image src="/figma-assets/PurpleCashIcon.svg" alt="" fill className="object-contain" aria-hidden="true" />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#4d1c64] text-[24px] leading-normal tracking-[-0.72px] whitespace-nowrap">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-[24px] leading-normal tracking-[-0.72px] whitespace-nowrap">
                 {t("individual.title")}
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function Prices() {
               {rowLabels.map((label, i) => (
                 <div key={label} className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                   <p className="font-['Manrope',sans-serif] text-[#232323] text-[16px]">{label}</p>
-                  <p className="font-['Manrope',sans-serif] font-extrabold text-[#4d1c64] text-[18px] text-right">
+                  <p className="font-['Manrope',sans-serif] font-extrabold text-[#1c1b29] text-[18px] text-right">
                     {individualPrices[i]}
                   </p>
                 </div>
@@ -80,16 +80,16 @@ export default function Prices() {
           </div>
 
           {/* Bons Plans — Early-morning departures */}
-          <div className="bg-[#f5ebdd] border-2 border-[#4d1c64] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
+          <div className="bg-[#ffffff] border-2 border-[#1c1b29] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
             <div className="flex items-center gap-2.5 mb-3">
               <div className="relative shrink-0 w-6 h-6">
                 <Image src="/figma-assets/PurpleCashIcon.svg" alt="" fill className="object-contain" aria-hidden="true" />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#4d1c64] text-[24px] leading-normal tracking-[-0.72px]">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-[24px] leading-normal tracking-[-0.72px]">
                 {t("earlyBird.title")}
               </p>
             </div>
-            <span className="inline-flex items-center self-start mb-3 px-2.5 py-1 rounded-full bg-[#4d1c64] font-['Manrope',sans-serif] text-white text-[11px] font-medium tracking-[0.5px] uppercase">
+            <span className="inline-flex items-center self-start mb-3 px-2.5 py-1 rounded-full bg-[#1c1b29] font-['Manrope',sans-serif] text-white text-[11px] font-medium tracking-[0.5px] uppercase">
               {t("earlyBird.badge")}
             </span>
             <div className="border-b border-[rgba(0,0,0,0.15)] mb-2" />
@@ -97,7 +97,7 @@ export default function Prices() {
               {rowLabels.map((label, i) => (
                 <div key={label} className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                   <p className="font-['Manrope',sans-serif] text-[#232323] text-[16px]">{label}</p>
-                  <p className="font-['Manrope',sans-serif] font-extrabold text-[#4d1c64] text-[18px] text-right">
+                  <p className="font-['Manrope',sans-serif] font-extrabold text-[#1c1b29] text-[18px] text-right">
                     {earlyBirdPrices[i]}
                   </p>
                 </div>
@@ -116,7 +116,7 @@ export default function Prices() {
           </div>
 
           {/* Group Booking */}
-          <div className="bg-[#4d1c64] border border-[rgba(247,247,240,0.15)] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 relative rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
+          <div className="bg-[#1c1b29] border border-[rgba(247,247,240,0.15)] flex flex-col w-full max-w-[371px] min-h-[317px] p-6 relative rounded-[16px] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)]">
             <div className="flex items-center gap-2.5 mb-3">
               <div className="relative shrink-0 w-6 h-6">
                 <Image src="/figma-assets/icon-group.svg" alt="" fill className="object-contain" aria-hidden="true" />

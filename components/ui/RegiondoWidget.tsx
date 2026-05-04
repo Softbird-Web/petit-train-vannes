@@ -25,7 +25,7 @@ export default function RegiondoWidget({ widgetId }: { widgetId: string }) {
   if (scriptFailed) {
     return (
       <div className="flex flex-col gap-3 p-8 bg-white border border-[rgba(0,0,0,0.1)] rounded-lg text-center">
-        <p className="font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#181d27] leading-[1.2] tracking-[-1px]">
+        <p className="font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#1c1b29] leading-[1.2] tracking-[-1px]">
           Réservation en ligne temporairement indisponible
         </p>
         <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.4] tracking-[-0.48px]">
@@ -34,14 +34,14 @@ export default function RegiondoWidget({ widgetId }: { widgetId: string }) {
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center pt-1">
           <a
             href="tel:+33297240629"
-            className="font-['Manrope',sans-serif] font-medium text-[#54206d] text-base underline underline-offset-2"
+            className="font-['Manrope',sans-serif] font-medium text-[#f7a427] text-base underline underline-offset-2"
           >
             +33 2 97 24 06 29
           </a>
           <span className="hidden sm:inline text-[#535862]">·</span>
           <a
             href="mailto:petittrain-lebayon@orange.fr"
-            className="font-['Manrope',sans-serif] font-medium text-[#54206d] text-base underline underline-offset-2"
+            className="font-['Manrope',sans-serif] font-medium text-[#f7a427] text-base underline underline-offset-2"
           >
             petittrain-lebayon@orange.fr
           </a>

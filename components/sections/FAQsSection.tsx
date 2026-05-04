@@ -46,11 +46,11 @@ function FaqItem({
         className="w-full flex items-start justify-between gap-6 text-left cursor-pointer group"
         aria-expanded={open}
       >
-        <h3 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#181d27] leading-[1.2] tracking-[-1.4px] m-0">
+        <h3 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#1c1b29] leading-[1.2] tracking-[-1.4px] m-0">
           {question}
         </h3>
         <span
-          className="shrink-0 mt-0.5 w-6 h-6 flex items-center justify-center rounded-full border border-[rgba(0,0,0,0.15)] text-[#54206d] transition-all duration-300"
+          className="shrink-0 mt-0.5 w-6 h-6 flex items-center justify-center rounded-full border border-[rgba(0,0,0,0.15)] text-[#f7a427] transition-all duration-300"
           aria-hidden="true"
         >
           {open ? (
@@ -86,7 +86,7 @@ export default function FAQsSection() {
       return (
         <>
           {t(faq.richAnswer.preKey)}
-          <TransitionLink href={faq.richAnswer.href} className="underline hover:text-[#54206d] transition-colors">
+          <TransitionLink href={faq.richAnswer.href} className="underline hover:text-[#f7a427] transition-colors">
             {t(faq.richAnswer.linkKey)}
           </TransitionLink>
           {t(faq.richAnswer.postKey)}
@@ -119,7 +119,7 @@ export default function FAQsSection() {
   }
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] py-24">
+    <section data-anim-section className="bg-[#ffffff] py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

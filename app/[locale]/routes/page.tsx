@@ -18,47 +18,46 @@ export async function generateMetadata({ params }: PageProps) {
   }
 }
 
-// Route-specific FAQ data — kept French for now (Phase 3 translation backlog).
 const routeFaqs = [
   {
-    question: 'Quel est le parcours du Petit Train de Carnac ?',
+    question: 'Quel est le parcours du Petit Train de Vannes ?',
     answer:
-      "Le parcours du Petit Train de Carnac est une visite guidée qui débute et se termine au parking du Ménec. Pendant le trajet, le train passe près des menhirs de Carnac, de Carnac-Plage et du port de La Trinité-sur-Mer, offrant un aperçu complet de la région.",
+      "Le Petit Train de Vannes part de la Place Gambetta et vous fait découvrir les remparts médiévaux, la vieille ville avec ses maisons à colombages, le port de Vannes et les jardins de la Garenne. Le circuit dure environ 40 minutes.",
   },
   {
-    question: 'Quelle est la durée du parcours du Petit Train de Carnac ?',
+    question: 'Quelle est la durée du circuit du Petit Train de Vannes ?',
     answer:
-      "Le parcours complet dure environ 55 minutes. Cette durée permet aux visiteurs de découvrir les principaux sites de Carnac à un rythme tranquille, accompagnés d'un commentaire audio tout au long du trajet.",
+      "Le circuit dure environ 40 minutes. Ce parcours permet aux visiteurs de découvrir les principaux sites de Vannes à un rythme détendu, accompagnés d'un commentaire audio tout au long du trajet.",
   },
   {
     question: 'Où commence et se termine le parcours ?',
     answer:
-      "Le parcours commence et se termine au parking du Ménec à Carnac, situé en face de la Maison des Mégalithes. C'est le principal point de départ et d'arrivée pour les visiteurs individuels.",
+      "Le parcours commence et se termine à la Place Gambetta, au cœur de Vannes, à deux pas des remparts médiévaux. C'est le seul point de départ et d'arrivée.",
   },
   {
     question: 'Le Petit Train fait-il des arrêts pendant le parcours ?',
     answer:
-      'Le Petit Train dessert plusieurs sites le long du parcours, notamment Carnac-Plage et le port de La Trinité-sur-Mer. Ces étapes font partie de la visite. Les visiteurs individuels embarquent et débarquent au point de départ du Ménec.',
+      "Le circuit est continu — il n'y a pas d'arrêts intermédiaires. Les visiteurs embarquent et débarquent uniquement à la Place Gambetta.",
   },
   {
-    question: 'Verra-t-on les menhirs de Carnac pendant la visite ?',
+    question: 'Verra-t-on les remparts médiévaux de Vannes pendant la visite ?',
     answer:
-      "Oui. Le parcours passe près des plus célèbres alignements de menhirs de Carnac, notamment ceux du Ménec, de Kermario et de Kerlescan. Le commentaire audio explique l'histoire et la signification de ces monuments préhistoriques tout au long du trajet.",
+      "Oui. Le parcours longe les célèbres remparts médiévaux de Vannes, parmi les mieux conservés de Bretagne. Le commentaire audio explique l'histoire et l'architecture de ces fortifications tout au long du trajet.",
   },
   {
-    question: 'Le parcours inclut-il le tumulus Saint-Michel et les dolmens ?',
+    question: 'Le parcours inclut-il la vieille ville et le port de Vannes ?',
     answer:
-      'Oui. Le parcours met en valeur le tumulus Saint-Michel et les dolmens environnants. Ces sites sont présentés via le commentaire audio dans le cadre de la visite guidée.',
+      "Oui. Le circuit traverse la vieille ville avec ses maisons à colombages du XVIIe siècle et longe le port de Vannes. Ces sites sont présentés via le commentaire audio dans le cadre de la visite guidée.",
   },
   {
-    question: 'Que verra-t-on à Carnac-Plage pendant le parcours ?',
+    question: "Les jardins de la Garenne sont-ils inclus dans le parcours ?",
     answer:
-      "Pendant le parcours, le Petit Train traverse Carnac-Plage, permettant aux visiteurs de profiter de la vue sur les plages de sable blanc et l'ambiance balnéaire. Cette partie de la visite offre un contraste saisissant entre patrimoine préhistorique et paysages côtiers.",
+      "Oui. Le circuit passe près des jardins de la Garenne, l'un des plus beaux jardins de Vannes, avec une vue remarquable sur les remparts et les lavoirs médiévaux.",
   },
   {
-    question: "Le parcours va-t-il jusqu'à La Trinité-sur-Mer ?",
+    question: "Le circuit est-il adapté aux personnes à mobilité réduite ?",
     answer:
-      "Oui. Le parcours inclut le port de La Trinité-sur-Mer, destination réputée pour la voile. Les visiteurs peuvent observer la marina, les bateaux et la zone portuaire, accompagnés d'un commentaire sur la ville et son histoire maritime.",
+      "Le Petit Train est accessible à tous. Il est particulièrement recommandé pour les personnes préférant éviter les longues marches tout en découvrant les sites historiques de Vannes.",
   },
 ]
 
@@ -82,7 +81,7 @@ export default async function RoutesPage({ params }: PageProps) {
           heading={
             <>
               {t('pages.routes.heroHeadingPrefix')}{' '}
-              <em className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] not-italic">
+              <em className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] not-italic">
                 {t('pages.routes.heroHeadingHighlight')}
               </em>
             </>
@@ -106,7 +105,7 @@ export default async function RoutesPage({ params }: PageProps) {
           heading={
             <>
               {t('pages.routes.faqHeadingPrefix')}{' '}
-              <em className="text-[#4d1c64]">{t('pages.routes.faqHeadingHighlight')}</em>
+              <em className="text-[#1c1b29]">{t('pages.routes.faqHeadingHighlight')}</em>
             </>
           }
           description={t('pages.routes.faqDescription')}

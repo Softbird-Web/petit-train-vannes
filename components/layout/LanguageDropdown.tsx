@@ -44,8 +44,8 @@ export default function LanguageDropdown({ variant = 'banner' }: LanguageDropdow
 
   const triggerClass =
     variant === 'banner'
-      ? 'inline-flex items-center gap-1.5 px-2.5 h-7 rounded-md text-[#f5ebdd] hover:bg-[rgba(245,235,221,0.12)] font-["Manrope",sans-serif] text-[12px] md:text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
-      : 'inline-flex items-center gap-1.5 px-3 h-9 rounded-md bg-[rgba(245,235,221,0.1)] hover:bg-[rgba(245,235,221,0.2)] text-[#f5ebdd] font-["Manrope",sans-serif] text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
+      ? 'inline-flex items-center gap-1.5 px-2.5 h-7 rounded-md text-[#ffffff] hover:bg-[rgba(245,235,221,0.12)] font-["Manrope",sans-serif] text-[12px] md:text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
+      : 'inline-flex items-center gap-1.5 px-3 h-9 rounded-md bg-[rgba(245,235,221,0.1)] hover:bg-[rgba(245,235,221,0.2)] text-[#ffffff] font-["Manrope",sans-serif] text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
 
   const panelAlign    = variant === 'banner' ? 'right-0'       : 'left-0'
   const panelPosition = variant === 'mobile' ? 'bottom-full mb-2' : 'top-full mt-2'
@@ -98,11 +98,11 @@ export default function LanguageDropdown({ variant = 'banner' }: LanguageDropdow
                     onClick={() => switchTo(l)}
                     role="option"
                     aria-selected={active}
-                    className={`w-full flex items-center gap-2.5 px-3.5 py-2 font-['Manrope',sans-serif] text-sm tracking-[-0.42px] text-[#181d27] hover:bg-[#f5ebdd] transition-colors duration-150 ${active ? 'font-semibold' : 'font-normal'}`}
+                    className={`w-full flex items-center gap-2.5 px-3.5 py-2 font-['Manrope',sans-serif] text-sm tracking-[-0.42px] text-[#1c1b29] hover:bg-[#ffffff] transition-colors duration-150 ${active ? 'font-semibold' : 'font-normal'}`}
                   >
                     <span aria-hidden="true" className="text-base leading-none">{localeLabels[l].flag}</span>
                     <span>{localeLabels[l].native}</span>
-                    {active && <span className="ml-auto text-[#54206d]" aria-hidden="true">✓</span>}
+                    {active && <span className="ml-auto text-[#f7a427]" aria-hidden="true">✓</span>}
                   </button>
                 </li>
               )

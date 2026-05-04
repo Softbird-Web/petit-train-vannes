@@ -13,7 +13,7 @@ export default function Features() {
   const t = useTranslations("sections.features");
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] flex flex-col gap-16 py-24 overflow-hidden">
+    <section data-anim-section className="bg-[#ffffff] flex flex-col gap-16 py-24 overflow-hidden">
       {/* Header row */}
       <div className="w-full max-w-[1280px] px-5 xl:px-0 mx-auto">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
@@ -27,7 +27,7 @@ export default function Features() {
                 {t("label")}
               </p>
             </div>
-            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#181d27] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] [text-wrap:balance] break-words">
+            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#1c1b29] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] [text-wrap:balance] break-words">
               {t("heading")}
             </h2>
           </div>
@@ -49,7 +49,7 @@ export default function Features() {
               <div key={key} className="flex flex-col gap-5 items-start h-full">
                 {/* Icon box */}
                 <div className="relative shrink-0 w-16 h-16 rounded-[10px] border border-[#e9eaeb] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] overflow-hidden">
-                  <div aria-hidden="true" className="absolute inset-0 bg-[#4d1c64] pointer-events-none rounded-[10px]" />
+                  <div aria-hidden="true" className="absolute inset-0 bg-[#1c1b29] pointer-events-none rounded-[10px]" />
                   <div className="absolute inset-[15px]">
                     <Image src={featureIcons[key]} alt="" fill className="object-contain" aria-hidden="true" />
                   </div>
@@ -58,7 +58,7 @@ export default function Features() {
 
                 {/* Text */}
                 <div className="flex flex-col gap-2">
-                  <p className="font-['Manrope',sans-serif] font-semibold text-[20px] text-[#181d27] leading-[1.5] tracking-[-0.8px]">
+                  <p className="font-['Manrope',sans-serif] font-semibold text-[20px] text-[#1c1b29] leading-[1.5] tracking-[-0.8px]">
                     {t(`${key}Title`)}
                   </p>
                   <p className="font-['Manrope',sans-serif] text-base text-[#535862] leading-6">

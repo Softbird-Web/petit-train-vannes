@@ -12,7 +12,7 @@ export default async function CareersHero() {
   const t = await getTranslations('sections.careersHero')
 
   return (
-    <section data-anim-section="hero" className="bg-[#f5ebdd] relative overflow-hidden py-16 xl:py-[112px] px-5 xl:px-[64px]">
+    <section data-anim-section="hero" className="bg-[#ffffff] relative overflow-hidden py-16 xl:py-[112px] px-5 xl:px-[64px]">
       {/* Background pattern */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
@@ -40,16 +40,16 @@ export default async function CareersHero() {
                   aria-hidden="true"
                 />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px]">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
                 {t('sectionLabel')}
               </p>
             </div>
 
             {/* Heading */}
-            <h1 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#181d27] leading-[1.2] tracking-[-3.36px] [text-wrap:balance]">
+            <h1 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#1c1b29] leading-[1.2] tracking-[-3.36px] [text-wrap:balance]">
               {t('headingPrefix')}{' '}
-              <em className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d]">
-                Petit Train de Carnac
+              <em className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427]">
+                Petit Train de Vannes
               </em>{' '}
               {t('headingSuffix')}
             </h1>
@@ -63,7 +63,7 @@ export default async function CareersHero() {
             <div>
               <TransitionLink
                 href="mailto:petittrain-lebayon@orange.fr"
-                className="btn-animate-chars btn-primary inline-flex items-center gap-2 h-[45px] px-[22px] bg-[#54206d] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+                className="btn-animate-chars btn-primary inline-flex items-center gap-2 h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
                 <div className="btn-animate-chars__bg" />
                 <div className="relative shrink-0 w-5 h-5">
@@ -82,7 +82,7 @@ export default async function CareersHero() {
 
           {/* Job listings */}
           <div data-anim-item className="flex flex-col gap-0">
-            <p className="font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#181d27] leading-[1.2] tracking-[-1.4px] mb-6">
+            <p className="font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#1c1b29] leading-[1.2] tracking-[-1.4px] mb-6">
               {t('openPositionsLabel')}
             </p>
 
@@ -93,12 +93,12 @@ export default async function CareersHero() {
               >
                 {/* Title + badge */}
                 <div className="flex flex-wrap items-center gap-3">
-                  <p className="font-['Manrope',sans-serif] font-medium text-[#181d27] text-[20px] leading-[1.4] tracking-[-0.6px]">
+                  <p className="font-['Manrope',sans-serif] font-medium text-[#1c1b29] text-[20px] leading-[1.4] tracking-[-0.6px]">
                     {t(job.titleKey)}
                   </p>
-                  <span className="inline-flex items-center gap-1.5 pl-2 pr-[10px] py-[2px] bg-[rgba(84,32,109,0.1)] border border-[rgba(84,32,109,0.25)] rounded-[4px]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#54206d] shrink-0" />
-                    <span className="font-['Manrope',sans-serif] text-[#54206d] text-[12px] leading-[1.4] tracking-[-0.36px] uppercase">
+                  <span className="inline-flex items-center gap-1.5 pl-2 pr-[10px] py-[2px] bg-[rgba(28,27,41,0.1)] border border-[rgba(28,27,41,0.25)] rounded-[4px]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#f7a427] shrink-0" />
+                    <span className="font-['Manrope',sans-serif] text-[#f7a427] text-[12px] leading-[1.4] tracking-[-0.36px] uppercase">
                       {t('seasonalBadge')}
                     </span>
                   </span>

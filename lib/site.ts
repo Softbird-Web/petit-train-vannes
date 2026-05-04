@@ -9,7 +9,7 @@
  * 2. No code changes needed — sitemap, canonicals, JSON-LD all update automatically
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://petit-train-carnac.vercel.app'
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://petit-train-vannes.vercel.app'
 
 /**
  * Absolute URL helper — prepend SITE_URL to a path.

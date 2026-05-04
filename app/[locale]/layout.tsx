@@ -31,11 +31,11 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Le Petit Train de Carnac / Menhir Tour",
-    template: "%s — Petit Train de Carnac Morbihan",
+    default: "Le Petit Train de Vannes — Remparts & Vieille Ville",
+    template: "%s — Petit Train de Vannes, Morbihan",
   },
   description:
-    "Visite guidée des mégalithes de Carnac à bord du Petit Train — tour de 55 minutes, commentaire audio multilingue, plages et port de La Trinité-sur-Mer.",
+    "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes.",
   alternates: {
     canonical: "/",
   },
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     shortcut: "/figma-assets/logo.svg",
   },
   openGraph: {
-    title: "Le Petit Train de Carnac / Menhir Tour",
+    title: "Le Petit Train de Vannes — Remparts & Vieille Ville",
     description:
-      "Visite guidée des mégalithes de Carnac à bord du Petit Train — tour de 55 minutes, commentaire audio multilingue, plages et port de La Trinité-sur-Mer.",
+      "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes.",
     type: "website",
     locale: "fr_FR",
     images: [
@@ -55,15 +55,15 @@ export const metadata: Metadata = {
         url: "/figma-assets/OpenGraph.png",
         width: 1200,
         height: 630,
-        alt: "Le Petit Train de Carnac — Menhir Tour",
+        alt: "Le Petit Train de Vannes — Remparts & Vieille Ville",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Le Petit Train de Carnac / Menhir Tour",
+    title: "Le Petit Train de Vannes — Remparts & Vieille Ville",
     description:
-      "Visite guidée des mégalithes de Carnac à bord du Petit Train — tour de 55 minutes, commentaire audio multilingue, plages et port de La Trinité-sur-Mer.",
+      "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes.",
     images: ["/figma-assets/OpenGraph.png"],
   },
 };
@@ -92,17 +92,22 @@ export default async function LocaleLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["TouristAttraction", "LocalBusiness"],
-              "name": "Petit Train de Carnac",
-              "description": "Visite guidée touristique de Carnac et ses menhirs à bord d'un petit train confortable. Commentaire audio multilingue en 16 langues. Durée : 55 minutes.",
+              "name": "Petit Train de Vannes",
+              "description": "Visite guidée touristique des remparts de Vannes à bord d'un petit train confortable. Commentaire audio multilingue en 16 langues. Durée : 40 minutes.",
               "telephone": "+33297240629",
               "email": "petittrain-lebayon@orange.fr",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Parking du Ménec",
-                "addressLocality": "Carnac",
-                "postalCode": "56340",
+                "streetAddress": "Place Gambetta",
+                "addressLocality": "Vannes",
+                "postalCode": "56000",
                 "addressRegion": "Morbihan",
                 "addressCountry": "FR"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "47.65390326265044",
+                "longitude": "-2.759141221973509"
               },
               "url": SITE_URL,
               "priceRange": "€",
@@ -110,7 +115,7 @@ export default async function LocaleLayout({
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.7",
-                "reviewCount": "6000",
+                "reviewCount": "1385",
                 "bestRating": "5",
                 "worstRating": "1"
               }
@@ -122,7 +127,7 @@ export default async function LocaleLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `window.CookieConsentConfig = {
-  companyName: 'Petit Train Carnac',
+  companyName: 'Petit Train de Vannes',
   privacyPolicyUrl: '/mentions-legales',
   accentColor: '#1a1a1a',
   accentText: '#ffffff',

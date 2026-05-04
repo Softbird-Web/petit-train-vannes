@@ -17,7 +17,7 @@ export default function InformationsHero({
   imageAlt,
 }: InformationsHeroProps) {
   return (
-    <section data-anim-section="hero" className="bg-[#f5ebdd] pt-20 pb-0 overflow-hidden">
+    <section data-anim-section="hero" className="bg-[#ffffff] pt-20 pb-0 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-5 xl:px-0">
         {/* Heading area */}
         <div className="flex flex-col items-center gap-6 max-w-[768px] mx-auto text-center mb-20">
@@ -32,13 +32,13 @@ export default function InformationsHero({
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {label}
             </p>
           </div>
 
           {/* Heading */}
-          <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,5vw,60px)] leading-[1.2] tracking-[-4.2px] text-[#181d27] break-words">
+          <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,5vw,60px)] leading-[1.2] tracking-[-4.2px] text-[#1c1b29] break-words">
             {heading}
           </h1>
 

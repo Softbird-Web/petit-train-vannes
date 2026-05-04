@@ -30,15 +30,15 @@ export default function Navbar() {
   return (
     <header data-anim-navbar className="fixed top-0 left-0 right-0 z-50">
       {/* Top announcement banner */}
-      <div className="bg-[#33114d] border-b border-[rgba(213,215,218,0.4)]">
+      <div className="bg-[#1c1b29] border-b border-[rgba(213,215,218,0.4)]">
         <div className="max-w-[1280px] mx-auto px-5 xl:px-0 py-[6px] flex items-center justify-between gap-4">
-          <p className="text-[#f5ebdd] text-[12px] md:text-base leading-5 md:leading-6 tracking-[-0.48px] text-left md:text-center font-['Manrope',sans-serif] flex-1">
+          <p className="text-[#ffffff] text-[12px] md:text-base leading-5 md:leading-6 tracking-[-0.48px] text-left md:text-center font-['Manrope',sans-serif] flex-1">
             {t("navbar.bannerPrefix")}{" "}
-            <a href="https://www.petittrain-morbihan.com/en/vannes/" className="underline text-[#f5ebdd]" target="_blank" rel="noopener noreferrer">
-              {t("navbar.bannerLinkVannes")}
+            <a href="https://www.lepetittraindecarnac.fr/" className="underline text-[#ffffff]" target="_blank" rel="noopener noreferrer">
+              {t("navbar.bannerLinkCarnac")}
             </a>{" "}
             {t("navbar.bannerAnd")}{" "}
-            <a href="https://www.petittrain-morbihan.com/en/quiberon/" className="underline text-[#f5ebdd]" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.petittrain-morbihan.com/en/quiberon/" className="underline text-[#ffffff]" target="_blank" rel="noopener noreferrer">
               {t("navbar.bannerLinkQuiberon")}
             </a>
           </p>
@@ -50,7 +50,7 @@ export default function Navbar() {
 
       {/* Navbar */}
       <nav
-        className={`relative bg-[#54206d] h-20 flex items-center ${
+        className={`relative bg-[#f7a427] h-20 flex items-center ${
           scrolled ? "navbar-scrolled" : ""
         }`}
       >
@@ -70,7 +70,7 @@ export default function Navbar() {
                 <TransitionLink
                   key={link.href}
                   href={link.href}
-                  className="nav-link text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif] whitespace-nowrap"
+                  className="nav-link text-[#ffffff] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif] whitespace-nowrap"
                 >
                   {link.label}
                 </TransitionLink>
@@ -83,7 +83,7 @@ export default function Navbar() {
             <TransitionLink
               href="/prices"
               aria-label={t("nav.viewPrices")}
-              className="btn-animate-chars btn-secondary bg-[#54206d] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+              className="btn-animate-chars btn-secondary bg-[#f7a427] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
             >
               <div className="btn-animate-chars__bg" />
               <span data-button-animate-chars="" className="btn-animate-chars__text">{t("nav.viewPrices")}</span>
@@ -91,7 +91,7 @@ export default function Navbar() {
             <TransitionLink
               href="/book"
               aria-label={t("nav.book")}
-              className="btn-animate-chars btn-primary bg-[#f5ebdd] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+              className="btn-animate-chars btn-primary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
             >
               <div className="btn-animate-chars__bg" />
               <span data-button-animate-chars="" className="btn-animate-chars__text">{t("nav.book")}</span>
@@ -126,7 +126,7 @@ export default function Navbar() {
 
         {/* Mobile menu drawer — absolute relative to nav (h-20), so top-full = bottom of nav */}
         <div
-          className={`lg:hidden absolute top-full left-0 right-0 bg-[#54206d] border-t border-[rgba(255,255,255,0.1)] overflow-hidden transition-all duration-300 z-50 ${
+          className={`lg:hidden absolute top-full left-0 right-0 bg-[#f7a427] border-t border-[rgba(255,255,255,0.1)] overflow-hidden transition-all duration-300 z-50 ${
             mobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
@@ -135,7 +135,7 @@ export default function Navbar() {
               <TransitionLink
                 key={link.href}
                 href={link.href}
-                className="text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif]"
+                className="text-[#ffffff] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif]"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
@@ -145,7 +145,7 @@ export default function Navbar() {
               <TransitionLink
                 href="/prices"
                 aria-label={t("nav.viewPrices")}
-                className="btn-animate-chars btn-secondary bg-[#54206d] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
+                className="btn-animate-chars btn-secondary bg-[#f7a427] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
                 onClick={() => setMobileOpen(false)}
               >
                 <div className="btn-animate-chars__bg" />
@@ -154,7 +154,7 @@ export default function Navbar() {
               <TransitionLink
                 href="/book"
                 aria-label={t("nav.book")}
-                className="btn-animate-chars btn-primary bg-[#f5ebdd] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
+                className="btn-animate-chars btn-primary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
                 onClick={() => setMobileOpen(false)}
               >
                 <div className="btn-animate-chars__bg" />

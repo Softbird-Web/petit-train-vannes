@@ -4,22 +4,10 @@ import { useEffect, useRef } from "react";
 
 const STOPS = [
   {
-    lat: 47.5914481,
-    lng: -3.0825134,
-    name: "Ménec car park",
-    detail: "Main departure · In front of the Maison des Mégalithes",
-  },
-  {
-    lat: 47.5702020,
-    lng: -3.0790797,
-    name: "Port-En-Drô",
-    detail: "Carnac Plage departure",
-  },
-  {
-    lat: 47.5872394,
-    lng: -3.0266080,
-    name: "La Trinité-sur-Mer",
-    detail: "Harbour departure",
+    lat: 47.65390326265044,
+    lng: -2.759141221973509,
+    name: "Place Gambetta",
+    detail: "Départ unique · Au cœur de Vannes, à deux pas des remparts",
   },
 ];
 
@@ -27,7 +15,7 @@ const STOPS = [
 const PIN_SVG = `
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="42" viewBox="0 0 32 42">
   <path d="M16 0C7.163 0 0 7.163 0 16c0 10.314 14.286 24.857 15.143 25.714a1.143 1.143 0 0 0 1.714 0C17.714 40.857 32 26.314 32 16 32 7.163 24.837 0 16 0z"
-        fill="#54206d"/>
+        fill="#f7a427"/>
   <circle cx="16" cy="16" r="7" fill="white"/>
 </svg>`;
 
@@ -45,8 +33,8 @@ export default function CarnacMap() {
       if (cancelled || !containerRef.current) return;
 
       const map = L.map(containerRef.current!, {
-        center: [47.5880, -3.0420],
-        zoom: 12,
+        center: [47.6539, -2.7591],
+        zoom: 15,
         zoomControl: true,
         scrollWheelZoom: false,
         attributionControl: true,
@@ -77,13 +65,9 @@ export default function CarnacMap() {
         L.marker([stop.lat, stop.lng], { icon })
           .addTo(map)
           .bindPopup(
-            `<strong style="font-family:'Bricolage Grotesque',sans-serif;font-size:14px;color:#181d27">${stop.name}</strong><br/><span style="font-family:Manrope,sans-serif;font-size:12px;color:#535862">${stop.detail}</span>`
+            `<strong style="font-family:'Bricolage Grotesque',sans-serif;font-size:14px;color:#1c1b29">${stop.name}</strong><br/><span style="font-family:Manrope,sans-serif;font-size:12px;color:#535862">${stop.detail}</span>`
           );
       });
-
-      // Fit map to show all three markers with padding
-      const bounds = L.latLngBounds(STOPS.map((s) => [s.lat, s.lng]));
-      map.fitBounds(bounds, { padding: [48, 48] });
     });
 
     return () => {
@@ -97,7 +81,7 @@ export default function CarnacMap() {
     <div
       ref={containerRef}
       className="w-full h-full"
-      aria-label="Map showing the three Petit Train departure points in Carnac"
+      aria-label="Carte du point de départ du Petit Train de Vannes — Place Gambetta"
     />
   );
 }

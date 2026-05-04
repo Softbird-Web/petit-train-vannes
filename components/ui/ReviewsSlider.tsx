@@ -46,20 +46,20 @@ const reviews = [
   {
     id: "bked",
     name: "B Ked.",
-    text: "Je pense que c'était un très beau voyage autour de Carnac. Je le recommande vraiment aux personnes qui viennent à Carnac et qui souhaitent en apprendre davantage sur la ville !",
-    image: "/figma-assets/stop-3.jpg",
+    text: "Une visite magnifique de Vannes ! Je le recommande vraiment à tous ceux qui viennent à Vannes et souhaitent découvrir la cité médiévale de façon simple et agréable.",
+    image: "/figma-assets/stop-1.jpg",
   },
   {
     id: "sophie",
     name: "Sophie M.",
-    text: "Une belle expérience en famille. Le train est confortable et le conducteur était très sympathique. Une façon parfaite de découvrir les célèbres menhirs de Carnac sans avoir à marcher !",
-    image: "/figma-assets/PracticalInfo1.jpg",
+    text: "Une belle expérience en famille. Le train est confortable et le conducteur était très sympathique. Une façon parfaite de découvrir les remparts et la vieille ville de Vannes sans avoir à marcher !",
+    image: "/figma-assets/gallery-1.jpg",
   },
   {
     id: "david",
     name: "David R.",
-    text: "Nous avons fait la visite par un beau après-midi de juillet — absolument incontournable. Le commentaire multilingue est excellent et le parcours vous emmène à tous les sites clés. Fortement recommandé pour les premiers visiteurs de Carnac.",
-    image: "/figma-assets/PracticalInfo3.jpg",
+    text: "Nous avons fait la visite par un beau après-midi de juillet — absolument incontournable. Le commentaire multilingue est excellent et le parcours vous emmène à tous les sites clés de Vannes. Fortement recommandé.",
+    image: "/figma-assets/gallery-3.jpg",
   },
   {
     id: "anneclaire",
@@ -86,11 +86,11 @@ function ReviewCard({ name, subtitle, text, image }: { name: string; subtitle: s
     <div className="bg-white rounded-2xl overflow-hidden flex flex-col md:flex-row md:h-[420px] w-full shadow-[0px_2px_12px_0px_rgba(0,0,0,0.08)]">
       {/* Text content */}
       <div className="flex-1 p-6 md:p-8 flex flex-col justify-between gap-6 md:gap-0 min-w-0">
-        <p lang="fr" className="font-['Manrope',sans-serif] text-[#181d27] text-[17px] md:text-[20px] leading-[1.5] tracking-[-0.4px]">
+        <p lang="fr" className="font-['Manrope',sans-serif] text-[#1c1b29] text-[17px] md:text-[20px] leading-[1.5] tracking-[-0.4px]">
           {text}
         </p>
         <div className="flex flex-col gap-1">
-          <p className="font-['Bricolage_Grotesque',sans-serif] text-[#181d27] text-[20px] md:text-[22px] leading-[1.2] tracking-[-0.8px] font-bold">
+          <p className="font-['Bricolage_Grotesque',sans-serif] text-[#1c1b29] text-[20px] md:text-[22px] leading-[1.2] tracking-[-0.8px] font-bold">
             {name}
           </p>
           <div className="flex items-center gap-2">

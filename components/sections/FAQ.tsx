@@ -33,11 +33,11 @@ function FaqItem({ question, answer, open, onToggle }: FaqItemProps) {
         className="w-full flex items-start justify-between gap-6 text-left cursor-pointer"
         aria-expanded={open ? "true" : "false"}
       >
-        <h3 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#181d27] leading-[1.2] tracking-[-1.4px] m-0">
+        <h3 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#1c1b29] leading-[1.2] tracking-[-1.4px] m-0">
           {question}
         </h3>
         <span
-          className="shrink-0 text-[#54206d] text-[24px] leading-none mt-0.5 transition-transform duration-300 select-none"
+          className="shrink-0 text-[#f7a427] text-[24px] leading-none mt-0.5 transition-transform duration-300 select-none"
           aria-hidden="true"
         >
           {open ? "×" : "+"}
@@ -87,7 +87,7 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
   };
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] py-24">
+    <section data-anim-section className="bg-[#ffffff] py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -99,11 +99,11 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {resolvedLabel}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#181d27] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] [text-wrap:balance] break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#1c1b29] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] [text-wrap:balance] break-words">
             {resolvedHeading}
           </h2>
           <p className="font-['Manrope',sans-serif] text-[#535862] text-[16px] leading-[1.2] tracking-[-0.48px]">
@@ -111,7 +111,7 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
           </p>
           <TransitionLink
             href="/book"
-            className="btn-animate-chars btn-primary inline-flex items-center gap-2 h-[45px] px-[22px] bg-[#54206d] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap w-fit"
+            className="btn-animate-chars btn-primary inline-flex items-center gap-2 h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap w-fit"
           >
             <div className="btn-animate-chars__bg" />
             <span data-button-animate-chars="" className="btn-animate-chars__text">

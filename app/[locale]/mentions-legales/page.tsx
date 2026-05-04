@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Mentions Légales',
   description:
-    'Mentions légales du site Petit Train de Carnac. Informations sur l\'hébergeur, l\'éditeur, la propriété intellectuelle et le droit applicable.',
+    'Mentions légales du site Petit Train de Vannes. Informations sur l\'hébergeur, l\'éditeur, la propriété intellectuelle et le droit applicable.',
   alternates: { canonical: '/mentions-legales' },
 }
 
@@ -9,16 +9,16 @@ export default function MentionsLegalesPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-[#54206d] py-16 xl:py-24 px-5 xl:px-[64px]">
+      <section className="bg-[#f7a427] py-16 xl:py-24 px-5 xl:px-[64px]">
         <div className="max-w-[1312px] mx-auto">
-          <h1 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[52px] xl:text-[64px] text-[#f5ebdd] leading-[1.2] tracking-[-3.36px]">
+          <h1 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[52px] xl:text-[64px] text-[#ffffff] leading-[1.2] tracking-[-3.36px]">
             Mentions Légales
           </h1>
         </div>
       </section>
 
       {/* Content */}
-      <section className="bg-[#f5ebdd] py-16 xl:py-24 px-5 xl:px-[64px]">
+      <section className="bg-[#ffffff] py-16 xl:py-24 px-5 xl:px-[64px]">
         <div className="max-w-[800px] mx-auto flex flex-col gap-10">
           <div className="flex flex-col gap-4">
             <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
@@ -28,7 +28,7 @@ export default function MentionsLegalesPage() {
               ci-après détaillées.
             </p>
             <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
-              <strong className="text-[#181d27]">Directeur de la publication :</strong> Nom
+              <strong className="text-[#1c1b29]">Directeur de la publication :</strong> Nom
             </p>
             <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
               Ce site est hébergé par OVH :{' '}
@@ -36,7 +36,7 @@ export default function MentionsLegalesPage() {
                 href="https://www.ovh.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#54206d] underline"
+                className="text-[#f7a427] underline"
               >
                 www.ovh.com
               </a>
@@ -44,7 +44,7 @@ export default function MentionsLegalesPage() {
             <div className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
               <p>Le site a été créé par :</p>
               <p>
-                <strong className="text-[#181d27]">Heureuses – Agence web</strong>
+                <strong className="text-[#1c1b29]">Heureuses – Agence web</strong>
               </p>
               <p>4 allée Joseph Loth</p>
               <p>56000 VANNES</p>
@@ -53,7 +53,7 @@ export default function MentionsLegalesPage() {
                   href="https://www.heureuses.fr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#54206d] underline"
+                  className="text-[#f7a427] underline"
                 >
                   www.heureuses.fr
                 </a>
@@ -64,7 +64,7 @@ export default function MentionsLegalesPage() {
           </div>
 
           {/* Divider */}
-          <div className="border-t border-[rgba(77,28,100,0.12)]" />
+          <div className="border-t border-[rgba(28,27,41,0.12)]" />
 
           <LegalSection number="1" title="INFORMATIONS FIGURANT SUR LE SITE">
             Le propriétaire du site fournit des informations à des fins purement informatives. Il
@@ -103,7 +103,7 @@ export default function MentionsLegalesPage() {
               href="https://www.cnil.fr"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#54206d] underline"
+              className="text-[#f7a427] underline"
             >
               www.cnil.fr
             </a>
@@ -140,13 +140,13 @@ function LegalSection({
 }) {
   return (
     <div className="flex flex-col gap-3">
-      <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#181d27] tracking-[-0.8px] leading-[1.3]">
+      <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[20px] text-[#1c1b29] tracking-[-0.8px] leading-[1.3]">
         {number} – {title}
       </h2>
       <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
         {children}
       </p>
-      <div className="border-t border-[rgba(77,28,100,0.12)]" />
+      <div className="border-t border-[rgba(28,27,41,0.12)]" />
     </div>
   )
 }

@@ -19,7 +19,7 @@ export default function Reviews() {
   const tShared = useTranslations("shared");
 
   return (
-    <section data-anim-section className="bg-[#4d1c64] flex flex-col gap-10 xl:gap-14 items-center justify-center py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#1c1b29] flex flex-col gap-10 xl:gap-14 items-center justify-center py-20 overflow-hidden">
       {/* Header */}
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex justify-center">
         <div className="flex flex-col gap-6 items-center text-center max-w-[623px]">
@@ -27,16 +27,16 @@ export default function Reviews() {
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f5ebdd] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
             </p>
           </div>
 
-          <h2 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[#f5ebdd] text-[32px] sm:text-[40px] md:text-[48px] text-center leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[410px] w-full [text-wrap:balance] break-words">
+          <h2 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[#ffffff] text-[32px] sm:text-[40px] md:text-[48px] text-center leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[410px] w-full [text-wrap:balance] break-words">
             {t("heading")}
           </h2>
 
-          <p data-anim-item className="font-['Manrope',sans-serif] text-[#f5ebdd] text-[16px] text-center leading-[1.2] tracking-[-0.48px] max-w-[570px] w-full">
+          <p data-anim-item className="font-['Manrope',sans-serif] text-[#ffffff] text-[16px] text-center leading-[1.2] tracking-[-0.48px] max-w-[570px] w-full">
             {t("description")}
           </p>
 

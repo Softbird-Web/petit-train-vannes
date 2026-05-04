@@ -25,17 +25,17 @@ export default function BookingSection() {
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t('label')}
             </p>
           </div>
 
           <h1
             data-anim-item
-            className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[36px] sm:text-[44px] md:text-[52px] xl:text-[60px] leading-[1.2] tracking-[-1.8px] sm:tracking-[-2.4px] md:tracking-[-3.2px] xl:tracking-[-4.2px] text-[#181d27] not-italic [text-wrap:balance] break-words"
+            className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[36px] sm:text-[44px] md:text-[52px] xl:text-[60px] leading-[1.2] tracking-[-1.8px] sm:tracking-[-2.4px] md:tracking-[-3.2px] xl:tracking-[-4.2px] text-[#1c1b29] not-italic [text-wrap:balance] break-words"
           >
             {t('headingPrefix')}{' '}
-            <em className="italic text-[#54206d] not-[font-style:normal]">{t('headingHighlight')}</em>{' '}
+            <em className="italic text-[#f7a427] not-[font-style:normal]">{t('headingHighlight')}</em>{' '}
             {t('headingSuffix')}
           </h1>
 
@@ -44,7 +44,7 @@ export default function BookingSection() {
             className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.4] tracking-[-0.48px] max-w-[620px]"
           >
             {t.rich('description', {
-              strong: (chunks) => <strong className="text-[#181d27]">{chunks}</strong>,
+              strong: (chunks) => <strong className="text-[#1c1b29]">{chunks}</strong>,
             })}
           </p>
         </div>

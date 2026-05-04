@@ -14,11 +14,11 @@ export default function BeforeYouBook() {
   ]
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] py-16 xl:py-[112px] px-5 xl:px-[64px]">
+    <section data-anim-section className="bg-[#ffffff] py-16 xl:py-[112px] px-5 xl:px-[64px]">
       <div className="max-w-[1280px] mx-auto flex flex-col xl:flex-row gap-[64px] items-center">
         {/* Content */}
         <div data-anim-item className="flex-1 min-w-0 flex flex-col gap-6">
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[48px] xl:text-[60px] text-[#181d27] leading-[1.2] tracking-[-3.36px]">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[48px] xl:text-[60px] text-[#1c1b29] leading-[1.2] tracking-[-3.36px]">
             {t('heading')}
           </h2>
 
@@ -32,7 +32,7 @@ export default function BeforeYouBook() {
                 key={bullet}
                 className="flex items-start gap-3 font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.2] tracking-[-0.48px]"
               >
-                <span className="mt-[6px] shrink-0 w-1.5 h-1.5 rounded-full bg-[#54206d]" />
+                <span className="mt-[6px] shrink-0 w-1.5 h-1.5 rounded-full bg-[#f7a427]" />
                 {bullet}
               </li>
             ))}

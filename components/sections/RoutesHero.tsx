@@ -46,7 +46,7 @@ export default function RoutesHero({
   const imageBlock = (
     <div data-anim-item className="w-full xl:flex-1 xl:min-w-0">
       <div
-        className={`relative h-[400px] md:h-[520px] xl:h-[640px] rounded-[16px] border-[5px] border-[#54206d] overflow-hidden${
+        className={`relative h-[400px] md:h-[520px] xl:h-[640px] rounded-[16px] border-[5px] border-[#f7a427] overflow-hidden${
           lightbox ? ' cursor-zoom-in' : ''
         }`}
         onClick={() => lightbox && setOpen(true)}
@@ -84,13 +84,13 @@ export default function RoutesHero({
               aria-hidden="true"
             />
           </div>
-          <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+          <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
             {label}
           </p>
         </div>
 
         {/* Heading */}
-        <Heading data-anim-item className="font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#181d27] leading-[1.2] tracking-[-3.36px] [text-wrap:balance]">
+        <Heading data-anim-item className="font-['Bricolage_Grotesque',sans-serif] text-[40px] sm:text-[48px] xl:text-[60px] text-[#1c1b29] leading-[1.2] tracking-[-3.36px] [text-wrap:balance]">
           {heading}
         </Heading>
 
@@ -107,7 +107,7 @@ export default function RoutesHero({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={primary.label}
-          className="btn-animate-chars btn-primary gap-2 h-[45px] px-[22px] bg-[#54206d] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+          className="btn-animate-chars btn-primary gap-2 h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
         >
           <div className="btn-animate-chars__bg" />
           <div className="relative w-4 h-4 shrink-0">
@@ -126,7 +126,7 @@ export default function RoutesHero({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={secondary.label}
-          className="btn-animate-chars btn-secondary gap-2 h-[45px] px-[22px] bg-[#f5ebdd] rounded-[4px] border border-[rgba(0,0,0,0.2)] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+          className="btn-animate-chars btn-secondary gap-2 h-[45px] px-[22px] bg-[#ffffff] rounded-[4px] border border-[rgba(0,0,0,0.2)] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
         >
           <div className="btn-animate-chars__bg" />
           <div className="relative w-4 h-4 shrink-0">
@@ -186,7 +186,7 @@ export default function RoutesHero({
 
   return (
     <>
-      <section data-anim-section="hero" className="bg-[#f5ebdd] py-16 xl:py-[112px] px-5 xl:px-[64px]">
+      <section data-anim-section="hero" className="bg-[#ffffff] py-16 xl:py-[112px] px-5 xl:px-[64px]">
         <div className="max-w-[1312px] mx-auto flex flex-col xl:flex-row items-center gap-[80px]">
           {flip ? (
             <>

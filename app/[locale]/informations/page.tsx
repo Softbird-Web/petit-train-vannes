@@ -39,7 +39,7 @@ export default async function InformationsPage({ params }: PageProps) {
           heading={
             <>
               {t("pages.informations.heroHeadingPrefix")}{" "}
-              <em className="italic text-[#54206d] not-italic font-['Bricolage_Grotesque',sans-serif] italic">
+              <em className="italic text-[#f7a427] not-italic font-['Bricolage_Grotesque',sans-serif] italic">
                 {t("pages.informations.heroHeadingHighlight")}
               </em>
             </>

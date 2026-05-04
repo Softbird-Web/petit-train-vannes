@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const locationKeys = ["vannes", "quiberon"] as const;
+const locationKeys = ["carnac", "quiberon"] as const;
 const locationData: Record<(typeof locationKeys)[number], { href: string; image: string; rounded: string }> = {
-  vannes: {
-    href: "https://www.petittrain-morbihan.com/en/vannes/",
-    image: "/figma-assets/vannes.jpg",
+  carnac: {
+    href: "https://www.lepetittraindecarnac.fr/",
+    image: "/figma-assets/carnac.jpg",
     rounded: "rounded-tl-[32px]",
   },
   quiberon: {
@@ -19,7 +19,7 @@ export default function Locations() {
   const t = useTranslations("sections.locations");
 
   return (
-    <section data-anim-section className="bg-[#f5ebdd] py-16 xl:py-28 overflow-hidden">
+    <section data-anim-section className="bg-[#ffffff] py-16 xl:py-28 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col gap-16 items-center">
         {/* Header */}
         <div data-anim-item className="flex flex-col gap-6 items-center text-center max-w-[768px]">
@@ -27,11 +27,11 @@ export default function Locations() {
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#181d27] text-center leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[570px] [text-wrap:balance] break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#1c1b29] text-center leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[570px] [text-wrap:balance] break-words">
             {t("heading")}
           </h2>
           <p className="font-['Manrope',sans-serif] text-[#535862] text-[16px] text-center leading-[1.2] tracking-[-0.48px] max-w-[600px] w-full">
@@ -63,12 +63,12 @@ export default function Locations() {
 
                 <div
                   aria-hidden="true"
-                  className="absolute inset-0 bg-gradient-to-b from-[rgba(77,28,100,0.52)] from-[34%] to-[rgba(77,28,100,0.8)]"
+                  className="absolute inset-0 bg-gradient-to-b from-[rgba(28,27,41,0.52)] from-[34%] to-[rgba(28,27,41,0.8)]"
                 />
 
                 <div
                   aria-hidden="true"
-                  className="absolute inset-0 bg-[rgba(84,32,109,0.78)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-[cubic-bezier(0.625,0.05,0,1)] flex items-center justify-center"
+                  className="absolute inset-0 bg-[rgba(247,164,39,0.85)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-[cubic-bezier(0.625,0.05,0,1)] flex items-center justify-center"
                 >
                   <div className="flex flex-col items-center gap-3 translate-y-5 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-75 ease-[cubic-bezier(0.625,0.05,0,1)]">
                     <p className="font-['Bricolage_Grotesque',sans-serif] text-white text-[40px] leading-[1.2] tracking-[-2px]">

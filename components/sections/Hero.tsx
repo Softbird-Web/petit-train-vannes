@@ -43,7 +43,7 @@ export default async function Hero({
     heading ?? (
       <>
         {t("headingPrefix")}{" "}
-        <em className="italic text-[#54206d] not-[font-style:normal]">
+        <em className="italic text-[#f7a427] not-[font-style:normal]">
           {t("headingHighlight")}
         </em>{" "}
         {t("headingSuffix")}
@@ -64,7 +64,7 @@ export default async function Hero({
         <TransitionLink
           href="/book"
           aria-label={t("buttonBook")}
-          className="btn-animate-chars btn-primary bg-[#54206d] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
+          className="btn-animate-chars btn-primary bg-[#f7a427] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
         >
           <div className="btn-animate-chars__bg" />
           <span data-button-animate-chars="" className="btn-animate-chars__text">
@@ -74,7 +74,7 @@ export default async function Hero({
         <TransitionLink
           href="/prices"
           aria-label={t("buttonPrices")}
-          className="btn-animate-chars btn-secondary bg-[#f5ebdd] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+          className="btn-animate-chars btn-secondary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
         >
           <div className="btn-animate-chars__bg" />
           <span data-button-animate-chars="" className="btn-animate-chars__text">
@@ -86,7 +86,7 @@ export default async function Hero({
 
   const resolvedRightCard: ReactNode =
     rightCard ?? (
-      <div className="absolute bottom-[514px] lg:bottom-[30px] left-1/2 -translate-x-1/2 lg:left-auto lg:right-6 lg:translate-x-0 bg-[rgba(84,32,109,0.65)] border border-[rgba(255,255,255,0.2)] rounded-xl p-6 w-[499px] max-w-[calc(100%-32px)] flex flex-col gap-4 z-20">
+      <div className="absolute bottom-[514px] lg:bottom-[30px] left-1/2 -translate-x-1/2 lg:left-auto lg:right-6 lg:translate-x-0 bg-[rgba(28,27,41,0.75)] border border-[rgba(255,255,255,0.2)] rounded-xl p-6 w-[499px] max-w-[calc(100%-32px)] flex flex-col gap-4 z-20">
         <div className="flex items-start justify-between gap-4">
           <p className="font-['Manrope',sans-serif] font-semibold text-[20px] leading-[1.2] text-white tracking-[-0.8px] max-w-[312px]">
             {t("rightCardHeading")}
@@ -108,12 +108,12 @@ export default async function Hero({
 
   const sectionBg =
     backgroundVariant === "gradient-to-white"
-      ? "bg-gradient-to-b from-[#f5ebdd] to-white to-[60%]"
-      : "bg-[#f5ebdd]";
+      ? "bg-gradient-to-b from-[#ffffff] to-white to-[60%]"
+      : "bg-[#ffffff]";
   const leftPanelBg =
-    backgroundVariant === "gradient-to-white" ? "" : "bg-[#f5ebdd]";
+    backgroundVariant === "gradient-to-white" ? "" : "bg-[#ffffff]";
   const bannerBg =
-    backgroundVariant === "gradient-to-white" ? "bg-white" : "bg-[#f5ebdd]";
+    backgroundVariant === "gradient-to-white" ? "bg-white" : "bg-[#ffffff]";
 
   return (
     <section data-anim-section="hero" className={`${sectionBg} overflow-hidden`}>
@@ -136,13 +136,13 @@ export default async function Hero({
                       aria-hidden="true"
                     />
                   </div>
-                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                     {resolvedLabel}
                   </p>
                 </div>
 
                 {/* Main heading */}
-                <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] leading-[1.2] tracking-[-1.8px] sm:tracking-[-2.4px] md:tracking-[-3.2px] lg:tracking-[-4.2px] text-[#181d27] not-italic w-full break-words">
+                <h1 data-anim-item className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] leading-[1.2] tracking-[-1.8px] sm:tracking-[-2.4px] md:tracking-[-3.2px] lg:tracking-[-4.2px] text-[#1c1b29] not-italic w-full break-words">
                   {resolvedHeading}
                 </h1>
 
@@ -247,7 +247,7 @@ export default async function Hero({
                   aria-hidden="true"
                 />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#54206d] text-base leading-6 tracking-[-0.48px]">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
                 {t("noteImportanteLabel")}
               </p>
             </div>
@@ -256,7 +256,7 @@ export default async function Hero({
             <div className="flex flex-col lg:flex-row lg:items-start gap-8">
               {/* Heading */}
               <div className="lg:w-[559px] shrink-0">
-                <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] text-[#181d27] not-italic break-words">
+                <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] text-[#1c1b29] not-italic break-words">
                   {t("noteImportanteHeading")}
                 </h2>
               </div>

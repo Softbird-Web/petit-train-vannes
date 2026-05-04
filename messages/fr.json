@@ -13,7 +13,7 @@
   },
   "navbar": {
     "bannerPrefix": "Ce site fait partie des Petits Trains du Morbihan. Découvrez nos autres circuits à",
-    "bannerLinkVannes": "Vannes",
+    "bannerLinkCarnac": "Carnac",
     "bannerAnd": "et",
     "bannerLinkQuiberon": "Quiberon.",
     "openMenu": "Ouvrir le menu",
@@ -21,9 +21,9 @@
     "languageLabel": "Langue"
   },
   "footer": {
-    "ctaHeading": "Prêt à découvrir Carnac de façon simple et agréable ?",
-    "ctaBody": "Embarquez à bord du Petit Train de Carnac pour une visite guidée alliant histoire, paysages et confort. Découvrez les célèbres menhirs de Carnac, les plages de sable blanc et le port de La Trinité-sur-Mer, sans fatigue et avec un commentaire audio clair tout au long du parcours.",
-    "tagline": "Le Petit Train de Carnac propose une visite guidée à travers l'une des régions les plus remarquables du sud de la Bretagne. Confortablement installés à bord, les visiteurs découvrent Carnac, ses célèbres mégalithes, ses plages et le port voisin, de manière détendue et accessible.",
+    "ctaHeading": "Prêt à découvrir Vannes de façon simple et agréable ?",
+    "ctaBody": "Embarquez à bord du Petit Train de Vannes pour une visite guidée alliant histoire, architecture médiévale et confort. Découvrez les remparts, la vieille ville et le port de Vannes, sans fatigue et avec un commentaire audio clair tout au long du parcours.",
+    "tagline": "Le Petit Train de Vannes propose une visite guidée à travers l'une des plus belles cités médiévales de Bretagne. Confortablement installés à bord, les visiteurs découvrent les remparts, la vieille ville et le port de Vannes de manière détendue et accessible.",
     "quickLinks": "Liens Rapides",
     "contactUs": "Contactez-nous",
     "other": "Autres",
@@ -43,134 +43,134 @@
     "privatisation": "Privatisation"
   },
   "shared": {
-    "googleReviewsCount": "6 000+ avis",
-    "googleRatingDescription": "Le Petit Train de Carnac est noté 4,7 sur Google, avec plus de 6 000 avis, ce qui en fait l'une des attractions touristiques les plus populaires de Carnac.",
-    "googleRatingDescriptionAlt": "Le Petit Train de Carnac est noté plus de 4,7 sur Google, avec plus de 6 000 avis, ce qui en fait l'une des attractions touristiques les plus populaires de Carnac.",
+    "googleReviewsCount": "1 385+ avis",
+    "googleRatingDescription": "Le Petit Train de Vannes est noté 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
+    "googleRatingDescriptionAlt": "Le Petit Train de Vannes est noté plus de 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
     "starsAlt": "5 étoiles",
     "fourSevenStarsAlt": "4,7 sur 5 étoiles"
   },
   "hero": {
-    "label": "Le Petit Trains de Morbihan · Carnac",
+    "label": "Le Petit Train de Morbihan · Vannes",
     "headingPrefix": "Découvrez",
-    "headingHighlight": "Carnac",
+    "headingHighlight": "Vannes",
     "headingSuffix": "à bord du Petit Train",
-    "description": "Le Petit Train de Carnac propose une visite guidée touristique à travers la ville et ses environs. Découvrez le plus beau site néolithique du monde lors de cette <strong>visite guidée de 50 minutes.</strong> C'est une façon simple et confortable de découvrir Carnac, son patrimoine et ses paysages emblématiques, sans avoir besoin de marcher longtemps.",
+    "description": "Le Petit Train de Vannes vous emmène à la découverte des remparts médiévaux, de la vieille ville et du port dans un circuit guidé de <strong>40 minutes.</strong> Une façon simple, confortable et accessible de découvrir l'une des plus belles cités médiévales de Bretagne, sans effort et avec un commentaire audio clair tout au long du parcours.",
     "tagline": "Idéal pour les familles, les couples, les seniors et les visiteurs de tous âges.",
     "buttonBook": "Réservez votre visite",
     "buttonPrices": "Voir les Tarifs",
-    "googleBadge": "Le Petit Train de Carnac est noté 4,7 sur Google, avec plus de 6 000 avis, ce qui en fait l'une des attractions touristiques les plus populaires de Carnac.",
+    "googleBadge": "Le Petit Train de Vannes est noté 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
     "rightCardHeading": "Visite guidée avec commentaire audio en 16 langues",
     "rightCardBody": "Français, anglais, allemand, espagnol, italien, portugais, néerlandais, russe, chinois, japonais, suédois, danois, polonais, arabe, croate et slovène.",
     "rightCardFlagsAlt": "Drapeaux des langues",
-    "rightImageAlt": "Le Petit Train de Carnac sur un parcours pittoresque",
+    "rightImageAlt": "Le Petit Train de Vannes longeant les remparts médiévaux",
     "noteImportanteLabel": "Note Importante",
     "noteImportanteHeading": "Réservation en Ligne",
-    "noteImportanteBody": "La réservation est possible mais non obligatoire. Vous pouvez réserver jusqu'à <strong>2 heures</strong> avant le départ souhaité. N'oubliez pas de prévoir le temps de trajet et le stationnement sur place. Passé ce délai, rendez-vous directement au point de départ et achetez vos billets au guichet ou auprès du conducteur.",
+    "noteImportanteBody": "La réservation est possible mais non obligatoire. Vous pouvez vous présenter directement au point de départ <strong>Place Gambetta</strong> et acheter vos billets auprès du conducteur. En haute saison, nous vous conseillons de réserver à l'avance.",
     "noteImportanteBodyExtra": "Toutes les places ne sont pas disponibles à la vente en ligne."
   },
   "metadata": {
     "home": {
-      "title": "Le Petit Train de Carnac, Morbihan — Menhirs & Tour",
-      "description": "Visite guidée des mégalithes de Carnac à bord du Petit Train — tour de 55 minutes, commentaire audio multilingue, plages et port de La Trinité-sur-Mer."
+      "title": "Petit Train Vannes Remparts — Le Petit Train de Vannes, Morbihan",
+      "description": "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes."
     },
     "prices": {
-      "title": "Tarifs & Billets — Petit Train de Carnac, Morbihan",
-      "description": "Tarifs du tour des mégalithes en Petit Train de Carnac : 8,50€ adulte, 5€ enfant, gratuit pour les moins de 3 ans. Tarifs groupes et réservation en ligne."
+      "title": "Tarifs & Billets — Petit Train de Vannes, Morbihan",
+      "description": "Tarifs du circuit des remparts en Petit Train de Vannes : 8,50€ adulte, 5€ enfant, gratuit pour les moins de 4 ans. Tarifs groupes et réservation en ligne."
     },
     "routes": {
-      "title": "Parcours & Itinéraire — Petit Train de Carnac, Morbihan",
-      "description": "Découvrez le parcours du Petit Train de Carnac : menhirs de Carnac, Carnac-Plage et port de La Trinité-sur-Mer. Une visite guidée de 55 minutes avec commentaire audio en 16 langues."
+      "title": "Parcours & Itinéraire — Petit Train de Vannes, Morbihan",
+      "description": "Découvrez le parcours du Petit Train de Vannes : remparts médiévaux, vieille ville, port et jardins de la Garenne. Circuit guidé de 40 minutes avec commentaire audio en 16 langues."
     },
     "book": {
-      "title": "Réservez votre visite — Petit Train de Carnac, Morbihan",
-      "description": "Réservez votre tour des mégalithes de Carnac en Petit Train. Visite guidée de 55 minutes, audio multilingue, départ Parking du Ménec."
+      "title": "Réservez votre visite — Petit Train de Vannes, Morbihan",
+      "description": "Réservez votre tour des remparts de Vannes en Petit Train. Circuit de 40 minutes, commentaire audio multilingue, départ Place Gambetta."
     },
     "informations": {
-      "title": "Informations Pratiques — Petit Train de Carnac, Morbihan",
-      "description": "Informations pratiques pour préparer votre tour des mégalithes en Petit Train de Carnac : horaires, points de départ, durée, accès."
+      "title": "Informations Pratiques — Petit Train de Vannes, Morbihan",
+      "description": "Informations pratiques pour préparer votre visite en Petit Train de Vannes : horaires, point de départ Place Gambetta, durée, accès."
     },
     "faqs": {
-      "title": "FAQ — Petit Train de Carnac, Morbihan",
-      "description": "Questions fréquentes sur le tour des mégalithes de Carnac en Petit Train : durée, tarifs, parcours, accessibilité, réservations."
+      "title": "FAQ — Petit Train de Vannes, Morbihan",
+      "description": "Questions fréquentes sur le circuit des remparts de Vannes en Petit Train : durée, tarifs, parcours, accessibilité, réservations."
     },
     "careers": {
-      "title": "Carrières — Petit Train de Carnac, Morbihan",
-      "description": "Rejoignez l'équipe du Petit Train de Carnac. Postes saisonniers de conducteur, agent de billetterie et agent de quai."
+      "title": "Carrières — Petit Train de Vannes, Morbihan",
+      "description": "Rejoignez l'équipe du Petit Train de Vannes. Postes saisonniers disponibles en saison."
     },
     "privatisation": {
-      "title": "Privatisation & Groupes — Petit Train de Carnac, Morbihan",
-      "description": "Privatisez le Petit Train de Carnac pour vos événements professionnels, séminaires, mariages ou groupes scolaires."
+      "title": "Privatisation & Groupes — Petit Train de Vannes, Morbihan",
+      "description": "Privatisez le Petit Train de Vannes pour vos événements professionnels, séminaires, mariages ou groupes scolaires."
     }
   },
   "pages": {
     "prices": {
       "heroLabel": "Tarifs & Billets",
       "heroHeadingPrefix": "Tarifs des billets du",
-      "heroHeadingHighlight": "Petit Train de Carnac",
-      "heroDescription": "Retrouvez tous les tarifs et informations de réservation pour le Petit Train de Carnac. Cette page présente les tarifs individuels et de groupe, les réductions enfants, et comment réserver votre visite guidée à Carnac en toute confiance.",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescription": "Retrouvez tous les tarifs et informations de réservation pour le Petit Train de Vannes. Cette page présente les tarifs individuels et de groupe, les réductions enfants, et comment réserver votre visite guidée des remparts de Vannes.",
       "btnFlyerIndividual": "Flyer individuel",
       "btnFlyerGroup": "Flyer de groupe",
-      "reviewQuote": "« Je ne m'attendais pas à autant pour 8,50 euros. Vraiment une belle expérience. »",
-      "reviewAuthor": "Dom L. · Google Review",
+      "reviewQuote": "« Une belle découverte des remparts de Vannes. Je recommande vraiment cette visite à toute la famille. »",
+      "reviewAuthor": "Visiteur · Avis Google",
       "faqLabel": "Questions Fréquentes",
       "faqHeadingPrefix": "Questions Fréquemment Posées",
       "faqHeadingHighlight": "sur les Tarifs",
-      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur les tarifs, les réductions de groupe et comment réserver le Petit Train de Carnac.",
+      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur les tarifs, les réductions de groupe et comment réserver le Petit Train de Vannes.",
       "faq": {
-        "q1": "Quel est le tarif d'un billet pour le Petit Train de Carnac ?",
-        "a1": "Les tarifs dépendent de l'âge et de la taille du groupe. Pour les visiteurs individuels, le billet adulte standard est à 8,5 euros. Les enfants de moins de 12 ans bénéficient d'un tarif réduit à 5 euros. Les tarifs de groupe s'appliquent à partir de 20 personnes.",
+        "q1": "Quel est le tarif d'un billet pour le Petit Train de Vannes ?",
+        "a1": "Les tarifs dépendent de l'âge et de la taille du groupe. Pour les visiteurs individuels, le billet adulte standard est à 8,50 euros. Les enfants de 4 à 12 ans bénéficient d'un tarif réduit à 5 euros. Les enfants de moins de 4 ans sont gratuits.",
         "q2": "Y a-t-il des tarifs réduits pour les enfants ?",
-        "a2": "Oui. Les enfants de moins de 12 ans bénéficient d'un tarif réduit. Leur billet donne accès à la même visite guidée et au commentaire audio, dont une version spécialement adaptée aux enfants.",
+        "a2": "Oui. Les enfants de 4 à 12 ans bénéficient d'un tarif réduit à 5€. Les enfants de moins de 4 ans montent gratuitement à bord.",
         "q3": "Les enfants ont-ils besoin d'un billet pour monter dans le Petit Train ?",
-        "a3": "Oui. Tout passager doit être en possession d'un billet pour embarquer dans le Petit Train de Carnac. Des tarifs réduits sont appliqués pour les enfants de moins de 12 ans.",
+        "a3": "Les enfants de 4 ans et plus ont besoin d'un billet. Les enfants de moins de 4 ans embarquent gratuitement.",
         "q4": "Existe-t-il des réductions pour les groupes ?",
-        "a4": "Oui. Des tarifs de groupe sont disponibles à partir de 20 personnes embarquant. Ces tarifs réduits s'appliquent aux adultes comme aux enfants. La réservation à l'avance est recommandée.",
+        "a4": "Oui. Des tarifs de groupe sont disponibles à partir de 20 personnes embarquant. La réservation à l'avance est recommandée. Contactez-nous directement pour un devis.",
         "q5": "Qu'est-ce qui est inclus dans le prix du billet ?",
-        "a5": "Chaque billet comprend la visite guidée complète d'environ 55 minutes, le commentaire audio multilingue, une version adaptée aux enfants, et une expérience confortable à bord. Aucun supplément n'est à prévoir.",
+        "a5": "Chaque billet comprend la visite guidée complète d'environ 40 minutes, le commentaire audio en 16 langues, une version adaptée aux enfants, et une expérience confortable à bord.",
         "q6": "Peut-on acheter les billets sur place ?",
-        "a6": "Oui. Les billets peuvent être achetés au guichet situé au parking du Ménec, sous réserve de disponibilité. En haute saison touristique, il est conseillé de réserver à l'avance.",
+        "a6": "Oui. Les billets peuvent être achetés directement auprès du conducteur au départ Place Gambetta. En haute saison, il est conseillé de réserver à l'avance.",
         "q7": "Peut-on réserver des billets en ligne ?",
-        "a7": "Oui. La réservation en ligne est disponible et recommandée, notamment en période de pointe. Les réservations en ligne doivent être effectuées au moins deux heures avant le départ."
+        "a7": "Oui. La réservation en ligne est disponible et recommandée en période de pointe."
       }
     },
     "routes": {
       "heroLabel": "Le Parcours",
       "heroHeadingPrefix": "Le parcours",
-      "heroHeadingHighlight": "du Petit Train de Carnac",
-      "heroDescriptionP1": "Découvrez le parcours complet du Petit Train de Carnac à travers les menhirs de Carnac, Carnac-Plage et le port de La Trinité-sur-Mer.",
-      "heroDescriptionP2": "Une visite guidée de 55 minutes avec commentaire audio en 16 langues, qui combine les sites les plus remarquables de la région en un seul circuit confortable.",
-      "heroImageAlt": "Carte du parcours du Petit Train de Carnac — cliquer pour agrandir",
+      "heroHeadingHighlight": "du Petit Train de Vannes",
+      "heroDescriptionP1": "Découvrez le parcours complet du Petit Train de Vannes à travers les remparts médiévaux, la vieille ville et le port.",
+      "heroDescriptionP2": "Un circuit guidé de 40 minutes avec commentaire audio en 16 langues, qui combine les plus beaux sites de Vannes en un seul parcours confortable depuis la Place Gambetta.",
+      "heroImageAlt": "Carte du parcours du Petit Train de Vannes — cliquer pour agrandir",
       "faqLabel": "Questions Fréquentes",
       "faqHeadingPrefix": "Questions Fréquemment Posées",
       "faqHeadingHighlight": "sur le parcours",
-      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le parcours, les arrêts et la durée du Petit Train de Carnac."
+      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le parcours, les arrêts et la durée du Petit Train de Vannes."
     },
     "informations": {
       "heroLabel": "Informations Pratiques",
       "heroHeadingPrefix": "Informations pratiques pour",
-      "heroHeadingHighlight": "le Petit Train de Carnac",
+      "heroHeadingHighlight": "le Petit Train de Vannes",
       "heroDescription": "Retrouvez ici toutes les informations pratiques pour préparer votre visite : horaires, accès, durée, accessibilité et conseils utiles.",
-      "heroImageAlt": "Le Petit Train de Carnac au bord de la mer"
+      "heroImageAlt": "Le Petit Train de Vannes longeant les remparts médiévaux"
     },
     "faqs": {
       "heroLabel": "FAQ",
       "heroHeadingPrefix": "Questions Fréquemment Posées",
-      "heroDescription": "Trouvez des réponses aux questions les plus fréquentes sur le Petit Train de Carnac : durée, tarifs, parcours, accessibilité et réservations."
+      "heroDescription": "Trouvez des réponses aux questions les plus fréquentes sur le Petit Train de Vannes : durée, tarifs, parcours, accessibilité et réservations."
     },
     "careers": {
       "heroLabel": "Carrières",
       "heroHeadingPrefix": "Votre carrière au",
-      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingHighlight": "Petit Train de Vannes",
       "heroHeadingSuffix": "commence ici",
-      "heroDescription": "Notre philosophie est simple : un service chaleureux, fiable et respectueux à chaque visiteur. Nous recherchons des personnes attentionnées, professionnelles et passionnées par le partage de Carnac avec ses visiteurs.",
+      "heroDescription": "Notre philosophie est simple : un service chaleureux, fiable et respectueux à chaque visiteur. Nous recherchons des personnes attentionnées, professionnelles et passionnées par le partage de Vannes avec ses visiteurs.",
       "buttonApply": "Postulez & Envoyez-nous votre CV",
       "jobsLabel": "Postes Ouverts :",
       "jobBadgeSeasonal": "Poste saisonnier"
     },
     "privatisation": {
       "overlayLabel": "Privatisation & location B2B",
-      "overlayHeading": "Privatisez le Petit Train de Carnac pour votre événement",
-      "overlayDescription": "Le Petit Train de Carnac peut être privatisé pour vos événements d'entreprise, séminaires, mariages, groupes scolaires ou visites VIP. Contactez-nous pour un devis personnalisé."
+      "overlayHeading": "Privatisez le Petit Train de Vannes pour votre événement",
+      "overlayDescription": "Le Petit Train de Vannes peut être privatisé pour vos événements d'entreprise, séminaires, mariages, groupes scolaires ou visites VIP. Contactez-nous pour un devis personnalisé."
     },
     "mentionsLegales": {
       "title": "Mentions Légales"
@@ -183,47 +183,47 @@
     "practicalInfo": {
       "label": "Informations",
       "heading": "Informations Pratiques",
-      "description": "Pour vous aider à planifier votre visite en train touristique à Carnac, voici les informations essentielles à connaître avant de réserver.",
+      "description": "Pour vous aider à planifier votre visite en Petit Train à Vannes, voici les informations essentielles à connaître avant de réserver.",
       "duration": {
         "title": "Durée",
-        "description": "La visite touristique dure environ <strong>55 minutes.</strong> Cette durée vous permet de découvrir Carnac à un rythme détendu tout en profitant du commentaire et des paysages, sans vous sentir pressé ou fatigué."
+        "description": "La visite touristique dure environ <strong>40 minutes.</strong> Ce circuit vous permet de découvrir Vannes à un rythme détendu, des remparts à la vieille ville et au port, sans vous sentir pressé."
       },
       "departure": {
         "title": "Départ",
-        "description": "Point de départ obligatoire pour les <strong>groupes</strong> et les <strong>réservations individuelles</strong>. Situé au <strong>parking du Ménec</strong> à Carnac, directement en face de la Maison des Mégalithes. L'arrêt est clairement signalisé et facile d'accès."
+        "description": "Le seul point de départ est la <strong>Place Gambetta</strong>, au cœur de Vannes, à deux pas des remparts médiévaux. L'arrêt est clairement signalisé et facile d'accès depuis le centre-ville."
       },
       "schedule": {
         "title": "Horaires",
-        "description": "Les départs ont lieu <strong>d'avril à septembre</strong>, plusieurs fois par jour. Le train fonctionne tous les jours en haute saison. Veuillez consulter les horaires actuels pour les heures exactes de départ et les ajustements saisonniers."
+        "description": "Les départs ont lieu <strong>d'avril à la Toussaint</strong>, toutes les 40 minutes. Le train fonctionne tous les jours y compris les dimanches et jours fériés en saison."
       },
       "accessibility": {
         "title": "Accessibilité",
-        "description": "Le Petit Train est <strong>accessible à tous</strong>. Il est idéal pour les familles avec jeunes enfants, les visiteurs âgés et toute personne préférant éviter les longues marches tout en profitant du meilleur de Carnac."
+        "description": "Le Petit Train est <strong>accessible à tous</strong>. Il est idéal pour les familles avec jeunes enfants, les seniors et toute personne préférant éviter les longues marches tout en profitant du meilleur de Vannes."
       },
       "payment": {
         "title": "Paiement",
-        "description": "Les billets peuvent être achetés <strong>directement à bord</strong> ou au point de départ. Le paiement en espèces ou par carte est accepté. Des tarifs groupes et scolaires sont disponibles — contactez-nous pour un devis."
+        "description": "Les billets peuvent être achetés <strong>directement auprès du conducteur</strong> au départ Place Gambetta. Des tarifs groupes sont disponibles — contactez-nous pour un devis."
       },
       "cta": {
         "heading": "Plus d'informations",
-        "description": "Consultez notre guide complet pour les tarifs des billets, les modes de paiement et des conseils supplémentaires pour profiter au maximum de votre voyage à travers les mégalithes.",
+        "description": "Consultez notre guide complet pour les tarifs des billets, les modes de paiement et des conseils pour profiter au maximum de votre visite des remparts de Vannes.",
         "button": "En savoir plus"
       }
     },
     "prices": {
       "label": "Tarifs",
       "heading": "Une aventure abordable pour toute la famille",
-      "description": "Des explorateurs solitaires aux grandes familles, trouvez le tarif idéal pour votre visite. Profitez de nos tarifs spéciaux pour les enfants et les familles.",
+      "description": "Des explorateurs solitaires aux grandes familles, trouvez le tarif idéal pour votre visite des remparts de Vannes.",
       "rowAdults": "Adultes",
-      "rowChildren": "Enfants de moins de 12 ans",
+      "rowChildren": "Enfants (4–12 ans)",
       "individual": {
         "title": "Billets Individuels",
-        "note": "<strong>Pour les individuels :</strong> le point de rendez-vous est au point de départ ; guichet sur place. <strong>Gratuit :</strong> enfants de moins de 3 ans et chiens."
+        "note": "<strong>Pour les individuels :</strong> achetez vos billets directement auprès du conducteur à la Place Gambetta. <strong>Gratuit :</strong> enfants de moins de 4 ans."
       },
       "earlyBird": {
         "title": "Premiers départs du matin",
         "badge": "Bon Plan",
-        "note": "<strong>Tarif réduit :</strong> -1,50€ de réduction par ticket, applicable uniquement aux premiers départs du matin (avant 10H20 ou 10H30 selon la destination). Billets disponibles au guichet sur place."
+        "note": "<strong>Tarif réduit :</strong> applicable uniquement aux premiers départs du matin. Billets disponibles auprès du conducteur sur place."
       },
       "group": {
         "title": "Réservation de Groupe",
@@ -233,48 +233,48 @@
     },
     "beforeYouBook": {
       "heading": "Avant de réserver",
-      "description": "Avant de confirmer votre réservation, prenez un moment pour consulter les informations pratiques sur la visite en Petit Train de Carnac. Ces points vous aideront à vivre une expérience fluide le jour de votre visite et à éviter toute incertitude concernant les horaires, le départ et le déroulement de la visite.",
-      "imageAlt": "Mégalithes de Carnac au point de départ",
-      "bullet1": "Veuillez arriver au moins 15 minutes avant le départ",
-      "bullet2": "La réservation en ligne doit être effectuée au moins deux heures avant le départ",
-      "bullet3": "Les visiteurs individuels commencent et terminent la visite au point de départ du Ménec",
-      "bullet4": "La visite dure environ 55 minutes",
-      "bullet5": "Le commentaire audio est disponible en plusieurs langues, dont une version pour enfants",
+      "description": "Avant de confirmer votre réservation, prenez un moment pour consulter les informations pratiques sur la visite en Petit Train de Vannes. Ces points vous aideront à préparer votre visite et à profiter pleinement du circuit des remparts.",
+      "imageAlt": "Les remparts de Vannes vus depuis le Petit Train",
+      "bullet1": "Veuillez arriver au moins 10 minutes avant le départ",
+      "bullet2": "La réservation en ligne est recommandée en haute saison",
+      "bullet3": "Le départ et l'arrivée se font à la Place Gambetta",
+      "bullet4": "La visite dure environ 40 minutes",
+      "bullet5": "Le commentaire audio est disponible en 16 langues, dont une version pour enfants",
       "bullet6": "Le Petit Train fonctionne par tous les temps",
-      "bullet7": "Le départ est assuré à partir de 6 adultes payants à bord"
+      "bullet7": "Le départ est assuré à partir de quelques adultes payants à bord"
     },
     "features": {
       "label": "Aperçu du Circuit",
-      "heading": "Une façon simple et agréable d'explorer Carnac",
-      "p1": "Le Petit Train de Carnac vous invite à découvrir la ville à un rythme détendu, confortablement installé à bord d'un train touristique conçu pour les visiteurs qui souhaitent profiter de Carnac sans effort.",
-      "p2": "Pendant la visite, le commentaire audio fournit des informations claires et accessibles sur les lieux traversés, vous aidant à comprendre l'histoire, les monuments et l'atmosphère de Carnac. Ce train touristique est idéal pour les visiteurs qui recherchent une introduction agréable à Carnac et ses environs.",
-      "imageAlt": "Vue pittoresque depuis le Petit Train de Carnac",
+      "heading": "Une façon simple et agréable d'explorer Vannes",
+      "p1": "Le Petit Train de Vannes vous invite à découvrir la ville à un rythme détendu, confortablement installé à bord d'un train touristique conçu pour les visiteurs qui souhaitent profiter de Vannes sans effort.",
+      "p2": "Pendant la visite, le commentaire audio fournit des informations claires et accessibles sur les remparts, la vieille ville et le port de Vannes. Ce train touristique est idéal pour les visiteurs qui recherchent une introduction agréable à cette cité médiévale et son histoire.",
+      "imageAlt": "Vue sur les remparts de Vannes depuis le Petit Train",
       "f1Title": "Petit train touristique confortable",
-      "f1Desc": "Découvrez les plus beaux sites de Carnac confortablement assis à bord de notre train touristique, conçu pour les visiteurs qui souhaitent explorer sans effort.",
+      "f1Desc": "Découvrez les plus beaux sites de Vannes confortablement assis à bord de notre train touristique, conçu pour les visiteurs qui souhaitent explorer la cité médiévale sans effort.",
       "f2Title": "Commentaire audio en 16 langues — inclus dans le billet",
       "f2Desc": "Le commentaire audio est disponible en 16 langues, avec casques hygiéniques fournis, inclus dans le prix du billet. Une version pour les enfants est également disponible.",
-      "f3Title": "Découverte du patrimoine et des paysages de Carnac",
-      "f3Desc": "Découvrez 47 points d'intérêt commentés : alignements du Ménec, Kermario et Kerlescan, plages de sable blanc et port de La Trinité-sur-Mer en un seul voyage pittoresque.",
+      "f3Title": "Découverte du patrimoine médiéval de Vannes",
+      "f3Desc": "Découvrez les remparts médiévaux, la vieille ville avec ses maisons à colombages, le port de Vannes et les jardins de la Garenne en un seul circuit pittoresque de 40 minutes.",
       "f4Title": "Adapté aux familles, seniors et groupes",
       "f4Desc": "Notre train accueille tous les âges et toutes les tailles de groupes — pas de longues marches, pas d'effort, juste une expérience confortable et agréable pour tous."
     },
     "groupBookingCta": {
       "label": "Réservation de Groupe — Privatisation",
       "heading": "Réservation pour visites privées",
-      "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Carnac pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
+      "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Vannes pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
       "button": "Réservation privatisation"
     },
     "locations": {
       "label": "Destinations",
       "heading": "Découvrez nos autres circuits en Petit Train en Morbihan",
-      "description": "Prolongez votre visite du Morbihan avec nos autres petits trains touristiques. À Vannes et à Quiberon, découvrez de nouveaux paysages, un patrimoine unique et des moments inoubliables.",
+      "description": "Prolongez votre visite du Morbihan avec nos autres petits trains touristiques. À Carnac et à Quiberon, découvrez de nouveaux paysages, un patrimoine unique et des moments inoubliables.",
       "discover": "Découvrir",
-      "vannes": {
-        "title": "Le Petit Train de Vannes",
-        "tagline": "Découvrez le cœur historique de Vannes",
-        "description": "Montez à bord du Petit Train de Vannes pour découvrir les remparts médiévaux, le port et les ruelles pittoresques de la vieille ville.",
-        "cta": "Découvrir le Petit Train de Vannes",
-        "imageAlt": "Centre historique de Vannes"
+      "carnac": {
+        "title": "Le Petit Train de Carnac",
+        "tagline": "Découvrez les menhirs et les plages de Carnac",
+        "description": "Montez à bord du Petit Train de Carnac pour une visite guidée des célèbres menhirs, des plages de sable blanc et du port de La Trinité-sur-Mer.",
+        "cta": "Découvrir le Petit Train de Carnac",
+        "imageAlt": "Alignements de menhirs de Carnac"
       },
       "quiberon": {
         "title": "Le Petit Train de Quiberon",
@@ -287,7 +287,7 @@
     "reviews": {
       "label": "Avis",
       "heading": "Ce que disent les visiteurs du train ?",
-      "description": "Le Petit Train de Carnac est noté plus de 4,7 sur Google, avec plus de 6 000 avis, ce qui en fait l'une des attractions touristiques les plus populaires de Carnac.",
+      "description": "Le Petit Train de Vannes est noté plus de 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
       "googleReview": "Avis Google",
       "slideAriaLabel": "Avis {n} sur {total}",
       "regionAriaLabel": "Avis des visiteurs",
@@ -298,13 +298,13 @@
       "label": "Réservation",
       "headingPrefix": "Réservez votre visite en",
       "headingHighlight": "Petit Train",
-      "headingSuffix": "à Carnac",
-      "description": "Choisissez votre date et votre heure, sélectionnez le nombre de billets et confirmez votre réservation en ligne. La visite dure <strong>55 minutes</strong> avec un commentaire audio disponible en 16 langues."
+      "headingSuffix": "à Vannes",
+      "description": "Choisissez votre date et votre heure, sélectionnez le nombre de billets et confirmez votre réservation en ligne. La visite dure <strong>40 minutes</strong> avec un commentaire audio disponible en 16 langues."
     },
     "gallery": {
       "label": "Galerie",
       "heading": "Des souvenirs de votre visite",
-      "description": "Un aperçu de ce qui vous attend à bord du Petit Train de Carnac. Cliquez pour agrandir.",
+      "description": "Un aperçu de ce qui vous attend à bord du Petit Train de Vannes. Cliquez pour agrandir.",
       "expandImage": "Agrandir l'image {n}",
       "prevImage": "Image précédente",
       "nextImage": "Image suivante",
@@ -312,141 +312,127 @@
     },
     "ourLocation": {
       "label": "Notre Emplacement",
-      "heading": "Comment accéder au Petit Train de Carnac",
-      "description": "Le Petit Train de Carnac est facilement accessible en voiture, en train ou en bus. Voici les principaux points de départ et conseils pour votre arrivée.",
+      "heading": "Comment accéder au Petit Train de Vannes",
+      "description": "Le Petit Train de Vannes part de la Place Gambetta, au cœur de la ville, à deux pas des remparts médiévaux. Facilement accessible en voiture ou en transport en commun.",
       "seeRoute": "Voir l'itinéraire",
       "arrivalTipTitle": "Conseil d'arrivée",
-      "arrivalTipDescription": "Merci d'arriver au moins 15 minutes avant le départ.",
-      "item1Title": "Point de départ principal — Parking du Ménec",
-      "item1Description": "Point de départ obligatoire pour les groupes et les réservations individuelles. Situé au parking du Ménec à Carnac, directement en face de la Maison des Mégalithes.",
-      "item2Title": "Point 2 — Carnac Plage (Port-En-Drô)",
-      "item2Description": "Achetez vos billets sur place auprès du conducteur, sous réserve de disponibilité.",
-      "item3Title": "Point 3 — La Trinité-sur-Mer",
-      "item3Description": "Arrêt de bus Cours des Quais, côté mer (avant le rond-point Alain Barrière). Achetez vos billets sur place auprès du conducteur, sous réserve de disponibilité.",
-      "item4Title": "En voiture",
-      "item4Description": "Si vous venez en voiture, suivez les indications vers Carnac et le parking du Ménec. Le stationnement est gratuit.",
-      "item5Title": "En train",
-      "item5Description": "La gare la plus proche est Auray, située à environ 13 km de Carnac. Des bus relient Auray à Carnac en haute saison."
+      "arrivalTipDescription": "Merci d'arriver au moins 10 minutes avant le départ pour acheter vos billets auprès du conducteur.",
+      "item1Title": "Point de départ — Place Gambetta",
+      "item1Description": "Seul point de départ et d'arrivée. Situé au cœur de Vannes, à deux pas des remparts médiévaux. Le conducteur vend les billets sur place.",
+      "item2Title": "En voiture",
+      "item2Description": "Suivez les indications vers le centre-ville de Vannes et la Place Gambetta. Des parkings sont disponibles à proximité.",
+      "item3Title": "En train",
+      "item3Description": "La gare de Vannes est située à environ 10 minutes à pied de la Place Gambetta. Des bus locaux assurent également la liaison."
     },
     "informationsIntro": {
       "label": "Note Importante",
       "heading": "Réservation en Ligne",
-      "description": "La réservation est possible mais non obligatoire. Vous pouvez réserver jusqu'à <strong>2 heures</strong> avant le départ souhaité. N'oubliez pas de prévoir le temps de trajet et le stationnement sur place. Passé ce délai, rendez-vous directement au point de départ et achetez vos billets au guichet ou auprès du conducteur."
+      "description": "La réservation est possible mais non obligatoire. Vous pouvez vous présenter directement à la <strong>Place Gambetta</strong> et acheter vos billets auprès du conducteur. En haute saison, nous vous conseillons de réserver à l'avance."
     },
     "informationsCta": {
       "label": "Réservation de Groupe — Privatisation",
       "heading": "Réservation pour visites privées",
-      "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Carnac pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
+      "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Vannes pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
       "button": "Réservation privatisation"
     },
     "faqsHero": {
       "label": "FAQ",
       "heading": "Questions Fréquemment Posées",
-      "description": "Trouvez des réponses aux questions les plus fréquentes sur le Petit Train de Carnac : durée, tarifs, parcours, accessibilité et réservations.",
+      "description": "Trouvez des réponses aux questions les plus fréquentes sur le Petit Train de Vannes : durée, tarifs, parcours, accessibilité et réservations.",
       "cardHeading": "Visite guidée avec commentaire audio en 16 langues",
       "languages": "Français, anglais, allemand, espagnol, italien, portugais, néerlandais, russe, chinois, japonais, suédois, danois, polonais, arabe, croate et slovène."
     },
     "faq": {
       "defaultLabel": "FAQ",
       "defaultHeading": "Questions Fréquemment Posées",
-      "defaultDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le Petit Train de Carnac.",
+      "defaultDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le Petit Train de Vannes.",
       "button": "Réservez votre visite",
       "default": {
-        "q1": "Qu'est-ce que le Petit Train de Carnac ?",
-        "a1": "Le Petit Train de Carnac est un train touristique guidé qui parcourt Carnac et ses environs : menhirs, plages et port de La Trinité-sur-Mer.",
-        "q2": "Combien de temps dure la visite en Petit Train de Carnac ?",
-        "a2": "La visite guidée dure environ 55 minutes au total, avec un commentaire audio multilingue tout au long du parcours.",
-        "q3": "D'où part le Petit Train de Carnac ?",
-        "a3": "Le point de départ et d'arrivée principal se trouve au parking du Ménec, en face de la Maison des Mégalithes.",
-        "q4": "Que vais-je voir pendant la visite en Petit Train de Carnac ?",
-        "a4": "Pendant la visite, vous passerez à proximité des célèbres alignements de menhirs, du tumulus Saint-Michel, de Carnac-Plage et du port de La Trinité-sur-Mer.",
-        "q5": "Le Petit Train de Carnac est-il adapté aux enfants et aux familles ?",
-        "a5": "Oui, le Petit Train de Carnac convient aux familles avec enfants, aux personnes âgées et à toute personne préférant éviter les longues marches.",
+        "q1": "Qu'est-ce que le Petit Train de Vannes ?",
+        "a1": "Le Petit Train de Vannes est un train touristique guidé qui vous emmène à la découverte des remparts médiévaux, de la vieille ville et du port de Vannes en 40 minutes.",
+        "q2": "Combien de temps dure la visite en Petit Train de Vannes ?",
+        "a2": "La visite guidée dure environ 40 minutes au total, avec un commentaire audio multilingue tout au long du parcours.",
+        "q3": "D'où part le Petit Train de Vannes ?",
+        "a3": "Le départ et l'arrivée se font à la Place Gambetta, au cœur de Vannes, à deux pas des remparts médiévaux.",
+        "q4": "Que vais-je voir pendant la visite en Petit Train de Vannes ?",
+        "a4": "Pendant la visite, vous découvrirez les remparts médiévaux, la vieille ville avec ses maisons à colombages, le port de Vannes et les jardins de la Garenne.",
+        "q5": "Le Petit Train de Vannes est-il adapté aux enfants et aux familles ?",
+        "a5": "Oui, le Petit Train de Vannes convient parfaitement aux familles avec enfants, aux seniors et à toute personne préférant éviter les longues marches.",
         "q6": "Dans quelles langues le commentaire guidé est-il disponible ?",
         "a6": "Le commentaire audio guidé est disponible en 16 langues, dont le français, l'anglais, l'allemand, l'espagnol, l'italien et le néerlandais.",
-        "q7": "Faut-il réserver le Petit Train de Carnac à l'avance ?",
-        "a7": "La réservation à l'avance est recommandée, surtout en haute saison. Les billets peuvent aussi être achetés sur place sous réserve de disponibilité."
+        "q7": "Faut-il réserver le Petit Train de Vannes à l'avance ?",
+        "a7": "La réservation est possible mais non obligatoire. En haute saison, il est conseillé de réserver à l'avance pour garantir votre place."
       }
     },
     "routesTimeline": {
       "label": "Chronologie du Parcours",
-      "headingPrefix": "Arrêts et parcours du",
-      "headingHighlight": "Petit Train de Carnac",
-      "intro": "Au cours de la visite guidée, le Petit Train de Carnac traverse plusieurs lieux clés, offrant un aperçu complet de Carnac et de ses environs.",
-      "introBold": "Le Petit Train de Carnac dessert les arrêts suivants au cours de la visite :",
+      "headingPrefix": "Point de départ du",
+      "headingHighlight": "Petit Train de Vannes",
+      "intro": "Au cours de la visite guidée, le Petit Train de Vannes part de la Place Gambetta et vous fait découvrir les remparts, la vieille ville, le port et les jardins de la Garenne.",
+      "introBold": "Le Petit Train de Vannes part du point de départ suivant :",
       "btnBook": "Réservez votre visite",
       "btnPrices": "Voir les Tarifs",
-      "stop1Name": "Parking du Ménec, Carnac",
-      "stop1Bullet1": "Situé en face de la Maison des Mégalithes",
-      "stop1Bullet2": "Point de départ n°1",
-      "stop1Bullet3": "Point de départ obligatoire pour les visiteurs individuels",
-      "stop1Bullet4": "Guichet sur place",
-      "stop1Note": "C'est le seul point d'embarquement garanti pour les billets individuels.",
-      "stop1ImageAlt": "Parking du Ménec, Carnac — point de départ du Petit Train",
-      "stop2Name": "Port-En-Drô, Carnac plage",
-      "stop2Bullet1": "Arrêt situé près de la plage de Carnac",
-      "stop2Bullet2": "Idéal pour les visiteurs séjournant côté mer",
-      "stop2Note": "Achetez vos billets sur place au moment du départ (pas de réservation possible).",
-      "stop2ImageAlt": "Plage de Carnac — arrêt Port-En-Drô",
-      "stop3Name": "Port de La Trinité-sur-Mer",
-      "stop3Bullet1": "Situé près de l'arrêt de bus « Cours des Quais »",
-      "stop3Bullet2": "À proximité de la célèbre marina et du plan d'eau de voile",
-      "stop3ImageAlt": "Port de La Trinité-sur-Mer"
+      "stop1Name": "Place Gambetta, Vannes",
+      "stop1Bullet1": "Au cœur de la ville, à deux pas des remparts médiévaux",
+      "stop1Bullet2": "Accès facile depuis le centre-ville et les parkings proches",
+      "stop1Bullet3": "Conducteur sur place pour la vente de billets",
+      "stop1Note": "Seul point d'embarquement — départ et arrivée à la Place Gambetta.",
+      "stop1ImageAlt": "Place Gambetta, Vannes — point de départ du Petit Train"
     },
     "faqsSection": {
-      "q1": "Qu'est-ce que le Petit Train de Carnac ?",
-      "a1": "Le Petit Train de Carnac est un train touristique guidé qui permet aux visiteurs de découvrir Carnac et ses environs de façon confortable et accessible. La visite inclut les menhirs de Carnac, la plage de Carnac et le port de La Trinité-sur-Mer, avec un commentaire audio tout au long du parcours.",
+      "q1": "Qu'est-ce que le Petit Train de Vannes ?",
+      "a1": "Le Petit Train de Vannes est une visite guidée touristique à bord d'un petit train qui vous emmène à la découverte des plus beaux sites de la ville : les remparts médiévaux, la vieille ville, le port et les jardins de la Garenne. La visite dure environ 40 minutes et est accompagnée d'un commentaire audio disponible en 16 langues.",
       "q2": "Combien de temps dure la visite ?",
-      "a2": "La visite guidée dure environ 55 minutes. Cette durée permet aux visiteurs de voir les principaux sites de Carnac sans longues distances à parcourir à pied.",
-      "q3": "D'où part le Petit Train de Carnac ?",
-      "a3": "Le point de départ et d'arrivée principal pour les visiteurs individuels est le parking du Ménec à Carnac, situé en face de la Maison des Mégalithes.",
-      "q4": "Le Petit Train fonctionne-t-il tous les jours ?",
-      "a4": "Oui. Le Petit Train de Carnac fonctionne tous les jours d'avril à fin octobre, y compris les dimanches et jours fériés.",
+      "a2": "La visite guidée dure environ 40 minutes. Le petit train part de la Place Gambetta et revient au même point de départ.",
+      "q3": "D'où part le Petit Train de Vannes ?",
+      "a3": "Le Petit Train part de la Place Gambetta, au cœur de la ville, à deux pas des remparts médiévaux. C'est le seul point de départ et d'arrivée.",
+      "q4": "Le Petit Train de Vannes fonctionne-t-il tous les jours ?",
+      "a4": "Oui. Le Petit Train de Vannes fonctionne tous les jours d'avril à la Toussaint, y compris les dimanches et jours fériés.",
       "q5": "La visite fonctionne-t-elle par mauvais temps ?",
-      "a5": "Oui. Le Petit Train fonctionne par tous les temps. En cas de pluie ou de grand vent, le train est vitré sur trois côtés, vous permettant de profiter pleinement de votre visite.",
+      "a5": "Oui. Le Petit Train fonctionne par tous les temps. En cas de fortes intempéries exceptionnelles, le service peut être interrompu pour la sécurité des passagers.",
       "q6": "Que vais-je voir pendant la visite ?",
-      "a6": "Pendant la visite, vous passerez à proximité des menhirs de Carnac, dont les alignements du Ménec, de Kermario et de Kerlescan. Vous découvrirez également la plage de Carnac, ses plages de sable blanc et le port de La Trinité-sur-Mer.",
+      "a6": "Pendant la visite, vous découvrirez les remparts médiévaux de Vannes, la vieille ville avec ses maisons à colombages, le port de Vannes, les jardins de la Garenne et les plus beaux panoramas de la cité médiévale.",
       "q7": "Dans quelles langues le commentaire audio est-il disponible ?",
-      "a7": "Le commentaire audio guidé est disponible en 16 langues : français, anglais, allemand, espagnol, italien, portugais, néerlandais, polonais, russe, suédois, danois, tchèque, chinois, japonais et d'autres langues. Le commentaire audio est inclus dans le prix du billet — aucun supplément. Une version spécialement conçue pour les enfants est également disponible.",
+      "a7": "Le commentaire audio guidé est disponible en 16 langues : français, anglais, allemand, espagnol, italien, portugais, néerlandais, polonais, russe, suédois, danois, chinois, japonais, arabe, croate et slovène. Le commentaire audio est inclus dans le prix du billet. Une version spécialement conçue pour les enfants est également disponible.",
       "q8": "La visite est-elle adaptée aux enfants ?",
-      "a8": "Oui. Le Petit Train de Carnac convient aux enfants et aux familles. Le commentaire audio pour enfants offre une expérience à la fois ludique et éducative.",
+      "a8": "Oui. Le Petit Train de Vannes convient aux enfants et aux familles. Le commentaire audio pour enfants offre une expérience à la fois ludique et éducative.",
       "q9": "Combien coûte un billet ?",
-      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes et les enfants de moins de 12 ans bénéficient de tarifs différents. Les tarifs complets sont disponibles sur la ",
+      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes payent 8,50€ et les enfants de 4 à 12 ans payent 5€. Les enfants de moins de 4 ans sont gratuits. Les tarifs complets sont disponibles sur la ",
       "q9LinkText": "page Tarifs et Billets",
       "q9Post": ".",
       "q10": "Faut-il réserver à l'avance ?",
-      "a10": "La réservation à l'avance est recommandée, surtout pendant les périodes touristiques chargées. Les réservations en ligne doivent être effectuées au moins deux heures avant le départ.",
+      "a10": "La réservation est possible mais non obligatoire. En haute saison (juillet–août), nous recommandons de réserver à l'avance pour garantir votre place.",
       "q11": "Puis-je acheter des billets sur place ?",
-      "a11": "Oui. Les billets peuvent être achetés au guichet situé au parking du Ménec, sous réserve de disponibilité.",
+      "a11": "Oui. Les billets peuvent être achetés directement auprès du conducteur au départ Place Gambetta.",
       "q12": "Combien de temps à l'avance dois-je arriver avant le départ ?",
-      "a12": "Il est demandé aux visiteurs d'arriver au moins 15 minutes avant le départ pour valider leur billet et embarquer.",
+      "a12": "Il est conseillé d'arriver au moins 10 minutes avant le départ pour acheter vos billets et embarquer.",
       "q13": "Les réservations de groupe sont-elles disponibles ?",
       "a13": "Oui. Les réservations de groupe sont disponibles pour les groupes de 20 personnes ou plus. La réservation à l'avance est recommandée.",
       "q14": "Puis-je privatiser le Petit Train pour un événement ?",
-      "q14Pre": "Oui. Le Petit Train de Carnac peut être privatisé pour des événements d'entreprise, des associations, des groupes scolaires et des occasions privées. Un formulaire de demande dédié est disponible sur la ",
+      "q14Pre": "Oui. Le Petit Train de Vannes peut être privatisé pour des événements d'entreprise, des associations, des groupes scolaires et des occasions privées. Un formulaire de demande dédié est disponible sur la ",
       "q14LinkText": "page Privatisation",
       "q14Post": "."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Période d'exploitation",
-      "operatingPeriodBody": "Le Petit Train de Carnac fonctionne 7j/7 d'avril à fin octobre, y compris les dimanches et jours fériés.",
+      "operatingPeriodBody": "Le Petit Train de Vannes fonctionne 7j/7 d'avril à la Toussaint, y compris les dimanches et jours fériés.",
       "weatherTitle": "Météo",
-      "weatherBody": "En cas de pluie ou de grand vent, le train est vitré sur trois côtés, vous permettant de profiter pleinement de votre visite.",
+      "weatherBody": "Le Petit Train circule par tous les temps. En cas de fortes intempéries exceptionnelles, le service peut être interrompu pour la sécurité des passagers.",
       "timetableHeading": "Horaires",
       "departurePrefix": "Départ —",
-      "saturdayRule": "<strong>Samedi en juillet & août :</strong> les départs Carnac Plage et La Trinité-sur-Mer suivent les horaires « orange » de basse saison.",
-      "onlineBookingNote": "<strong>Réservation en ligne :</strong> uniquement disponible pour le départ N°1 — Parking du Ménec.",
-      "closuresHeading": "Jours fériés & Fermetures",
-      "closuresBody": "Les jours fériés suivent les horaires habituels. Le Petit Train est <strong>fermé du 9 au 16 octobre</strong> ainsi que <strong>de novembre à mars inclus</strong>.",
+      "saturdayRule": "<strong>Jours fériés :</strong> même horaires que les jours ordinaires. Le Petit Train est ouvert tous les jours fériés en saison.",
+      "onlineBookingNote": "<strong>Réservation en ligne :</strong> disponible depuis la Place Gambetta. Départ toutes les 40 minutes en saison.",
+      "closuresHeading": "Fermetures",
+      "closuresBody": "Le Petit Train est <strong>fermé du 13 au 21 octobre</strong> ainsi que <strong>de décembre à mars inclus</strong>.",
       "viewPlanButton": "Voir le plan",
-      "viewPlanImageAlt": "Plan du parcours — Menhirs Tour en Petit Train de Carnac",
+      "viewPlanImageAlt": "Plan du parcours — Petit Train de Vannes",
       "lightboxClose": "Fermer"
     },
     "routesHeroDefaults": {
       "primaryButton": "Flyer individuel",
       "secondaryButton": "Flyer de groupe",
-      "googleReviewsCount": "6 000+ avis",
-      "googleBadgeText": "<strong>Le Petit Train de Carnac</strong> est noté plus de 4,7 sur Google, avec plus de 6 000 avis, ce qui en fait l'une des attractions touristiques les plus populaires de Carnac.",
+      "googleReviewsCount": "1 385+ avis",
+      "googleBadgeText": "<strong>Le Petit Train de Vannes</strong> est noté plus de 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
       "lightboxClose": "Fermer",
       "lightboxEnlarge": "Agrandir : {alt}",
       "lightboxAriaLabel": "Vue agrandie : {alt}"
@@ -455,34 +441,34 @@
       "sectionLabel": "Carrières",
       "headingPrefix": "Votre carrière au",
       "headingSuffix": "commence ici",
-      "description": "Notre philosophie est simple : offrir aux visiteurs un accueil chaleureux et une expérience touristique fluide tout en découvrant Carnac et ses environs. Au Petit Train de Carnac, chaque membre de l'équipe joue un rôle important dans la création d'une visite conviviale et mémorable pour les personnes de tous âges et du monde entier.",
+      "description": "Notre philosophie est simple : offrir aux visiteurs un accueil chaleureux et une expérience touristique fluide tout en découvrant Vannes et ses remparts. Au Petit Train de Vannes, chaque membre de l'équipe joue un rôle important dans la création d'une visite conviviale et mémorable pour les personnes de tous âges et du monde entier.",
       "ctaButton": "Postulez & Envoyez-nous votre CV",
       "openPositionsLabel": "Postes Ouverts :",
       "seasonalBadge": "Poste saisonnier",
       "job1Title": "Conducteur de Petit Train",
-      "job1Description": "Conduire le Petit Train en toute sécurité sur le parcours touristique et accueillir les visiteurs à bord. Ce poste implique de conduire le train, de veiller au confort des passagers et de contribuer à une atmosphère positive tout au long de la visite.",
+      "job1Description": "Conduire le Petit Train en toute sécurité sur le parcours des remparts de Vannes et accueillir les visiteurs à bord. Ce poste implique de conduire le train, de veiller au confort des passagers et de contribuer à une atmosphère positive tout au long de la visite.",
       "job1Requirement": "Permis D (transport en commun) requis. Une expérience préalable avec des véhicules touristiques est un plus.",
       "job2Title": "Agent de Billetterie",
-      "job2Description": "Accueillir les visiteurs, vendre les billets et fournir des informations claires sur les horaires, les tarifs et la visite. Ce poste est idéal pour les personnes qui aiment le contact avec le public et le travail dans un environnement touristique animé.",
+      "job2Description": "Accueillir les visiteurs, vendre les billets et fournir des informations claires sur les horaires, les tarifs et le circuit de Vannes. Ce poste est idéal pour les personnes qui aiment le contact avec le public et le travail dans un environnement touristique animé.",
       "job2Requirement": "De bonnes aptitudes à la communication et une attitude amicale sont essentielles. La connaissance de langues étrangères est appréciée.",
       "job3Title": "Agent de Quai",
-      "job3Description": "Accompagner les passagers lors de l'embarquement et assurer le bon déroulement des départs et des arrivées. Ce poste soutient à la fois le conducteur et l'équipe de billetterie.",
+      "job3Description": "Accompagner les passagers lors de l'embarquement à la Place Gambetta et assurer le bon déroulement des départs et des arrivées.",
       "job3Requirement": "Une attitude positive, de la fiabilité et une aisance avec les visiteurs de tous âges sont essentielles.",
-      "imageAlt": "Travailler au Petit Train de Carnac"
+      "imageAlt": "Travailler au Petit Train de Vannes"
     },
     "careersInfo": {
       "panel1Heading": "Qui cherchons-nous",
-      "panel1P1": "Nous recherchons des personnes motivées et fiables qui aiment travailler avec le public et contribuer à une expérience touristique de qualité.",
+      "panel1P1": "Nous recherchons des personnes motivées et fiables qui aiment travailler avec le public et contribuer à une expérience touristique de qualité à Vannes.",
       "panel1P2": "Vous êtes à l'aise avec les visiteurs internationaux, disponible pendant la saison touristique et en mesure de travailler les week-ends et jours fériés si nécessaire.",
       "panel2Heading": "Travailler avec nous",
-      "panel2P1": "Les postes sont principalement saisonniers et basés à Carnac. Une formation est dispensée avant la prise de poste. Les horaires de travail dépendent de la saison et de la fréquentation des visiteurs.",
+      "panel2P1": "Les postes sont principalement saisonniers et basés à Vannes. Une formation est dispensée avant la prise de poste. Les horaires de travail dépendent de la saison et de la fréquentation des visiteurs.",
       "panel2P2": "Vous travaillerez en extérieur et au sein d'une petite équipe conviviale axée sur la satisfaction des visiteurs.",
       "panel3Heading": "Comment postuler",
       "panel3P1": "Pour postuler, veuillez remplir le formulaire de candidature et joindre votre CV. Si votre profil correspond à nos besoins, notre équipe vous contactera.",
-      "panel4Heading": "Rejoindre l'équipe du Petit Train de Carnac",
-      "panel4P1": "Postulez dès maintenant et participez à une expérience touristique locale qui aide les visiteurs à découvrir Carnac de façon simple et agréable.",
+      "panel4Heading": "Rejoindre l'équipe du Petit Train de Vannes",
+      "panel4P1": "Postulez dès maintenant et participez à une expérience touristique locale qui aide les visiteurs à découvrir Vannes de façon simple et agréable.",
       "ctaButton": "Postulez & Envoyez-nous votre CV",
-      "imageAlt": "Qui cherchons-nous au Petit Train de Carnac"
+      "imageAlt": "Qui cherchons-nous au Petit Train de Vannes"
     },
     "privatisationForm": {
       "yourDetailsHeading": "Vos Coordonnées",
@@ -516,10 +502,10 @@
       "successHeading": "Demande envoyée !",
       "successBody": "Merci de votre intérêt. Notre équipe examinera votre demande et vous recontactera dès que possible pour confirmer la disponibilité et discuter des détails.",
       "sectionLabel": "Privatisation & location B2B",
-      "imageHeading": "Privatisez le Petit Train de Carnac pour votre événement",
-      "imageDescription": "Le Petit Train de Carnac peut être privatisé pour des visites de groupe, des événements d'entreprise et des occasions spéciales. Cette solution flexible vous permet d'offrir à vos invités une visite guidée à travers Carnac, confortable et originale, adaptée à vos besoins et à votre programme.",
-      "googleReviewsCount": "6 000+ avis",
-      "imageAlt": "Privatisation du Petit Train de Carnac"
+      "imageHeading": "Privatisez le Petit Train de Vannes pour votre événement",
+      "imageDescription": "Le Petit Train de Vannes peut être privatisé pour des visites de groupe, des événements d'entreprise et des occasions spéciales. Cette solution flexible vous permet d'offrir à vos invités une visite guidée à travers Vannes, confortable et originale, adaptée à vos besoins et à votre programme.",
+      "googleReviewsCount": "1 385+ avis",
+      "imageAlt": "Privatisation du Petit Train de Vannes"
     }
   }
 }

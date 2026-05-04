@@ -24,7 +24,7 @@ export default function TransitionOverlay() {
         <div ref={logoRef} data-transition-logo className="transition__logo">
           <Image
             src="/figma-assets/logo.svg"
-            alt="Petit Train de Carnac"
+            alt="Petit Train de Vannes"
             width={132}
             height={53}
             priority
