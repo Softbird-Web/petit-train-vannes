@@ -12,7 +12,7 @@ export default async function CareersHero() {
   const t = await getTranslations('sections.careersHero')
 
   return (
-    <section data-anim-section="hero" className="bg-[#ffffff] relative overflow-hidden py-16 xl:py-[112px] px-5 xl:px-[64px]">
+    <section data-anim-section="hero" className="bg-[#f5ebdd] relative overflow-hidden py-16 xl:py-[112px] px-5 xl:px-[64px]">
       {/* Background pattern */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
@@ -40,7 +40,7 @@ export default async function CareersHero() {
                   aria-hidden="true"
                 />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px]">
                 {t('sectionLabel')}
               </p>
             </div>

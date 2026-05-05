@@ -64,7 +64,7 @@ function ReviewCard({ text, author }: { text: string; author: string }) {
 
 export default function InformationsReviews() {
   return (
-    <section data-anim-section className="bg-[#1c1b29] py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 flex flex-col items-center gap-16">
 
         {/* Heading + Google badge */}
@@ -73,24 +73,24 @@ export default function InformationsReviews() {
           <div className="flex items-center gap-2">
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image
-                src="/figma-assets/icon-train-white.svg"
+                src="/figma-assets/icon-train.svg"
                 alt=""
                 fill
                 className="object-contain"
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               Reviews
             </p>
           </div>
 
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,4vw,48px)] leading-[1.2] tracking-[-3.36px] text-[#ffffff]">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,4vw,48px)] leading-[1.2] tracking-[-3.36px] text-[#1c1b29]">
             What visitors say about{" "}
-            <em className="font-['Bricolage_Grotesque',sans-serif] italic">the train?</em>
+            <em className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427]">the train?</em>
           </h2>
 
-          <p className="font-['Manrope',sans-serif] text-base leading-[1.2] tracking-[-0.48px] text-[#ffffff]">
+          <p className="font-['Manrope',sans-serif] text-base leading-[1.2] tracking-[-0.48px] text-[#1c1b29]">
             <strong>Le Petit Train de Vannes</strong> est noté plus de{" "}
             <a
               href="https://www.google.com/search?q=PETITS+TRAINS+TOURISTIQUES+LE+BAYON+VANNES+Reviews"

@@ -85,7 +85,7 @@ export default function InformationsSchedule() {
   const t = useTranslations("sections.informationsScheduleLabels");
 
   return (
-    <section id="horaires" data-anim-section className="bg-[#ffffff] py-20 overflow-hidden">
+    <section id="horaires" data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 flex flex-col gap-8">
 
         {/* Info cards — Operating period + Weather */}
@@ -102,7 +102,7 @@ export default function InformationsSchedule() {
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
-              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#1c1b29] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
+              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[41px] h-[41px]">
                   <Image
                     src="/figma-assets/CalendarIconBig.svg"
@@ -136,7 +136,7 @@ export default function InformationsSchedule() {
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
-              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#1c1b29] border border-[rgba(233,234,235,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
+              <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[40px] h-[40px]">
                   <Image
                     src="/figma-assets/WeatherIconBig.svg"
@@ -159,8 +159,8 @@ export default function InformationsSchedule() {
           </div>
         </div>
 
-        {/* Timetable — 3 departure panels on purple gradient */}
-        <div data-anim-item className="rounded-[32px] overflow-hidden" style={{ background: "linear-gradient(112deg, #1c1b29 23%, #2d2c40 85%)" }}>
+        {/* Timetable — departure panels on dark bg */}
+        <div data-anim-item className="rounded-[32px] overflow-hidden bg-[#1c1b29]">
           <div className="px-6 md:px-10 py-12 flex flex-col gap-10">
 
             {/* Heading */}
@@ -172,20 +172,20 @@ export default function InformationsSchedule() {
               <div className="hidden sm:flex flex-1 h-px bg-[rgba(255,255,255,0.35)]" />
             </div>
 
-            {/* 3 departure panels */}
+            {/* Departure panels */}
             <div className="grid grid-cols-1 gap-6">
               {departures.map((dep) => (
-                <div key={dep.number} className="bg-white/8 rounded-[20px] p-6 flex flex-col gap-5 border border-white/15">
+                <div key={dep.number} className="bg-white/10 rounded-[20px] p-6 flex flex-col gap-5 border border-white/15">
                   {/* Departure header */}
                   <div className="flex items-start gap-3">
-                    <div className="shrink-0 w-9 h-9 rounded-full bg-white text-[#1c1b29] font-['Bricolage_Grotesque',sans-serif] font-normal text-[20px] flex items-center justify-center">
+                    <div className="shrink-0 w-9 h-9 rounded-full bg-[#f7a427] text-[#1c1b29] font-['Bricolage_Grotesque',sans-serif] font-normal text-[20px] flex items-center justify-center">
                       {dep.number}
                     </div>
                     <div className="flex flex-col gap-1">
                       <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-[22px] leading-[1.2] tracking-[-1.2px]">
                         {t("departurePrefix")} {dep.name}
                       </p>
-                      <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.4] text-[rgba(255,255,255,0.7)] tracking-[-0.32px]">
+                      <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.4] text-white/70 tracking-[-0.32px]">
                         {dep.location}
                       </p>
                     </div>
@@ -211,7 +211,7 @@ export default function InformationsSchedule() {
                                 fill
                                 className="object-contain"
                                 aria-hidden="true"
-                                style={{ filter: "brightness(0) saturate(100%) invert(11%) sepia(54%) saturate(2954%) hue-rotate(264deg) brightness(91%) contrast(95%)" }}
+                                style={{ filter: "brightness(0)" }}
                               />
                             </div>
                             <p className="font-['Manrope',sans-serif] text-[15px] font-medium leading-tight">

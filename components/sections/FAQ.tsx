@@ -87,19 +87,19 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
   };
 
   return (
-    <section data-anim-section className="bg-[#ffffff] py-24">
+    <section className="bg-[#f5ebdd] py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full grid grid-cols-1 lg:grid-cols-[35%_1fr] gap-16 items-start">
         {/* Left: heading */}
-        <div data-anim-item className="flex flex-col gap-6 lg:sticky lg:top-28">
+        <div className="flex flex-col gap-6 lg:sticky lg:top-28">
           <div className="flex items-center gap-2">
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {resolvedLabel}
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
         </div>
 
         {/* Right: FAQ items */}
-        <div data-anim-item className="flex flex-col divide-y divide-[rgba(0,0,0,0.1)]">
+        <div className="flex flex-col divide-y divide-[rgba(0,0,0,0.1)]">
           {resolvedFaqs.map((faq, index) => (
             <FaqItem
               key={faq.question}

@@ -119,7 +119,7 @@ export default function FAQsSection() {
   }
 
   return (
-    <section data-anim-section className="bg-[#ffffff] py-24">
+    <section data-anim-section className="bg-[#f5ebdd] py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

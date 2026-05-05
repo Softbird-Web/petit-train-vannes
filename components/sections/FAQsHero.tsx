@@ -6,7 +6,7 @@ export default function FAQsHero() {
   const tShared = useTranslations('shared')
 
   return (
-    <section data-anim-section="hero" className="bg-[#ffffff] w-full overflow-hidden">
+    <section data-anim-section="hero" className="bg-[#f5ebdd] w-full overflow-hidden">
       <div className="flex flex-col xl:flex-row min-h-[540px] xl:min-h-[721px]">
         {/* Left: text content */}
         <div className="flex-1 flex items-center justify-end py-16 xl:py-24 bg-[#ffffff] relative z-10">
@@ -17,7 +17,7 @@ export default function FAQsHero() {
                   <div className="relative shrink-0 w-[19px] h-[19px]">
                     <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
                   </div>
-                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
+                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px]">
                     {t('label')}
                   </p>
                 </div>

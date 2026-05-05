@@ -13,7 +13,7 @@ export default function Features() {
   const t = useTranslations("sections.features");
 
   return (
-    <section data-anim-section className="bg-[#ffffff] flex flex-col gap-16 py-24 overflow-hidden">
+    <section data-anim-section className="bg-[#f5ebdd] flex flex-col gap-16 py-24 overflow-hidden">
       {/* Header row */}
       <div className="w-full max-w-[1280px] px-5 xl:px-0 mx-auto">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8">

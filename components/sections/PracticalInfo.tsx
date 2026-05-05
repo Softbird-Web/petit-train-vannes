@@ -14,7 +14,7 @@ export default function PracticalInfo() {
   const t = useTranslations("sections.practicalInfo");
 
   return (
-    <section data-anim-section className="bg-[#ffffff] py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col gap-12 items-start">
         {/* Header */}
         <div data-anim-item className="flex flex-col gap-3 max-w-[615px]">
@@ -28,7 +28,7 @@ export default function PracticalInfo() {
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#111] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
             </p>
           </div>
@@ -45,7 +45,7 @@ export default function PracticalInfo() {
           {/* Row 1: 4 photo cards */}
           {cardKeys.map((key) => {
             const { photo, icon, href } = cardConfig[key];
-            const cardClassName = "group relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]";
+            const cardClassName = "group relative h-[423px] rounded-xl overflow-hidden bg-[#f7a427]";
             const cardContent = (
               <>
                 <div
@@ -63,11 +63,11 @@ export default function PracticalInfo() {
                   className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(28,27,41,0.2)] z-10"
                   aria-hidden="true"
                 />
-                <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-white z-10">
+                <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-[#1c1b29] group-hover:text-white z-10">
                   <p className="font-['Bricolage_Grotesque',sans-serif] text-[24px] leading-[1.5] tracking-[-1.68px]">
                     {t(`${key}.title`)}
                   </p>
-                  <p className="font-['Manrope',sans-serif] text-[14px] leading-[1.3] tracking-[-0.42px] text-white/75">
+                  <p className="font-['Manrope',sans-serif] text-[14px] leading-[1.3] tracking-[-0.42px] opacity-75">
                     {t.rich(`${key}.description`, {
                       strong: (chunks) => <strong>{chunks}</strong>,
                     })}
@@ -90,7 +90,7 @@ export default function PracticalInfo() {
           })}
 
           {/* Row 2 col 1-2: wide photo card (Paiement) */}
-          <div className="group col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]">
+          <div className="group col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#f7a427]">
             <div
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -106,11 +106,11 @@ export default function PracticalInfo() {
               className="absolute top-6 left-6 w-12 h-12 rounded-[8px] shadow-[0_4px_12px_rgba(28,27,41,0.2)] z-10"
               aria-hidden="true"
             />
-            <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-white z-10">
+            <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-2 text-[#1c1b29] group-hover:text-white z-10">
               <p className="font-['Bricolage_Grotesque',sans-serif] text-[24px] leading-[1.5] tracking-[-1.68px]">
                 {t("payment.title")}
               </p>
-              <p className="font-['Manrope',sans-serif] text-[14px] leading-[1.3] tracking-[-0.42px] text-white/75">
+              <p className="font-['Manrope',sans-serif] text-[14px] leading-[1.3] tracking-[-0.42px] opacity-75">
                 {t.rich("payment.description", {
                   strong: (chunks) => <strong>{chunks}</strong>,
                 })}
@@ -118,15 +118,15 @@ export default function PracticalInfo() {
             </div>
           </div>
 
-          {/* Row 2 col 3-4: purple CTA card */}
-          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]">
+          {/* Row 2 col 3-4: CTA card */}
+          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#f7a427]">
             <div
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-40"
             >
               <Image src="/figma-assets/train-illustration.png" alt="" fill className="object-cover" />
             </div>
-            <div className="absolute top-8 left-8 right-8 flex flex-col gap-2 text-white">
+            <div className="absolute top-8 left-8 right-8 flex flex-col gap-2 text-[#1c1b29]">
               <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] leading-[1.5] tracking-[-2.24px]">
                 {t("cta.heading")}
               </p>

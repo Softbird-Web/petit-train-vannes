@@ -10,28 +10,22 @@ type Photo = { src: string; width: number; height: number }
 // masonry actually looks varied even though all source images are 3:2.
 // object-fit: cover on the img crops to these aspects at render time.
 const GALLERY_PHOTOS: Photo[] = [
-  { src: '/figma-assets/gallery-12.jpg', width: 16, height: 9 },  // panorama — drone, train + menhirs (brand hero)
-  { src: '/figma-assets/gallery-1.jpg', width: 3, height: 4 },    // portrait
-  { src: '/figma-assets/gallery-13.jpg', width: 1, height: 1 },   // square — dramatic fallen-menhir close-up
-  { src: '/figma-assets/gallery-2.jpg', width: 3, height: 2 },    // landscape
-  { src: '/figma-assets/gallery-14.jpg', width: 3, height: 2 },   // landscape — train alongside menhir alignment
-  { src: '/figma-assets/gallery-3.jpg', width: 1, height: 1 },    // square
-  { src: '/figma-assets/gallery-15.jpg', width: 3, height: 4 },   // portrait — aerial alignment cropped vertical
-  { src: '/figma-assets/gallery-4.jpg', width: 4, height: 3 },    // landscape wide
-  { src: '/figma-assets/gallery-5.jpg', width: 4, height: 5 },    // portrait
-  { src: '/figma-assets/gallery-16.jpg', width: 4, height: 3 },   // landscape — evening menhir vista
-  { src: '/figma-assets/gallery-6.jpg', width: 3, height: 2 },    // landscape
-  { src: '/figma-assets/gallery-7.jpg', width: 3, height: 4 },    // portrait
-  { src: '/figma-assets/gallery-17.jpg', width: 3, height: 2 },   // landscape — train + dolmen ground level
-  { src: '/figma-assets/gallery-8.jpg', width: 1, height: 1 },    // square
-  { src: '/figma-assets/gallery-9.jpg', width: 3, height: 2 },    // landscape
-  { src: '/figma-assets/gallery-10.jpg', width: 4, height: 5 },   // portrait
-  { src: '/figma-assets/gallery-11.jpg', width: 16, height: 9 },  // panorama
-  { src: '/figma-assets/gallery-18.jpg', width: 3, height: 2 },   // landscape — aerial train + menhir field (drone)
-  { src: '/figma-assets/gallery-19.jpg', width: 3, height: 4 },   // portrait — menhirs in a row, cloudy mood
-  { src: '/figma-assets/gallery-20.jpg', width: 16, height: 9 },  // panorama — train alongside menhir alignment
-  { src: '/figma-assets/gallery-21.jpg', width: 4, height: 3 },   // landscape wide — train at dolmens
-  { src: '/figma-assets/gallery-22.jpg', width: 1, height: 1 },   // square — ground-level menhir close-up
+  { src: '/figma-assets/gallery-1.jpg',  width: 3,  height: 4 },  // portrait
+  { src: '/figma-assets/gallery-2.jpg',  width: 3,  height: 2 },  // landscape
+  { src: '/figma-assets/gallery-3.jpg',  width: 1,  height: 1 },  // square
+  { src: '/figma-assets/gallery-4.jpg',  width: 4,  height: 3 },  // landscape wide
+  { src: '/figma-assets/gallery-5.jpg',  width: 4,  height: 5 },  // portrait
+  { src: '/figma-assets/gallery-6.jpg',  width: 3,  height: 2 },  // landscape
+  { src: '/figma-assets/gallery-7.jpg',  width: 3,  height: 4 },  // portrait
+  { src: '/figma-assets/gallery-8.jpg',  width: 1,  height: 1 },  // square
+  { src: '/figma-assets/gallery-9.jpg',  width: 3,  height: 2 },  // landscape
+  { src: '/figma-assets/gallery-10.jpg', width: 4,  height: 5 },  // portrait
+  { src: '/figma-assets/vannes-g11.jpg', width: 3,  height: 4 },  // portrait
+  { src: '/figma-assets/vannes-g12.jpg', width: 3,  height: 2 },  // landscape
+  { src: '/figma-assets/vannes-g13.jpg', width: 4,  height: 3 },  // landscape wide
+  { src: '/figma-assets/vannes-g14.jpg', width: 1,  height: 1 },  // square
+  { src: '/figma-assets/vannes-g15.jpg', width: 4,  height: 5 },  // portrait
+  { src: '/figma-assets/vannes-g16.jpg', width: 3,  height: 2 },  // landscape
 ]
 
 const MOBILE_QUERY = '(max-width: 767px)'
@@ -355,7 +349,7 @@ export default function Gallery() {
   }, [numColumns])
 
   return (
-    <section data-anim-section className="bg-[#1c1b29] py-20 overflow-hidden">
+    <section data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col gap-12">
         {/* Header */}
         <div data-anim-item className="flex flex-col gap-3 max-w-[615px]">
@@ -365,18 +359,18 @@ export default function Gallery() {
                 src="/figma-assets/icon-train.svg"
                 alt=""
                 fill
-                className="object-contain invert"
+                className="object-contain"
                 aria-hidden="true"
               />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t('label')}
             </p>
           </div>
-          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#ffffff] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
+          <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[32px] sm:text-[40px] md:text-[48px] text-[#1c1b29] leading-[1.2] tracking-[-1.5px] sm:tracking-[-2.5px] md:tracking-[-3.36px] max-w-[575px] w-full break-words">
             {t('heading')}
           </h2>
-          <p className="font-['Manrope',sans-serif] text-[18px] text-white/75 leading-[1.2] tracking-[-0.54px]">
+          <p className="font-['Manrope',sans-serif] text-[18px] text-[#1c1b29]/75 leading-[1.2] tracking-[-0.54px]">
             {t('description')}
           </p>
         </div>

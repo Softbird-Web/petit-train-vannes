@@ -176,6 +176,12 @@ public/figma-assets/            ← all images/SVGs; URL prefix /figma-assets/
 - SVG icons: `<Image fill className="object-contain">` inside a sized `relative` div
 - Never `<img>` — always `next/image`
 
+## ⚠️ IMAGE SOURCE RULE — MANDATORY (applies to every Petit Train microsite)
+- Every client has their own image folder on the Desktop named `[city]-images` (e.g. `vannes-images`, `quiberon-images`).
+- **ONLY** use images from that folder for the corresponding site. NEVER grab images from another Petit Train project, hero images, or any other `public/figma-assets/` file already in the codebase.
+- Workflow: pick from `~/Desktop/[city]-images/` → compress with `sips -Z 1920 --setProperty format jpeg --setProperty formatOptions 52` → copy to `public/figma-assets/` → reference in code.
+- This rule exists because mixing images from different train sites causes client-visible errors (wrong city photos).
+
 ## Known Pitfalls (project-specific only)
 - **CSS accordion**: use `grid-template-rows: 0fr → 1fr`, not `max-height`. Already in globals.css as `.faq-answer-wrap` / `.faq-answer-wrap.open`; inner content needs `.faq-answer-inner overflow-hidden`.
 - **Infinite scroll columns**: total height of one card set must be ≥ container height (`h-[560px]`) for seamless loop.

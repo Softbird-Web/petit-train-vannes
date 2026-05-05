@@ -92,7 +92,7 @@ export default async function RoutesPage({ params }: PageProps) {
               <p>{t('pages.routes.heroDescriptionP2')}</p>
             </>
           }
-          imageSrc="/figma-assets/RoutesHero.jpg"
+          imageSrc="/figma-assets/vannes-routes.jpg"
           imageAlt={t('pages.routes.heroImageAlt')}
           lightbox
         />

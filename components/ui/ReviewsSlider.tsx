@@ -313,7 +313,7 @@ export default function ReviewsSlider() {
         <button
           data-gsap-slider-control="prev"
           aria-label={t('prevAriaLabel')}
-          className="w-[52px] h-[52px] flex items-center justify-center border border-[rgba(255,255,255,0.3)] text-white transition-opacity hover:opacity-80"
+          className="w-[52px] h-[52px] flex items-center justify-center border border-[rgba(28,27,41,0.3)] text-[#1c1b29] transition-opacity hover:opacity-70 disabled:opacity-30"
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -322,7 +322,7 @@ export default function ReviewsSlider() {
         <button
           data-gsap-slider-control="next"
           aria-label={t('nextAriaLabel')}
-          className="w-[52px] h-[52px] flex items-center justify-center border border-[rgba(255,255,255,0.3)] text-white transition-opacity hover:opacity-80"
+          className="w-[52px] h-[52px] flex items-center justify-center border border-[rgba(28,27,41,0.3)] text-[#1c1b29] transition-opacity hover:opacity-70 disabled:opacity-30"
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

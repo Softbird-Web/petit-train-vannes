@@ -9,7 +9,7 @@ export default function InformationsCTA() {
     <section data-anim-section className="relative overflow-hidden py-16 xl:py-28">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
         <Image src="/figma-assets/group-booking-bg.jpg" alt="" fill className="object-cover" />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/75" />
       </div>
 
       <div className="relative z-10 max-w-[1280px] mx-auto px-5 xl:px-0">
@@ -19,23 +19,23 @@ export default function InformationsCTA() {
               <div className="relative shrink-0 w-[19px] h-[19px]">
                 <Image src="/figma-assets/icon-train-white.svg" alt="" fill className="object-contain" aria-hidden="true" />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                 {t("label")}
               </p>
             </div>
-            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,4vw,48px)] leading-[1.2] tracking-[-3.36px] text-[#ffffff] max-w-[575px]">
+            <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] text-[clamp(36px,4vw,48px)] leading-[1.2] tracking-[-3.36px] text-white max-w-[575px]">
               {t("heading")}
             </h2>
           </div>
 
           <div data-anim-item className="flex-1 flex flex-col gap-8">
-            <p className="font-['Manrope',sans-serif] text-[18px] leading-[1.2] tracking-[-0.54px] text-[#e5e5e5]">
+            <p className="font-['Manrope',sans-serif] text-[18px] leading-[1.2] tracking-[-0.54px] text-white/80">
               {t("description")}
             </p>
             <div>
               <TransitionLink
                 href="/privatisation"
-                className="btn-animate-chars btn-primary inline-flex items-center h-[45px] px-[22px] bg-[#ffffff] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+                className="btn-animate-chars btn-primary inline-flex items-center h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
                 <div className="btn-animate-chars__bg" />
                 <span data-button-animate-chars="" className="btn-animate-chars__text">

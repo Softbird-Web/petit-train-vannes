@@ -50,7 +50,7 @@ export default function ViewPlanButton({ buttonLabel, imageAlt, closeLabel }: Vi
             onClick={(e) => e.stopPropagation()}
           >
             <Image
-              src="/figma-assets/RoutesHero.jpg"
+              src="/figma-assets/vannes-routes.jpg"
               alt={imageAlt}
               fill
               className="object-contain"

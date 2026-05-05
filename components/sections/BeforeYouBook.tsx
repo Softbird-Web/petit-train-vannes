@@ -14,7 +14,7 @@ export default function BeforeYouBook() {
   ]
 
   return (
-    <section data-anim-section className="bg-[#ffffff] py-16 xl:py-[112px] px-5 xl:px-[64px]">
+    <section data-anim-section className="bg-[#f5ebdd] py-16 xl:py-[112px] px-5 xl:px-[64px]">
       <div className="max-w-[1280px] mx-auto flex flex-col xl:flex-row gap-[64px] items-center">
         {/* Content */}
         <div data-anim-item className="flex-1 min-w-0 flex flex-col gap-6">

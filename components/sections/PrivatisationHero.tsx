@@ -81,7 +81,7 @@ export default function PrivatisationHero() {
   }
 
   return (
-    <section data-anim-section="hero" className="bg-[#ffffff] w-full">
+    <section data-anim-section="hero" className="bg-[#f5ebdd] w-full">
       <div className="flex flex-col xl:flex-row gap-4 xl:gap-[32px] px-4 xl:px-[16px] py-4 xl:py-[16px]">
 
         {/* ── Form panel ── */}

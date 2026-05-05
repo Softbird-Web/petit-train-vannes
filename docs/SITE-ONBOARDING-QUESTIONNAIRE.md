@@ -156,6 +156,12 @@ Include questions covering: what is it, duration, departure point, season, langu
 
 ## 12. Photo inventory
 
+### ⚠️ Image source rule — MANDATORY
+Every client delivers their own image folder on the Desktop named `[city]-images` (e.g. `vannes-images`, `quiberon-images`).
+**Claude must ONLY use images from that folder for this site.** Never grab from another train project or any existing `public/figma-assets/` file.
+- Image folder path: `~/Desktop/______-images/` — fill in city name.
+- Workflow: select from this folder → `sips -Z 1920 --setProperty format jpeg --setProperty formatOptions 52` → `public/figma-assets/` → reference in code.
+
 ### Video
 - Hero video MP4: `______` (< 10MB, under 30s, must open on the main attraction)
 - Opening image (before video plays): `______`

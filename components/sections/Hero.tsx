@@ -109,11 +109,11 @@ export default async function Hero({
   const sectionBg =
     backgroundVariant === "gradient-to-white"
       ? "bg-gradient-to-b from-[#ffffff] to-white to-[60%]"
-      : "bg-[#ffffff]";
+      : "bg-[#f5ebdd]";
   const leftPanelBg =
-    backgroundVariant === "gradient-to-white" ? "" : "bg-[#ffffff]";
+    backgroundVariant === "gradient-to-white" ? "" : "bg-[#f5ebdd]";
   const bannerBg =
-    backgroundVariant === "gradient-to-white" ? "bg-white" : "bg-[#ffffff]";
+    backgroundVariant === "gradient-to-white" ? "bg-white" : "bg-[#f5ebdd]";
 
   return (
     <section data-anim-section="hero" className={`${sectionBg} overflow-hidden`}>
@@ -136,7 +136,7 @@ export default async function Hero({
                       aria-hidden="true"
                     />
                   </div>
-                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+                  <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                     {resolvedLabel}
                   </p>
                 </div>
@@ -247,7 +247,7 @@ export default async function Hero({
                   aria-hidden="true"
                 />
               </div>
-              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px]">
+              <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px]">
                 {t("noteImportanteLabel")}
               </p>
             </div>

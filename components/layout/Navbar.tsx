@@ -63,6 +63,7 @@ export default function Navbar() {
                 alt="Les Petits Trains du Morbihan"
                 fill
                 className="object-contain"
+                style={{ filter: "brightness(0)" }}
               />
             </TransitionLink>
             <div className="hidden lg:flex items-center gap-5">
@@ -70,7 +71,7 @@ export default function Navbar() {
                 <TransitionLink
                   key={link.href}
                   href={link.href}
-                  className="nav-link text-[#ffffff] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif] whitespace-nowrap"
+                  className="nav-link text-[#1c1b29] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif] whitespace-nowrap"
                 >
                   {link.label}
                 </TransitionLink>
@@ -83,7 +84,7 @@ export default function Navbar() {
             <TransitionLink
               href="/prices"
               aria-label={t("nav.viewPrices")}
-              className="btn-animate-chars btn-secondary bg-[#f7a427] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+              className="btn-animate-chars btn-secondary bg-transparent border border-[rgba(28,27,41,0.25)] h-[45px] px-[22px] rounded-[4px] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
             >
               <div className="btn-animate-chars__bg" />
               <span data-button-animate-chars="" className="btn-animate-chars__text">{t("nav.viewPrices")}</span>
@@ -91,7 +92,7 @@ export default function Navbar() {
             <TransitionLink
               href="/book"
               aria-label={t("nav.book")}
-              className="btn-animate-chars btn-primary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+              className="btn-animate-chars btn-primary bg-[#1c1b29] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
             >
               <div className="btn-animate-chars__bg" />
               <span data-button-animate-chars="" className="btn-animate-chars__text">{t("nav.book")}</span>
@@ -107,17 +108,17 @@ export default function Navbar() {
             aria-expanded={mobileOpen}
           >
             <span
-              className={`block w-5 h-0.5 bg-white origin-center transition-all duration-300 ${
+              className={`block w-5 h-0.5 bg-[#1c1b29] origin-center transition-all duration-300 ${
                 mobileOpen ? "rotate-45 translate-y-[7px]" : ""
               }`}
             />
             <span
-              className={`block w-5 h-0.5 bg-white transition-all duration-300 ${
+              className={`block w-5 h-0.5 bg-[#1c1b29] transition-all duration-300 ${
                 mobileOpen ? "opacity-0 scale-x-0" : ""
               }`}
             />
             <span
-              className={`block w-5 h-0.5 bg-white origin-center transition-all duration-300 ${
+              className={`block w-5 h-0.5 bg-[#1c1b29] origin-center transition-all duration-300 ${
                 mobileOpen ? "-rotate-45 -translate-y-[7px]" : ""
               }`}
             />
@@ -126,7 +127,7 @@ export default function Navbar() {
 
         {/* Mobile menu drawer — absolute relative to nav (h-20), so top-full = bottom of nav */}
         <div
-          className={`lg:hidden absolute top-full left-0 right-0 bg-[#f7a427] border-t border-[rgba(255,255,255,0.1)] overflow-hidden transition-all duration-300 z-50 ${
+          className={`lg:hidden absolute top-full left-0 right-0 bg-[#f7a427] border-t border-[rgba(28,27,41,0.1)] overflow-hidden transition-all duration-300 z-50 ${
             mobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
@@ -135,17 +136,17 @@ export default function Navbar() {
               <TransitionLink
                 key={link.href}
                 href={link.href}
-                className="text-[#ffffff] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif]"
+                className="text-[#1c1b29] text-base leading-6 tracking-[-0.48px] font-['Manrope',sans-serif]"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
               </TransitionLink>
             ))}
-            <div className="flex flex-col gap-3 pt-2 border-t border-[rgba(255,255,255,0.15)]">
+            <div className="flex flex-col gap-3 pt-2 border-t border-[rgba(28,27,41,0.15)]">
               <TransitionLink
                 href="/prices"
                 aria-label={t("nav.viewPrices")}
-                className="btn-animate-chars btn-secondary bg-[#f7a427] border border-[rgba(255,255,255,0.15)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
+                className="btn-animate-chars btn-secondary bg-transparent border border-[rgba(28,27,41,0.25)] h-[45px] px-[22px] rounded-[4px] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
                 onClick={() => setMobileOpen(false)}
               >
                 <div className="btn-animate-chars__bg" />
@@ -154,7 +155,7 @@ export default function Navbar() {
               <TransitionLink
                 href="/book"
                 aria-label={t("nav.book")}
-                className="btn-animate-chars btn-primary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
+                className="btn-animate-chars btn-primary bg-[#1c1b29] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap justify-center"
                 onClick={() => setMobileOpen(false)}
               >
                 <div className="btn-animate-chars__bg" />

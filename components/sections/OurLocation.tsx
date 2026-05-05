@@ -25,7 +25,7 @@ export default function OurLocation() {
   const t = useTranslations("sections.ourLocation");
 
   return (
-    <section data-anim-section className="bg-[#ffffff] py-16 xl:py-28 isolate">
+    <section data-anim-section className="bg-[#f5ebdd] py-16 xl:py-28 isolate">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col-reverse lg:flex-row items-start lg:items-center gap-12 lg:gap-20">
         {/* Map */}
         <div data-anim-item className="w-full h-[400px] lg:flex-1 lg:self-stretch lg:h-auto lg:min-h-[560px] rounded-2xl overflow-hidden shadow-md">
@@ -38,7 +38,7 @@ export default function OurLocation() {
             <div className="relative shrink-0 w-[19px] h-[19px]">
               <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
             </div>
-            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+            <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function OurLocation() {
               const cfg = itemConfig[key];
               return (
                 <div key={key} className="flex items-start gap-4">
-                  <div className="relative shrink-0 w-12 h-12 rounded-[10px] border border-[#e9eaeb] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] overflow-hidden bg-white">
+                  <div className="relative shrink-0 w-12 h-12 rounded-[10px] border border-[rgba(28,27,41,0.15)] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] overflow-hidden bg-[#f7a427]">
                     <div className="absolute inset-[11px]">
                       <Image src={cfg.icon} alt="" fill className="object-contain" aria-hidden="true" />
                     </div>
@@ -92,7 +92,7 @@ export default function OurLocation() {
 
           {/* Arrival recommendation */}
           <div className="flex flex-col gap-2 pl-16">
-            <p className="font-['Manrope',sans-serif] font-semibold text-[#f7a427] text-[20px] leading-[1.2] tracking-[-0.6px]">
+            <p className="font-['Manrope',sans-serif] font-semibold text-[#1c1b29] text-[20px] leading-[1.2] tracking-[-0.6px]">
               {t("arrivalTipTitle")}
             </p>
             <p className="font-['Manrope',sans-serif] text-[#535862] text-[16px] leading-[1.2] tracking-[-0.48px] max-w-[435px]">

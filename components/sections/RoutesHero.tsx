@@ -84,7 +84,7 @@ export default function RoutesHero({
               aria-hidden="true"
             />
           </div>
-          <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#f7a427] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
+          <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
             {label}
           </p>
         </div>
@@ -186,7 +186,7 @@ export default function RoutesHero({
 
   return (
     <>
-      <section data-anim-section="hero" className="bg-[#ffffff] py-16 xl:py-[112px] px-5 xl:px-[64px]">
+      <section data-anim-section="hero" className="bg-[#f5ebdd] py-16 xl:py-[112px] px-5 xl:px-[64px]">
         <div className="max-w-[1312px] mx-auto flex flex-col xl:flex-row items-center gap-[80px]">
           {flip ? (
             <>
