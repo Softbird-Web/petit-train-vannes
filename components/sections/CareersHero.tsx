@@ -116,7 +116,7 @@ export default async function CareersHero() {
         </div>
 
         {/* Right: tall image — fills the full height of the section content */}
-        <div data-anim-item className="hidden lg:flex shrink-0 w-[460px] xl:w-[608px] self-stretch">
+        <div data-anim-item className="flex shrink-0 w-full h-[280px] lg:w-[460px] xl:w-[608px] lg:h-auto lg:self-stretch">
           <div className="relative w-full rounded-[8px] overflow-hidden">
             <Image
               src="/figma-assets/CareersHero.jpg"

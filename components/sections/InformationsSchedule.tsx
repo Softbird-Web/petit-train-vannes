@@ -78,7 +78,7 @@ export default function InformationsSchedule() {
 
         {/* Info cards — Operating period + Weather */}
         <div data-anim-item className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div className="relative rounded-tl-[32px] rounded-bl-[32px] overflow-hidden min-h-[156px]">
+          <div className="relative rounded-[32px] md:rounded-tr-none md:rounded-br-none overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
               <Image src="/figma-assets/practical-1.jpg" alt="" fill className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
@@ -100,7 +100,7 @@ export default function InformationsSchedule() {
             </div>
           </div>
 
-          <div className="relative rounded-tr-[32px] rounded-br-[32px] overflow-hidden min-h-[156px]">
+          <div className="relative rounded-[32px] md:rounded-tl-none md:rounded-bl-none overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
               <Image src="/figma-assets/practical-2.jpg" alt="" fill className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />

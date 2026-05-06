@@ -64,7 +64,7 @@ export default async function Hero({
         <TransitionLink
           href="/book"
           aria-label={t("buttonBook")}
-          className="btn-animate-chars btn-primary bg-[#f7a427] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
+          className="btn-animate-chars btn-primary flex justify-center sm:inline-flex w-full sm:w-auto bg-[#f7a427] h-[45px] px-[22px] rounded-[4px] text-white text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)]"
         >
           <div className="btn-animate-chars__bg" />
           <span data-button-animate-chars="" className="btn-animate-chars__text">
@@ -74,7 +74,7 @@ export default async function Hero({
         <TransitionLink
           href="/prices"
           aria-label={t("buttonPrices")}
-          className="btn-animate-chars btn-secondary bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+          className="btn-animate-chars btn-secondary flex justify-center sm:inline-flex w-full sm:w-auto bg-[#ffffff] border border-[rgba(0,0,0,0.2)] h-[45px] px-[22px] rounded-[4px] text-[#414651] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px]"
         >
           <div className="btn-animate-chars__bg" />
           <span data-button-animate-chars="" className="btn-animate-chars__text">
@@ -160,7 +160,7 @@ export default async function Hero({
               </div>
 
               {/* CTA buttons */}
-              <div data-anim-item className="flex items-center gap-3">{resolvedButtons}</div>
+              <div data-anim-item className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">{resolvedButtons}</div>
 
               {/* Divider */}
               <hr className="border-t border-[rgba(0,0,0,0.12)] w-[554px] max-w-full" />
@@ -262,7 +262,7 @@ export default async function Hero({
               </div>
               {/* Supporting text */}
               <div className="flex-1">
-                <p className="font-['Manrope',sans-serif] font-normal text-[20px] leading-[30px] text-[#535862]">
+                <p className="font-['Manrope',sans-serif] font-normal text-base leading-6 md:text-[20px] md:leading-[30px] text-[#535862]">
                   {t.rich("noteImportanteBody", {
                     strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
                   })}

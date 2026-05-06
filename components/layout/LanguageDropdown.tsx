@@ -45,7 +45,7 @@ export default function LanguageDropdown({ variant = 'banner' }: LanguageDropdow
   const triggerClass =
     variant === 'banner'
       ? 'inline-flex items-center gap-1.5 px-2.5 h-7 rounded-md text-[#ffffff] hover:bg-[rgba(245,235,221,0.12)] font-["Manrope",sans-serif] text-[12px] md:text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
-      : 'inline-flex items-center gap-1.5 px-3 h-9 rounded-md bg-[rgba(245,235,221,0.1)] hover:bg-[rgba(245,235,221,0.2)] text-[#ffffff] font-["Manrope",sans-serif] text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
+      : 'inline-flex items-center gap-1.5 px-3 h-9 rounded-md bg-[rgba(28,27,41,0.08)] hover:bg-[rgba(28,27,41,0.12)] text-[#1c1b29] font-["Manrope",sans-serif] text-sm font-medium tracking-[-0.42px] transition-colors duration-200'
 
   const panelAlign    = variant === 'banner' ? 'right-0'       : 'left-0'
   const panelPosition = variant === 'mobile' ? 'bottom-full mb-2' : 'top-full mt-2'

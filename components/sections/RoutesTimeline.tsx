@@ -47,7 +47,7 @@ const stops: Stop[] = [
 function StopNumber({ n, active }: { n: string; active: boolean }) {
   return (
     <div className={`w-[67px] h-[57px] bg-[#f7a427] rounded-[4px] flex items-center justify-center ${active ? "opacity-100" : "opacity-40"}`}>
-      <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-[40px] leading-none tracking-[-2.8px]">
+      <p className="font-['Bricolage_Grotesque',sans-serif] not-italic text-white text-[40px] leading-none tracking-normal">
         {n}
       </p>
     </div>
@@ -113,7 +113,7 @@ export default function RoutesTimeline() {
         <div data-anim-item className="relative w-full flex flex-col items-center" ref={sectionRef}>
           <div className="timeline-line" aria-hidden="true" />
 
-          {stops.map((stop, i) => {
+          {stops.map((stop) => {
             const ImageBlock = (
               <div className="hidden lg:block flex-1 py-8">
                 <div className="relative h-[440px] rounded-lg overflow-hidden">
@@ -154,18 +154,47 @@ export default function RoutesTimeline() {
 
             return (
               <div key={stop.number} className="w-full flex flex-col items-center">
-                  {/* Mobile: content only, left-aligned to clear timeline line */}
-                  <div className="w-full flex flex-col lg:flex-row gap-12 items-start lg:items-center">
-                    {stop.flip ? ContentBlock : ImageBlock}
-
-                    {/* Timeline connector dot — desktop only */}
-                    <div className="hidden lg:flex flex-col items-center justify-center self-stretch w-8 relative z-10">
-                      <div className="w-3 h-3 rounded-full bg-[#f7a427] border-2 border-white ring-1 ring-[#f7a427]" />
+                {/* Mobile: content first, then image below */}
+                <div className="lg:hidden w-full flex flex-col gap-6">
+                  <div className="flex flex-col gap-8 pt-4 pl-10">
+                    <div className="flex flex-col gap-6">
+                      <StopNumber n={stop.number} active={true} />
+                      <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] text-[#0d0a06] leading-[1.3] tracking-[-2.24px]">
+                        {t(stop.nameKey)}
+                      </p>
                     </div>
-
-                    {stop.flip ? ImageBlock : ContentBlock}
+                    <ul className="flex flex-col gap-3">
+                      {stop.bulletKeys.map((bk) => (
+                        <li key={bk} className="font-['Manrope',sans-serif] text-[#535862] text-[18px] leading-[1.5] tracking-[-0.54px] list-disc ml-7">
+                          {t(bk)}
+                        </li>
+                      ))}
+                      {stop.noteKey && (
+                        <p className="font-['Manrope',sans-serif] font-semibold italic text-[#535862] text-[18px] leading-[1.5] tracking-[-0.54px]">
+                          {t(stop.noteKey)}
+                        </p>
+                      )}
+                    </ul>
+                  </div>
+                  <div className="pl-10 pb-4">
+                    <div className="relative h-[220px] rounded-lg overflow-hidden">
+                      <Image src={stop.image} alt={t(stop.imageAltKey)} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+                    </div>
                   </div>
                 </div>
+
+                {/* Desktop: alternating image / content layout */}
+                <div className="hidden lg:flex flex-row gap-12 items-center w-full">
+                  {stop.flip ? ContentBlock : ImageBlock}
+
+                  {/* Timeline connector dot */}
+                  <div className="flex flex-col items-center justify-center self-stretch w-8 relative z-10">
+                    <div className="w-3 h-3 rounded-full bg-[#f7a427] border-2 border-white ring-1 ring-[#f7a427]" />
+                  </div>
+
+                  {stop.flip ? ImageBlock : ContentBlock}
+                </div>
+              </div>
             );
           })}
         </div>

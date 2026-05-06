@@ -68,7 +68,7 @@ function revealSection(section: Element, { immediate }: { immediate: boolean }) 
     ? undefined
     : {
         trigger: section,
-        start: 'top 80%',
+        start: 'top 85%',
         once: true,
         toggleActions: 'play none none none',
         invalidateOnRefresh: true,
