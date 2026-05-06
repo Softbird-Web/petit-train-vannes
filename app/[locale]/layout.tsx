@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     images: [
       {
-        url: "/figma-assets/OpenGraph.png",
+        url: "/figma-assets/OpenGraph.jpg",
         width: 1200,
         height: 630,
         alt: "Le Petit Train de Vannes — Remparts & Vieille Ville",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Le Petit Train de Vannes — Remparts & Vieille Ville",
     description:
       "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes.",
-    images: ["/figma-assets/OpenGraph.png"],
+    images: ["/figma-assets/OpenGraph.jpg"],
   },
 };
 
