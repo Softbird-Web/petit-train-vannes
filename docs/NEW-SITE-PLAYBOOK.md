@@ -23,16 +23,18 @@ This repo is the **canonical template** for all Petit Train microsites (Carnac �
 
 1. Copy `docs/SITE-ONBOARDING-QUESTIONNAIRE.md` → `docs/SITE-ONBOARDING-QUESTIONNAIRE-<LOCATION>.md`
 2. Fill it out completely. Every blank = friction later.
-3. Collect photos into a local folder: `~/Desktop/<Location>-photos/`:
-   - Hero video MP4 (< 10MB, under 30s, starts on the main attraction)
-   - Opening static image (shown briefly before the video plays)
-   - Section photos per `docs/image-manifest.md` (1 per section, 1920px+)
-   - 9–12 gallery photos (Gallery masonry section — varied aspect ratios help the cascade)
-4. Confirm Regiondo widget ID from the client's dashboard.
-5. Decide final production domain (can be set as Vercel env var later).
-6. **Decide locales** — French-only, or add EN/ES/DE/IT/NL? If multi-locale, the cloned repo already has the i18n scaffold (next-intl 4 + proxy.ts + `messages/{locale}.json`). You'll just edit the catalogs in Phase 3.
+3. **Confirm the client image folder exists on Desktop:** `~/Desktop/<city>-images/` (e.g. `vannes-images`, `quiberon-images`). Do NOT start image work until this folder is confirmed. **Only use images from this folder — never from another site's `public/figma-assets/`.**
+4. Collect photos from that folder: hero video MP4, opening image, section photos, 9–12 gallery photos.
+5. Confirm Regiondo widget ID from the client's dashboard.
+6. Decide final production domain (can be set as Vercel env var later).
+7. **Decide locales** — French-only, or add EN/ES/DE/IT/NL/CS? If multi-locale, check `.env.local` has `ANTHROPIC_API_KEY` uncommented:
+   ```bash
+   grep "ANTHROPIC_API_KEY" .env.local
+   # Must NOT show a leading #. If it does, uncomment it before Phase 3b.
+   ```
+   The translation sync script (`npm run translate`) will silently fail if the key is missing — this causes Carnac content to leak into all non-French locales for the entire session.
 
-**Output of Phase 0:** a filled questionnaire + a photo folder. Hand both to Claude to start Phase 1.
+**Output of Phase 0:** a filled questionnaire + a confirmed image folder + ANTHROPIC_API_KEY ready. Hand all three to Claude to start Phase 1.
 
 ---
 
@@ -57,37 +59,64 @@ This repo is the **canonical template** for all Petit Train microsites (Carnac �
 
 ---
 
-## Phase 2: Brand extraction — ONLY on site #2 (first Vannes session) (1–2 hours)
+## Phase 2: Brand setup — MANDATORY first coding action (30 min)
 
-**This phase runs ONCE, on the first new site.** It extracts all Carnac-hardcoded values into a single `lib/brand.ts` config file. Sites 3–4 skip this and just edit that one file.
+> ⚠️ **Do NOT skip this phase.** Vannes was built without it. The result was 4 QA rounds hunting values across 50+ files instead of one clean pass. Every future site must start here.
 
-### Refactor
+`lib/brand.ts` already exists in the Vannes repo as the reference implementation. When cloning Vannes for Quiberon (or any future site), it will already be present — just edit its values.
 
-1. Create `lib/brand.ts`:
-   ```ts
-   export const brand = {
-     identity: { name: '...', legalName: '...', slug: '...' },
-     business: { phone: '...', email: '...', address: {...}, geo: {...} },
-     colors: { primary: '#...', deep: '#...', bg: '#...', text: '#...' },
-     booking: { regiondoWidgetId: '...', fallbackPhone: '...' },
-     content: { heroHeading: '...', heroTagline: '...', heroDescription: '...' },
-     aggregate: { rating: 4.7, reviewCount: 6000 },
-     social: { facebook: '...', instagram: '...' },
-     departurePoints: [/* array */],
-     schedule: {/* by month → by point */},
-     faqs: [/* array */],
-     jobs: [/* array */],
-   }
-   ```
-2. Replace hardcoded Carnac values throughout the codebase with reads from `brand.*`. Use `docs/CUSTOMIZATION-MAP.md` as the checklist — that's exactly the list of places that need swapping.
-3. Run `npx tsc --noEmit` + `npx next build` after each category (identity → business → content → colors → ...) to catch regressions fast.
+### Step 1 — Edit `lib/brand.ts` with new site values
 
-### Verification
-- Every value that was Carnac-specific now comes from `brand`
-- `grep -rn "Carnac\|54206d\|4d1c64" lib/ components/ app/` — no hardcoded hits (except for the brand.ts file itself)
-- `npx playwright test` passes
+```ts
+// lib/brand.ts — edit ONLY this file for site identity
+export const brand = {
+  city: "Quiberon",               // ← change
+  regiondoWidgetId: "...",        // ← change (from Regiondo dashboard)
+  contact: {
+    email: "...",                 // ← change
+    phone: "+33...",              // ← change
+    phoneDisplay: "0... ... ...", // ← change
+  },
+  social: {
+    facebook: "https://...",      // ← change
+  },
+  prices: {
+    individual: { adult: "8,50€", child: "5€" },   // ← change if different
+    earlyBird:  { adult: "7,00€", child: "3,50€" }, // ← change if different
+  },
+} as const
+```
 
-**Output:** a codebase where swapping site identity = editing `lib/brand.ts` only.
+`Prices.tsx`, `InformationsPrices.tsx`, and `Footer.tsx` all import from this file — changing it here updates all three simultaneously.
+
+### Step 2 — SVG color audit (5 min)
+
+Run this immediately after editing brand.ts:
+
+```bash
+grep -rn "#4d1c64\|#54206d" public/figma-assets/
+```
+
+If any hits appear (SVGs with Carnac purple baked into `fill` attributes), recolor them:
+
+```bash
+# Replace Carnac purple with amber in all SVGs
+find public/figma-assets -name "*.svg" -exec sed -i '' 's/#4d1c64/#f7a427/g; s/#54206d/#f7a427/g' {} +
+```
+
+Then verify: `grep -rn "#4d1c64\|#54206d" public/figma-assets/` — should return zero.
+
+Known affected SVGs from Vannes build: `icon-train.svg`, `Icon01–05.svg`, `PurpleCashIcon.svg`, `CalendarIconBig.svg`, `WeatherIconBig.svg`.
+
+### Step 3 — TypeScript check
+
+```bash
+npx tsc --noEmit
+```
+
+Zero errors = brand.ts is correctly typed and all imports resolve.
+
+**Output:** a codebase where all city-specific contact, price, and social data comes from one file.
 
 ---
 
@@ -182,17 +211,19 @@ What you DO need to do for the new site:
 
 ## Timeline (realistic)
 
-| Phase | Carnac (baseline) | Site #2 (Vannes) | Sites #3–4 |
+| Phase | Carnac (baseline) | Site #2 Vannes (actual) | Sites #3+ (target) |
 |---|---|---|---|
 | 0 — Prep + questionnaire | N/A (emergent) | 1 hour | 30 min |
 | 1 — Repo setup | 2 hours | 15 min | 15 min |
-| 2 — Brand extraction | N/A | 1–2 hours | 0 (already done) |
-| 3 — Content swap | 15 hours | 4 hours | 2 hours |
+| 2 — Brand setup (`lib/brand.ts` + SVG audit) | N/A | skipped → 4 QA rounds | 30 min |
+| 3 — Content swap | 15 hours | 3 sessions | 2 hours |
 | 3b — i18n catalog swap (if multi-locale) | 8 hours (Phase 1+2) | 1 hour | 30 min |
-| 4 — QA | 3 hours | 2 hours | 1 hour |
+| 4 — QA | 3 hours | 4 rounds (brand.ts was skipped) | 1 hour |
 | 5 — SEO migration | 2 hours (new foundation) | 1 hour | 1 hour |
 | 6 — Launch | done | 1 hour | 30 min |
-| **Total** | **~30 hours** | **~10–11 hours** | **~5–6 hours** |
+| **Total** | **~30 hours** | **~3 sessions** | **~5–6 hours** |
+
+> **Why Vannes took 3 sessions instead of 10–11 hours:** `lib/brand.ts` and the SVG audit were skipped. QA rounds replaced spec work. Sites #3+ benefit from both the reference implementation and this lesson.
 
 ---
 

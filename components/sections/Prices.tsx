@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { brand } from "@/lib/brand";
 
-const individualPrices = ["8,50€", "5€"];
-const earlyBirdPrices = ["7,00€", "3,50€"];
+const individualPrices = [brand.prices.individual.adult, brand.prices.individual.child];
+const earlyBirdPrices = [brand.prices.earlyBird.adult, brand.prices.earlyBird.child];
 
 export default function Prices() {
   const t = useTranslations("sections.prices");

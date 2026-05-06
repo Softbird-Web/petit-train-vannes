@@ -45,7 +45,7 @@ export default async function InformationsPage({ params }: PageProps) {
             </>
           }
           description={t("pages.informations.heroDescription")}
-          imageSrc="/figma-assets/PracticalInformationHero.jpg"
+          imageSrc="/figma-assets/informations-hero-train.jpg"
           imageAlt={t("pages.informations.heroImageAlt")}
         />
         <InformationsSchedule />

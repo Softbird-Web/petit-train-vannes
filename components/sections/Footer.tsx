@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import TransitionLink from "@/components/ui/TransitionLink";
+import { brand } from "@/lib/brand";
 
 const socialIcons = [
-  { src: "/figma-assets/icon-facebook.svg", alt: "Facebook", href: "https://www.facebook.com/lespetitstrainsdumorbihan" },
+  { src: "/figma-assets/icon-facebook.svg", alt: "Facebook", href: brand.social.facebook },
 ];
 
 export default function Footer() {
@@ -115,22 +116,22 @@ export default function Footer() {
                 {t("footer.contactUs")}
               </p>
               <a
-                href="mailto:petittrain-lebayon@orange.fr"
+                href={`mailto:${brand.contact.email}`}
                 className="flex items-center gap-1.5 font-['Manrope',sans-serif] font-light text-[#1c1b29] text-base leading-6 hover:opacity-70 transition-opacity"
               >
                 <div className="relative shrink-0 w-4 h-4">
                   <Image src="/figma-assets/icon-email.svg" alt="" fill className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
                 </div>
-                petittrain-lebayon@orange.fr
+                {brand.contact.email}
               </a>
               <a
-                href="tel:+33297240629"
+                href={`tel:${brand.contact.phone}`}
                 className="flex items-center gap-1.5 font-['Manrope',sans-serif] font-light text-[#1c1b29] text-base leading-6 hover:opacity-70 transition-opacity underline"
               >
                 <div className="relative shrink-0 w-4 h-4">
                   <Image src="/figma-assets/icon-phone.svg" alt="" fill className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
                 </div>
-                +33 2 97 24 06 29
+                {brand.contact.phoneDisplay}
               </a>
             </div>
 

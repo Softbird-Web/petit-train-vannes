@@ -9,7 +9,7 @@ export default function FAQsHero() {
     <section data-anim-section="hero" className="bg-[#f5ebdd] w-full overflow-hidden">
       <div className="flex flex-col xl:flex-row min-h-[540px] xl:min-h-[721px]">
         {/* Left: text content */}
-        <div className="flex-1 flex items-center justify-end py-16 xl:py-24 bg-[#ffffff] relative z-10">
+        <div className="flex-1 flex items-center justify-end py-16 xl:py-24 bg-[#f5ebdd] relative z-10">
           <div className="w-full max-w-[640px] px-5 xl:px-0">
             <div className="xl:pr-8 flex flex-col gap-10 max-w-[576px]">
               <div className="flex flex-col gap-6">

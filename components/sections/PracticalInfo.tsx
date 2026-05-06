@@ -119,25 +119,25 @@ export default function PracticalInfo() {
           </div>
 
           {/* Row 2 col 3-4: CTA card */}
-          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#f7a427]">
+          <div className="col-span-2 relative h-[423px] rounded-xl overflow-hidden bg-[#1c1b29]">
             <div
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-40"
             >
               <Image src="/figma-assets/train-illustration.png" alt="" fill className="object-cover" />
             </div>
-            <div className="absolute top-8 left-8 right-8 flex flex-col gap-2 text-[#1c1b29]">
+            <div className="absolute top-8 left-8 right-8 flex flex-col gap-2 text-white">
               <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] leading-[1.5] tracking-[-2.24px]">
                 {t("cta.heading")}
               </p>
-              <p className="font-['Manrope',sans-serif] text-[16px] leading-[1.3] tracking-[-0.48px] max-w-[357px]">
+              <p className="font-['Manrope',sans-serif] text-[16px] leading-[1.3] tracking-[-0.48px] max-w-[357px] text-white/75">
                 {t("cta.description")}
               </p>
             </div>
             <div className="absolute bottom-6 right-6">
               <TransitionLink
                 href="/informations"
-                className="btn-animate-chars btn-primary inline-flex items-center justify-center h-[45px] px-[22px] bg-[#ffffff] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
+                className="btn-animate-chars btn-primary inline-flex items-center justify-center h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
                 <div className="btn-animate-chars__bg" />
                 <span data-button-animate-chars="" className="btn-animate-chars__text">

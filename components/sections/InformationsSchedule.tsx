@@ -53,32 +53,20 @@ const departures: Departure[] = [
   },
 ];
 
-const BAND_STYLES: Record<Band, { bg: string; text: string; pill: string }> = {
-  yellow: {
-    bg: "bg-[#fde68a]",
-    text: "text-[#1c1b29]",
-    pill: "bg-[#fde68a] text-[#1c1b29]",
-  },
-  purple: {
-    bg: "bg-[#c4b5fd]",
-    text: "text-[#1c1b29]",
-    pill: "bg-[#c4b5fd] text-[#1c1b29]",
-  },
-  green: {
-    bg: "bg-[#a7f3d0]",
-    text: "text-[#065f46]",
-    pill: "bg-[#a7f3d0] text-[#065f46]",
-  },
-  orange: {
-    bg: "bg-[#fdba74]",
-    text: "text-[#1c1b29]",
-    pill: "bg-[#fdba74] text-[#1c1b29]",
-  },
-  blue: {
-    bg: "bg-[#7dd3fc]",
-    text: "text-[#0c4a6e]",
-    pill: "bg-[#7dd3fc] text-[#0c4a6e]",
-  },
+const ACCENT: Record<Band, string> = {
+  yellow: "border-l-[#fde68a]",
+  orange: "border-l-[#fdba74]",
+  purple: "border-l-[#c4b5fd]",
+  green:  "border-l-[#6ee7b7]",
+  blue:   "border-l-[#7dd3fc]",
+};
+
+const DOT: Record<Band, string> = {
+  yellow: "bg-[#fde68a]",
+  orange: "bg-[#fdba74]",
+  purple: "bg-[#c4b5fd]",
+  green:  "bg-[#6ee7b7]",
+  blue:   "bg-[#7dd3fc]",
 };
 
 export default function InformationsSchedule() {
@@ -90,27 +78,15 @@ export default function InformationsSchedule() {
 
         {/* Info cards — Operating period + Weather */}
         <div data-anim-item className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {/* Operating period card */}
           <div className="relative rounded-tl-[32px] rounded-bl-[32px] overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-              <Image
-                src="/figma-assets/practical-1.jpg"
-                alt=""
-                fill
-                className="object-cover"
-              />
+              <Image src="/figma-assets/practical-1.jpg" alt="" fill className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
               <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[41px] h-[41px]">
-                  <Image
-                    src="/figma-assets/CalendarIconBig.svg"
-                    alt=""
-                    fill
-                    className="object-contain"
-                    aria-hidden="true"
-                  />
+                  <Image src="/figma-assets/CalendarIconBig.svg" alt="" fill className="object-contain" aria-hidden="true" />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
@@ -124,27 +100,15 @@ export default function InformationsSchedule() {
             </div>
           </div>
 
-          {/* Weather card */}
           <div className="relative rounded-tr-[32px] rounded-br-[32px] overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-              <Image
-                src="/figma-assets/practical-2.jpg"
-                alt=""
-                fill
-                className="object-cover"
-              />
+              <Image src="/figma-assets/practical-2.jpg" alt="" fill className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
               <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[40px] h-[40px]">
-                  <Image
-                    src="/figma-assets/WeatherIconBig.svg"
-                    alt=""
-                    fill
-                    className="object-contain"
-                    aria-hidden="true"
-                  />
+                  <Image src="/figma-assets/WeatherIconBig.svg" alt="" fill className="object-contain" aria-hidden="true" />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
@@ -159,11 +123,10 @@ export default function InformationsSchedule() {
           </div>
         </div>
 
-        {/* Timetable — departure panels on dark bg */}
+        {/* Timetable */}
         <div data-anim-item className="rounded-[32px] overflow-hidden bg-[#1c1b29]">
           <div className="px-6 md:px-10 py-12 flex flex-col gap-10">
 
-            {/* Heading */}
             <div className="flex items-center gap-4 pb-6 border-b border-[rgba(255,255,255,0.2)]">
               <div className="hidden sm:flex flex-1 h-px bg-[rgba(255,255,255,0.35)]" />
               <h2 className="font-normal font-['Bricolage_Grotesque',sans-serif] italic text-white text-[28px] tracking-[-1.5px] text-center w-full sm:w-auto">
@@ -172,71 +135,69 @@ export default function InformationsSchedule() {
               <div className="hidden sm:flex flex-1 h-px bg-[rgba(255,255,255,0.35)]" />
             </div>
 
-            {/* Departure panels */}
             <div className="grid grid-cols-1 gap-6">
               {departures.map((dep) => (
-                <div key={dep.number} className="bg-white/10 rounded-[20px] p-6 flex flex-col gap-5 border border-white/15">
+                <div key={dep.number} className="flex flex-col gap-5">
                   {/* Departure header */}
                   <div className="flex items-start gap-3">
-                    <div className="shrink-0 w-9 h-9 rounded-full bg-[#f7a427] text-[#1c1b29] font-['Bricolage_Grotesque',sans-serif] font-normal text-[20px] flex items-center justify-center">
+                    <div className="shrink-0 w-9 h-9 rounded-full bg-[#f7a427] text-[#1c1b29] font-['Bricolage_Grotesque',sans-serif] text-[20px] flex items-center justify-center">
                       {dep.number}
                     </div>
                     <div className="flex flex-col gap-1">
                       <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-[22px] leading-[1.2] tracking-[-1.2px]">
                         {t("departurePrefix")} {dep.name}
                       </p>
-                      <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.4] text-white/70 tracking-[-0.32px]">
+                      <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.4] text-white/60 tracking-[-0.32px]">
                         {dep.location}
                       </p>
                     </div>
                   </div>
 
-                  {/* Periods */}
-                  <div className="flex flex-col gap-3">
-                    {dep.periods.map((p) => {
-                      const style = BAND_STYLES[p.band];
-                      return (
-                        <div
-                          key={p.label}
-                          className={`rounded-[12px] p-4 flex flex-col gap-2 ${style.bg} ${style.text}`}
-                        >
-                          <p className="font-['Manrope',sans-serif] font-semibold text-[12px] uppercase tracking-[0.5px] leading-tight">
+                  {/* Periods — 2×2 grid */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {dep.periods.map((p) => (
+                      <div
+                        key={p.label}
+                        className={`rounded-[16px] border border-white/10 border-l-4 bg-white/[0.06] px-5 py-4 flex flex-col gap-3 ${ACCENT[p.band]}`}
+                      >
+                        <div className="flex items-center gap-2">
+                          <div className={`w-2 h-2 rounded-full shrink-0 ${DOT[p.band]}`} />
+                          <p className="font-['Manrope',sans-serif] text-[11px] uppercase tracking-[0.7px] text-white/45 leading-tight">
                             {p.label}
                           </p>
-                          <div className="flex items-center gap-2">
-                            <div className="relative shrink-0 w-4 h-4">
-                              <Image
-                                src="/figma-assets/timetables-clock.svg"
-                                alt=""
-                                fill
-                                className="object-contain"
-                                aria-hidden="true"
-                                style={{ filter: "brightness(0)" }}
-                              />
-                            </div>
-                            <p className="font-['Manrope',sans-serif] text-[15px] font-medium leading-tight">
-                              {p.hours}
-                            </p>
-                          </div>
-                          {p.frequency && (
-                            <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.4] tracking-[-0.32px]">
-                              {p.frequency}
-                            </p>
-                          )}
-                          {p.note && (
-                            <p className="font-['Manrope',sans-serif] italic text-[12px] leading-[1.4] tracking-[-0.3px] opacity-80">
-                              {p.note}
-                            </p>
-                          )}
                         </div>
-                      );
-                    })}
+                        <div className="flex items-center gap-2">
+                          <div className="relative shrink-0 w-4 h-4 opacity-50">
+                            <Image
+                              src="/figma-assets/timetables-clock.svg"
+                              alt=""
+                              fill
+                              className="object-contain invert"
+                              aria-hidden="true"
+                            />
+                          </div>
+                          <p className={`font-['Bricolage_Grotesque',sans-serif] text-[20px] leading-tight tracking-[-1px] ${p.hours === "Fermé" ? "italic text-white/50" : "text-white"}`}>
+                            {p.hours}
+                          </p>
+                        </div>
+                        {p.frequency && (
+                          <p className="font-['Manrope',sans-serif] text-[12px] leading-[1.4] tracking-[-0.3px] text-white/45">
+                            {p.frequency}
+                          </p>
+                        )}
+                        {p.note && (
+                          <p className="font-['Manrope',sans-serif] italic text-[11px] leading-[1.4] text-white/35">
+                            {p.note}
+                          </p>
+                        )}
+                      </div>
+                    ))}
                   </div>
                 </div>
               ))}
             </div>
 
-            {/* Saturday rule + view plan + booking note */}
+            {/* Footer notes */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               <div className="rounded-[16px] bg-white/10 border border-white/15 px-5 py-4">
                 <p className="font-['Manrope',sans-serif] text-[13px] leading-[1.5] text-white tracking-[-0.32px]">
@@ -257,7 +218,7 @@ export default function InformationsSchedule() {
           </div>
         </div>
 
-        {/* Closures — standalone cream box */}
+        {/* Closures */}
         <div data-anim-item className="rounded-[32px] border border-[rgba(0,0,0,0.1)] bg-[#ffffff] px-5 py-8 sm:px-10 sm:py-12 flex flex-col items-center gap-6 text-center">
           <div className="flex items-center gap-4 w-full">
             <div className="hidden sm:flex flex-1 h-px bg-[rgba(0,0,0,0.12)]" />

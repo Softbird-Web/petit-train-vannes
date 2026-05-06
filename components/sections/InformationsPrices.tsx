@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import TransitionLink from "@/components/ui/TransitionLink";
+import { brand } from "@/lib/brand";
 
 export default function InformationsPrices() {
   const t = useTranslations("sections.prices");
@@ -68,11 +69,11 @@ export default function InformationsPrices() {
             <div className="flex flex-col gap-0">
               <div className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                 <span className="font-['Manrope',sans-serif] text-base text-[#232323]">Adults</span>
-                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">8,50€</span>
+                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">{brand.prices.individual.adult}</span>
               </div>
               <div className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                 <span className="font-['Manrope',sans-serif] text-base text-[#232323]">Children under 12</span>
-                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">5€</span>
+                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">{brand.prices.individual.child}</span>
               </div>
             </div>
             <div className="flex items-start gap-2 mt-auto pt-2">
@@ -101,11 +102,11 @@ export default function InformationsPrices() {
             <div className="flex flex-col gap-0">
               <div className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                 <span className="font-['Manrope',sans-serif] text-base text-[#232323]">Adults</span>
-                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">7,00€</span>
+                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">{brand.prices.earlyBird.adult}</span>
               </div>
               <div className="flex items-center justify-between py-2 border-b border-[rgba(0,0,0,0.15)]">
                 <span className="font-['Manrope',sans-serif] text-base text-[#232323]">Children under 12</span>
-                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">3,50€</span>
+                <span className="font-['Manrope',sans-serif] font-extrabold text-[18px] text-[#1c1b29]">{brand.prices.earlyBird.child}</span>
               </div>
             </div>
             <div className="flex items-start gap-2 mt-auto pt-2">

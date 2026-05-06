@@ -46,11 +46,8 @@ const stops: Stop[] = [
 
 function StopNumber({ n, active }: { n: string; active: boolean }) {
   return (
-    <div
-      className={`relative w-[67px] h-[57px] ${active ? "opacity-100" : "opacity-40"}`}
-    >
-      <div className="absolute inset-0 bg-[#f7a427] rounded-[4px]" />
-      <p className="absolute font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-[40px] leading-[1.2] tracking-[-2.8px] left-3 top-1">
+    <div className={`w-[67px] h-[57px] bg-[#f7a427] rounded-[4px] flex items-center justify-center ${active ? "opacity-100" : "opacity-40"}`}>
+      <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-[40px] leading-none tracking-[-2.8px]">
         {n}
       </p>
     </div>

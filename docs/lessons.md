@@ -393,6 +393,56 @@ Run through these in order when a Vercel build fails but `npm run build` works l
 - **Rerender on every keystroke:** a parent that holds the form state rerenders everything on each key. Use `useCallback` for handlers + move form fields into memoized subcomponents.
 - **Check bundle size:** `npx next build` output shows per-route JS. Any route > 200KB first-load JS needs investigation.
 
+## Lessons from the Vannes build (2026-05)
+
+### `lib/brand.ts` — centralize all city-specific values here
+
+Every Petit Train site has a `lib/brand.ts` that is the single source of truth for city name, contact info, prices, social URLs, and Regiondo widget ID. Components import from it — never hardcode these values inline. When cloning for a new city, edit only this file and the components update automatically.
+
+**Affected components (as of Vannes):** `Prices.tsx`, `InformationsPrices.tsx`, `Footer.tsx`.
+
+**When adding a new city-specific value to any component:** add it to `brand` first, then import. Never add a new hardcoded string if `lib/brand.ts` is a better home for it.
+
+---
+
+### SVG fill trap — audit before starting any clone
+
+Several SVGs (`icon-train.svg`, `Icon01–05.svg`, `PurpleCashIcon.svg`, `CalendarIconBig.svg`, `WeatherIconBig.svg`) had Carnac purple (`#4d1c64`) baked directly into their `fill` attributes. These are invisible to component-level greps and won't be caught by Tailwind class audits.
+
+**Audit command (run at start of Phase 2, every clone):**
+```bash
+grep -rn "#4d1c64\|#54206d" public/figma-assets/
+```
+**Recolor if hits found:**
+```bash
+find public/figma-assets -name "*.svg" -exec sed -i '' 's/#4d1c64/#f7a427/g; s/#54206d/#f7a427/g' {} +
+```
+
+---
+
+### Translation pre-flight — check ANTHROPIC_API_KEY before content work
+
+`npm run translate` silently does nothing if `ANTHROPIC_API_KEY` is commented out in `.env.local`. The result is all non-French locales retain Carnac content through the entire build session.
+
+**Before starting any i18n work:**
+```bash
+grep "ANTHROPIC_API_KEY" .env.local  # must NOT have a leading #
+```
+
+If it's commented out, uncomment it, then run translate once at the end of all `fr.json` edits — not piecemeal.
+
+---
+
+### Spec before code — fill CUSTOMIZATION-MAP.md as a spec, not a post-hoc checklist
+
+The right workflow: fill `CUSTOMIZATION-MAP.md` completely before touching any file. One clean pass. QA should confirm correctness, not define the work.
+
+The Vannes build did the opposite: built first, then ran 4 QA rounds to hunt down missed values. This cost 3 sessions instead of 1.
+
+Rule: if you're about to make a change you didn't find in CUSTOMIZATION-MAP.md, either it's already covered (check again) or the map is missing it (add it before proceeding).
+
+---
+
 ## Session-End Checklist (Claude: self-enforce before commit)
 
 Before running `git commit`, ask yourself:
