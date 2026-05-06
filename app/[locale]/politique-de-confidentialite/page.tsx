@@ -29,7 +29,7 @@ export default function PolitiqueDeConfidentialitePage() {
             <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
               Nous nous engageons à ce que la collecte et le traitement de vos données, effectués à
               partir du site{' '}
-              <span className="text-[#1c1b29] font-medium">petit-train-carnac.vercel.app</span>,
+              <span className="text-[#1c1b29] font-medium">petit-train-vannes.vercel.app</span>,
               soient conformes au règlement général sur la protection des données (RGPD) et à la loi
               Informatique et Libertés.
             </p>
@@ -39,7 +39,7 @@ export default function PolitiqueDeConfidentialitePage() {
             </p>
             <p className="font-['Manrope',sans-serif] text-[#535862] text-base leading-[1.7] tracking-[-0.3px]">
               Cette Politique est notamment applicable aux clients et utilisateurs des offres et
-              services Le Petit Train de Carnac. Elle est susceptible d&apos;être complétée par des
+              services Le Petit Train de Vannes. Elle est susceptible d&apos;être complétée par des
               informations spécifiques portées à la connaissance de l&apos;utilisateur,
               s&apos;agissant d&apos;une offre ou d&apos;un service particulier.
             </p>

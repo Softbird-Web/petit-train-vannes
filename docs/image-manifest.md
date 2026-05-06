@@ -1,75 +1,86 @@
-# Image Manifest
+# Image Manifest — Petit Train de Vannes
 
-**Purpose:** Single source of truth for every image used on the site. Build this on Day 1 from the client's asset folder. Every section that needs an image pulls from this file — never invent filenames.
+**Purpose:** Single source of truth for every image used on this site. Every image sourced from `~/Desktop/vannes-images/` only — never from another Petit Train project.
 
-**Usage:**
-1. Receive client's image folder (e.g., `~/Desktop/Carnac-All-Images/`).
-2. Scan it: `ls <folder> | sort`. Spot-check a sample with the Read tool.
-3. Fill in the table below — one row per image worth using.
-4. Compress: `sips -Z 1920 --setProperty formatOptions 50 <source> --out public/figma-assets/<dest>`.
-5. When building a section: look up the destination filename here before writing the `<Image src="">`.
+**Compression rule:** `sips -Z 1920 --setProperty format jpeg --setProperty formatOptions 52 <source> --out public/figma-assets/<dest>`
+Target: < 1MB per asset. Quality 40 for hero backgrounds, 52 for section images.
 
 ---
 
-## This project (petit-train-carnac)
+## Assets in `public/figma-assets/`
 
-| Destination file | Source (Carnac-All-Images/) | Shows | Used in section(s) |
-|---|---|---|---|
-| `hero-image.jpg` | `FOTO5 CAR 16.jpg` | Train passing dolmen + menhir field, blue sky | Homepage hero fallback |
-| `hero.mp4` | (custom) | Looping video of train in landscape | Homepage hero |
-| `stop-1.jpg` | `carnac060.jpg` | Ménec menhir field, summer grass | Routes timeline — Parking du Ménec |
-| `stop-2.jpg` | `carnac050.jpg` | Carnac beach, sandy + clear sky | Routes timeline — Carnac Plage |
-| `stop-3.jpg` | `carnac143.jpg` | La Trinité port, racing yachts, clouds | Routes timeline — La Trinité-sur-Mer |
-| `testimonial-img-1.jpg` | `carnac080.jpg` | Dramatic menhir close-up | Reviews slider card 1 |
-| `testimonial-img-2.jpg` | `carnac153.jpg` | Menhir avenue, ground-level | Reviews slider card 2 |
-| `testimonial-img-3.jpg` | `carnac155.jpg` | Menhir rows, golden hour vertical | Reviews slider card 3 |
-| `features-photo.jpg` | `carnac050.jpg` (aerial variant) | Aerial train + menhir field | Features section (all pages) |
-| `prices-bg.jpg` | `carnac100.jpg` | Aerial panoramic, full alignment | Prices section background |
-| `group-booking-bg.jpg` | `carnac020.jpg` | Aerial — 2 full trains at departure | Group Booking CTA background |
-| `BeforeYouBook.jpg` | `carnac095.jpg` | Wide panoramic menhir field | /book page — "Avant de réserver" |
-| `PracticalInformationHero.jpg` | `carnac119.jpg` | Train in spring, menhirs + gorse | /informations hero |
-| `FAQsHero.jpg` | `carnac150.jpg` | Passenger POV — train + menhirs | /faqs hero |
-| `CareersHero.jpg` | `FOTO7 CAR 16.jpg` | Train driver, close front-on | /careers hero |
-| `vannes.jpg` | (custom) | Vannes historic center | Locations — Vannes card |
-| `quiberon.jpg` | (custom) | Quiberon coastal views | Locations — Quiberon card |
-| `RoutesHero.jpg` | (custom map) | Route map illustration | /routes hero |
-| `PrivatisationHero.jpg` | (custom) | Group privatisation context | /privatisation hero |
-| `PracticalInfo1.jpg` – `PracticalInfo5.jpg` | (client-confirmed) | Various practical info photos | PracticalInfo cards |
-| `Icon01.svg` – `Icon05.svg` | (client-provided, QA 2026-04-24) | Line icons for the 5 PracticalInfo cards (Durée, Départ, Horaires, Accessibilité, Paiement) | PracticalInfo cards — icon badges |
-| `hexagonal-pattern.svg` | (client-provided, QA 2026-04-24) | Tiled hexagon pattern | Prices section decorative background (opacity 15%) |
-| `PricesHero.jpg` | (client-provided, QA 2026-04-24) | Ticket booth + train with flags | /prices hero image (replaces ImagePricesHero.jpg) |
-| `GroupFlyer.pdf` | (client-provided, QA 2026-04-24) | Group booking flyer PDF | /prices + /routes "Flyer de groupe" download button |
-| `gallery-1.jpg` – `gallery-11.jpg` | `~/Desktop/carnac-gallery/carnac-*.jpg` + `img1.jpg` (client-provided, QA 2026-04-24) | Photo gallery — Carnac scenes, train, coast, menhirs | Gallery masonry section (homepage + /routes) — placeholder set until client curates final selection |
-| `gallery-12.jpg` | `~/Desktop/carnac-all-images/carnac-main.jpg` (Maryannick QA 2026-04-28) | Drone-style brand hero — train + Ménec menhir field (panorama) | Gallery masonry — featured tile from 2026 flyer |
-| `gallery-13.jpg` | `~/Desktop/carnac-all-images/carnac-85.jpg` | Dramatic fallen-menhir close-up (square crop) | Gallery masonry |
-| `gallery-14.jpg` | `~/Desktop/carnac-all-images/carnac-65.jpg` | Train alongside Ménec alignment (landscape) | Gallery masonry |
-| `gallery-15.jpg` | `~/Desktop/carnac-all-images/carnac-45.jpg` | Aerial Ménec alignment, cropped vertical (portrait) | Gallery masonry |
-| `gallery-16.jpg` | `~/Desktop/carnac-all-images/carnac-105.jpg` | Evening menhir vista, soft light (landscape wide) | Gallery masonry |
-| `gallery-17.jpg` | `~/Desktop/carnac-all-images/carnac-25.jpg` | Train + dolmen ground level (landscape) | Gallery masonry |
-| `gallery-18.jpg` | `~/Desktop/carnac-all-images/carnac-115.jpg` (Apr 28 evening round) | Aerial drone — train + Ménec menhir field, summer | Gallery masonry |
-| `gallery-19.jpg` | `~/Desktop/carnac-all-images/carnac-30.jpg` | 4 menhirs in a row, ground level cloudy mood (portrait crop) | Gallery masonry |
-| `gallery-20.jpg` | `~/Desktop/carnac-all-images/carnac-55.jpg` | Train alongside menhir alignment, panoramic | Gallery masonry |
-| `gallery-21.jpg` | `~/Desktop/carnac-all-images/carnac-75.jpg` | Train passing dolmens at Carnac (landscape) | Gallery masonry |
-| `gallery-22.jpg` | `~/Desktop/carnac-all-images/carnac-95.jpg` | Ground-level menhir close-up, dappled light (square crop) | Gallery masonry |
-
-## Gotchas for this client's folder
-
-- Filenames use `carnac150.jpg` (no dash), not `carnac-150.jpg` — always `ls` the folder before scripting.
-- Some legacy files use spaces and mixed case: `FOTO5 CAR 16.jpg`, `FOTO7 CAR 16.jpg` — quote them in bash.
-- Source images are 4–6MB JPEGs (~3000–4500px wide). Compress to 1920px max width at quality 50 for all non-hero images; quality 40 for hero backgrounds.
-
----
-
-## Template for next project
-
-```markdown
 | Destination file | Source | Shows | Used in section(s) |
 |---|---|---|---|
-| `hero.jpg` | `client-folder/original.jpg` | [what it depicts] | [section names] |
-```
+| `hero-image.jpg` | `~/Desktop/vannes-images/` | Petit Train de Vannes passing the remparts | Homepage hero fallback |
+| `hero.mp4` | client-provided | Looping video of train in Vannes | Homepage hero (autoplay) |
+| `FAQsHero.jpg` | `~/Desktop/vannes-images/` | Train near Vannes historic walls | /faqs hero right panel |
+| `CareersHero.jpg` | `~/Desktop/vannes-images/` | Train driver or train exterior Vannes | /careers hero right image |
+| `CareersHeroBg.png` | client-provided | Decorative background pattern | /careers hero section background (opacity 30%) |
+| `CareersLooking.png` | client-provided | Vannes scene | CareersInfo section left image |
+| `PrivatisationHero.jpg` | `~/Desktop/vannes-images/` | Group/privatisation Vannes scene | /privatisation hero left panel |
+| `RoutesHero.jpg` | client-provided | Route map illustration for Vannes circuit | /routes hero |
+| `PricesHero.jpg` | `~/Desktop/vannes-images/` | Ticket booth or train scene Vannes | /prices hero |
+| `PracticalInformationHero.jpg` | `~/Desktop/vannes-images/` | Train in Vannes surroundings | /informations hero |
+| `BeforeYouBook.jpg` | `~/Desktop/vannes-images/` | Vannes scene for booking page | /book "Avant de réserver" |
+| `BeforeYouBook.png` | client-provided | Alternate Vannes scene | /book page (alternate) |
+| `FooterBackground.jpg` | `~/Desktop/vannes-images/` | Aerial or panoramic Vannes | Footer CTA background |
+| `stop-1.jpg` | `~/Desktop/vannes-images/` | Place Gambetta / remparts area | RoutesTimeline — stop 01 |
+| `stop-2.jpg` | `~/Desktop/vannes-images/` | Vannes port / waterfront | RoutesTimeline — stop 02 |
+| `stop-3.jpg` | `~/Desktop/vannes-images/` | Vannes historic centre / cathedral area | RoutesTimeline — stop 03 |
+| `testimonial-img-1.jpg` | `~/Desktop/vannes-images/` | Vannes scene | Reviews slider card 1 |
+| `testimonial-img-2.jpg` | `~/Desktop/vannes-images/` | Vannes scene | Reviews slider card 2 |
+| `testimonial-img-3.jpg` | `~/Desktop/vannes-images/` | Vannes scene | Reviews slider card 3 |
+| `features-photo.jpg` | `~/Desktop/vannes-images/` | Train or remparts aerial | Features section |
+| `prices-bg.jpg` | `~/Desktop/vannes-images/` | Panoramic Vannes view | Prices section background |
+| `group-booking-bg.jpg` | `~/Desktop/vannes-images/` | Group of visitors / departure | GroupBookingCTA background |
+| `PracticalInfo1.jpg` | `~/Desktop/vannes-images/` | Duration / train on route | PracticalInfo — Durée card hover |
+| `PracticalInfo2.jpg` | `~/Desktop/vannes-images/` | Departure point Place Gambetta | PracticalInfo — Départ card hover |
+| `PracticalInfo3.jpg` | `~/Desktop/vannes-images/` | Schedule / timetable scene | PracticalInfo — Horaires card hover |
+| `PracticalInfo4.jpg` | `~/Desktop/vannes-images/` | Accessibility scene | PracticalInfo — Accessibilité card hover |
+| `PracticalInfo5.jpg` | `~/Desktop/vannes-images/` | Payment / ticket scene | PracticalInfo — Paiement card hover (col-span-2) |
+| `practical-1.jpg` | `~/Desktop/vannes-images/` | Operating period scene | InformationsSchedule top card 1 |
+| `practical-2.jpg` | `~/Desktop/vannes-images/` | Weather / outdoor scene | InformationsSchedule top card 2 |
+| `informations-hero-train.jpg` | `~/Desktop/vannes-images/` | Train at Vannes departure | InformationsHero |
+| `our-location.jpg` | `~/Desktop/vannes-images/` | Place Gambetta from above | OurLocation section |
+| `gallery-1.jpg` – `gallery-10.jpg` | `~/Desktop/vannes-images/` | Vannes train & city scenes | Gallery masonry (homepage + /routes) |
+| `vannes-g11.jpg` | `~/Desktop/vannes-images/Vannes-3.jpg` | Vannes scene | Gallery masonry |
+| `vannes-g12.jpg` | `~/Desktop/vannes-images/Vannes-5.jpg` | Vannes scene | Gallery masonry |
+| `vannes-g13.jpg` | `~/Desktop/vannes-images/Vannes-7.jpg` | Vannes scene | Gallery masonry |
+| `vannes-g14.jpg` | `~/Desktop/vannes-images/Vannes-9.jpg` | Vannes scene | Gallery masonry |
+| `vannes-g15.jpg` | `~/Desktop/vannes-images/Vannes-11.jpg` | Vannes scene | Gallery masonry |
+| `vannes-g16.jpg` | `~/Desktop/vannes-images/Vannes-13.jpg` | Vannes scene | Gallery masonry |
+| `vannes.jpg` | client-provided | Vannes historic centre aerial | Locations — Vannes card (self-link) |
+| `carnac.jpg` | Carnac project | Carnac menhirs | Locations — Carnac card (sister site link) |
+| `quiberon.jpg` | client-provided | Quiberon coastal view | Locations — Quiberon card (sister site link) |
+| `vannes-routes.jpg` | `~/Desktop/vannes-images/` | Vannes route overview | Routes page |
+| `review-gallery-1.jpg` | `~/Desktop/vannes-images/` | Vannes scene | Reviews section |
+| `review-gallery-2.jpg` | `~/Desktop/vannes-images/` | Vannes scene | Reviews section |
+| `OpenGraph.png` | ⚠️ SHARED WITH CARNAC | Currently shows Carnac — needs replacing | og:image in layout.tsx |
 
-**Process for Day 1:**
-1. Ask client for the full image folder.
-2. `ls <folder>` — note naming convention, count, any obvious groupings.
-3. Sample ~20 images via Read tool to identify the 5–10 best heroes, 5–10 best section backgrounds, and 5–10 generic fillers.
-4. Fill the manifest. Flag images that are wrong/unusable so you can ask the client for better ones before pages are built.
+## Icons & UI assets (shared / city-agnostic)
+
+| File | Type | Used in |
+|---|---|---|
+| `logo.svg` | SVG | Navbar logo (filter:brightness(0) applied) |
+| `icon-train.svg` | SVG | Section labels site-wide |
+| `Icon01.svg` – `Icon05.svg` | SVG | PracticalInfo card badges |
+| `CalendarIconBig.svg` | SVG | InformationsSchedule operating period card |
+| `WeatherIconBig.svg` | SVG | InformationsSchedule weather card |
+| `PurpleCashIcon.svg` | SVG | ⚠️ Check fill — may still contain Carnac purple `#4d1c64` |
+| `hexagonal-pattern.svg` | SVG | Prices section decorative bg (opacity 15%) |
+| `stars.svg` | SVG | Google rating stars |
+| `google-icon.svg` | SVG | Google badge |
+| `timetables-clock.svg` | SVG | InformationsSchedule period rows |
+| `train-illustration.png` | PNG | Watermark bg in InformationsPrices, InformationsSchedule CTA |
+| `languages-flags.png` | PNG | Hero right card flags |
+| `FlyerIndividual.pdf` | PDF | /prices + /routes download button |
+| `GroupFlyer.pdf` | PDF | /prices + /routes group flyer download |
+
+## ⚠️ Pending
+
+- `OpenGraph.png` — replace with a Vannes-specific 1200×630 image, then update `app/[locale]/layout.tsx` `og.images` path
+- `PurpleCashIcon.svg` — audit fill value: `grep "4d1c64\|54206d" public/figma-assets/PurpleCashIcon.svg`
+
+## Image source rule
+
+Every image MUST come from `~/Desktop/vannes-images/`. NEVER pull from another Petit Train project's `public/figma-assets/` or any other Desktop folder. Mixing sources causes wrong-city photos to appear on the live site.

@@ -1,12 +1,12 @@
-# Petit Train Carnac — Project Brain
+# Petit Train Vannes — Project Brain
 
 > ⚠️ **FIRST ACTION EVERY SESSION — NON-NEGOTIABLE:**
 > Before touching any code, reading the codebase, or responding to the user's request, use the Read tool on `docs/lessons.md` in full.
 > It contains hard-won rules that prevent hours of rework (SSR hydration traps, Tailwind v4 surprises, Vercel deploy gotchas, Figma MCP patterns, etc.).
 > This is not a suggestion. The file exists because ignoring these costs hours, every project.
 
-> 🗺️ **TEMPLATE FOR VANNES / QUIBERON / MORBIHAN:** this repo is the canonical Petit Train template.
-> If you're cloning this for a new Petit Train microsite, read (in order): `docs/NEW-SITE-PLAYBOOK.md` → `docs/SITE-ONBOARDING-QUESTIONNAIRE-CARNAC.md` (worked example) → `docs/ARCHITECTURE.md` → `docs/CUSTOMIZATION-MAP.md`.
+> 🗺️ **THIS IS THE VANNES SITE** — cloned from the Carnac template (Softbird-Web/petit-train-carnac).
+> For the next Petit Train clone (Quiberon), start from THIS repo. Read: `docs/NEW-SITE-PLAYBOOK.md` → `docs/CUSTOMIZATION-MAP.md` → `lib/brand.ts` (edit this first — all city values live here).
 
 ## 2nd Brain
 Location: ~/Desktop/eldar-design-development-cc/vibe-coding/vibe-coding/
@@ -54,7 +54,7 @@ These decisions are global. If a decision here is wrong, fix it in ONE place, no
 - `LanguageDropdown.tsx` — custom motion-driven (no shadcn). Cubic-bezier `[0.22, 1, 0.36, 1]` matches GSAP's `power4.out` used elsewhere.
 
 **i18n (locked architecture):**
-- next-intl 4.9, locales: `fr/en/es/de/it/nl`, `localePrefix: 'as-needed'` → French at `/`, others at `/{locale}/...`
+- next-intl 4.9, locales: `fr/en/es/de/it/nl/cs` (7 total), `localePrefix: 'as-needed'` → French at `/`, others at `/{locale}/...`
 - **Next 16 renames `middleware.ts` → `proxy.ts`** at project root (createMiddleware export contract is unchanged)
 - `i18n/routing.ts` — locales array + localeLabels (flag emoji + native name)
 - `i18n/request.ts` — per-request loader with **deep-merge fallback to fr.json** (missing target keys never error)
@@ -91,9 +91,10 @@ These decisions are global. If a decision here is wrong, fix it in ONE place, no
 
 ## Stack
 - Next.js 16.2.3, TypeScript, Tailwind CSS v4
-- Vercel deploy via GitHub push (branch: main)
-- Figma MCP (local desktop plugin), file key: `wTd0GeN1Y2HWGw3nkii3t8`
-- **Booking:** Regiondo embedded widget (`product-widget.min.js`). Carnac widget ID: `5712cb43-2e72-445b-956b-947f1f624735`. Integration: `components/ui/RegiondoWidget.tsx` → `components/sections/BookingSection.tsx` → `/book` page.
+- Vercel deploy via GitHub push to `main` → Softbird-Web/petit-train-vannes
+- Figma MCP (local desktop plugin), file key: `wTd0GeN1Y2HWGw3nkii3t8` (shared Morbihan Figma file)
+- **Booking:** Regiondo embedded widget (`product-widget.min.js`). Widget ID: stored in `lib/brand.ts` → `brand.regiondoWidgetId` (currently placeholder — real Vannes ID pending from client). Integration: `components/ui/RegiondoWidget.tsx` → `components/sections/BookingSection.tsx` → `/book` page.
+- **City values:** ALL city-specific values (contact, prices, social, widget ID) live in `lib/brand.ts`. Never hardcode — always import from brand.
 
 ## Libraries (exact import paths)
 ```

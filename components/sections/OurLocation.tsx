@@ -4,7 +4,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 
-const CarnacMap = dynamic(() => import("@/components/ui/CarnacMap"), {
+const VannesMap = dynamic(() => import("@/components/ui/VannesMap"), {
   ssr: false,
   loading: () => (
     <div className="w-full h-full rounded-2xl bg-[#e9eaeb] animate-pulse" />
@@ -29,7 +29,7 @@ export default function OurLocation() {
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 w-full flex flex-col-reverse lg:flex-row items-start lg:items-center gap-12 lg:gap-20">
         {/* Map */}
         <div data-anim-item className="w-full h-[400px] lg:flex-1 lg:self-stretch lg:h-auto lg:min-h-[560px] rounded-2xl overflow-hidden shadow-md">
-          <CarnacMap />
+          <VannesMap />
         </div>
 
         {/* Content */}
