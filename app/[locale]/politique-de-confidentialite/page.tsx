@@ -3,6 +3,7 @@ export const metadata = {
   description:
     'Politique de confidentialité du Petit Train de Vannes. Informations sur la collecte et le traitement des données personnelles, cookies et droits des utilisateurs.',
   alternates: { canonical: '/politique-de-confidentialite' },
+  robots: { index: false, follow: false },
 }
 
 export default function PolitiqueDeConfidentialitePage() {

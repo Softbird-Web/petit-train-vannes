@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/page-metadata";
 import Hero from "@/components/sections/Hero";
 import Prices from "@/components/sections/Prices";
 import InformationsSchedule from "@/components/sections/InformationsSchedule";
@@ -13,11 +14,7 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata.prices" });
-  return {
-    title: t("title"),
-    description: t("description"),
-    alternates: { canonical: "/prices" },
-  };
+  return buildPageMetadata(locale, t("title"), t("description"), "/prices");
 }
 
 export default async function PricesPage({ params }: PageProps) {

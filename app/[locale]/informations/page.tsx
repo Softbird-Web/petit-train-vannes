@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/page-metadata";
 import InformationsHero from "@/components/sections/InformationsHero";
 import InformationsSchedule from "@/components/sections/InformationsSchedule";
 import Prices from "@/components/sections/Prices";
@@ -13,11 +14,7 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata.informations" });
-  return {
-    title: t("title"),
-    description: t("description"),
-    alternates: { canonical: "/informations" },
-  };
+  return buildPageMetadata(locale, t("title"), t("description"), "/informations");
 }
 
 export default async function InformationsPage({ params }: PageProps) {

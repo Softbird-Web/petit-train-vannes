@@ -50,6 +50,7 @@ export const metadata: Metadata = {
       "Visite guidée des remparts de Vannes à bord du Petit Train — circuit de 40 minutes, commentaire audio en 16 langues, vieille ville et port de Vannes.",
     type: "website",
     locale: "fr_FR",
+    alternateLocale: ["en_GB", "es_ES", "de_DE", "it_IT", "nl_NL", "cs_CZ"],
     images: [
       {
         url: "/figma-assets/OpenGraph.jpg",
@@ -94,6 +95,12 @@ export default async function LocaleLayout({
               "@type": ["TouristAttraction", "LocalBusiness"],
               "name": "Petit Train de Vannes",
               "description": "Visite guidée touristique des remparts de Vannes à bord d'un petit train confortable. Commentaire audio multilingue en 16 langues. Durée : 40 minutes.",
+              "touristType": "CulturalTourist",
+              "availableLanguage": [
+                "French","English","Spanish","German","Italian","Dutch","Czech",
+                "Portuguese","Japanese","Chinese","Russian","Korean","Polish",
+                "Arabic","Norwegian","Finnish"
+              ],
               "telephone": "+33297240629",
               "email": "petittrain-lebayon@orange.fr",
               "address": {
@@ -111,7 +118,27 @@ export default async function LocaleLayout({
               },
               "url": SITE_URL,
               "priceRange": "€",
+              "currenciesAccepted": "EUR",
+              "paymentAccepted": "Cash, Credit Card",
               "image": absoluteUrl("/figma-assets/hero-image.jpg"),
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                  "validFrom": "2025-04-01",
+                  "validThrough": "2025-10-12",
+                  "opens": "10:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                  "validFrom": "2025-10-22",
+                  "validThrough": "2025-11-01",
+                  "opens": "10:00",
+                  "closes": "18:00"
+                }
+              ],
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.7",
@@ -119,6 +146,17 @@ export default async function LocaleLayout({
                 "bestRating": "5",
                 "worstRating": "1"
               }
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Petit Train de Vannes",
+              "url": SITE_URL,
             }),
           }}
         />

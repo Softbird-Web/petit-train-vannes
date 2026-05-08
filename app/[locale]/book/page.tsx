@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { buildPageMetadata } from '@/lib/page-metadata'
 import BookingSection from '@/components/sections/BookingSection'
 import BeforeYouBook from '@/components/sections/BeforeYouBook'
 import Features from '@/components/sections/Features'
@@ -12,11 +13,7 @@ type PageProps = { params: Promise<{ locale: string }> }
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'metadata.book' })
-  return {
-    title: t('title'),
-    description: t('description'),
-    alternates: { canonical: '/book' },
-  }
+  return buildPageMetadata(locale, t('title'), t('description'), '/book')
 }
 
 export default async function BookPage({ params }: PageProps) {

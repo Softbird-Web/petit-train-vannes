@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { buildPageMetadata } from '@/lib/page-metadata'
 import CareersHero from '@/components/sections/CareersHero'
 import CareersInfo from '@/components/sections/CareersInfo'
 import Locations from '@/components/sections/Locations'
@@ -9,11 +10,7 @@ type PageProps = { params: Promise<{ locale: string }> }
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'metadata.careers' })
-  return {
-    title: t('title'),
-    description: t('description'),
-    alternates: { canonical: '/careers' },
-  }
+  return buildPageMetadata(locale, t('title'), t('description'), '/careers')
 }
 
 export default async function CareersPage({ params }: PageProps) {

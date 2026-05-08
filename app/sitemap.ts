@@ -23,10 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/informations', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/book', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/faqs', priority: 0.7, changeFrequency: 'yearly' },
-    { path: '/privatisation', priority: 0.6, changeFrequency: 'yearly' },
     { path: '/careers', priority: 0.4, changeFrequency: 'yearly' },
-    { path: '/mentions-legales', priority: 0.2, changeFrequency: 'yearly' },
-    { path: '/politique-de-confidentialite', priority: 0.2, changeFrequency: 'yearly' },
+    // Privatisation page is draft — not linked in nav, excluded from sitemap
+    // Legal pages are noindex — excluded from sitemap to avoid crawl budget waste
   ]
 
   const buildUrl = (path: RouteConfig['path'], locale: (typeof routing.locales)[number]) =>

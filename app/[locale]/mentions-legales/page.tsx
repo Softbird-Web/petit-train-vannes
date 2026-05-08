@@ -3,6 +3,7 @@ export const metadata = {
   description:
     'Mentions légales du site Petit Train de Vannes. Informations sur l\'hébergeur, l\'éditeur, la propriété intellectuelle et le droit applicable.',
   alternates: { canonical: '/mentions-legales' },
+  robots: { index: false, follow: false },
 }
 
 export default function MentionsLegalesPage() {
