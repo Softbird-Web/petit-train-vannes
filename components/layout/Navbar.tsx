@@ -22,7 +22,6 @@ export default function Navbar() {
     { label: t("nav.routes"), href: "/routes" },
     { label: t("nav.informations"), href: "/informations" },
     { label: t("nav.prices"), href: "/prices" },
-    { label: t("nav.privatisation"), href: "/privatisation" },
     { label: t("nav.faqs"), href: "/faqs" },
     { label: t("nav.careers"), href: "/careers" },
   ];
