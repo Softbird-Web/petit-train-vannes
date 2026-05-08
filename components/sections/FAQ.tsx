@@ -97,7 +97,8 @@ export default function FAQ({ faqs, label, heading, description }: FAQProps) {
         <div className="flex flex-col gap-6 lg:sticky lg:top-28">
           <div className="flex items-center gap-2">
             <div className="relative shrink-0 w-[19px] h-[19px]">
-              <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
+              <Image src="/figma-assets/icon-train.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
             </div>
             <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {resolvedLabel}

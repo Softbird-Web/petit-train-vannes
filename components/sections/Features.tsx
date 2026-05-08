@@ -21,7 +21,8 @@ export default function Features() {
           <div data-anim-item className="flex flex-col gap-3 max-w-[615px]">
             <div className="flex items-center gap-2">
               <div className="relative shrink-0 w-[19px] h-[19px]">
-                <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                <Image src="/figma-assets/icon-train.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
               </div>
               <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#111] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                 {t("label")}
@@ -51,7 +52,8 @@ export default function Features() {
                 <div className="relative shrink-0 w-16 h-16 rounded-[10px] border border-[#e9eaeb] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] overflow-hidden">
                   <div aria-hidden="true" className="absolute inset-0 bg-[#1c1b29] pointer-events-none rounded-[10px]" />
                   <div className="absolute inset-[15px]">
-                    <Image src={featureIcons[key]} alt="" fill className="object-contain" aria-hidden="true" />
+                    <Image src={featureIcons[key]} alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
                   </div>
                   <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0px_0px_1px_rgba(10,13,18,0.18),inset_0px_-2px_0px_0px_rgba(10,13,18,0.05)]" />
                 </div>
@@ -72,7 +74,8 @@ export default function Features() {
 
         {/* Right: photo */}
         <div data-anim-item className="hidden lg:block flex-1 relative min-h-[560px] rounded-2xl overflow-hidden">
-          <Image src="/figma-assets/features-photo.jpg" alt={t("imageAlt")} fill className="object-cover" />
+          <Image src="/figma-assets/features-photo.jpg" alt={t("imageAlt")} fill sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover" />
         </div>
       </div>
     </section>

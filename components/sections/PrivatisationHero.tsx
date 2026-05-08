@@ -331,7 +331,8 @@ export default function PrivatisationHero() {
             {/* Google review badge */}
             <div className="inline-flex items-center gap-2 bg-white rounded-[8px] px-2 py-1.5 w-fit">
               <div className="relative w-6 h-6 shrink-0">
-                <Image src="/figma-assets/google-icon.svg" alt="Google" fill className="object-contain" />
+                <Image src="/figma-assets/google-icon.svg" alt="Google" fill sizes="64px"
+              className="object-contain" />
               </div>
               <div className="flex flex-col gap-0.5">
                 <div className="flex items-center gap-1">
@@ -351,7 +352,8 @@ export default function PrivatisationHero() {
             {/* Section label */}
             <div className="flex items-center gap-2">
               <div className="relative shrink-0 w-[19px] h-[19px]">
-                <Image src="/figma-assets/icon-train-white.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                <Image src="/figma-assets/icon-train-white.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
               </div>
               <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#ffffff] text-base leading-6 tracking-[-0.48px]">
                 {t('sectionLabel')}

@@ -35,7 +35,8 @@ export default function Footer() {
             src="/figma-assets/FooterBackground.jpg"
             alt=""
             fill
-            className="object-cover object-center"
+            sizes="100vw"
+              className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/70" />
         </div>
@@ -83,7 +84,8 @@ export default function Footer() {
                 src="/figma-assets/logo.svg"
                 alt="Petit Train de Vannes"
                 fill
-                className="object-contain"
+                sizes="64px"
+              className="object-contain"
                 style={{ filter: "brightness(0)" }}
               />
             </div>
@@ -120,7 +122,8 @@ export default function Footer() {
                 className="flex items-center gap-1.5 font-['Manrope',sans-serif] font-light text-[#1c1b29] text-base leading-6 hover:opacity-70 transition-opacity"
               >
                 <div className="relative shrink-0 w-4 h-4">
-                  <Image src="/figma-assets/icon-email.svg" alt="" fill className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
+                  <Image src="/figma-assets/icon-email.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
                 </div>
                 {brand.contact.email}
               </a>
@@ -129,7 +132,8 @@ export default function Footer() {
                 className="flex items-center gap-1.5 font-['Manrope',sans-serif] font-light text-[#1c1b29] text-base leading-6 hover:opacity-70 transition-opacity underline"
               >
                 <div className="relative shrink-0 w-4 h-4">
-                  <Image src="/figma-assets/icon-phone.svg" alt="" fill className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
+                  <Image src="/figma-assets/icon-phone.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" style={{ filter: "brightness(0)" }} />
                 </div>
                 {brand.contact.phoneDisplay}
               </a>
@@ -183,7 +187,8 @@ export default function Footer() {
                   src={icon.src}
                   alt={icon.alt}
                   fill
-                  className="object-contain"
+                  sizes="64px"
+              className="object-contain"
                   style={{ filter: "brightness(0)" }}
                 />
               </a>

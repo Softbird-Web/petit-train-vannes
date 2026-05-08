@@ -36,7 +36,8 @@ export default function OurLocation() {
         <div data-anim-item className="flex-1 flex flex-col gap-6 max-w-[623px]">
           <div className="flex items-center gap-2">
             <div className="relative shrink-0 w-[19px] h-[19px]">
-              <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
+              <Image src="/figma-assets/icon-train.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
             </div>
             <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
@@ -59,7 +60,8 @@ export default function OurLocation() {
                 <div key={key} className="flex items-start gap-4">
                   <div className="relative shrink-0 w-12 h-12 rounded-[10px] border border-[rgba(28,27,41,0.15)] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] overflow-hidden bg-[#f7a427]">
                     <div className="absolute inset-[11px]">
-                      <Image src={cfg.icon} alt="" fill className="object-contain" aria-hidden="true" />
+                      <Image src={cfg.icon} alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
                     </div>
                     <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0px_0px_1px_rgba(10,13,18,0.18),inset_0px_-2px_0px_0px_rgba(10,13,18,0.05)]" />
                   </div>
@@ -79,7 +81,8 @@ export default function OurLocation() {
                         className="inline-flex items-center gap-1.5 text-[#f7a427] text-sm font-['Manrope',sans-serif] font-medium underline underline-offset-2 hover:opacity-70 transition-opacity w-fit"
                       >
                         <div className="relative shrink-0 w-4 h-4">
-                          <Image src="/figma-assets/icon-map-pin.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                          <Image src="/figma-assets/icon-map-pin.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
                         </div>
                         {t("seeRoute")}
                       </a>

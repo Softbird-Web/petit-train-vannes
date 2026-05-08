@@ -96,6 +96,7 @@ export default async function Hero({
               src="/figma-assets/languages-flags.png"
               alt={t("rightCardFlagsAlt")}
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
             />
           </div>
@@ -132,7 +133,8 @@ export default async function Hero({
                       src="/figma-assets/icon-train.svg"
                       alt=""
                       fill
-                      className="object-contain"
+                      sizes="64px"
+              className="object-contain"
                       aria-hidden="true"
                     />
                   </div>
@@ -173,7 +175,8 @@ export default async function Hero({
                       src="/figma-assets/google-icon.svg"
                       alt="Google"
                       fill
-                      className="object-contain"
+                      sizes="64px"
+              className="object-contain"
                     />
                   </div>
                   <div className="flex flex-col gap-[2px]">
@@ -186,7 +189,8 @@ export default async function Hero({
                           src="/figma-assets/stars.svg"
                           alt="4,7 sur 5 étoiles"
                           fill
-                          className="object-contain object-left"
+                          sizes="64px"
+              className="object-contain object-left"
                         />
                       </div>
                     </div>
@@ -221,7 +225,8 @@ export default async function Hero({
                 src={rightImageSrc}
                 alt={resolvedRightImageAlt}
                 fill
-                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
                 priority
               />
             )}
@@ -243,7 +248,8 @@ export default async function Hero({
                   src="/figma-assets/icon-train.svg"
                   alt=""
                   fill
-                  className="object-contain"
+                  sizes="64px"
+              className="object-contain"
                   aria-hidden="true"
                 />
               </div>

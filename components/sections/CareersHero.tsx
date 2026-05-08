@@ -36,7 +36,8 @@ export default async function CareersHero() {
                   src="/figma-assets/icon-train.svg"
                   alt=""
                   fill
-                  className="object-contain"
+                  sizes="64px"
+              className="object-contain"
                   aria-hidden="true"
                 />
               </div>
@@ -71,7 +72,8 @@ export default async function CareersHero() {
                     src="/figma-assets/icon-email.svg"
                     alt=""
                     fill
-                    className="object-contain"
+                    sizes="64px"
+              className="object-contain"
                     aria-hidden="true"
                   />
                 </div>

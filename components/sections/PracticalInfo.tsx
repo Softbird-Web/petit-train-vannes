@@ -24,7 +24,8 @@ export default function PracticalInfo() {
                 src="/figma-assets/icon-train.svg"
                 alt=""
                 fill
-                className="object-contain"
+                sizes="64px"
+              className="object-contain"
                 aria-hidden="true"
               />
             </div>
@@ -52,7 +53,8 @@ export default function PracticalInfo() {
                   aria-hidden="true"
                   className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 >
-                  <Image src={photo} alt="" fill className="object-cover" />
+                  <Image src={photo} alt="" fill sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-b from-[rgba(28,27,41,0.52)] from-[34%] to-[rgba(28,27,41,0.8)]" />
                 </div>
                 <Image
@@ -95,7 +97,8 @@ export default function PracticalInfo() {
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500"
             >
-              <Image src="/figma-assets/PracticalInfo5.jpg" alt="" fill className="object-cover" />
+              <Image src="/figma-assets/PracticalInfo5.jpg" alt="" fill sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-[rgba(28,27,41,0.52)] from-[34%] to-[rgba(28,27,41,0.8)]" />
             </div>
             <Image
@@ -124,7 +127,8 @@ export default function PracticalInfo() {
               aria-hidden="true"
               className="absolute inset-0 pointer-events-none opacity-40"
             >
-              <Image src="/figma-assets/train-illustration.png" alt="" fill className="object-cover" />
+              <Image src="/figma-assets/train-illustration.png" alt="" fill sizes="100vw"
+              className="object-cover" />
             </div>
             <div className="absolute top-8 left-8 right-8 flex flex-col gap-2 text-white">
               <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] leading-[1.5] tracking-[-2.24px]">

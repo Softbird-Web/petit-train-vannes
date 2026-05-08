@@ -80,6 +80,7 @@ export default function RoutesHero({
               src="/figma-assets/icon-train.svg"
               alt=""
               fill
+              sizes="64px"
               className="object-contain"
               aria-hidden="true"
             />
@@ -115,6 +116,7 @@ export default function RoutesHero({
               src="/figma-assets/DownloadWhite.svg"
               alt=""
               fill
+              sizes="64px"
               className="object-contain"
               aria-hidden="true"
             />
@@ -134,6 +136,7 @@ export default function RoutesHero({
               src="/figma-assets/DownloadBlack.svg"
               alt=""
               fill
+              sizes="64px"
               className="object-contain"
               aria-hidden="true"
             />
@@ -153,6 +156,7 @@ export default function RoutesHero({
               src="/figma-assets/google-icon.svg"
               alt="Google"
               fill
+              sizes="64px"
               className="object-contain"
             />
           </div>
@@ -166,7 +170,8 @@ export default function RoutesHero({
                   src="/figma-assets/stars.svg"
                   alt="5 stars"
                   fill
-                  className="object-contain"
+                  sizes="64px"
+              className="object-contain"
                 />
               </div>
             </div>

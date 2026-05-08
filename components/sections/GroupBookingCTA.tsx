@@ -8,7 +8,8 @@ export default function GroupBookingCTA() {
   return (
     <section data-anim-section className="relative overflow-hidden">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-        <Image src="/figma-assets/group-booking-bg.jpg" alt="" fill className="object-cover" />
+        <Image src="/figma-assets/group-booking-bg.jpg" alt="" fill sizes="100vw"
+              className="object-cover" />
         <div className="absolute inset-0 bg-black/75" />
       </div>
 
@@ -17,7 +18,8 @@ export default function GroupBookingCTA() {
           <div className="flex-1 flex flex-col gap-3">
             <div data-anim-item className="flex items-center gap-2">
               <div className="relative shrink-0 w-[19px] h-[19px]">
-                <Image src="/figma-assets/icon-train-white.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                <Image src="/figma-assets/icon-train-white.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
               </div>
               <p className="font-['Bricolage_Grotesque',sans-serif] italic text-white text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
                 {t("label")}

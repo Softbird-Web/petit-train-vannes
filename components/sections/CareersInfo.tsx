@@ -66,7 +66,8 @@ export default async function CareersInfo() {
                         src="/figma-assets/icon-email.svg"
                         alt=""
                         fill
-                        className="object-contain"
+                        sizes="64px"
+              className="object-contain"
                         aria-hidden="true"
                       />
                     </div>

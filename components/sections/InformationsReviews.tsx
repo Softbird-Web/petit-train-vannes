@@ -54,7 +54,8 @@ function ReviewCard({ text, author }: { text: string; author: string }) {
             src="/figma-assets/stars.svg"
             alt="5 stars"
             fill
-            className="object-contain"
+            sizes="64px"
+              className="object-contain"
           />
         </div>
       </div>
@@ -76,7 +77,8 @@ export default function InformationsReviews() {
                 src="/figma-assets/icon-train.svg"
                 alt=""
                 fill
-                className="object-contain"
+                sizes="64px"
+              className="object-contain"
                 aria-hidden="true"
               />
             </div>
@@ -112,7 +114,8 @@ export default function InformationsReviews() {
                   src="/figma-assets/google-icon.svg"
                   alt="Google"
                   fill
-                  className="object-contain"
+                  sizes="64px"
+              className="object-contain"
                 />
               </div>
               <div className="flex flex-col gap-0.5">
@@ -125,7 +128,8 @@ export default function InformationsReviews() {
                       src="/figma-assets/stars.svg"
                       alt="rating stars"
                       fill
-                      className="object-contain"
+                      sizes="64px"
+              className="object-contain"
                     />
                   </div>
                 </div>
@@ -146,7 +150,8 @@ export default function InformationsReviews() {
                 src="/figma-assets/review-gallery-1.jpg"
                 alt="Petit Train de Vannes"
                 fill
-                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
               />
             </div>
             <ReviewCard
@@ -158,7 +163,8 @@ export default function InformationsReviews() {
                 src="/figma-assets/review-gallery-2.jpg"
                 alt="Petit Train de Vannes longeant les remparts"
                 fill
-                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
               />
             </div>
           </div>

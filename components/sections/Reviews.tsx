@@ -25,7 +25,8 @@ export default function Reviews() {
         <div className="flex flex-col gap-6 items-center text-center max-w-[623px]">
           <div data-anim-item className="flex items-center gap-2">
             <div className="relative shrink-0 w-[19px] h-[19px]">
-              <Image src="/figma-assets/icon-train.svg" alt="" fill className="object-contain" aria-hidden="true" />
+              <Image src="/figma-assets/icon-train.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
             </div>
             <p className="font-['Bricolage_Grotesque',sans-serif] italic text-[#1c1b29] text-base leading-6 tracking-[-0.48px] whitespace-nowrap">
               {t("label")}
@@ -43,7 +44,8 @@ export default function Reviews() {
           {/* Google badge */}
           <div data-anim-item className="bg-white rounded-[8px] flex items-center gap-2.5 px-2 py-1 rotate-[0.54deg]">
             <div className="relative shrink-0 w-6 h-6">
-              <Image src="/figma-assets/google-icon.svg" alt="Google" fill className="object-contain" />
+              <Image src="/figma-assets/google-icon.svg" alt="Google" fill sizes="64px"
+              className="object-contain" />
             </div>
             <div className="flex flex-col gap-0.5">
               <div className="flex items-center gap-1">

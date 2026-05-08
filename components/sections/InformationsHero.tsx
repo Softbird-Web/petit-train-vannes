@@ -28,7 +28,8 @@ export default function InformationsHero({
                 src="/figma-assets/icon-train.svg"
                 alt=""
                 fill
-                className="object-contain"
+                sizes="64px"
+              className="object-contain"
                 aria-hidden="true"
               />
             </div>
@@ -55,7 +56,8 @@ export default function InformationsHero({
           src={imageSrc}
           alt={imageAlt}
           fill
-          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
           priority
         />
       </div>
