@@ -27,12 +27,7 @@ This repo is the **canonical template** for all Petit Train microsites (Carnac �
 4. Collect photos from that folder: hero video MP4, opening image, section photos, 9–12 gallery photos.
 5. Confirm Regiondo widget ID from the client's dashboard.
 6. Decide final production domain (can be set as Vercel env var later).
-7. **Decide locales** — French-only, or add EN/ES/DE/IT/NL/CS? If multi-locale, check `.env.local` has `ANTHROPIC_API_KEY` uncommented:
-   ```bash
-   grep "ANTHROPIC_API_KEY" .env.local
-   # Must NOT show a leading #. If it does, uncomment it before Phase 3b.
-   ```
-   The translation sync script (`npm run translate`) will silently fail if the key is missing — this causes Carnac content to leak into all non-French locales for the entire session.
+7. **Decide locales** — French-only, or add EN/ES/DE/IT/NL/CS? If multi-locale, write all 6 locale files manually from `fr.json`. This is the standard approach for Morbihan train sites — manual translation gives better quality than the `npm run translate` script (which requires `ANTHROPIC_API_KEY` and translates line-by-line without context). See `docs/lessons.md` → "Manual translations" entry for locale-specific formatting rules.
 
 **Output of Phase 0:** a filled questionnaire + a confirmed image folder + ANTHROPIC_API_KEY ready. Hand all three to Claude to start Phase 1.
 

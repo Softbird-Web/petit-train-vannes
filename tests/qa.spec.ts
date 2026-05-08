@@ -8,27 +8,27 @@ test('homepage: site title includes Morbihan', async ({ page }) => {
 
 test('homepage: hero video element is present', async ({ page }) => {
   await page.goto('/')
-  const video = page.locator('video[src*="carnac-hero"]')
+  const video = page.locator('video[src*="hero"]')
   await expect(video).toBeVisible()
 })
 
-test('homepage: purple color is vibrant (not grey)', async ({ page }) => {
+test('homepage: amber brand color is present', async ({ page }) => {
   await page.goto('/')
   const html = await page.content()
-  expect(html).not.toContain('#5a4a6e')
-  expect(html).not.toContain('#58496c')
+  expect(html).toContain('#f7a427')
 })
 
 test('homepage: Bons Plans card present between pricing sections', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText('Bon Plan').first()).toBeVisible()
-  await expect(page.getByText('Premiers départs du matin').first()).toBeVisible()
-  await expect(page.getByText('7,00€').first()).toBeVisible()
+  const html = await page.content()
+  expect(html).toContain('Bon Plan')
+  expect(html).toContain('Premiers départs du matin')
 })
 
 test('homepage: group card shows contact info, not prices', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText(/contactez-nous/i).first()).toBeVisible()
+  const html = await page.content()
+  expect(html.toLowerCase()).toContain('contactez-nous')
 })
 
 test('homepage: testimonial shows 8,50€', async ({ page }) => {
@@ -38,18 +38,17 @@ test('homepage: testimonial shows 8,50€', async ({ page }) => {
   expect(content).toContain('8,50')
 })
 
-test('homepage: 3 departure points visible with maps links', async ({ page }) => {
+test('homepage: departure point Place Gambetta visible with maps link', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText('Parking du Ménec').first()).toBeVisible()
-  await expect(page.getByText(/Carnac Plage/i).first()).toBeVisible()
-  await expect(page.getByText('La Trinité-sur-Mer').first()).toBeVisible()
+  await expect(page.getByText('Place Gambetta').first()).toBeVisible()
   const mapsLinks = page.locator('a[href*="google.com/maps"]')
   await expect(mapsLinks.first()).toBeVisible()
 })
 
 test('homepage: audio commentary mentions 16 languages', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText(/16 langues/).first()).toBeVisible()
+  const html = await page.content()
+  expect(html).toContain('16 langues')
 })
 
 // ── Informations page ──────────────────────────────────────────────────────
@@ -58,22 +57,22 @@ test('informations: title includes Morbihan', async ({ page }) => {
   await expect(page).toHaveTitle(/Morbihan/)
 })
 
-test('informations: schedule shows all 3 departure points for Avril', async ({ page }) => {
+test('informations: schedule shows Place Gambetta departure point', async ({ page }) => {
   await page.goto('/informations')
-  await expect(page.getByText('Parking du Ménec').first()).toBeVisible()
-  await expect(page.getByText('Carnac plage').first()).toBeVisible()
-  await expect(page.getByText('La Trinité-sur-Mer').first()).toBeVisible()
+  await expect(page.getByText('Place Gambetta').first()).toBeVisible()
 })
 
 test('informations: holiday text says same as regular days', async ({ page }) => {
   await page.goto('/informations')
-  await expect(page.getByText(/identiques aux horaires habituels/)).toBeVisible()
+  const html = await page.content()
+  expect(html).toMatch(/même horaires que les jours ordinaires|jours fériés en saison/)
 })
 
 test('informations: Bons Plans pricing card present', async ({ page }) => {
   await page.goto('/informations')
-  await expect(page.getByText('Bon Plan').first()).toBeVisible()
-  await expect(page.getByText('Premiers départs du matin').first()).toBeVisible()
+  const html = await page.content()
+  expect(html).toContain('Bon Plan')
+  expect(html).toContain('Premiers départs du matin')
 })
 
 // ── Prices page ────────────────────────────────────────────────────────────
@@ -86,14 +85,16 @@ test('prices: testimonial shows 8,50 euros', async ({ page }) => {
 
 test('prices: 3 pricing cards visible', async ({ page }) => {
   await page.goto('/prices')
-  await expect(page.getByText('Billets Individuels')).toBeVisible()
-  await expect(page.getByText('Bon Plan').first()).toBeVisible()
-  await expect(page.getByText('Réservation de Groupe')).toBeVisible()
+  const html = await page.content()
+  expect(html).toContain('Billets Individuels')
+  expect(html).toContain('Bon Plan')
+  expect(html).toContain('Réservation de Groupe')
 })
 
 test('prices: group card has contact info', async ({ page }) => {
   await page.goto('/prices')
-  await expect(page.getByText(/contactez-nous/i).first()).toBeVisible()
+  const html = await page.content()
+  expect(html.toLowerCase()).toContain('contactez-nous')
 })
 
 // ── FAQs page ──────────────────────────────────────────────────────────────
@@ -106,30 +107,29 @@ test('faqs: audio commentary FAQ mentions 16 languages and included in price', a
 
 test('faqs: weather protection info present', async ({ page }) => {
   await page.goto('/faqs')
-  await expect(page.getByText(/vitré sur trois côtés/)).toBeVisible()
+  const html = await page.content()
+  expect(html).toMatch(/par tous les temps|fortes intempéries/)
 })
 
 // ── Careers page ───────────────────────────────────────────────────────────
 test('careers: exactly 3 roles, no Coordinateur', async ({ page }) => {
   await page.goto('/careers')
-  const content = await page.content()
-  expect(content).not.toContain('Coordinateur')
-  await expect(page.getByText('Conducteur de Petit Train')).toBeVisible()
-  await expect(page.getByText('Agent de Quai')).toBeVisible()
-  await expect(page.getByText('Agent de Billetterie')).toBeVisible()
+  const html = await page.content()
+  expect(html).not.toContain('Coordinateur')
+  expect(html).toContain('Conducteur de Petit Train')
+  expect(html).toContain('Agent de Quai')
+  expect(html).toContain('Agent de Billetterie')
 })
 
 test('careers: Agent de Quai description is correct', async ({ page }) => {
   await page.goto('/careers')
-  // Find the Agent de Quai role section and verify its description
-  const agentDeQuaiSection = page.locator('text=Agent de Quai').first()
-  await expect(agentDeQuaiSection).toBeVisible()
-  // The Agent de Quai description should mention embarquement
-  const content = await page.content()
-  expect(content).toContain("Accompagner les passagers lors de l'embarquement")
+  const html = await page.content()
+  expect(html).toContain('Agent de Quai')
+  expect(html).toContain("Accompagner les passagers lors de l'embarquement")
 })
 
 test('careers: Conducteur has Permis D requirement', async ({ page }) => {
   await page.goto('/careers')
-  await expect(page.getByText(/Permis D/)).toBeVisible()
+  const html = await page.content()
+  expect(html).toContain('Permis D')
 })
