@@ -5,7 +5,7 @@
     "informations": "Praktische info",
     "prices": "Tarieven & Tickets",
     "pricesShort": "Tarieven",
-    "privatisation": "Privé huren",
+    "privatisation": "Privatisering",
     "faqs": "FAQ",
     "careers": "Vacatures",
     "book": "Boeken",
@@ -13,7 +13,7 @@
   },
   "navbar": {
     "bannerPrefix": "Deze site maakt deel uit van de Petits Trains du Morbihan. Ontdek ook onze andere ritten in",
-    "bannerLinkVannes": "Vannes",
+    "bannerLinkCarnac": "Carnac",
     "bannerAnd": "en",
     "bannerLinkQuiberon": "Quiberon.",
     "openMenu": "Menu openen",
@@ -21,9 +21,9 @@
     "languageLabel": "Taal"
   },
   "footer": {
-    "ctaHeading": "Klaar om Carnac op een eenvoudige en prettige manier te ontdekken?",
-    "ctaBody": "Stap in de Petit Train de Carnac voor een rondleiding die geschiedenis, landschap en comfort combineert. Ontdek de beroemde menhirs van Carnac, de witte zandstranden en de haven van La Trinité-sur-Mer — zonder moeite en met heldere audio-uitleg gedurende de hele rit.",
-    "tagline": "De Petit Train de Carnac biedt een rondleiding door een van de mooiste regio's van Zuid-Bretagne. Comfortabel aan boord ontdekken bezoekers Carnac, zijn beroemde megalieten, zijn stranden en de nabijgelegen haven, op een ontspannen en toegankelijke manier.",
+    "ctaHeading": "Klaar om Vannes op een eenvoudige en prettige manier te ontdekken?",
+    "ctaBody": "Stap in de Petit Train de Vannes voor een rondleiding die geschiedenis, middeleeuwse architectuur en comfort combineert. Ontdek de vestingmuren, de oude stad en de haven van Vannes — zonder moeite en met heldere audio-uitleg gedurende de hele rit.",
+    "tagline": "De Petit Train de Vannes biedt een rondleiding door een van de mooiste middeleeuwse steden van Bretagne. Comfortabel aan boord ontdekken bezoekers de vestingmuren, de oude stad en de haven van Vannes op een ontspannen en toegankelijke manier.",
     "quickLinks": "Snelle links",
     "contactUs": "Neem contact op",
     "other": "Overig",
@@ -40,137 +40,153 @@
     "informations": "Praktische info",
     "faqs": "FAQ",
     "careers": "Vacatures",
-    "privatisation": "Privé huren"
+    "privatisation": "Privatisering"
   },
   "shared": {
-    "googleReviewsCount": "6.000+ recensies",
-    "googleRatingDescription": "De Petit Train de Carnac heeft een 4,7-beoordeling op Google met meer dan 6.000 recensies — een van de populairste toeristische attracties in Carnac.",
-    "googleRatingDescriptionAlt": "De Petit Train de Carnac heeft een beoordeling boven de 4,7 op Google met meer dan 6.000 recensies — een van de populairste toeristische attracties in Carnac.",
+    "googleReviewsCount": "1.385+ recensies",
+    "googleRatingDescription": "De Petit Train de Vannes heeft een 4,7-beoordeling op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
+    "googleRatingDescriptionAlt": "De Petit Train de Vannes heeft een beoordeling boven de 4,7 op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
     "starsAlt": "5 sterren",
     "fourSevenStarsAlt": "4,7 op 5 sterren"
   },
   "hero": {
-    "label": "Le Petit Trains de Morbihan · Carnac",
+    "label": "Le Petit Train de Morbihan · Vannes",
     "headingPrefix": "Ontdek",
-    "headingHighlight": "Carnac",
+    "headingHighlight": "Vannes",
     "headingSuffix": "aan boord van de Petit Train",
-    "description": "De Petit Train de Carnac biedt een toeristische rondleiding door de stad en omgeving. Ontdek de mooiste neolithische site ter wereld tijdens deze <strong>rondleiding van 50 minuten.</strong> Een eenvoudige en comfortabele manier om Carnac, zijn erfgoed en zijn iconische landschappen te beleven — zonder lang te hoeven lopen.",
+    "description": "De Petit Train de Vannes brengt je langs de middeleeuwse vestingmuren, de oude stad en de haven tijdens een begeleide rit van <strong>40 minuten.</strong> Een eenvoudige, comfortabele en toegankelijke manier om een van de mooiste middeleeuwse steden van Bretagne te ontdekken — zonder inspanning en met heldere audio-uitleg gedurende de hele route.",
     "tagline": "Ideaal voor gezinnen, koppels, senioren en bezoekers van alle leeftijden.",
     "buttonBook": "Boek je bezoek",
     "buttonPrices": "Tarieven bekijken",
-    "googleBadge": "De Petit Train de Carnac heeft een 4,7-beoordeling op Google met meer dan 6.000 recensies — een van de populairste toeristische attracties in Carnac.",
+    "googleBadge": "De Petit Train de Vannes heeft een 4,7-beoordeling op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
     "rightCardHeading": "Rondleiding met audiocommentaar in 16 talen",
     "rightCardBody": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens.",
     "rightCardFlagsAlt": "Taalvlaggen",
-    "rightImageAlt": "De Petit Train de Carnac op een schilderachtige route",
+    "rightImageAlt": "De Petit Train de Vannes langs de middeleeuwse vestingmuren",
     "noteImportanteLabel": "Belangrijke opmerking",
     "noteImportanteHeading": "Online boeken",
-    "noteImportanteBody": "Reserveren kan, maar is niet verplicht. Je kunt tot <strong>2 uur</strong> vóór de gewenste vertrektijd boeken. Houd rekening met reis- en parkeertijd ter plaatse. Daarna ga je rechtstreeks naar het vertrekpunt en koop je je tickets aan het loket of bij de chauffeur.",
+    "noteImportanteBody": "Reserveren kan, maar is niet verplicht. Je kunt je rechtstreeks melden op het vertrekpunt <strong>Place Gambetta</strong> en je tickets kopen bij de chauffeur. In het hoogseizoen raden we aan vooraf te reserveren.",
     "noteImportanteBodyExtra": "Niet alle plaatsen zijn online beschikbaar."
   },
   "metadata": {
     "home": {
-      "title": "Petit Train de Carnac, Morbihan — Menhirtour",
-      "description": "Megalietentour door Carnac aan boord van de Petit Train — rondleiding van 55 minuten met meertalig audiocommentaar, stranden en haven van La Trinité-sur-Mer."
+      "title": "Petit Train Vannes Vestingmuren — De Petit Train de Vannes, Morbihan",
+      "description": "Begeleide rondleiding langs de vestingmuren van Vannes aan boord van de Petit Train — rit van 40 minuten, audiocommentaar in 16 talen, oude stad en haven van Vannes."
     },
     "prices": {
-      "title": "Tarieven & Tickets — Petit Train de Carnac, Morbihan",
-      "description": "Tarieven voor de megalietentour door Carnac met de Petit Train: €8,50 volwassenen, €5 kinderen, gratis onder de 3 jaar. Groepstarieven en online boeken."
+      "title": "Tarieven & Tickets — Petit Train de Vannes, Morbihan",
+      "description": "Tarieven voor de vestingmuurtour van Vannes met de Petit Train: €8,50 volwassenen, €5 kinderen 4–12 jaar, gratis onder de 4 jaar. Groepstarieven en online boeken."
     },
     "routes": {
-      "title": "Route & Traject — Petit Train de Carnac, Morbihan",
-      "description": "Ontdek de route van de Petit Train de Carnac: menhirs van Carnac, Carnac-Plage en haven van La Trinité-sur-Mer. Rondleiding van 55 minuten met audio in 16 talen."
+      "title": "Route & Traject — Petit Train de Vannes, Morbihan",
+      "description": "Ontdek de route van de Petit Train de Vannes: middeleeuwse vestingmuren, oude stad, haven en Jardins de la Garenne. Rondleiding van 40 minuten met audio in 16 talen."
     },
     "book": {
-      "title": "Boek je bezoek — Petit Train de Carnac, Morbihan",
-      "description": "Boek je megalietentour door Carnac met de Petit Train — rondleiding van 55 minuten, meertalig audio, vertrek vanaf Parking du Ménec."
+      "title": "Boek je bezoek — Petit Train de Vannes, Morbihan",
+      "description": "Boek je tour langs de vestingmuren van Vannes met de Petit Train. Rit van 40 minuten, meertalig audio, vertrek vanaf Place Gambetta."
     },
     "informations": {
-      "title": "Praktische info — Petit Train de Carnac, Morbihan",
-      "description": "Praktische info voor de megalietentour door Carnac met de Petit Train: dienstregeling, vertrekpunten, duur, toegang."
+      "title": "Praktische info — Petit Train de Vannes, Morbihan",
+      "description": "Praktische info voor de vestingmuurtour van Vannes met de Petit Train: dienstregeling, vertrekpunt Place Gambetta, duur, toegang."
     },
     "faqs": {
-      "title": "FAQ — Petit Train de Carnac, Morbihan",
-      "description": "FAQ over de megalietentour door Carnac met de Petit Train: duur, tarieven, route, toegankelijkheid, reserveringen."
+      "title": "FAQ — Petit Train de Vannes, Morbihan",
+      "description": "FAQ over de vestingmuurtour van Vannes met de Petit Train: duur, tarieven, route, toegankelijkheid, reserveringen."
     },
     "careers": {
-      "title": "Vacatures — Petit Train de Carnac, Morbihan",
-      "description": "Word lid van het team van de Petit Train de Carnac. Seizoensfuncties: chauffeur, ticketmedewerker en perronmedewerker."
+      "title": "Vacatures — Petit Train de Vannes, Morbihan",
+      "description": "Word lid van het team van de Petit Train de Vannes. Seizoensfuncties beschikbaar."
     },
     "privatisation": {
-      "title": "Privéverhuur & Groepen — Petit Train de Carnac, Morbihan",
-      "description": "Huur de Petit Train de Carnac af voor je bedrijfsevenementen, seminars, bruiloften of schoolgroepen."
+      "title": "Privatisering & Groepen — Petit Train de Vannes, Morbihan",
+      "description": "Huur de Petit Train de Vannes af voor je bedrijfsevenementen, seminars, bruiloften of schoolgroepen."
     }
   },
   "pages": {
     "prices": {
       "heroLabel": "Tarieven & Tickets",
       "heroHeadingPrefix": "Tickettarieven van de",
-      "heroHeadingHighlight": "Petit Train de Carnac",
-      "heroDescription": "Vind alle tarieven en boekingsinformatie voor de Petit Train de Carnac. Deze pagina toont individuele en groepstarieven, kinderkortingen en hoe je met vertrouwen je rondleiding boekt.",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescription": "Vind alle tarieven en boekingsinformatie voor de Petit Train de Vannes. Deze pagina toont individuele en groepstarieven, kinderkortingen en hoe je je begeleide rondleiding langs de vestingmuren van Vannes reserveert.",
       "btnFlyerIndividual": "Folder individueel",
       "btnFlyerGroup": "Folder groep",
-      "reviewQuote": "„Ik had niet zoveel verwacht voor € 8,50. Echt een mooie ervaring.\"",
-      "reviewAuthor": "Dom L. · Google-recensie",
+      "reviewQuote": "« Een mooie ontdekking van de vestingmuren van Vannes. Ik raad dit bezoek echt aan voor het hele gezin. »",
+      "reviewAuthor": "Bezoeker · Google-recensie",
       "faqLabel": "Veelgestelde vragen",
       "faqHeadingPrefix": "Veelgestelde vragen",
       "faqHeadingHighlight": "over de tarieven",
-      "faqDescription": "Vind heldere antwoorden op de meest gestelde vragen over tarieven, groepskortingen en hoe je de Petit Train de Carnac boekt.",
+      "faqDescription": "Vind heldere antwoorden op de meest gestelde vragen over tarieven, groepskortingen en hoe je de Petit Train de Vannes boekt.",
       "faq": {
-        "q1": "Wat kost een ticket voor de Petit Train de Carnac?",
-        "a1": "De tarieven hangen af van de leeftijd en de groepsgrootte. Voor individuele bezoekers is het standaard volwassenenticket € 8,50. Kinderen onder de 12 krijgen een gereduceerd tarief van € 5. Groepstarieven gelden vanaf 20 personen.",
+        "q1": "Wat kost een ticket voor de Petit Train de Vannes?",
+        "a1": "De tarieven hangen af van de leeftijd en de groepsgrootte. Voor individuele bezoekers is het standaard volwassenenticket € 8,50. Kinderen van 4 tot 12 jaar krijgen een gereduceerd tarief van € 5. Kinderen onder de 4 jaar zijn gratis.",
         "q2": "Zijn er kortingen voor kinderen?",
-        "a2": "Ja. Kinderen onder de 12 krijgen een gereduceerd tarief. Hun ticket geeft toegang tot dezelfde rondleiding en het audiocommentaar, inclusief een kindvriendelijke versie.",
+        "a2": "Ja. Kinderen van 4 tot 12 jaar krijgen een gereduceerd tarief van €5. Kinderen onder de 4 jaar stappen gratis in.",
         "q3": "Hebben kinderen een ticket nodig om in de Petit Train te stappen?",
-        "a3": "Ja. Elke passagier moet een ticket hebben om aan boord van de Petit Train de Carnac te gaan. Voor kinderen onder de 12 gelden gereduceerde tarieven.",
+        "a3": "Kinderen van 4 jaar en ouder hebben een ticket nodig. Kinderen onder de 4 jaar stappen gratis in.",
         "q4": "Zijn er groepskortingen?",
-        "a4": "Ja. Groepstarieven zijn beschikbaar vanaf 20 instappende passagiers. Deze gereduceerde tarieven gelden voor zowel volwassenen als kinderen. Vooraf boeken wordt aanbevolen.",
+        "a4": "Ja. Groepstarieven zijn beschikbaar vanaf 20 instappende personen. Vooraf boeken wordt aanbevolen. Neem rechtstreeks contact met ons op voor een offerte.",
         "q5": "Wat is inbegrepen in de ticketprijs?",
-        "a5": "Elk ticket omvat de volledige rondleiding van ongeveer 55 minuten, het meertalige audiocommentaar, een kindvriendelijke versie en een comfortabele beleving aan boord. Geen extra kosten.",
+        "a5": "Elk ticket omvat de volledige begeleide rondleiding van ongeveer 40 minuten, het audiocommentaar in 16 talen, een kindvriendelijke versie en een comfortabele beleving aan boord.",
         "q6": "Kan ik tickets ter plaatse kopen?",
-        "a6": "Ja. Tickets zijn verkrijgbaar aan het loket op de Ménec-parking, afhankelijk van beschikbaarheid. In het hoogseizoen wordt vooraf boeken aanbevolen.",
+        "a6": "Ja. Tickets kunnen rechtstreeks bij de chauffeur worden gekocht op het vertrekpunt Place Gambetta. In het hoogseizoen wordt vooraf boeken aanbevolen.",
         "q7": "Kunnen tickets online worden geboekt?",
-        "a7": "Ja. Online boeken is mogelijk en aanbevolen, vooral in drukke periodes. Online boekingen moeten minstens twee uur voor vertrek worden gemaakt."
+        "a7": "Ja. Online boeken is mogelijk en aanbevolen in drukke periodes."
       }
     },
     "routes": {
       "heroLabel": "De Route",
       "heroHeadingPrefix": "De route",
-      "heroHeadingHighlight": "van de Petit Train de Carnac",
-      "heroDescriptionP1": "Ontdek de volledige route van de Petit Train de Carnac langs de menhirs van Carnac, Carnac-Plage en de haven van La Trinité-sur-Mer.",
-      "heroDescriptionP2": "Een rondleiding van 55 minuten met audiocommentaar in 16 talen, die de meest opvallende plekken van de regio in één comfortabel circuit combineert.",
-      "heroImageAlt": "Kaart van de route van de Petit Train de Carnac — klik om te vergroten",
+      "heroHeadingHighlight": "van de Petit Train de Vannes",
+      "heroDescriptionP1": "Ontdek de volledige route van de Petit Train de Vannes langs de middeleeuwse vestingmuren, de oude stad en de haven.",
+      "heroDescriptionP2": "Een begeleide rit van 40 minuten met audiocommentaar in 16 talen, die de mooiste plekken van Vannes in één comfortabele rit combineert vanaf Place Gambetta.",
+      "heroImageAlt": "Kaart van de route van de Petit Train de Vannes — klik om te vergroten",
       "faqLabel": "Veelgestelde vragen",
       "faqHeadingPrefix": "Veelgestelde vragen",
       "faqHeadingHighlight": "over de route",
-      "faqDescription": "Vind heldere antwoorden op de meest gestelde vragen over de route, de stops en de duur van de Petit Train de Carnac."
+      "faqDescription": "Vind heldere antwoorden op de meest gestelde vragen over de route, de stops en de duur van de Petit Train de Vannes.",
+      "faqQ1": "Wat is de route van de Petit Train de Vannes?",
+      "faqA1": "De Petit Train de Vannes vertrekt van de Place Gambetta en neemt u mee langs de middeleeuwse vestingmuren, de oude binnenstad met vakwerkhuizen, de haven van Vannes en de Jardins de la Garenne. Het circuit duurt ongeveer 40 minuten.",
+      "faqQ2": "Hoe lang duurt het circuit van de Petit Train de Vannes?",
+      "faqA2": "Het circuit duurt ongeveer 40 minuten. Bezoekers ontdekken de belangrijkste bezienswaardigheden van Vannes in een rustig tempo, begeleid door audiocommentaar gedurende het hele traject.",
+      "faqQ3": "Waar begint en eindigt de route?",
+      "faqA3": "De route begint en eindigt op de Place Gambetta, in het hart van Vannes, vlakbij de middeleeuwse vestingmuren. Het is het enige vertrek- en aankomstpunt.",
+      "faqQ4": "Maakt de Petit Train tussenstops tijdens de route?",
+      "faqA4": "Het circuit is aaneengesloten — er zijn geen tussenstops. Passagiers stappen alleen in en uit op de Place Gambetta.",
+      "faqQ5": "Zien we de middeleeuwse vestingmuren van Vannes tijdens het bezoek?",
+      "faqA5": "Ja. De route volgt de beroemde middeleeuwse vestingmuren van Vannes, behorend tot de best bewaarde van Bretagne. Het audiocommentaar legt hun geschiedenis en architectuur uit gedurende het hele traject.",
+      "faqQ6": "Omvat de route de oude binnenstad en de haven van Vannes?",
+      "faqA6": "Ja. Het circuit loopt door de oude binnenstad met vakwerkhuizen uit de 17e eeuw en langs de haven van Vannes. Deze plekken worden via het audiocommentaar gepresenteerd als onderdeel van de rondleiding.",
+      "faqQ7": "Zijn de Jardins de la Garenne opgenomen in de route?",
+      "faqA7": "Ja. Het circuit passeert de Jardins de la Garenne, een van de mooiste tuinen van Vannes, met een opmerkelijk uitzicht op de vestingmuren en middeleeuwse wasplaatsen.",
+      "faqQ8": "Is het circuit geschikt voor mensen met beperkte mobiliteit?",
+      "faqA8": "De Petit Train is voor iedereen toegankelijk. Het is bijzonder aan te bevelen voor mensen die lange wandelingen willen vermijden terwijl ze de historische bezienswaardigheden van Vannes ontdekken."
     },
     "informations": {
       "heroLabel": "Praktische info",
       "heroHeadingPrefix": "Praktische info voor",
-      "heroHeadingHighlight": "de Petit Train de Carnac",
-      "heroDescription": "Alle praktische informatie om je bezoek voor te bereiden: tijden, toegang, duur, toegankelijkheid en handige tips.",
-      "heroImageAlt": "De Petit Train de Carnac aan zee"
+      "heroHeadingHighlight": "de Petit Train de Vannes",
+      "heroDescription": "Hier vind je alle praktische informatie om je bezoek voor te bereiden: tijden, toegang, duur, toegankelijkheid en handige tips.",
+      "heroImageAlt": "De Petit Train de Vannes langs de middeleeuwse vestingmuren"
     },
     "faqs": {
       "heroLabel": "FAQ",
       "heroHeadingPrefix": "Veelgestelde vragen",
-      "heroDescription": "Vind antwoorden op de meest gestelde vragen over de Petit Train de Carnac: duur, tarieven, route, toegankelijkheid en boekingen."
+      "heroDescription": "Vind antwoorden op de meest gestelde vragen over de Petit Train de Vannes: duur, tarieven, route, toegankelijkheid en reserveringen."
     },
     "careers": {
       "heroLabel": "Vacatures",
       "heroHeadingPrefix": "Jouw carrière bij de",
-      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingHighlight": "Petit Train de Vannes",
       "heroHeadingSuffix": "begint hier",
-      "heroDescription": "Onze filosofie is eenvoudig: een hartelijke, betrouwbare en respectvolle service voor elke bezoeker. We zoeken mensen die attent en professioneel zijn en die graag Carnac met onze gasten delen.",
+      "heroDescription": "Onze filosofie is eenvoudig: een hartelijke, betrouwbare en respectvolle service voor elke bezoeker. We zoeken mensen die attent en professioneel zijn en die graag Vannes met onze gasten delen.",
       "buttonApply": "Solliciteer & stuur ons je cv",
       "jobsLabel": "Open vacatures:",
       "jobBadgeSeasonal": "Seizoensfunctie"
     },
     "privatisation": {
-      "overlayLabel": "Privé huren & B2B",
-      "overlayHeading": "Huur de Petit Train de Carnac af voor je evenement",
-      "overlayDescription": "De Petit Train de Carnac kan privé worden afgehuurd voor bedrijfsevenementen, seminars, bruiloften, schoolgroepen of VIP-bezoeken. Neem contact op voor een offerte op maat."
+      "overlayLabel": "Privatisering & B2B-verhuur",
+      "overlayHeading": "Huur de Petit Train de Vannes af voor je evenement",
+      "overlayDescription": "De Petit Train de Vannes kan privé worden afgehuurd voor bedrijfsevenementen, seminars, bruiloften, schoolgroepen of VIP-bezoeken. Neem contact op voor een offerte op maat."
     },
     "mentionsLegales": {
       "title": "Wettelijke vermeldingen"
@@ -183,47 +199,47 @@
     "practicalInfo": {
       "label": "Informatie",
       "heading": "Praktische informatie",
-      "description": "Om je bezoek aan de toeristische trein in Carnac goed te plannen, vind je hier de essentiële info die je voor het boeken moet weten.",
+      "description": "Om je bezoek aan de toeristische trein in Vannes goed te plannen, vind je hier de essentiële info die je voor het boeken moet weten.",
       "duration": {
         "title": "Duur",
-        "description": "De rit duurt ongeveer <strong>55 minuten.</strong> In dit tempo ontdek je Carnac op je gemak en geniet je van het commentaar en de landschappen — zonder gehaast of vermoeid te raken."
+        "description": "De rit duurt ongeveer <strong>40 minuten.</strong> In dit tempo ontdek je Vannes op je gemak — van de vestingmuren tot de oude stad en de haven — zonder gehaast of vermoeid te raken."
       },
       "departure": {
         "title": "Vertrek",
-        "description": "Verplicht vertrekpunt voor <strong>groepen</strong> en <strong>individuele boekingen</strong>. Aan de <strong>Ménec-parking</strong> in Carnac, recht tegenover de Maison des Mégalithes. De halte is duidelijk aangegeven en goed bereikbaar."
+        "description": "Het enige vertrekpunt is de <strong>Place Gambetta</strong>, in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren. De halte is duidelijk aangegeven en goed bereikbaar vanuit het stadscentrum."
       },
       "schedule": {
         "title": "Tijden",
-        "description": "Vertrekken zijn er <strong>van april tot september</strong>, meerdere keren per dag. In het hoogseizoen rijdt de trein dagelijks. Raadpleeg de actuele dienstregeling voor exacte vertrektijden en seizoensaanpassingen."
+        "description": "Vertrekken zijn er <strong>van april tot La Toussaint</strong>, elke 40 minuten. De trein rijdt dagelijks, inclusief zondagen en feestdagen in het seizoen."
       },
       "accessibility": {
         "title": "Toegankelijkheid",
-        "description": "De Petit Train is <strong>voor iedereen toegankelijk</strong>. Ideaal voor gezinnen met jonge kinderen, oudere bezoekers en iedereen die liever lange wandelingen vermijdt en toch het beste van Carnac wil zien."
+        "description": "De Petit Train is <strong>voor iedereen toegankelijk</strong>. Ideaal voor gezinnen met jonge kinderen, senioren en iedereen die liever lange wandelingen vermijdt en toch het beste van Vannes wil zien."
       },
       "payment": {
         "title": "Betaling",
-        "description": "Tickets zijn <strong>direct aan boord</strong> of bij het vertrekpunt te koop. Cash en kaart worden geaccepteerd. Groeps- en schooltarieven zijn beschikbaar — neem contact op voor een offerte."
+        "description": "Tickets kunnen <strong>rechtstreeks bij de chauffeur</strong> worden gekocht op het vertrekpunt Place Gambetta. Groepstarieven zijn beschikbaar — neem contact op voor een offerte."
       },
       "cta": {
         "heading": "Meer informatie",
-        "description": "Lees onze volledige gids met tickettarieven, betaalmethoden en tips om het maximale uit je rit langs de megalieten te halen.",
+        "description": "Raadpleeg onze volledige gids voor tickettarieven, betaalmethoden en tips om het maximale uit je bezoek aan de vestingmuren van Vannes te halen.",
         "button": "Meer weten"
       }
     },
     "prices": {
       "label": "Tarieven",
       "heading": "Een betaalbaar avontuur voor het hele gezin",
-      "description": "Van solo-ontdekkers tot grote gezinnen — vind het juiste tarief voor je bezoek. Profiteer van onze speciale tarieven voor kinderen en gezinnen.",
+      "description": "Van solo-ontdekkers tot grote gezinnen — vind het juiste tarief voor je bezoek aan de vestingmuren van Vannes.",
       "rowAdults": "Volwassenen",
-      "rowChildren": "Kinderen onder de 12",
+      "rowChildren": "Kinderen (4–12 jaar)",
       "individual": {
         "title": "Individuele tickets",
-        "note": "<strong>Voor individuele bezoekers:</strong> verzamelpunt is het vertrekpunt; loket ter plaatse. <strong>Gratis:</strong> kinderen onder de 3 jaar en honden."
+        "note": "<strong>Voor individuele bezoekers:</strong> koop je tickets rechtstreeks bij de chauffeur op Place Gambetta. <strong>Gratis:</strong> kinderen onder de 4 jaar."
       },
       "earlyBird": {
         "title": "Eerste vertrekken in de ochtend",
         "badge": "Beste deal",
-        "note": "<strong>Gereduceerd tarief:</strong> € 1,50 korting per ticket, alleen geldig voor de eerste ochtendvertrekken (vóór 10:20 of 10:30 afhankelijk van bestemming). Tickets aan het loket ter plaatse."
+        "note": "<strong>Gereduceerd tarief:</strong> alleen geldig voor de eerste ochtendvertrekken. Tickets bij de chauffeur ter plaatse."
       },
       "group": {
         "title": "Groepsboeking",
@@ -233,48 +249,48 @@
     },
     "beforeYouBook": {
       "heading": "Voor je boekt",
-      "description": "Voordat je je boeking bevestigt, neem even de tijd om de praktische informatie over je bezoek met de Petit Train de Carnac door te lezen. Deze punten helpen je voor een vlotte ervaring op de dag zelf en voorkomen onduidelijkheid over tijden, vertrek en het verloop van de rit.",
-      "imageAlt": "Megalieten van Carnac op het vertrekpunt",
-      "bullet1": "Kom minstens 15 minuten voor vertrek aan",
-      "bullet2": "Online boekingen moeten minstens twee uur voor vertrek worden gemaakt",
-      "bullet3": "Individuele bezoekers starten en eindigen de rit op het vertrekpunt Ménec",
-      "bullet4": "De rit duurt ongeveer 55 minuten",
-      "bullet5": "Audiocommentaar is beschikbaar in meerdere talen, inclusief een kinderversie",
+      "description": "Voordat je je boeking bevestigt, neem even de tijd om de praktische informatie over je bezoek met de Petit Train de Vannes door te lezen. Deze punten helpen je om je bezoek voor te bereiden en optimaal te genieten van de vestingmuurtour.",
+      "imageAlt": "De vestingmuren van Vannes gezien vanuit de Petit Train",
+      "bullet1": "Kom minstens 10 minuten voor vertrek aan",
+      "bullet2": "Online boeken wordt aanbevolen in het hoogseizoen",
+      "bullet3": "Vertrek en aankomst bij Place Gambetta",
+      "bullet4": "De rit duurt ongeveer 40 minuten",
+      "bullet5": "Audiocommentaar is beschikbaar in 16 talen, inclusief een kinderversie",
       "bullet6": "De Petit Train rijdt bij elk weer",
-      "bullet7": "Vertrek is gegarandeerd vanaf 6 betalende volwassenen aan boord"
+      "bullet7": "Vertrek is gegarandeerd vanaf een minimum aantal betalende volwassenen aan boord"
     },
     "features": {
       "label": "Overzicht van het traject",
-      "heading": "Een eenvoudige en plezierige manier om Carnac te ontdekken",
-      "p1": "De Petit Train de Carnac nodigt je uit om de stad in een ontspannen tempo te ontdekken, comfortabel aan boord van een toeristische trein die is ontworpen voor wie zonder moeite van Carnac wil genieten.",
-      "p2": "Tijdens de rit geeft het audiocommentaar duidelijke en toegankelijke informatie over de plekken die je passeert en helpt het je de geschiedenis, de monumenten en de sfeer van Carnac te begrijpen. Ideaal voor wie een prettige introductie tot Carnac en omgeving zoekt.",
-      "imageAlt": "Schilderachtig uitzicht vanuit de Petit Train de Carnac",
+      "heading": "Een eenvoudige en plezierige manier om Vannes te ontdekken",
+      "p1": "De Petit Train de Vannes nodigt je uit om de stad in een ontspannen tempo te ontdekken, comfortabel aan boord van een toeristische trein die is ontworpen voor wie zonder moeite van Vannes wil genieten.",
+      "p2": "Tijdens de rit geeft het audiocommentaar duidelijke en toegankelijke informatie over de vestingmuren, de oude stad en de haven van Vannes. Ideaal voor wie een prettige introductie tot deze middeleeuwse stad en haar geschiedenis zoekt.",
+      "imageAlt": "Uitzicht op de vestingmuren van Vannes vanuit de Petit Train",
       "f1Title": "Comfortabele toeristische trein",
-      "f1Desc": "Ontdek de hoogtepunten van Carnac comfortabel zittend aan boord van onze toeristische trein, ontworpen om moeiteloos te verkennen.",
-      "f2Title": "Audiocommentaar in 16 talen — inbegrepen",
-      "f2Desc": "Het audiocommentaar is beschikbaar in 16 talen met hygiënische koptelefoons inbegrepen, inbegrepen bij de ticketprijs. Er is ook een kinderversie beschikbaar.",
-      "f3Title": "Ontdek het erfgoed en de landschappen van Carnac",
-      "f3Desc": "Ontdek 47 becommentarieerde bezienswaardigheden: de menhirrijen van Ménec, Kermario en Kerlescan, witte zandstranden en de haven van La Trinité-sur-Mer in één schilderachtige rit.",
+      "f1Desc": "Ontdek de mooiste plekken van Vannes comfortabel zittend aan boord van onze toeristische trein, ontworpen om de middeleeuwse stad moeiteloos te verkennen.",
+      "f2Title": "Audiocommentaar in 16 talen — inbegrepen in de ticketprijs",
+      "f2Desc": "Het audiocommentaar is beschikbaar in 16 talen met hygiënische koptelefoons inbegrepen bij de ticketprijs. Er is ook een kinderversie beschikbaar.",
+      "f3Title": "Ontdek het middeleeuwse erfgoed van Vannes",
+      "f3Desc": "Ontdek de middeleeuwse vestingmuren, de oude stad met vakwerkhuizen, de haven van Vannes en de Jardins de la Garenne in één schilderachtige rit van 40 minuten.",
       "f4Title": "Geschikt voor gezinnen, senioren en groepen",
       "f4Desc": "Onze trein verwelkomt alle leeftijden en groepsgroottes — geen lange wandelingen, geen moeite, alleen een comfortabele en plezierige ervaring voor iedereen."
     },
     "groupBookingCta": {
-      "label": "Groepsboeking — Privé huren",
+      "label": "Groepsboeking — Privatisering",
       "heading": "Boeking voor privérondleidingen",
-      "description": "Reis je in een groep of wil je de Petit Train de Carnac privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
-      "button": "Privé huren boeken"
+      "description": "Reis je in een groep of wil je de Petit Train de Vannes privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
+      "button": "Privatisering boeken"
     },
     "locations": {
       "label": "Bestemmingen",
       "heading": "Ontdek onze andere Petit Train-ritten in Morbihan",
-      "description": "Verleng je bezoek aan Morbihan met onze andere toeristische treinen. In Vannes en Quiberon ontdek je nieuwe landschappen, uniek erfgoed en onvergetelijke momenten.",
+      "description": "Verleng je bezoek aan Morbihan met onze andere toeristische treinen. In Carnac en Quiberon ontdek je nieuwe landschappen, uniek erfgoed en onvergetelijke momenten.",
       "discover": "Ontdek",
-      "vannes": {
-        "title": "Le Petit Train de Vannes",
-        "tagline": "Ontdek het historische hart van Vannes",
-        "description": "Stap aan boord van de Petit Train de Vannes om de middeleeuwse stadsmuren, de haven en de schilderachtige steegjes van de oude stad te ontdekken.",
-        "cta": "Ontdek de Petit Train de Vannes",
-        "imageAlt": "Historisch centrum van Vannes"
+      "carnac": {
+        "title": "Le Petit Train de Carnac",
+        "tagline": "Ontdek de menhirs en stranden van Carnac",
+        "description": "Stap aan boord van de Petit Train de Carnac voor een begeleide rondleiding langs de beroemde menhirs, de witte zandstranden en de haven van La Trinité-sur-Mer.",
+        "cta": "Ontdek de Petit Train de Carnac",
+        "imageAlt": "Menhiruitlijningen van Carnac"
       },
       "quiberon": {
         "title": "Le Petit Train de Quiberon",
@@ -287,7 +303,7 @@
     "reviews": {
       "label": "Recensies",
       "heading": "Wat bezoekers over de trein zeggen",
-      "description": "De Petit Train de Carnac heeft een beoordeling boven de 4,7 op Google met meer dan 6.000 recensies — een van de populairste toeristische attracties in Carnac.",
+      "description": "De Petit Train de Vannes heeft een beoordeling boven de 4,7 op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
       "googleReview": "Google-recensie",
       "slideAriaLabel": "Recensie {n} van {total}",
       "regionAriaLabel": "Recensies van bezoekers",
@@ -298,13 +314,13 @@
       "label": "Boeken",
       "headingPrefix": "Boek je bezoek aan de",
       "headingHighlight": "Petit Train",
-      "headingSuffix": "in Carnac",
-      "description": "Kies je datum en tijd, selecteer het aantal tickets en bevestig je boeking online. De rit duurt <strong>55 minuten</strong> met audiocommentaar in 16 talen."
+      "headingSuffix": "in Vannes",
+      "description": "Kies je datum en tijd, selecteer het aantal tickets en bevestig je boeking online. De rit duurt <strong>40 minuten</strong> met audiocommentaar in 16 talen."
     },
     "gallery": {
       "label": "Galerij",
       "heading": "Herinneringen aan je bezoek",
-      "description": "Een blik op wat je aan boord van de Petit Train de Carnac te wachten staat. Klik om te vergroten.",
+      "description": "Een blik op wat je aan boord van de Petit Train de Vannes te wachten staat. Klik om te vergroten.",
       "expandImage": "Vergroot afbeelding {n}",
       "prevImage": "Vorige afbeelding",
       "nextImage": "Volgende afbeelding",
@@ -312,180 +328,178 @@
     },
     "ourLocation": {
       "label": "Onze locatie",
-      "heading": "Hoe bereik je de Petit Train de Carnac",
-      "description": "De Petit Train de Carnac is gemakkelijk te bereiken met de auto, trein of bus. Hier vind je de belangrijkste vertrekpunten en tips voor je aankomst.",
+      "heading": "Hoe bereik je de Petit Train de Vannes",
+      "description": "De Petit Train de Vannes vertrekt vanaf Place Gambetta, in het hart van de stad, op een steenworp afstand van de middeleeuwse vestingmuren. Goed bereikbaar met de auto of het openbaar vervoer.",
       "seeRoute": "Route bekijken",
       "arrivalTipTitle": "Tip voor aankomst",
-      "arrivalTipDescription": "Kom minstens 15 minuten voor vertrek aan.",
-      "item1Title": "Hoofdvertrekpunt — Ménec-parking",
-      "item1Description": "Verplicht vertrekpunt voor groepen en individuele boekingen. Aan de Ménec-parking in Carnac, recht tegenover de Maison des Mégalithes.",
-      "item2Title": "Halte 2 — Carnac Plage (Port-En-Drô)",
-      "item2Description": "Koop tickets ter plaatse bij de chauffeur, afhankelijk van beschikbaarheid.",
-      "item3Title": "Halte 3 — La Trinité-sur-Mer",
-      "item3Description": "Bushalte Cours des Quais, zeezijde (vóór de rotonde Alain Barrière). Koop tickets ter plaatse bij de chauffeur, afhankelijk van beschikbaarheid.",
-      "item4Title": "Met de auto",
-      "item4Description": "Als je met de auto komt, volg dan de borden naar Carnac en de Ménec-parking. Parkeren is gratis.",
-      "item5Title": "Met de trein",
-      "item5Description": "Het dichtstbijzijnde station is Auray, ongeveer 13 km van Carnac. In het hoogseizoen rijden bussen tussen Auray en Carnac."
+      "arrivalTipDescription": "Kom minstens 10 minuten voor vertrek aan om je tickets bij de chauffeur te kopen.",
+      "item1Title": "Vertrekpunt — Place Gambetta",
+      "item1Description": "Enig vertrek- en aankomstpunt. Gelegen in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren. De chauffeur verkoopt tickets ter plaatse.",
+      "item2Title": "Met de auto",
+      "item2Description": "Volg de borden naar het stadscentrum van Vannes en Place Gambetta. Parkeerplaatsen zijn in de buurt beschikbaar.",
+      "item3Title": "Met de trein",
+      "item3Description": "Het station van Vannes ligt op ongeveer 10 minuten lopen van Place Gambetta. Lokale bussen verbinden ook het station met het stadscentrum."
     },
     "informationsIntro": {
       "label": "Belangrijke opmerking",
       "heading": "Online boeken",
-      "description": "Reserveren kan, maar is niet verplicht. Je kunt tot <strong>2 uur</strong> vóór de gewenste vertrektijd boeken. Houd rekening met reis- en parkeertijd ter plaatse. Daarna ga je rechtstreeks naar het vertrekpunt en koop je je tickets aan het loket of bij de chauffeur."
+      "description": "Reserveren kan, maar is niet verplicht. Je kunt je rechtstreeks melden bij de <strong>Place Gambetta</strong> en je tickets kopen bij de chauffeur. In het hoogseizoen raden we aan vooraf te reserveren."
     },
     "informationsCta": {
-      "label": "Groepsboeking — Privé huren",
+      "label": "Groepsboeking — Privatisering",
       "heading": "Boeking voor privérondleidingen",
-      "description": "Reis je in een groep of wil je de Petit Train de Carnac privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
-      "button": "Privé huren boeken"
+      "description": "Reis je in een groep of wil je de Petit Train de Vannes privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
+      "button": "Privatisering boeken"
     },
     "faqsHero": {
       "label": "FAQ",
       "heading": "Veelgestelde vragen",
-      "description": "Vind antwoorden op de meest gestelde vragen over de Petit Train de Carnac: duur, tarieven, route, toegankelijkheid en boekingen.",
+      "description": "Vind antwoorden op de meest gestelde vragen over de Petit Train de Vannes: duur, tarieven, route, toegankelijkheid en reserveringen.",
       "cardHeading": "Rondleiding met audiocommentaar in 16 talen",
       "languages": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens."
     },
     "faq": {
       "defaultLabel": "FAQ",
       "defaultHeading": "Veelgestelde vragen",
-      "defaultDescription": "Vind heldere antwoorden op de meest gestelde vragen over de Petit Train de Carnac.",
+      "defaultDescription": "Vind heldere antwoorden op de meest gestelde vragen over de Petit Train de Vannes.",
       "button": "Boek je bezoek",
       "default": {
-        "q1": "Wat is de Petit Train de Carnac?",
-        "a1": "De Petit Train de Carnac is een toeristische trein met gids die door Carnac en omgeving rijdt: menhirs, stranden en de haven van La Trinité-sur-Mer.",
-        "q2": "Hoe lang duurt de rit met de Petit Train de Carnac?",
-        "a2": "De rondleiding duurt in totaal ongeveer 55 minuten, met meertalig audiocommentaar gedurende de hele route.",
-        "q3": "Waar vertrekt de Petit Train de Carnac?",
-        "a3": "Het belangrijkste vertrek- en aankomstpunt is de Ménec-parking, tegenover de Maison des Mégalithes.",
-        "q4": "Wat zie ik tijdens de rit met de Petit Train de Carnac?",
-        "a4": "Tijdens de rit kom je langs de beroemde menhirrijen, de Saint-Michel-tumulus, Carnac-Plage en de haven van La Trinité-sur-Mer.",
-        "q5": "Is de Petit Train de Carnac geschikt voor kinderen en gezinnen?",
-        "a5": "Ja, de Petit Train de Carnac is geschikt voor gezinnen met kinderen, oudere bezoekers en iedereen die liever lange wandelingen vermijdt.",
+        "q1": "Wat is de Petit Train de Vannes?",
+        "a1": "De Petit Train de Vannes is een begeleide toeristische trein die je langs de middeleeuwse vestingmuren, de oude stad en de haven van Vannes brengt in 40 minuten.",
+        "q2": "Hoe lang duurt de rit met de Petit Train de Vannes?",
+        "a2": "De rondleiding duurt in totaal ongeveer 40 minuten, met meertalig audiocommentaar gedurende de hele route.",
+        "q3": "Waar vertrekt de Petit Train de Vannes?",
+        "a3": "Vertrek en aankomst zijn bij Place Gambetta, in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren.",
+        "q4": "Wat zie ik tijdens de rit met de Petit Train de Vannes?",
+        "a4": "Tijdens de rit kom je langs de middeleeuwse vestingmuren, de oude stad met vakwerkhuizen, de haven van Vannes en de Jardins de la Garenne.",
+        "q5": "Is de Petit Train de Vannes geschikt voor kinderen en gezinnen?",
+        "a5": "Ja, de Petit Train de Vannes is geschikt voor gezinnen met kinderen, senioren en iedereen die liever lange wandelingen vermijdt.",
         "q6": "In welke talen is het audiocommentaar beschikbaar?",
         "a6": "Het audiocommentaar is beschikbaar in 16 talen, waaronder Frans, Engels, Duits, Spaans, Italiaans en Nederlands.",
-        "q7": "Moet ik de Petit Train de Carnac vooraf reserveren?",
-        "a7": "Vooraf boeken wordt aanbevolen, vooral in het hoogseizoen. Tickets zijn ook ter plaatse te koop, afhankelijk van beschikbaarheid."
+        "q7": "Moet ik de Petit Train de Vannes vooraf reserveren?",
+        "a7": "Reserveren kan, maar is niet verplicht. In het hoogseizoen wordt vooraf boeken aanbevolen om je plaats te garanderen."
       }
     },
     "routesTimeline": {
       "label": "Tijdlijn van de Tour",
-      "headingPrefix": "Haltes en route van de",
-      "headingHighlight": "Petit Train de Carnac",
-      "intro": "Tijdens de rondleiding passeert de Petit Train de Carnac diverse belangrijke plekken en biedt een compleet overzicht van Carnac en omgeving.",
-      "introBold": "De Petit Train de Carnac stopt tijdens de rondleiding bij de volgende haltes:",
+      "headingPrefix": "Vertrekpunt van de",
+      "headingHighlight": "Petit Train de Vannes",
+      "intro": "Tijdens de begeleide rondleiding vertrekt de Petit Train de Vannes vanaf Place Gambetta en brengt je langs de vestingmuren, de oude stad, de haven en de Jardins de la Garenne.",
+      "introBold": "De Petit Train de Vannes vertrekt vanaf het volgende punt:",
       "btnBook": "Boek je bezoek",
-      "btnPrices": "Bekijk de tarieven",
-      "stop1Name": "Parking du Ménec, Carnac",
-      "stop1Bullet1": "Tegenover de Maison des Mégalithes",
-      "stop1Bullet2": "Vertrekpunt n°1",
-      "stop1Bullet3": "Verplicht vertrekpunt voor individuele bezoekers",
-      "stop1Bullet4": "Loket ter plaatse",
-      "stop1Note": "Dit is het enige gegarandeerde instappunt voor individuele tickets.",
-      "stop1ImageAlt": "Parking du Ménec, Carnac — vertrekpunt van de Petit Train",
-      "stop2Name": "Les Remparts Médiévaux & la Porte Prison",
-      "stop2Bullet1": "Découvrez les remparts du XIVe siècle qui ceinturent la vieille ville",
-      "stop2Bullet2": "La Porte Prison, ancienne porte de la ville et monument emblématique de Vannes",
-      "stop2Note": "Koop je tickets ter plaatse op het moment van vertrek (geen reservering mogelijk).",
-      "stop2ImageAlt": "Les remparts médiévaux de Vannes",
-      "stop3Name": "Cathédrale Saint-Pierre & Port de Vannes",
-      "stop3Bullet1": "La Cathédrale Saint-Pierre, chef-dœuvre gothique du XIIIe siècle",
-      "stop3Bullet2": "Place Henri IV et ses maisons à colombages — cœur historique de Vannes",
-      "stop3ImageAlt": "Cathédrale Saint-Pierre et le port de Vannes",
-      "stop2Bullet3": "Vue panoramique sur la cité médiévale depuis le chemin de ronde",
-      "stop3Bullet3": "Le port et les Jardins de la Garenne avant le retour à la Place Gambetta",
-      "stop3Note": "Retour au point de départ : Place Gambetta."
+      "btnPrices": "Tarieven bekijken",
+      "stop1Name": "Place Gambetta, Vannes",
+      "stop1Bullet1": "In het hart van de stad, op een steenworp afstand van de middeleeuwse vestingmuren",
+      "stop1Bullet2": "Goed bereikbaar vanuit het stadscentrum en nabijgelegen parkeerplaatsen",
+      "stop1Bullet3": "Chauffeur aanwezig voor ticketverkoop",
+      "stop1Note": "Enig instappunt — vertrek en aankomst bij Place Gambetta.",
+      "stop1ImageAlt": "Place Gambetta, Vannes — vertrekpunt van de Petit Train",
+      "stop2Name": "De Middeleeuwse Vestingmuren & de Porte Prison",
+      "stop2Bullet1": "Ontdek de 14e-eeuwse vestingmuren die de oude stad omringen",
+      "stop2Bullet2": "De Porte Prison, voormalige stadspoort en iconisch monument van Vannes",
+      "stop2Bullet3": "Panoramisch uitzicht op de middeleeuwse stad",
+      "stop2ImageAlt": "De middeleeuwse vestingmuren van Vannes gezien vanuit de Petit Train",
+      "stop3Name": "Cathédrale Saint-Pierre & Haven van Vannes",
+      "stop3Bullet1": "De Cathédrale Saint-Pierre, gotisch meesterwerk uit de 13e eeuw",
+      "stop3Bullet2": "Place Henri IV met vakwerkhuizen — historisch hart van Vannes",
+      "stop3Bullet3": "De haven en de Jardins de la Garenne voor de terugkeer naar Place Gambetta",
+      "stop3Note": "Terugkeer naar het vertrekpunt: Place Gambetta.",
+      "stop3ImageAlt": "Cathédrale Saint-Pierre en de haven van Vannes"
     },
     "faqsSection": {
-      "q1": "Wat is de Petit Train de Carnac?",
-      "a1": "De Petit Train de Carnac is een geleide toeristische trein waarmee bezoekers Carnac en omgeving comfortabel en toegankelijk kunnen ontdekken. De rondleiding omvat de menhirs van Carnac, het strand van Carnac en de haven van La Trinité-sur-Mer, met audiocommentaar gedurende de hele rit.",
+      "q1": "Wat is de Petit Train de Vannes?",
+      "a1": "De Petit Train de Vannes is een begeleide toeristische trein waarmee bezoekers de mooiste bezienswaardigheden van de stad ontdekken: de middeleeuwse vestingmuren, de oude stad, de haven en de Jardins de la Garenne. De rit duurt ongeveer 40 minuten en gaat vergezeld van audiocommentaar in 16 talen.",
       "q2": "Hoe lang duurt de rondleiding?",
-      "a2": "De rondleiding duurt ongeveer 55 minuten. Hiermee kunnen bezoekers de belangrijkste plekken van Carnac zien zonder lange wandelingen.",
-      "q3": "Vanwaar vertrekt de Petit Train de Carnac?",
-      "a3": "Het belangrijkste vertrek- en aankomstpunt voor individuele bezoekers is de Parking du Ménec in Carnac, tegenover de Maison des Mégalithes.",
-      "q4": "Rijdt de Petit Train elke dag?",
-      "a4": "Ja. De Petit Train de Carnac rijdt elke dag van april tot eind oktober, inclusief zondagen en feestdagen.",
+      "a2": "De rondleiding duurt ongeveer 40 minuten. De trein vertrekt vanaf Place Gambetta en keert terug naar hetzelfde vertrekpunt.",
+      "q3": "Waar vertrekt de Petit Train de Vannes?",
+      "a3": "De Petit Train vertrekt vanaf Place Gambetta, in het hart van de stad, op een steenworp afstand van de middeleeuwse vestingmuren. Dit is het enige vertrek- en aankomstpunt.",
+      "q4": "Rijdt de Petit Train de Vannes elke dag?",
+      "a4": "Ja. De Petit Train de Vannes rijdt elke dag van april tot La Toussaint, inclusief zondagen en feestdagen.",
       "q5": "Gaat de rondleiding door bij slecht weer?",
-      "a5": "Ja. De Petit Train rijdt bij elk weer. Bij regen of harde wind is de trein aan drie kanten beglaasd, zodat je optimaal kunt genieten van je bezoek.",
+      "a5": "Ja. De Petit Train rijdt bij elk weer. Bij uitzonderlijk zware weersomstandigheden kan de dienst worden onderbroken omwille van de veiligheid van de passagiers.",
       "q6": "Wat zal ik zien tijdens de rondleiding?",
-      "a6": "Tijdens de rondleiding kom je langs de menhirs van Carnac — waaronder de menhirrijen van Ménec, Kermario en Kerlescan. Je ontdekt ook het strand van Carnac, het witte zand en de haven van La Trinité-sur-Mer.",
+      "a6": "Tijdens de rondleiding kom je langs de middeleeuwse vestingmuren van Vannes, de oude stad met vakwerkhuizen, de haven van Vannes, de Jardins de la Garenne en de mooiste panorama's van de middeleeuwse stad.",
       "q7": "In welke talen is het audiocommentaar beschikbaar?",
-      "a7": "Het geleide audiocommentaar is beschikbaar in 16 talen: Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Pools, Russisch, Zweeds, Deens, Tsjechisch, Chinees, Japans en meer. Het audiocommentaar is inbegrepen bij de ticketprijs — zonder meerprijs. Er is ook een kinderversie beschikbaar.",
+      "a7": "Het begeleide audiocommentaar is beschikbaar in 16 talen: Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Pools, Russisch, Zweeds, Deens, Chinees, Japans, Arabisch, Kroatisch en Sloveens. Het audiocommentaar is inbegrepen bij de ticketprijs. Er is ook een speciaal ontworpen versie voor kinderen beschikbaar.",
       "q8": "Is de rondleiding geschikt voor kinderen?",
-      "a8": "Ja. De Petit Train de Carnac is geschikt voor kinderen en gezinnen. Het audiocommentaar voor kinderen maakt de ervaring zowel leuk als leerzaam.",
+      "a8": "Ja. De Petit Train de Vannes is geschikt voor kinderen en gezinnen. Het audiocommentaar voor kinderen maakt de ervaring zowel leuk als leerzaam.",
       "q9": "Hoeveel kost een ticket?",
-      "q9Pre": "De prijzen variëren op leeftijd en groepsgrootte. Volwassenen en kinderen onder de 12 jaar hebben verschillende tarieven. Volledige prijzen vind je op de ",
+      "q9Pre": "De tarieven variëren op leeftijd en groepsgrootte. Volwassenen betalen €8,50 en kinderen van 4 tot 12 jaar betalen €5. Kinderen onder de 4 jaar zijn gratis. Volledige tarieven vind je op de ",
       "q9LinkText": "pagina Tarieven & Tickets",
       "q9Post": ".",
       "q10": "Moet ik vooraf reserveren?",
-      "a10": "Vooraf reserveren wordt aanbevolen, vooral in drukke toeristische periodes. Online reserveringen moeten minstens twee uur vóór vertrek plaatsvinden.",
+      "a10": "Reserveren kan, maar is niet verplicht. In het hoogseizoen (juli–augustus) raden we aan vooraf te reserveren om je plaats te garanderen.",
       "q11": "Kan ik tickets ter plaatse kopen?",
-      "a11": "Ja. Tickets zijn verkrijgbaar aan het loket bij de Parking du Ménec, afhankelijk van beschikbaarheid.",
-      "q12": "Hoe vroeg moet ik vóór vertrek aankomen?",
-      "a12": "Bezoekers wordt gevraagd minstens 15 minuten vóór vertrek aanwezig te zijn om hun ticket te valideren en in te stappen.",
+      "a11": "Ja. Tickets kunnen rechtstreeks bij de chauffeur worden gekocht op vertrekpunt Place Gambetta.",
+      "q12": "Hoe vroeg moet ik voor vertrek aankomen?",
+      "a12": "Het wordt aanbevolen minstens 10 minuten voor vertrek aanwezig te zijn om tickets te kopen en in te stappen.",
       "q13": "Zijn groepsboekingen mogelijk?",
       "a13": "Ja. Groepsboekingen zijn beschikbaar voor groepen van 20 personen of meer. Vooraf reserveren wordt aanbevolen.",
       "q14": "Kan ik de Petit Train privé reserveren voor een evenement?",
-      "q14Pre": "Ja. De Petit Train de Carnac kan privé worden gereserveerd voor bedrijfsevents, verenigingen, schoolgroepen en privégelegenheden. Een speciaal aanvraagformulier vind je op de ",
-      "q14LinkText": "pagina Privéverhuur",
+      "q14Pre": "Ja. De Petit Train de Vannes kan privé worden gereserveerd voor bedrijfsevents, verenigingen, schoolgroepen en privégelegenheden. Een speciaal aanvraagformulier vind je op de ",
+      "q14LinkText": "pagina Privatisering",
       "q14Post": "."
     },
     "informationsScheduleLabels": {
-      "operatingPeriodTitle": "Bedrijfsperiode",
-      "operatingPeriodBody": "De Petit Train de Carnac rijdt 7 dagen per week van april tot eind oktober, inclusief zondagen en feestdagen.",
+      "operatingPeriodTitle": "Seizoen",
+      "operatingPeriodBody": "De Petit Train de Vannes rijdt 7 dagen per week van april tot La Toussaint, inclusief zondagen en feestdagen.",
       "weatherTitle": "Weer",
-      "weatherBody": "Bij regen of harde wind is de trein aan drie kanten beglaasd, zodat je optimaal kunt genieten van je bezoek.",
+      "weatherBody": "De Petit Train rijdt bij elk weer. Bij uitzonderlijk zware weersomstandigheden kan de dienst worden onderbroken omwille van de veiligheid van de passagiers.",
       "timetableHeading": "Dienstregeling",
       "departurePrefix": "Vertrek —",
-      "saturdayRule": "<strong>Zaterdag in juli & augustus:</strong> de vertrekken vanaf Carnac Plage en La Trinité-sur-Mer volgen de « oranje » laagseizoen-tijden.",
-      "onlineBookingNote": "<strong>Online reserveren:</strong> alleen beschikbaar voor vertrek nr. 1 — Parking du Ménec.",
-      "closuresHeading": "Feestdagen & Sluitingen",
-      "closuresBody": "Op feestdagen geldt het reguliere schema. De Petit Train is <strong>gesloten van 9 tot en met 16 oktober</strong> en <strong>van november tot en met maart</strong>.",
+      "saturdayRule": "<strong>Feestdagen:</strong> dezelfde tijden als gewone dagen. De Petit Train is open op alle feestdagen in het seizoen.",
+      "onlineBookingNote": "<strong>Online reserveren:</strong> beschikbaar vanaf Place Gambetta. Vertrek elke 40 minuten in het seizoen.",
+      "closuresHeading": "Sluitingen",
+      "closuresBody": "De Petit Train is <strong>gesloten van 13 tot en met 21 oktober</strong> en <strong>van december tot en met maart</strong>.",
       "viewPlanButton": "Bekijk de routekaart",
-      "viewPlanImageAlt": "Routekaart — Menhirs Tour per Petit Train de Carnac",
-      "lightboxClose": "Sluiten"
+      "viewPlanImageAlt": "Routekaart — Petit Train de Vannes",
+      "lightboxClose": "Sluiten",
+      "departureLocation": "In het hart van Vannes, vlakbij de vestingmuren",
+      "departureFrequency": "Vertrek elke 40 min",
+      "periodClosed": "Gesloten",
+      "periodClosureNote": "Uitzonderlijke sluiting"
     },
     "routesHeroDefaults": {
-      "primaryButton": "Individuele flyer",
+      "primaryButton": "Individuele folder",
       "secondaryButton": "Groepsflyer",
-      "googleReviewsCount": "6 000+ beoordelingen",
-      "googleBadgeText": "<strong>Le Petit Train de Carnac</strong> heeft een score van 4,7+ op Google met meer dan 6 000 beoordelingen en is daarmee een van de populairste bezienswaardigheden van Carnac.",
+      "googleReviewsCount": "1.385+ beoordelingen",
+      "googleBadgeText": "<strong>De Petit Train de Vannes</strong> heeft een score van 4,7+ op Google met meer dan 1.300 beoordelingen en is daarmee een van de populairste bezienswaardigheden van Vannes.",
       "lightboxClose": "Sluiten",
       "lightboxEnlarge": "Vergroten: {alt}",
       "lightboxAriaLabel": "Vergrote weergave: {alt}"
     },
     "careersHero": {
-      "sectionLabel": "Carrière",
+      "sectionLabel": "Vacatures",
       "headingPrefix": "Jouw carrière bij de",
       "headingSuffix": "begint hier",
-      "description": "Onze filosofie is eenvoudig: bezoekers een warme ontvangst en een vlotte toeristische beleving bieden terwijl ze Carnac en omgeving ontdekken. Bij de Petit Train de Carnac speelt elk teamlid een belangrijke rol in het creëren van een vriendelijk en onvergetelijk bezoek voor mensen van alle leeftijden uit de hele wereld.",
+      "description": "Onze filosofie is eenvoudig: bezoekers een warme ontvangst en een vlotte toeristische beleving bieden terwijl ze Vannes en zijn vestingmuren ontdekken. Bij de Petit Train de Vannes speelt elk teamlid een belangrijke rol in het creëren van een vriendelijk en onvergetelijk bezoek voor mensen van alle leeftijden uit de hele wereld.",
       "ctaButton": "Solliciteer & Stuur ons je CV",
       "openPositionsLabel": "Openstaande vacatures:",
-      "seasonalBadge": "Seizoensgebonden functie",
+      "seasonalBadge": "Seizoensfunctie",
       "job1Title": "Bestuurder van de Petit Train",
-      "job1Description": "De Petit Train veilig besturen op de toeristische route en bezoekers aan boord verwelkomen. Deze functie omvat het besturen van de trein, zorgen voor het comfort van de passagiers en bijdragen aan een positieve sfeer tijdens het hele bezoek.",
+      "job1Description": "De Petit Train veilig besturen op de route langs de vestingmuren van Vannes en bezoekers aan boord verwelkomen. Deze functie omvat het besturen van de trein, zorgen voor het comfort van de passagiers en bijdragen aan een positieve sfeer tijdens het hele bezoek.",
       "job1Requirement": "Rijbewijs categorie D (openbaar vervoer) vereist. Eerdere ervaring met toeristische voertuigen is een plus.",
-      "job2Title": "Kassa-medewerker",
-      "job2Description": "Bezoekers ontvangen, tickets verkopen en duidelijke informatie geven over dienstregelingen, tarieven en het bezoek. Deze functie is ideaal voor mensen die graag met het publiek werken in een levendige toeristische omgeving.",
+      "job2Title": "Ticketmedewerker",
+      "job2Description": "Bezoekers ontvangen, tickets verkopen en duidelijke informatie geven over dienstregelingen, tarieven en het bezoek aan Vannes. Deze functie is ideaal voor mensen die graag met het publiek werken in een levendige toeristische omgeving.",
       "job2Requirement": "Goede communicatieve vaardigheden en een vriendelijke houding zijn essentieel. Kennis van vreemde talen wordt gewaardeerd.",
       "job3Title": "Perronmedewerker",
-      "job3Description": "Passagiers begeleiden bij het instappen en zorgen voor een vlot verloop van vertrekken en aankomsten. Deze functie ondersteunt zowel de bestuurder als het kassateam.",
+      "job3Description": "Passagiers begeleiden bij het instappen op Place Gambetta en zorgen voor een vlot verloop van vertrekken en aankomsten.",
       "job3Requirement": "Een positieve instelling, betrouwbaarheid en gemak met bezoekers van alle leeftijden zijn essentieel.",
-      "imageAlt": "Werken bij de Petit Train de Carnac"
+      "imageAlt": "Werken bij de Petit Train de Vannes"
     },
     "careersInfo": {
       "panel1Heading": "Wie we zoeken",
-      "panel1P1": "We zijn op zoek naar gemotiveerde en betrouwbare mensen die graag met het publiek werken en bijdragen aan een kwalitatieve toeristische beleving.",
+      "panel1P1": "We zijn op zoek naar gemotiveerde en betrouwbare mensen die graag met het publiek werken en bijdragen aan een kwalitatieve toeristische beleving in Vannes.",
       "panel1P2": "Je voelt je op je gemak bij internationale bezoekers, bent beschikbaar tijdens het toeristenseizoen en kunt indien nodig in het weekend en op feestdagen werken.",
       "panel2Heading": "Werken bij ons",
-      "panel2P1": "De functies zijn voornamelijk seizoensgebonden en gebaseerd in Carnac. Vóór indiensttreding wordt een opleiding gegeven. De werktijden hangen af van het seizoen en het aantal bezoekers.",
+      "panel2P1": "De functies zijn voornamelijk seizoensgebonden en gebaseerd in Vannes. Vóór indiensttreding wordt een opleiding gegeven. De werktijden hangen af van het seizoen en het aantal bezoekers.",
       "panel2P2": "Je werkt buiten en in een klein, hecht team dat gefocust is op de tevredenheid van de bezoekers.",
       "panel3Heading": "Hoe solliciteren",
       "panel3P1": "Vul het sollicitatieformulier in en voeg je CV bij. Als je profiel aansluit bij onze behoeften, neemt ons team contact met je op.",
-      "panel4Heading": "Word lid van het team van de Petit Train de Carnac",
-      "panel4P1": "Solliciteer nu en neem deel aan een lokale toeristische beleving die bezoekers helpt Carnac op een eenvoudige en plezierige manier te ontdekken.",
+      "panel4Heading": "Word lid van het team van de Petit Train de Vannes",
+      "panel4P1": "Solliciteer nu en neem deel aan een lokale toeristische beleving die bezoekers helpt Vannes op een eenvoudige en plezierige manier te ontdekken.",
       "ctaButton": "Solliciteer & Stuur ons je CV",
-      "imageAlt": "Wie we zoeken bij de Petit Train de Carnac"
+      "imageAlt": "Wie we zoeken bij de Petit Train de Vannes"
     },
     "privatisationForm": {
       "yourDetailsHeading": "Uw Gegevens",
@@ -519,10 +533,10 @@
       "successHeading": "Aanvraag verzonden!",
       "successBody": "Bedankt voor uw interesse. Ons team zal uw aanvraag beoordelen en zo snel mogelijk contact met u opnemen om de beschikbaarheid te bevestigen en de details te bespreken.",
       "sectionLabel": "Privatisering & B2B-verhuur",
-      "imageHeading": "Privatiseer de Petit Train de Carnac voor uw evenement",
-      "imageDescription": "De Petit Train de Carnac kan worden geprivatiseerd voor groepsrondleidingen, bedrijfsevenementen en speciale gelegenheden. Met deze flexibele oplossing kunt u uw gasten een comfortabele en originele rondleiding door Carnac aanbieden, afgestemd op uw wensen en programma.",
-      "googleReviewsCount": "6.000+ beoordelingen",
-      "imageAlt": "Privatisering van de Petit Train de Carnac"
+      "imageHeading": "Privatiseer de Petit Train de Vannes voor uw evenement",
+      "imageDescription": "De Petit Train de Vannes kan worden geprivatiseerd voor groepsrondleidingen, bedrijfsevenementen en speciale gelegenheden. Met deze flexibele oplossing kunt u uw gasten een comfortabele en originele rondleiding door Vannes aanbieden, afgestemd op uw wensen en programma.",
+      "googleReviewsCount": "1.385+ beoordelingen",
+      "imageAlt": "Privatisering van de Petit Train de Vannes"
     }
   }
 }

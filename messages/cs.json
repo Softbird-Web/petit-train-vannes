@@ -13,7 +13,7 @@
   },
   "navbar": {
     "bannerPrefix": "Tato stránka je součástí sítě Petits Trains du Morbihan. Objevte naše další trasy v",
-    "bannerLinkVannes": "Vannes",
+    "bannerLinkCarnac": "Carnac",
     "bannerAnd": "a",
     "bannerLinkQuiberon": "Quiberon.",
     "openMenu": "Otevřít menu",
@@ -21,9 +21,9 @@
     "languageLabel": "Jazyk"
   },
   "footer": {
-    "ctaHeading": "Připraveni objevit Carnac jednoduše a příjemně?",
-    "ctaBody": "Nastupte na palubu Petit Train de Carnac a užijte si průvodcovský výlet spojující historii, krajinu a pohodlí. Objevte slavné menhiry v Carnaci, bílé písečné pláže a přístav La Trinité-sur-Mer – bez námahy a s jasným audio komentářem po celou dobu trasy.",
-    "tagline": "Petit Train de Carnac nabízí průvodcovský výlet jedním z nejpozoruhodnějších regionů jižní Bretagne. Pohodlně usazeni na palubě návštěvníci objevují Carnac, jeho slavné megalitické památky, pláže a sousední přístav uvolněně a přístupnou formou.",
+    "ctaHeading": "Připraveni objevit Vannes jednoduše a příjemně?",
+    "ctaBody": "Nastupte na palubu Petit Train de Vannes a užijte si průvodcovský výlet spojující historii, středověkou architekturu a pohodlí. Objevte hradby, staré město a přístav Vannes – bez námahy a s jasným audio komentářem po celou dobu trasy.",
+    "tagline": "Petit Train de Vannes nabízí průvodcovský výlet jedním z nejkrásnějších středověkých měst Bretagne. Pohodlně usazeni na palubě návštěvníci objevují hradby, staré město a přístav Vannes uvolněně a přístupnou formou.",
     "quickLinks": "Rychlé odkazy",
     "contactUs": "Kontaktujte nás",
     "other": "Ostatní",
@@ -43,134 +43,150 @@
     "privatisation": "Pronájem"
   },
   "shared": {
-    "googleReviewsCount": "6 000+ recenzí",
-    "googleRatingDescription": "Petit Train de Carnac je hodnocen 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
-    "googleRatingDescriptionAlt": "Petit Train de Carnac je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+    "googleReviewsCount": "1 385+ recenzí",
+    "googleRatingDescription": "Petit Train de Vannes je hodnocen 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
+    "googleRatingDescriptionAlt": "Petit Train de Vannes je hodnocen více než 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
     "starsAlt": "5 hvězd",
     "fourSevenStarsAlt": "4,7 z 5 hvězd"
   },
   "hero": {
-    "label": "Le Petit Trains de Morbihan · Carnac",
+    "label": "Le Petit Train de Morbihan · Vannes",
     "headingPrefix": "Objevte",
-    "headingHighlight": "Carnac",
+    "headingHighlight": "Vannes",
     "headingSuffix": "na palubě Petit Train",
-    "description": "Petit Train de Carnac nabízí průvodcovský turistický výlet městem a jeho okolím. Objevte nejkrásnější neolitické naleziště světa při tomto <strong>55minutovém průvodcovském výletu.</strong> Je to jednoduchý a pohodlný způsob, jak poznat Carnac, jeho dědictví a ikonické krajiny – bez potřeby dlouhých procházek.",
+    "description": "Petit Train de Vannes vás zaveze k objevení středověkých hradeb, starého města a přístavu při průvodcovském výletu trvajícím <strong>40 minut.</strong> Jednoduchý, pohodlný a přístupný způsob, jak poznat jedno z nejkrásnějších středověkých měst Bretagne – bez námahy a s jasným audio komentářem po celou dobu trasy.",
     "tagline": "Ideální pro rodiny, páry, seniory a návštěvníky všech věkových kategorií.",
     "buttonBook": "Rezervujte svůj výlet",
     "buttonPrices": "Zobrazit ceny",
-    "googleBadge": "Petit Train de Carnac je hodnocen 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+    "googleBadge": "Petit Train de Vannes je hodnocen 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
     "rightCardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
     "rightCardBody": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky.",
     "rightCardFlagsAlt": "Vlajky jazyků",
-    "rightImageAlt": "Petit Train de Carnac na malebné trase",
+    "rightImageAlt": "Petit Train de Vannes podél středověkých hradeb",
     "noteImportanteLabel": "Důležitá poznámka",
     "noteImportanteHeading": "Online rezervace",
-    "noteImportanteBody": "Rezervace je možná, ale není povinná. Rezervovat lze až <strong>2 hodiny</strong> před plánovaným odjezdem. Nezapomeňte si naplánovat čas na cestu a parkování. Po uplynutí této doby se dostavte přímo na místo odjezdu a kupte jízdenky na pokladně nebo u řidiče.",
+    "noteImportanteBody": "Rezervace je možná, ale není povinná. Můžete se dostavit přímo na místo odjezdu <strong>Place Gambetta</strong> a koupit jízdenky u řidiče. V hlavní sezóně doporučujeme rezervovat předem.",
     "noteImportanteBodyExtra": "Ne všechna místa jsou dostupná k prodeji online."
   },
   "metadata": {
     "home": {
-      "title": "Petit Train de Carnac, Morbihan — Menhiry & výlet",
-      "description": "Průvodcovský výlet k megalitům v Carnaci na palubě Petit Train — 55minutový okruh, vícejazyčný audio komentář, pláže a přístav La Trinité-sur-Mer."
+      "title": "Petit Train Vannes Hradby — Petit Train de Vannes, Morbihan",
+      "description": "Průvodcovský výlet k hradbám Vannes na palubě Petit Train — 40minutový okruh, audio komentář v 16 jazycích, staré město a přístav Vannes."
     },
     "prices": {
-      "title": "Ceny & Jízdenky — Petit Train de Carnac, Morbihan",
-      "description": "Ceny výletu k megalitům na Petit Train de Carnac: 8,50 € dospělý, 5 € dítě, zdarma pro děti do 3 let. Skupinové ceny a online rezervace."
+      "title": "Ceny & Jízdenky — Petit Train de Vannes, Morbihan",
+      "description": "Ceny okruhu hradbami ve Vannes na Petit Train: 8,50 € dospělý, 5 € dítě 4–12 let, zdarma pro děti do 4 let. Skupinové ceny a online rezervace."
     },
     "routes": {
-      "title": "Trasa & Itinerář — Petit Train de Carnac, Morbihan",
-      "description": "Objevte trasu Petit Train de Carnac: menhiry v Carnaci, Carnac-Plage a přístav La Trinité-sur-Mer. Průvodcovský výlet 55 minut s audio komentářem v 16 jazycích."
+      "title": "Trasa & Itinerář — Petit Train de Vannes, Morbihan",
+      "description": "Objevte trasu Petit Train de Vannes: středověké hradby, staré město, přístav a Jardins de la Garenne. Průvodcovský výlet 40 minut s audio komentářem v 16 jazycích."
     },
     "book": {
-      "title": "Rezervujte svůj výlet — Petit Train de Carnac, Morbihan",
-      "description": "Rezervujte si výlet k megalitům v Carnaci na Petit Train. Průvodcovský výlet 55 minut, vícejazyčné audio, odjezd z parkoviště Ménec."
+      "title": "Rezervujte svůj výlet — Petit Train de Vannes, Morbihan",
+      "description": "Rezervujte si okruh hradbami Vannes na Petit Train. Průvodcovský výlet 40 minut, vícejazyčné audio, odjezd z Place Gambetta."
     },
     "informations": {
-      "title": "Praktické informace — Petit Train de Carnac, Morbihan",
-      "description": "Praktické informace pro přípravu vašeho výletu k megalitům na Petit Train de Carnac: jízdní řád, místa odjezdu, délka trasy, přístup."
+      "title": "Praktické informace — Petit Train de Vannes, Morbihan",
+      "description": "Praktické informace pro přípravu vašeho výletu na Petit Train de Vannes: jízdní řád, místo odjezdu Place Gambetta, délka trasy, přístup."
     },
     "faqs": {
-      "title": "FAQ — Petit Train de Carnac, Morbihan",
-      "description": "Časté dotazy k výletu k megalitům v Carnaci na Petit Train: délka, ceny, trasa, přístupnost, rezervace."
+      "title": "FAQ — Petit Train de Vannes, Morbihan",
+      "description": "Časté dotazy k okruhu hradbami Vannes na Petit Train: délka, ceny, trasa, přístupnost, rezervace."
     },
     "careers": {
-      "title": "Kariéra — Petit Train de Carnac, Morbihan",
-      "description": "Připojte se k týmu Petit Train de Carnac. Sezónní pozice řidiče, pokladní a nástupního dispečera."
+      "title": "Kariéra — Petit Train de Vannes, Morbihan",
+      "description": "Připojte se k týmu Petit Train de Vannes. Sezónní pozice dostupné v sezóně."
     },
     "privatisation": {
-      "title": "Pronájem & skupiny — Petit Train de Carnac, Morbihan",
-      "description": "Pronajměte si Petit Train de Carnac pro vaše firemní akce, semináře, svatby nebo školní skupiny."
+      "title": "Pronájem & skupiny — Petit Train de Vannes, Morbihan",
+      "description": "Pronajměte si Petit Train de Vannes pro vaše firemní akce, semináře, svatby nebo školní skupiny."
     }
   },
   "pages": {
     "prices": {
       "heroLabel": "Ceny & Jízdenky",
       "heroHeadingPrefix": "Ceny jízdenek",
-      "heroHeadingHighlight": "Petit Train de Carnac",
-      "heroDescription": "Najděte všechny ceny a informace o rezervaci pro Petit Train de Carnac. Tato stránka uvádí individuální a skupinové ceny, slevy pro děti a způsob, jak si s jistotou rezervovat průvodcovský výlet v Carnaci.",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescription": "Najděte všechny ceny a informace o rezervaci pro Petit Train de Vannes. Tato stránka uvádí individuální a skupinové ceny, slevy pro děti a způsob, jak si rezervovat průvodcovský výlet k hradbám Vannes.",
       "btnFlyerIndividual": "Leták pro jednotlivce",
       "btnFlyerGroup": "Skupinový leták",
-      "reviewQuote": "« Nečekal jsem za 8,50 eura tolik. Opravdu krásný zážitek. »",
-      "reviewAuthor": "Dom L. · Recenze Google",
+      "reviewQuote": "« Krásné objevování hradeb Vannes. Skutečně doporučuji tuto návštěvu celé rodině. »",
+      "reviewAuthor": "Návštěvník · Recenze Google",
       "faqLabel": "Časté dotazy",
       "faqHeadingPrefix": "Často kladené otázky",
       "faqHeadingHighlight": "ohledně cen",
-      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně cen, skupinových slev a způsobu rezervace Petit Train de Carnac.",
+      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně cen, skupinových slev a způsobu rezervace Petit Train de Vannes.",
       "faq": {
-        "q1": "Jaká je cena jízdenky na Petit Train de Carnac?",
-        "a1": "Ceny se liší podle věku a velikosti skupiny. Pro individuální návštěvníky je standardní cena dospělého 8,50 €. Děti do 12 let mají zvýhodněnou cenu 5 €. Skupinové ceny se vztahují na skupiny od 20 osob.",
+        "q1": "Jaká je cena jízdenky na Petit Train de Vannes?",
+        "a1": "Ceny se liší podle věku a velikosti skupiny. Pro individuální návštěvníky je standardní cena dospělého 8,50 €. Děti od 4 do 12 let mají zvýhodněnou cenu 5 €. Děti do 4 let jsou zdarma.",
         "q2": "Jsou pro děti zvýhodněné ceny?",
-        "a2": "Ano. Děti do 12 let mají zvýhodněnou cenu. Jejich jízdenka umožňuje přístup ke stejnému průvodcovskému výletu a audio komentáři, včetně speciální verze určené pro děti.",
+        "a2": "Ano. Děti od 4 do 12 let mají zvýhodněnou cenu 5 €. Děti do 4 let nastoupí zdarma.",
         "q3": "Potřebují děti jízdenku pro nastoupení do Petit Train?",
-        "a3": "Ano. Každý cestující musí mít jízdenku, aby mohl nastoupit do Petit Train de Carnac. Dětem do 12 let jsou uplatňovány zvýhodněné ceny.",
+        "a3": "Děti od 4 let potřebují jízdenku. Děti do 4 let nastoupí zdarma.",
         "q4": "Existují skupinové slevy?",
-        "a4": "Ano. Skupinové ceny jsou dostupné od 20 nastupujících osob. Tyto zvýhodněné ceny se vztahují na dospělé i děti. Doporučuje se předem rezervovat.",
+        "a4": "Ano. Skupinové ceny jsou dostupné od 20 nastupujících osob. Doporučuje se předem rezervovat. Kontaktujte nás přímo pro nabídku.",
         "q5": "Co je zahrnuto v ceně jízdenky?",
-        "a5": "Každá jízdenka zahrnuje kompletní průvodcovský výlet v délce přibližně 55 minut, vícejazyčný audio komentář, verzi pro děti a pohodlný zážitek na palubě. Nepředpokládají se žádné příplatky.",
+        "a5": "Každá jízdenka zahrnuje kompletní průvodcovský výlet v délce přibližně 40 minut, audio komentář v 16 jazycích, verzi pro děti a pohodlný zážitek na palubě.",
         "q6": "Lze koupit jízdenky na místě?",
-        "a6": "Ano. Jízdenky lze koupit u pokladny na parkovišti Ménec, v závislosti na dostupnosti. V hlavní turistické sezóně se doporučuje předem rezervovat.",
+        "a6": "Ano. Jízdenky lze koupit přímo u řidiče na odjezdovém místě Place Gambetta. V hlavní sezóně se doporučuje předem rezervovat.",
         "q7": "Lze rezervovat jízdenky online?",
-        "a7": "Ano. Online rezervace je dostupná a doporučována, zejména ve špičkách. Online rezervace musí být provedeny nejméně dvě hodiny před odjezdem."
+        "a7": "Ano. Online rezervace je dostupná a doporučována v době špičky."
       }
     },
     "routes": {
       "heroLabel": "Trasa",
       "heroHeadingPrefix": "Trasa",
-      "heroHeadingHighlight": "Petit Train de Carnac",
-      "heroDescriptionP1": "Objevte celou trasu Petit Train de Carnac přes menhiry v Carnaci, Carnac-Plage a přístav La Trinité-sur-Mer.",
-      "heroDescriptionP2": "Průvodcovský výlet 55 minut s audio komentářem v 16 jazycích, který kombinuje nejpozoruhodnější místa regionu do jednoho pohodlného okruhu.",
-      "heroImageAlt": "Mapa trasy Petit Train de Carnac — klikněte pro zvětšení",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescriptionP1": "Objevte celou trasu Petit Train de Vannes přes středověké hradby, staré město a přístav.",
+      "heroDescriptionP2": "Průvodcovský výlet 40 minut s audio komentářem v 16 jazycích, který kombinuje nejkrásnější místa Vannes do jednoho pohodlného okruhu od Place Gambetta.",
+      "heroImageAlt": "Mapa trasy Petit Train de Vannes — klikněte pro zvětšení",
       "faqLabel": "Časté dotazy",
       "faqHeadingPrefix": "Často kladené otázky",
       "faqHeadingHighlight": "ohledně trasy",
-      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně trasy, zastávek a délky výletu Petit Train de Carnac."
+      "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně trasy, zastávek a délky výletu Petit Train de Vannes.",
+      "faqQ1": "Jaká je trasa Petit Train de Vannes?",
+      "faqA1": "Petit Train de Vannes vyjíždí z Place Gambetta a provede vás středověkými hradbami, starým městem s hrázděnými domy, přístavem Vannes a zahradami Jardins de la Garenne. Okruh trvá přibližně 40 minut.",
+      "faqQ2": "Jak dlouho trvá okruh Petit Train de Vannes?",
+      "faqA2": "Okruh trvá přibližně 40 minut. Návštěvníci objevují hlavní zajímavosti Vannes v pohodovém tempu s audio komentářem po celou dobu jízdy.",
+      "faqQ3": "Kde trasa začíná a končí?",
+      "faqA3": "Trasa začíná a končí na Place Gambetta, v srdci Vannes, kousek od středověkých hradeb. Je to jediný nástupní a výstupní bod.",
+      "faqQ4": "Zastavuje Petit Train během trasy?",
+      "faqA4": "Okruh je nepřetržitý — nejsou žádné mezizastávky. Cestující nastupují a vystupují pouze na Place Gambetta.",
+      "faqQ5": "Uvidíme středověké hradby Vannes během návštěvy?",
+      "faqA5": "Ano. Trasa vede podél slavných středověkých hradeb Vannes, které patří k nejlépe zachovaným v Bretani. Audio komentář vysvětluje jejich historii a architekturu po celou dobu jízdy.",
+      "faqQ6": "Zahrnuje trasa staré město a přístav Vannes?",
+      "faqA6": "Ano. Okruh prochází starým městem s hrázděnými domy ze 17. století a podél přístavu Vannes. Tato místa jsou představena prostřednictvím audio komentáře v rámci řízené prohlídky.",
+      "faqQ7": "Jsou zahrady Jardins de la Garenne součástí trasy?",
+      "faqA7": "Ano. Okruh prochází nedaleko zahrad Jardins de la Garenne, jedných z nejkrásnějších zahrad Vannes, s pozoruhodným výhledem na hradby a středověké prádelny.",
+      "faqQ8": "Je okruh vhodný pro osoby s omezenou pohyblivostí?",
+      "faqA8": "Petit Train je přístupný pro všechny. Je zvláště doporučen pro osoby, které preferují vyhnout se dlouhým procházkám při objevování historických památek Vannes."
     },
     "informations": {
       "heroLabel": "Praktické informace",
       "heroHeadingPrefix": "Praktické informace pro",
-      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingHighlight": "Petit Train de Vannes",
       "heroDescription": "Zde najdete veškeré praktické informace pro přípravu vašeho výletu: jízdní řád, přístup, délka trasy, přístupnost a užitečné tipy.",
-      "heroImageAlt": "Petit Train de Carnac u moře"
+      "heroImageAlt": "Petit Train de Vannes podél středověkých hradeb"
     },
     "faqs": {
       "heroLabel": "FAQ",
       "heroHeadingPrefix": "Často kladené otázky",
-      "heroDescription": "Najděte odpovědi na nejčastější otázky o Petit Train de Carnac: délka, ceny, trasa, přístupnost a rezervace."
+      "heroDescription": "Najděte odpovědi na nejčastější otázky o Petit Train de Vannes: délka, ceny, trasa, přístupnost a rezervace."
     },
     "careers": {
       "heroLabel": "Kariéra",
       "heroHeadingPrefix": "Vaše kariéra v",
-      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingHighlight": "Petit Train de Vannes",
       "heroHeadingSuffix": "začíná zde",
-      "heroDescription": "Naše filozofie je jednoduchá: vřelá, spolehlivá a vstřícná obsluha každého návštěvníka. Hledáme pozorné, profesionální a nadšené lidi, kteří rádi sdílejí kouzlo Carnace s jeho návštěvníky.",
+      "heroDescription": "Naše filozofie je jednoduchá: vřelá, spolehlivá a vstřícná obsluha každého návštěvníka. Hledáme pozorné, profesionální a nadšené lidi, kteří rádi sdílejí kouzlo Vannes s jeho návštěvníky.",
       "buttonApply": "Požádat o práci a poslat životopis",
       "jobsLabel": "Otevřené pozice:",
       "jobBadgeSeasonal": "Sezónní pozice"
     },
     "privatisation": {
       "overlayLabel": "Pronájem & B2B nájmy",
-      "overlayHeading": "Pronajměte si Petit Train de Carnac pro vaši akci",
-      "overlayDescription": "Petit Train de Carnac lze pronajmout pro firemní akce, semináře, svatby, školní skupiny nebo VIP prohlídky. Kontaktujte nás pro individuální nabídku."
+      "overlayHeading": "Pronajměte si Petit Train de Vannes pro vaši akci",
+      "overlayDescription": "Petit Train de Vannes lze pronajmout pro firemní akce, semináře, svatby, školní skupiny nebo VIP prohlídky. Kontaktujte nás pro individuální nabídku."
     },
     "mentionsLegales": {
       "title": "Mentions Légales"
@@ -183,47 +199,47 @@
     "practicalInfo": {
       "label": "Informace",
       "heading": "Praktické informace",
-      "description": "Abychom vám pomohli naplánovat výlet turistickým vlakem v Carnaci, zde jsou základní informace, které byste měli vědět před rezervací.",
+      "description": "Abychom vám pomohli naplánovat výlet turistickým vlakem ve Vannes, zde jsou základní informace, které byste měli vědět před rezervací.",
       "duration": {
         "title": "Délka trasy",
-        "description": "Turistická prohlídka trvá přibližně <strong>55 minut.</strong> Tato délka vám umožní objevit Carnac uvolněným tempem a užít si komentář a krajinu bez spěchu nebo únavy."
+        "description": "Turistická prohlídka trvá přibližně <strong>40 minut.</strong> Tato délka vám umožní objevit Vannes uvolněným tempem – od hradeb přes staré město až po přístav – bez spěchu nebo únavy."
       },
       "departure": {
         "title": "Odjezd",
-        "description": "Povinné místo odjezdu pro <strong>skupiny</strong> a <strong>individuální rezervace</strong>. Nachází se na <strong>parkovišti Ménec</strong> v Carnaci, přímo naproti Maison des Mégalithes. Zastávka je jasně označena a snadno dostupná."
+        "description": "Jediné místo odjezdu je <strong>Place Gambetta</strong>, v srdci Vannes, dva kroky od středověkých hradeb. Zastávka je jasně označena a snadno dostupná z centra města."
       },
       "schedule": {
         "title": "Jízdní řád",
-        "description": "Odjezdy probíhají <strong>od dubna do září</strong>, několikrát denně. Vlak jezdí každý den v hlavní sezóně. Aktuální jízdní řády naleznete na stránce s přesnými časy odjezdů a sezónními úpravami."
+        "description": "Odjezdy probíhají <strong>od dubna do La Toussaint</strong>, každých 40 minut. Vlak jezdí každý den včetně nedělí a svátků v sezóně."
       },
       "accessibility": {
         "title": "Přístupnost",
-        "description": "Petit Train je <strong>přístupný pro všechny</strong>. Je ideální pro rodiny s malými dětmi, starší návštěvníky a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám při poznávání to nejlepšího z Carnace."
+        "description": "Petit Train je <strong>přístupný pro všechny</strong>. Je ideální pro rodiny s malými dětmi, starší návštěvníky a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám při poznávání to nejlepšího z Vannes."
       },
       "payment": {
         "title": "Platba",
-        "description": "Jízdenky lze koupit <strong>přímo na palubě</strong> nebo na místě odjezdu. Přijímáme platbu v hotovosti i kartou. Skupinové a školní ceny jsou k dispozici — kontaktujte nás pro nabídku."
+        "description": "Jízdenky lze koupit <strong>přímo u řidiče</strong> na odjezdovém místě Place Gambetta. Skupinové ceny jsou k dispozici — kontaktujte nás pro nabídku."
       },
       "cta": {
         "heading": "Více informací",
-        "description": "Prohlédněte si naše kompletní informace o cenách jízdenek, způsobech platby a dalších tipech, jak co nejlépe využít svou cestu přes megalitické památky.",
+        "description": "Prohlédněte si naše kompletní informace o cenách jízdenek, způsobech platby a dalších tipech, jak co nejlépe využít svůj výlet k hradbám Vannes.",
         "button": "Zjistit více"
       }
     },
     "prices": {
       "label": "Ceny",
       "heading": "Dostupné dobrodružství pro celou rodinu",
-      "description": "Od sólových cestovatelů po velké rodiny — najděte ideální cenu pro svůj výlet. Využijte naše speciální ceny pro děti a rodiny.",
+      "description": "Od sólových cestovatelů po velké rodiny — najděte ideální cenu pro svůj výlet k hradbám Vannes.",
       "rowAdults": "Dospělí",
-      "rowChildren": "Děti do 12 let",
+      "rowChildren": "Děti (4–12 let)",
       "individual": {
         "title": "Individuální jízdenky",
-        "note": "<strong>Pro jednotlivce:</strong> místo srazu je u odjezdového bodu; pokladna na místě. <strong>Zdarma:</strong> děti do 3 let a psi."
+        "note": "<strong>Pro jednotlivce:</strong> kupte jízdenky přímo u řidiče na Place Gambetta. <strong>Zdarma:</strong> děti do 4 let."
       },
       "earlyBird": {
         "title": "První ranní odjezdy",
         "badge": "Výhodná cena",
-        "note": "<strong>Zvýhodněná cena:</strong> sleva -1,50 € na jízdenku, platí pouze pro první ranní odjezdy (před 10:20 nebo 10:30 podle cíle). Jízdenky dostupné u pokladny na místě."
+        "note": "<strong>Zvýhodněná cena:</strong> platí pouze pro první ranní odjezdy. Jízdenky dostupné u řidiče na místě."
       },
       "group": {
         "title": "Skupinová rezervace",
@@ -233,48 +249,48 @@
     },
     "beforeYouBook": {
       "heading": "Před rezervací",
-      "description": "Před potvrzením rezervace si věnujte chvíli přečtení praktických informací o výletu Petit Train de Carnac. Tyto informace vám pomohou zajistit hladký průběh v den výletu a vyhnout se případným nejasnostem ohledně jízdních řádů, odjezdu a průběhu výletu.",
-      "imageAlt": "Megality v Carnaci u odjezdového bodu",
-      "bullet1": "Přijďte prosím alespoň 15 minut před odjezdem",
-      "bullet2": "Online rezervace musí být provedena nejméně dvě hodiny před odjezdem",
-      "bullet3": "Individuální návštěvníci začínají i končí výlet v odjezdovém místě Ménec",
-      "bullet4": "Výlet trvá přibližně 55 minut",
-      "bullet5": "Audio komentář je dostupný v několika jazycích, včetně verze pro děti",
+      "description": "Před potvrzením rezervace si věnujte chvíli přečtení praktických informací o výletu Petit Train de Vannes. Tyto informace vám pomohou připravit výlet a plně si užít okruh po hradbách.",
+      "imageAlt": "Hradby Vannes viděné z Petit Train",
+      "bullet1": "Přijďte prosím alespoň 10 minut před odjezdem",
+      "bullet2": "Online rezervace se doporučuje v hlavní sezóně",
+      "bullet3": "Odjezd i příjezd na Place Gambetta",
+      "bullet4": "Výlet trvá přibližně 40 minut",
+      "bullet5": "Audio komentář je dostupný v 16 jazycích, včetně verze pro děti",
       "bullet6": "Petit Train jezdí za každého počasí",
-      "bullet7": "Odjezd je zajištěn od 6 platících dospělých na palubě"
+      "bullet7": "Odjezd je zajištěn od minimálního počtu platících dospělých na palubě"
     },
     "features": {
       "label": "Přehled trasy",
-      "heading": "Jednoduchý a příjemný způsob, jak prozkoumat Carnac",
-      "p1": "Petit Train de Carnac vás zve k objevování města uvolněným tempem, pohodlně usazené na palubě turistického vlaku navrženého pro návštěvníky, kteří chtějí poznat Carnac bez námahy.",
-      "p2": "Během výletu poskytuje audio komentář jasné a přístupné informace o místech, kudy projíždíme, a pomáhá vám pochopit historii, památky a atmosféru Carnace. Tento turistický vlak je ideální pro návštěvníky, kteří hledají příjemné uvedení do Carnace a jeho okolí.",
-      "imageAlt": "Malebný výhled z Petit Train de Carnac",
+      "heading": "Jednoduchý a příjemný způsob, jak prozkoumat Vannes",
+      "p1": "Petit Train de Vannes vás zve k objevování města uvolněným tempem, pohodlně usazené na palubě turistického vlaku navrženého pro návštěvníky, kteří chtějí poznat Vannes bez námahy.",
+      "p2": "Během výletu poskytuje audio komentář jasné a přístupné informace o hradbách, starém městě a přístavu Vannes. Tento turistický vlak je ideální pro návštěvníky, kteří hledají příjemné uvedení do tohoto středověkého města a jeho historie.",
+      "imageAlt": "Výhled na hradby Vannes z Petit Train",
       "f1Title": "Pohodlný turistický vláček",
-      "f1Desc": "Objevte nejkrásnější místa Carnace pohodlně usazeni na palubě našeho turistického vlaku, navrženého pro návštěvníky, kteří chtějí prozkoumávat bez námahy.",
+      "f1Desc": "Objevte nejkrásnější místa Vannes pohodlně usazeni na palubě našeho turistického vlaku, navrženého pro návštěvníky, kteří chtějí prozkoumávat středověké město bez námahy.",
       "f2Title": "Audio komentář v 16 jazycích — součást jízdenky",
       "f2Desc": "Audio komentář je dostupný v 16 jazycích, s hygienickými sluchátky v ceně jízdenky. K dispozici je také verze pro děti.",
-      "f3Title": "Objevování dědictví a krajiny Carnace",
-      "f3Desc": "Prohlédněte si 47 komentovaných zajímavostí: zarovnání Ménec, Kermario a Kerlescan, bílé písečné pláže a přístav La Trinité-sur-Mer v jediné malebné cestě.",
+      "f3Title": "Objevování středověkého dědictví Vannes",
+      "f3Desc": "Prohlédněte si středověké hradby, staré město s hrázděnými domy, přístav Vannes a Jardins de la Garenne v jediné malebné cestě trvající 40 minut.",
       "f4Title": "Vhodné pro rodiny, seniory a skupiny",
       "f4Desc": "Náš vlak vítá všechny věkové kategorie a velikosti skupin — žádné dlouhé pochody, žádná námaha, jen pohodlný a příjemný zážitek pro všechny."
     },
     "groupBookingCta": {
       "label": "Skupinová rezervace — Pronájem",
       "heading": "Rezervace pro soukromé výlety",
-      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Carnac pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
+      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Vannes pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
       "button": "Rezervace pronájmu"
     },
     "locations": {
       "label": "Destinace",
       "heading": "Objevte naše další trasy turistickým vlakem v Morbihanu",
-      "description": "Prodlužte svou návštěvu Morbihanu s našimi dalšími turistickými vlaky. Ve Vannes a Quiberon objevte nové krajiny, jedinečné dědictví a nezapomenutelné chvíle.",
+      "description": "Prodlužte svou návštěvu Morbihanu s našimi dalšími turistickými vlaky. V Carnaci a Quiberon objevte nové krajiny, jedinečné dědictví a nezapomenutelné chvíle.",
       "discover": "Objevit",
-      "vannes": {
-        "title": "Petit Train de Vannes",
-        "tagline": "Objevte historické srdce Vannes",
-        "description": "Nastupte na Petit Train de Vannes a objevte středověké hradby, přístav a malebné uličky starého města.",
-        "cta": "Objevit Petit Train de Vannes",
-        "imageAlt": "Historické centrum Vannes"
+      "carnac": {
+        "title": "Petit Train de Carnac",
+        "tagline": "Objevte menhiry a pláže Carnace",
+        "description": "Nastupte na Petit Train de Carnac a projížďte se kolem slavných menhirů, bílých písečných pláží a přístavu La Trinité-sur-Mer.",
+        "cta": "Objevit Petit Train de Carnac",
+        "imageAlt": "Zarovnání menhirů v Carnaci"
       },
       "quiberon": {
         "title": "Petit Train de Quiberon",
@@ -287,7 +303,7 @@
     "reviews": {
       "label": "Recenze",
       "heading": "Co říkají návštěvníci vlaku?",
-      "description": "Petit Train de Carnac je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+      "description": "Petit Train de Vannes je hodnocen více než 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
       "googleReview": "Recenze Google",
       "slideAriaLabel": "Recenze {n} z {total}",
       "regionAriaLabel": "Recenze návštěvníků",
@@ -298,13 +314,13 @@
       "label": "Rezervace",
       "headingPrefix": "Rezervujte svůj výlet na",
       "headingHighlight": "Petit Train",
-      "headingSuffix": "v Carnaci",
-      "description": "Vyberte si datum a čas, zvolte počet jízdenek a potvrďte rezervaci online. Výlet trvá <strong>55 minut</strong> s audio komentářem dostupným v 16 jazycích."
+      "headingSuffix": "ve Vannes",
+      "description": "Vyberte si datum a čas, zvolte počet jízdenek a potvrďte rezervaci online. Výlet trvá <strong>40 minut</strong> s audio komentářem dostupným v 16 jazycích."
     },
     "gallery": {
       "label": "Galerie",
       "heading": "Vzpomínky z vašeho výletu",
-      "description": "Náhled toho, co vás čeká na palubě Petit Train de Carnac. Klikněte pro zvětšení.",
+      "description": "Náhled toho, co vás čeká na palubě Petit Train de Vannes. Klikněte pro zvětšení.",
       "expandImage": "Zvětšit obrázek {n}",
       "prevImage": "Předchozí obrázek",
       "nextImage": "Další obrázek",
@@ -312,144 +328,142 @@
     },
     "ourLocation": {
       "label": "Naše poloha",
-      "heading": "Jak se dostat k Petit Train de Carnac",
-      "description": "Petit Train de Carnac je snadno dostupný autem, vlakem nebo autobusem. Zde jsou hlavní odjezdové body a tipy pro váš příjezd.",
+      "heading": "Jak se dostat k Petit Train de Vannes",
+      "description": "Petit Train de Vannes odjíždí z Place Gambetta, v srdci města, dva kroky od středověkých hradeb. Snadno dostupné autem nebo MHD.",
       "seeRoute": "Zobrazit trasu",
       "arrivalTipTitle": "Tip pro příjezd",
-      "arrivalTipDescription": "Přijďte prosím alespoň 15 minut před odjezdem.",
-      "item1Title": "Hlavní odjezdový bod — Parkoviště Ménec",
-      "item1Description": "Povinné místo odjezdu pro skupiny a individuální rezervace. Nachází se na parkovišti Ménec v Carnaci, přímo naproti Maison des Mégalithes.",
-      "item2Title": "Bod 2 — Carnac Plage (Port-En-Drô)",
-      "item2Description": "Kupte si jízdenky na místě u řidiče, v závislosti na dostupnosti.",
-      "item3Title": "Bod 3 — La Trinité-sur-Mer",
-      "item3Description": "Autobusová zastávka Cours des Quais, u moře (před kruhovým objezdem Alain Barrière). Kupte si jízdenky na místě u řidiče, v závislosti na dostupnosti.",
-      "item4Title": "Autem",
-      "item4Description": "Pokud jedete autem, sledujte směr Carnac a parkoviště Ménec. Parkování je zdarma.",
-      "item5Title": "Vlakem",
-      "item5Description": "Nejbližší vlakové nádraží je Auray, přibližně 13 km od Carnace. V hlavní sezóně jezdí autobusy mezi Auray a Carnac."
+      "arrivalTipDescription": "Přijďte prosím alespoň 10 minut před odjezdem, abyste si koupili jízdenky u řidiče.",
+      "item1Title": "Odjezdový bod — Place Gambetta",
+      "item1Description": "Jediné místo odjezdu a příjezdu. Nachází se v srdci Vannes, dva kroky od středověkých hradeb. Řidič prodává jízdenky na místě.",
+      "item2Title": "Autem",
+      "item2Description": "Sledujte označení směrem do centra Vannes a Place Gambetta. Parkoviště jsou k dispozici v blízkosti.",
+      "item3Title": "Vlakem",
+      "item3Description": "Nádraží Vannes je vzdáleno přibližně 10 minut pěšky od Place Gambetta. Místní autobusy zajišťují také spojení."
     },
     "informationsIntro": {
       "label": "Důležitá poznámka",
       "heading": "Online rezervace",
-      "description": "Rezervace je možná, ale není povinná. Rezervovat lze až <strong>2 hodiny</strong> před plánovaným odjezdem. Nezapomeňte si naplánovat čas na cestu a parkování. Po uplynutí této doby se dostavte přímo na místo odjezdu a kupte jízdenky na pokladně nebo u řidiče."
+      "description": "Rezervace je možná, ale není povinná. Můžete se dostavit přímo na <strong>Place Gambetta</strong> a koupit jízdenky u řidiče. V hlavní sezóně doporučujeme rezervovat předem."
     },
     "informationsCta": {
       "label": "Skupinová rezervace — Pronájem",
       "heading": "Rezervace pro soukromé výlety",
-      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Carnac pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
+      "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Vannes pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
       "button": "Rezervace pronájmu"
     },
     "faqsHero": {
       "label": "FAQ",
       "heading": "Často kladené otázky",
-      "description": "Najděte odpovědi na nejčastější otázky o Petit Train de Carnac: délka, ceny, trasa, přístupnost a rezervace.",
+      "description": "Najděte odpovědi na nejčastější otázky o Petit Train de Vannes: délka, ceny, trasa, přístupnost a rezervace.",
       "cardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
       "languages": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky."
     },
     "faq": {
       "defaultLabel": "FAQ",
       "defaultHeading": "Často kladené otázky",
-      "defaultDescription": "Najděte jasné odpovědi na nejčastější otázky o Petit Train de Carnac.",
+      "defaultDescription": "Najděte jasné odpovědi na nejčastější otázky o Petit Train de Vannes.",
       "button": "Rezervujte svůj výlet",
       "default": {
-        "q1": "Co je Petit Train de Carnac?",
-        "a1": "Petit Train de Carnac je průvodcovský turistický vlak, který projíždí Carnacem a jeho okolím: menhiry, plážemi a přístavem La Trinité-sur-Mer.",
-        "q2": "Jak dlouho trvá výlet Petit Train de Carnac?",
-        "a2": "Průvodcovský výlet trvá celkem přibližně 55 minut s vícejazyčným audio komentářem po celou dobu trasy.",
-        "q3": "Odkud odjíždí Petit Train de Carnac?",
-        "a3": "Hlavní odjezdové a příjezdové místo se nachází na parkovišti Ménec naproti Maison des Mégalithes.",
-        "q4": "Co uvidím během výletu Petit Train de Carnac?",
-        "a4": "Během výletu projdete kolem slavných zarovnání menhirů, tumulu Saint-Michel, Carnac-Plage a přístavu La Trinité-sur-Mer.",
-        "q5": "Je Petit Train de Carnac vhodný pro děti a rodiny?",
-        "a5": "Ano, Petit Train de Carnac je vhodný pro rodiny s dětmi, starší osoby a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám.",
+        "q1": "Co je Petit Train de Vannes?",
+        "a1": "Petit Train de Vannes je průvodcovský turistický vlak, který vás zaveze k objevení středověkých hradeb, starého města a přístavu Vannes za 40 minut.",
+        "q2": "Jak dlouho trvá výlet Petit Train de Vannes?",
+        "a2": "Průvodcovský výlet trvá celkem přibližně 40 minut s vícejazyčným audio komentářem po celou dobu trasy.",
+        "q3": "Odkud odjíždí Petit Train de Vannes?",
+        "a3": "Odjezd i příjezd jsou na Place Gambetta, v srdci Vannes, dva kroky od středověkých hradeb.",
+        "q4": "Co uvidím během výletu Petit Train de Vannes?",
+        "a4": "Během výletu uvidíte středověké hradby, staré město s hrázděnými domy, přístav Vannes a Jardins de la Garenne.",
+        "q5": "Je Petit Train de Vannes vhodný pro děti a rodiny?",
+        "a5": "Ano, Petit Train de Vannes je vhodný pro rodiny s dětmi, starší osoby a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám.",
         "q6": "V jakých jazycích je dostupný průvodcovský komentář?",
         "a6": "Audio průvodcovský komentář je dostupný v 16 jazycích, včetně francouzštiny, angličtiny, němčiny, španělštiny, italštiny a nizozemštiny.",
-        "q7": "Je nutné si Petit Train de Carnac předem rezervovat?",
-        "a7": "Předem rezervovat se doporučuje, zejména v hlavní sezóně. Jízdenky lze také koupit na místě, v závislosti na dostupnosti."
+        "q7": "Je nutné si Petit Train de Vannes předem rezervovat?",
+        "a7": "Rezervace je možná, ale není povinná. V hlavní sezóně se doporučuje předem rezervovat pro zajištění místa."
       }
     },
     "routesTimeline": {
       "label": "Chronologie trasy",
-      "headingPrefix": "Zastávky a trasa",
-      "headingHighlight": "Petit Train de Carnac",
-      "intro": "Během průvodcovského výletu projíždí Petit Train de Carnac několika klíčovými místy a nabízí ucelený přehled Carnace a jeho okolí.",
-      "introBold": "Petit Train de Carnac navštěvuje během výletu následující zastávky:",
+      "headingPrefix": "Odjezdový bod",
+      "headingHighlight": "Petit Train de Vannes",
+      "intro": "Během průvodcovského výletu odjíždí Petit Train de Vannes z Place Gambetta a zavede vás k hradbám, starému městu, přístavu a Jardins de la Garenne.",
+      "introBold": "Petit Train de Vannes odjíždí z následujícího místa:",
       "btnBook": "Rezervujte svůj výlet",
       "btnPrices": "Zobrazit ceny",
-      "stop1Name": "Parkoviště Ménec, Carnac",
-      "stop1Bullet1": "Nachází se naproti Maison des Mégalithes",
-      "stop1Bullet2": "Odjezdový bod č. 1",
-      "stop1Bullet3": "Povinné místo odjezdu pro individuální návštěvníky",
-      "stop1Bullet4": "Pokladna na místě",
-      "stop1Note": "Toto je jediné garantované místo nástupu pro individuální jízdenky.",
-      "stop1ImageAlt": "Parkoviště Ménec, Carnac — odjezdový bod Petit Train",
-      "stop2Name": "Les Remparts Médiévaux & la Porte Prison",
-      "stop2Bullet1": "Découvrez les remparts du XIVe siècle qui ceinturent la vieille ville",
-      "stop2Bullet2": "La Porte Prison, ancienne porte de la ville et monument emblématique de Vannes",
-      "stop2Note": "Kupte si jízdenky na místě v okamžiku odjezdu (rezervace není možná).",
-      "stop2ImageAlt": "Les remparts médiévaux de Vannes",
-      "stop3Name": "Cathédrale Saint-Pierre & Port de Vannes",
-      "stop3Bullet1": "La Cathédrale Saint-Pierre, chef-dœuvre gothique du XIIIe siècle",
-      "stop3Bullet2": "Place Henri IV et ses maisons à colombages — cœur historique de Vannes",
-      "stop3ImageAlt": "Cathédrale Saint-Pierre et le port de Vannes",
-      "stop2Bullet3": "Vue panoramique sur la cité médiévale depuis le chemin de ronde",
-      "stop3Bullet3": "Le port et les Jardins de la Garenne avant le retour à la Place Gambetta",
-      "stop3Note": "Retour au point de départ : Place Gambetta."
+      "stop1Name": "Place Gambetta, Vannes",
+      "stop1Bullet1": "V srdci města, dva kroky od středověkých hradeb",
+      "stop1Bullet2": "Snadno dostupné z centra města a blízkých parkovišť",
+      "stop1Bullet3": "Řidič na místě pro prodej jízdenek",
+      "stop1Note": "Jediné místo nástupu — odjezd i příjezd na Place Gambetta.",
+      "stop1ImageAlt": "Place Gambetta, Vannes — odjezdový bod Petit Train",
+      "stop2Name": "Středověké hradby & Porte Prison",
+      "stop2Bullet1": "Objevte hradby ze 14. století, které obklopují staré město",
+      "stop2Bullet2": "Porte Prison, někdejší městská brána a ikonická památka Vannes",
+      "stop2Bullet3": "Panoramatický výhled na středověké město",
+      "stop2ImageAlt": "Středověké hradby Vannes viděné z Petit Train",
+      "stop3Name": "Cathédrale Saint-Pierre & přístav Vannes",
+      "stop3Bullet1": "Cathédrale Saint-Pierre, gotické mistrovské dílo ze 13. století",
+      "stop3Bullet2": "Place Henri IV s hrázděnými domy — historické srdce Vannes",
+      "stop3Bullet3": "Přístav a Jardins de la Garenne před návratem na Place Gambetta",
+      "stop3Note": "Návrat na odjezdové místo: Place Gambetta.",
+      "stop3ImageAlt": "Cathédrale Saint-Pierre a přístav Vannes"
     },
     "faqsSection": {
-      "q1": "Co je Petit Train de Carnac?",
-      "a1": "Petit Train de Carnac je průvodcovský turistický vlak, který umožňuje návštěvníkům pohodlně a přístupně poznat Carnac a jeho okolí. Výlet zahrnuje menhiry v Carnaci, pláž Carnac a přístav La Trinité-sur-Mer s audio komentářem po celou dobu trasy.",
+      "q1": "Co je Petit Train de Vannes?",
+      "a1": "Petit Train de Vannes je průvodcovský turistický vlak, který umožňuje návštěvníkům pohodlně a přístupně poznat nejkrásnější místa města: středověké hradby, staré město, přístav a Jardins de la Garenne. Výlet trvá přibližně 40 minut a je doprovázen audio komentářem dostupným v 16 jazycích.",
       "q2": "Jak dlouho trvá výlet?",
-      "a2": "Průvodcovský výlet trvá přibližně 55 minut. Tato délka umožňuje návštěvníkům vidět hlavní zajímavosti Carnace bez dlouhých pěších vzdáleností.",
-      "q3": "Odkud odjíždí Petit Train de Carnac?",
-      "a3": "Hlavní odjezdové a příjezdové místo pro individuální návštěvníky je parkoviště Ménec v Carnaci, naproti Maison des Mégalithes.",
+      "a2": "Průvodcovský výlet trvá přibližně 40 minut. Petit Train odjíždí z Place Gambetta a vrací se na stejné místo.",
+      "q3": "Odkud odjíždí Petit Train de Vannes?",
+      "a3": "Petit Train odjíždí z Place Gambetta, v srdci města, dva kroky od středověkých hradeb. Toto je jediné místo odjezdu i příjezdu.",
       "q4": "Jezdí Petit Train každý den?",
-      "a4": "Ano. Petit Train de Carnac jezdí každý den od dubna do konce října, včetně nedělí a svátků.",
+      "a4": "Ano. Petit Train de Vannes jezdí každý den od dubna do La Toussaint, včetně nedělí a svátků.",
       "q5": "Funguje výlet za špatného počasí?",
-      "a5": "Ano. Petit Train jezdí za každého počasí. V případě deště nebo silného větru je vlak ze tří stran zasklený, takže si výlet plně užijete.",
+      "a5": "Ano. Petit Train jezdí za každého počasí. V případě výjimečně silných bouří může být provoz přerušen z bezpečnostních důvodů.",
       "q6": "Co uvidím během výletu?",
-      "a6": "Během výletu projdete kolem menhirů v Carnaci, včetně zarovnání Ménec, Kermario a Kerlescan. Uvidíte také pláž Carnac, její bílé písečné pláže a přístav La Trinité-sur-Mer.",
+      "a6": "Během výletu uvidíte středověké hradby Vannes, staré město s hrázděnými domy, přístav Vannes, Jardins de la Garenne a nejkrásnější panoramata středověkého města.",
       "q7": "V jakých jazycích je dostupný audio komentář?",
-      "a7": "Audio průvodcovský komentář je dostupný v 16 jazycích: francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, polsky, rusky, švédsky, dánsky, česky, čínsky, japonsky a dalších jazycích. Audio komentář je zahrnut v ceně jízdenky — bez příplatku. K dispozici je také speciální verze pro děti.",
+      "a7": "Audio průvodcovský komentář je dostupný v 16 jazycích: francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, polsky, rusky, švédsky, dánsky, čínsky, japonsky, arabsky, chorvatsky a slovinsky. Audio komentář je zahrnut v ceně jízdenky — bez příplatku. K dispozici je také speciální verze pro děti.",
       "q8": "Je výlet vhodný pro děti?",
-      "a8": "Ano. Petit Train de Carnac je vhodný pro děti a rodiny. Audio komentář pro děti nabízí zážitek, který je zároveň zábavný a vzdělávací.",
+      "a8": "Ano. Petit Train de Vannes je vhodný pro děti a rodiny. Audio komentář pro děti nabízí zážitek, který je zároveň zábavný a vzdělávací.",
       "q9": "Kolik stojí jízdenka?",
-      "q9Pre": "Ceny se liší podle věku a velikosti skupiny. Dospělí a děti do 12 let mají různé ceny. Kompletní ceník je dostupný na ",
+      "q9Pre": "Ceny se liší podle věku a velikosti skupiny. Dospělí platí 8,50 € a děti od 4 do 12 let platí 5 €. Děti do 4 let jsou zdarma. Kompletní ceník je dostupný na ",
       "q9LinkText": "stránce Ceny a Jízdenky",
       "q9Post": ".",
       "q10": "Je nutné rezervovat předem?",
-      "a10": "Předem rezervovat se doporučuje, zejména v rušných turistických obdobích. Online rezervace musí být provedeny nejméně dvě hodiny před odjezdem.",
+      "a10": "Rezervace je možná, ale není povinná. V hlavní sezóně (červenec–srpen) doporučujeme rezervovat předem pro zajištění místa.",
       "q11": "Mohu koupit jízdenky na místě?",
-      "a11": "Ano. Jízdenky lze koupit u pokladny na parkovišti Ménec, v závislosti na dostupnosti.",
+      "a11": "Ano. Jízdenky lze koupit přímo u řidiče na odjezdovém místě Place Gambetta.",
       "q12": "Jak dlouho před odjezdem mám přijít?",
-      "a12": "Návštěvníci jsou požádáni, aby přišli alespoň 15 minut před odjezdem, aby si ověřili jízdenku a nastoupili.",
+      "a12": "Doporučuje se přijít alespoň 10 minut před odjezdem, abyste si koupili jízdenky a nastoupili.",
       "q13": "Jsou dostupné skupinové rezervace?",
       "a13": "Ano. Skupinové rezervace jsou dostupné pro skupiny 20 a více osob. Doporučuje se předem rezervovat.",
       "q14": "Mohu pronajmout Petit Train pro akci?",
-      "q14Pre": "Ano. Petit Train de Carnac lze pronajmout pro firemní akce, spolky, školní skupiny a soukromé příležitosti. Dedikovaný formulář žádosti je dostupný na ",
+      "q14Pre": "Ano. Petit Train de Vannes lze pronajmout pro firemní akce, spolky, školní skupiny a soukromé příležitosti. Dedikovaný formulář žádosti je dostupný na ",
       "q14LinkText": "stránce Pronájem",
       "q14Post": "."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Provozní období",
-      "operatingPeriodBody": "Petit Train de Carnac jezdí 7 dní v týdnu od dubna do konce října, včetně nedělí a svátků.",
+      "operatingPeriodBody": "Petit Train de Vannes jezdí 7 dní v týdnu od dubna do La Toussaint, včetně nedělí a svátků.",
       "weatherTitle": "Počasí",
-      "weatherBody": "V případě deště nebo silného větru je vlak ze tří stran zasklený, takže si výlet plně užijete.",
+      "weatherBody": "Petit Train jezdí za každého počasí. V případě výjimečně silných bouří může být provoz přerušen z bezpečnostních důvodů.",
       "timetableHeading": "Jízdní řády",
       "departurePrefix": "Odjezd —",
-      "saturdayRule": "<strong>Soboty v červenci a srpnu:</strong> odjezdy Carnac Plage a La Trinité-sur-Mer se řídí «oranžovými» mimosezónními jízdními řády.",
-      "onlineBookingNote": "<strong>Online rezervace:</strong> dostupná pouze pro odjezd č. 1 — Parkoviště Ménec.",
-      "closuresHeading": "Svátky a zavírací dny",
-      "closuresBody": "Svátky se řídí běžnými jízdními řády. Petit Train je <strong>uzavřen od 9. do 16. října</strong> a dále <strong>od listopadu do března včetně</strong>.",
+      "saturdayRule": "<strong>Svátky:</strong> stejné jízdní řády jako ve všední dny. Petit Train je otevřen v sezóně ve všechny svátky.",
+      "onlineBookingNote": "<strong>Online rezervace:</strong> dostupná z Place Gambetta. Odjezd každých 40 minut v sezóně.",
+      "closuresHeading": "Uzavření",
+      "closuresBody": "Petit Train je <strong>uzavřen od 13. do 21. října</strong> a dále <strong>od prosince do března včetně</strong>.",
       "viewPlanButton": "Zobrazit plán",
-      "viewPlanImageAlt": "Plán trasy — Menhiry Tour Petit Train de Carnac",
-      "lightboxClose": "Zavřít"
+      "viewPlanImageAlt": "Plán trasy — Petit Train de Vannes",
+      "lightboxClose": "Zavřít",
+      "departureLocation": "V srdci Vannes, kousek od hradeb",
+      "departureFrequency": "Odjezd každých 40 min",
+      "periodClosed": "Zavřeno",
+      "periodClosureNote": "Mimořádné uzavření"
     },
     "routesHeroDefaults": {
       "primaryButton": "Leták pro jednotlivce",
       "secondaryButton": "Skupinový leták",
-      "googleReviewsCount": "6 000+ recenzí",
-      "googleBadgeText": "<strong>Petit Train de Carnac</strong> je hodnocen více než 4,7 na Google s více než 6 000 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí v Carnaci.",
+      "googleReviewsCount": "1 385+ recenzí",
+      "googleBadgeText": "<strong>Petit Train de Vannes</strong> je hodnocen více než 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
       "lightboxClose": "Zavřít",
       "lightboxEnlarge": "Zvětšit: {alt}",
       "lightboxAriaLabel": "Zvětšený pohled: {alt}"
@@ -458,34 +472,34 @@
       "sectionLabel": "Kariéra",
       "headingPrefix": "Vaše kariéra v",
       "headingSuffix": "začíná zde",
-      "description": "Naše filozofie je jednoduchá: nabídnout návštěvníkům vřelé přivítání a plynulý turistický zážitek při objevování Carnace a jeho okolí. V Petit Train de Carnac hraje každý člen týmu důležitou roli při vytváření přátelské a nezapomenutelné návštěvy pro lidi všech věkových kategorií z celého světa.",
+      "description": "Naše filozofie je jednoduchá: nabídnout návštěvníkům vřelé přivítání a plynulý turistický zážitek při objevování Vannes a jeho hradeb. V Petit Train de Vannes hraje každý člen týmu důležitou roli při vytváření přátelské a nezapomenutelné návštěvy pro lidi všech věkových kategorií z celého světa.",
       "ctaButton": "Požádat o práci a poslat životopis",
       "openPositionsLabel": "Otevřené pozice:",
       "seasonalBadge": "Sezónní pozice",
-      "job1Title": "Řidič turistického vlaku",
-      "job1Description": "Bezpečně řídit Petit Train po turistické trase a vítat návštěvníky na palubě. Tato pozice zahrnuje řízení vlaku, zajišťování pohodlí cestujících a přispívání k pozitivní atmosféře po celou dobu výletu.",
+      "job1Title": "Řidič Petit Train",
+      "job1Description": "Bezpečně řídit Petit Train po trase kolem hradeb Vannes a vítat návštěvníky na palubě. Tato pozice zahrnuje řízení vlaku, zajišťování pohodlí cestujících a přispívání k pozitivní atmosféře po celou dobu výletu.",
       "job1Requirement": "Vyžadován řidičský průkaz D (hromadná doprava). Předchozí zkušenosti s turistickými vozidly jsou výhodou.",
       "job2Title": "Pokladní",
-      "job2Description": "Vítejte návštěvníky, prodávejte jízdenky a poskytujte jasné informace o jízdních řádech, cenách a výletu. Tato pozice je ideální pro lidi, kteří rádi pracují s veřejností a v rušném turistickém prostředí.",
+      "job2Description": "Vítejte návštěvníky, prodávejte jízdenky a poskytujte jasné informace o jízdních řádech, cenách a okruhu ve Vannes. Tato pozice je ideální pro lidi, kteří rádi pracují s veřejností a v rušném turistickém prostředí.",
       "job2Requirement": "Dobré komunikační schopnosti a přátelský přístup jsou nezbytné. Znalost cizích jazyků je výhodou.",
       "job3Title": "Nástupní dispečer",
-      "job3Description": "Doprovázejte cestující při nástupu a zajišťujte hladký průběh odjezdů a příjezdů. Tato pozice podporuje jak řidiče, tak tým pokladny.",
+      "job3Description": "Doprovázejte cestující při nástupu na Place Gambetta a zajišťujte hladký průběh odjezdů a příjezdů.",
       "job3Requirement": "Pozitivní přístup, spolehlivost a pohodová komunikace s návštěvníky všech věkových kategorií jsou nezbytné.",
-      "imageAlt": "Práce v Petit Train de Carnac"
+      "imageAlt": "Práce v Petit Train de Vannes"
     },
     "careersInfo": {
       "panel1Heading": "Koho hledáme",
-      "panel1P1": "Hledáme motivované a spolehlivé lidi, kteří rádi pracují s veřejností a přispívají ke kvalitnímu turistickému zážitku.",
+      "panel1P1": "Hledáme motivované a spolehlivé lidi, kteří rádi pracují s veřejností a přispívají ke kvalitnímu turistickému zážitku ve Vannes.",
       "panel1P2": "Jste v pohodě s mezinárodními návštěvníky, dostupní během turistické sezóny a schopni pracovat o víkendech a svátcích podle potřeby.",
       "panel2Heading": "Práce s námi",
-      "panel2P1": "Pozice jsou převážně sezónní a jsou v Carnaci. Před nástupem do práce je poskytnuto školení. Pracovní doba závisí na sezóně a návštěvnosti.",
+      "panel2P1": "Pozice jsou převážně sezónní a jsou ve Vannes. Před nástupem do práce je poskytnuto školení. Pracovní doba závisí na sezóně a návštěvnosti.",
       "panel2P2": "Budete pracovat venku a v malém přátelském týmu zaměřeném na spokojenost návštěvníků.",
       "panel3Heading": "Jak požádat",
       "panel3P1": "Chcete-li požádat o práci, vyplňte prosím přihlašovací formulář a přiložte svůj životopis. Pokud váš profil odpovídá naším potřebám, náš tým vás bude kontaktovat.",
-      "panel4Heading": "Připojte se k týmu Petit Train de Carnac",
-      "panel4P1": "Požádejte hned teď a staňte se součástí místního turistického zážitku, který pomáhá návštěvníkům objevovat Carnac jednoduchým a příjemným způsobem.",
+      "panel4Heading": "Připojte se k týmu Petit Train de Vannes",
+      "panel4P1": "Požádejte hned teď a staňte se součástí místního turistického zážitku, který pomáhá návštěvníkům objevovat Vannes jednoduchým a příjemným způsobem.",
       "ctaButton": "Požádat o práci a poslat životopis",
-      "imageAlt": "Koho hledáme v Petit Train de Carnac"
+      "imageAlt": "Koho hledáme v Petit Train de Vannes"
     },
     "privatisationForm": {
       "yourDetailsHeading": "Vaše údaje",
@@ -519,10 +533,10 @@
       "successHeading": "Žádost odeslána!",
       "successBody": "Děkujeme za váš zájem. Náš tým přezkoumá vaši žádost a co nejdříve vás kontaktuje, aby potvrdil dostupnost a prodiskutoval podrobnosti.",
       "sectionLabel": "Pronájem & B2B nájmy",
-      "imageHeading": "Pronajměte si Petit Train de Carnac pro vaši akci",
-      "imageDescription": "Petit Train de Carnac lze pronajmout pro skupinové výlety, firemní akce a zvláštní příležitosti. Toto flexibilní řešení vám umožní nabídnout vašim hostům průvodcovský výlet přes Carnac, pohodlný a originální, přizpůsobený vašim potřebám a programu.",
-      "googleReviewsCount": "6 000+ recenzí",
-      "imageAlt": "Pronájem Petit Train de Carnac"
+      "imageHeading": "Pronajměte si Petit Train de Vannes pro vaši akci",
+      "imageDescription": "Petit Train de Vannes lze pronajmout pro skupinové výlety, firemní akce a zvláštní příležitosti. Toto flexibilní řešení vám umožní nabídnout vašim hostům průvodcovský výlet přes Vannes, pohodlný a originální, přizpůsobený vašim potřebám a programu.",
+      "googleReviewsCount": "1 385+ recenzí",
+      "imageAlt": "Pronájem Petit Train de Vannes"
     }
   }
 }

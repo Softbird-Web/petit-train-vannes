@@ -143,7 +143,23 @@
       "faqLabel": "Questions Fréquentes",
       "faqHeadingPrefix": "Questions Fréquemment Posées",
       "faqHeadingHighlight": "sur le parcours",
-      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le parcours, les arrêts et la durée du Petit Train de Vannes."
+      "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur le parcours, les arrêts et la durée du Petit Train de Vannes.",
+      "faqQ1": "Quel est le parcours du Petit Train de Vannes ?",
+      "faqA1": "Le Petit Train de Vannes part de la Place Gambetta et vous fait découvrir les remparts médiévaux, la vieille ville avec ses maisons à colombages, le port de Vannes et les jardins de la Garenne. Le circuit dure environ 40 minutes.",
+      "faqQ2": "Quelle est la durée du circuit du Petit Train de Vannes ?",
+      "faqA2": "Le circuit dure environ 40 minutes. Ce parcours permet aux visiteurs de découvrir les principaux sites de Vannes à un rythme détendu, accompagnés d'un commentaire audio tout au long du trajet.",
+      "faqQ3": "Où commence et se termine le parcours ?",
+      "faqA3": "Le parcours commence et se termine à la Place Gambetta, au cœur de Vannes, à deux pas des remparts médiévaux. C'est le seul point de départ et d'arrivée.",
+      "faqQ4": "Le Petit Train fait-il des arrêts pendant le parcours ?",
+      "faqA4": "Le circuit est continu — il n'y a pas d'arrêts intermédiaires. Les visiteurs embarquent et débarquent uniquement à la Place Gambetta.",
+      "faqQ5": "Verra-t-on les remparts médiévaux de Vannes pendant la visite ?",
+      "faqA5": "Oui. Le parcours longe les célèbres remparts médiévaux de Vannes, parmi les mieux conservés de Bretagne. Le commentaire audio explique l'histoire et l'architecture de ces fortifications tout au long du trajet.",
+      "faqQ6": "Le parcours inclut-il la vieille ville et le port de Vannes ?",
+      "faqA6": "Oui. Le circuit traverse la vieille ville avec ses maisons à colombages du XVIIe siècle et longe le port de Vannes. Ces sites sont présentés via le commentaire audio dans le cadre de la visite guidée.",
+      "faqQ7": "Les jardins de la Garenne sont-ils inclus dans le parcours ?",
+      "faqA7": "Oui. Le circuit passe près des jardins de la Garenne, l'un des plus beaux jardins de Vannes, avec une vue remarquable sur les remparts et les lavoirs médiévaux.",
+      "faqQ8": "Le circuit est-il adapté aux personnes à mobilité réduite ?",
+      "faqA8": "Le Petit Train est accessible à tous. Il est particulièrement recommandé pour les personnes préférant éviter les longues marches tout en découvrant les sites historiques de Vannes."
     },
     "informations": {
       "heroLabel": "Informations Pratiques",
@@ -437,7 +453,11 @@
       "closuresBody": "Le Petit Train est <strong>fermé du 13 au 21 octobre</strong> ainsi que <strong>de décembre à mars inclus</strong>.",
       "viewPlanButton": "Voir le plan",
       "viewPlanImageAlt": "Plan du parcours — Petit Train de Vannes",
-      "lightboxClose": "Fermer"
+      "lightboxClose": "Fermer",
+      "departureLocation": "Au cœur de Vannes, à deux pas des remparts",
+      "departureFrequency": "Un départ toutes les 40 min",
+      "periodClosed": "Fermé",
+      "periodClosureNote": "Fermeture exceptionnelle"
     },
     "routesHeroDefaults": {
       "primaryButton": "Flyer individuel",

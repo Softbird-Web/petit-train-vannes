@@ -159,6 +159,19 @@ rm -rf .next && npm run dev
 # Then hard-refresh the browser (Cmd+Shift+R) — normal refresh won't bypass browser cache either
 ```
 
+## i18n Playwright stop-word tests — JS `\b` + accented Latin chars (2026-05-08 session)
+
+- **The trap**: `\b` in JavaScript regex only recognises ASCII `[a-zA-Z0-9_]` as word characters. Accented vowels (`á`, `é`, `ü`, etc.) are non-word chars, so `\best\b` matches at the start of "estándar", "están", "está" because the boundary triggers between `t` and `á`. Similarly `\bqui\b` matches inside "quién" (after `i`, before `é`).
+- **Fix**: replace `\b` with Unicode-aware lookahead/lookbehind using the extended Latin range: `(?<![a-zA-ZÀ-ÖØ-öø-ÿ])(word)(?![a-zA-ZÀ-ÖØ-öø-ÿ])`. This range covers all precomposed Latin diacritics (é = U+00E9 falls in `Ø-ö` = U+00D8–U+00F6).
+- **Per-locale exclusions still needed for genuine overlap**: `que` (Spanish conjunction), `les` (Spanish indirect pronoun), `des` (German genitive) are valid words in those languages that happen to be French stop-words. Add them to a `LOCALE_STOP_WORD_EXCLUSIONS` map — not to the global list — so detection still works for all other locales.
+
+## Module-scope arrays with hardcoded strings bypass i18n (2026-05-07 session)
+
+- **The trap**: defining `const routeFaqs = [{question: "...", answer: "..."}]` at module scope (outside the page function) means those strings are baked in at import time — they never go through `t()`. Any server page that does this renders French text on every locale. `i18n/request.ts`'s fallback can only fill in MISSING keys; it can't intercept hardcoded literals.
+- **Detection**: `grep -rn "const.*FAQ\|const.*faqs\|const.*faq" app/ --include="*.tsx"` → any const array at module scope containing user-visible strings is a leak.
+- **Fix**: move the array inside the page/component function so `t()` is in scope. For server pages this is trivially async: `const t = await getTranslations({locale}); const items = [{q: t('key')}]`.
+- **Same trap applies to**: hardcoded props in module-scope `const data = [...]` fed to client components, default values in component signatures that hardcode French strings, and any data file imported rather than translated.
+
 ## Vercel deploy = `git push`, not `git commit` (2026-04-28 session)
 
 - **The trap**: `git commit` succeeds and `git log` shows the commit, but the live site never updates. Root cause: commits were never pushed to GitHub. Vercel listens to GitHub push events, not local git state. Any number of local commits do nothing until `git push origin main`.
@@ -442,6 +455,20 @@ The Vannes build did the opposite: built first, then ran 4 QA rounds to hunt dow
 Rule: if you're about to make a change you didn't find in CUSTOMIZATION-MAP.md, either it's already covered (check again) or the map is missing it (add it before proceeding).
 
 ---
+
+## Manual translations are better than `npm run translate` for Morbihan train sites (2026-05-07)
+
+- **`npm run translate` is optional, not required.** The script needs `ANTHROPIC_API_KEY` in `.env.local`. When the key is unavailable, writing all 6 locale files (en/es/de/it/nl/cs) manually from the canonical `fr.json` gives higher quality output — the AI script translates line-by-line and misses context; manual translation handles cultural nuance (Dutch thousands separator `.`, Czech `1 385`, German `„..."` quotes, etc.).
+- **The standard process for new Petit Train clones:** translate manually. Remove the "uncomment ANTHROPIC_API_KEY" step from any playbook checklist.
+- **German JSON trap:** German closing typographic quote `"` (U+201C) looks identical to ASCII `"` (U+0022). Writing it as ASCII breaks JSON.parse at the next key. Always validate after touching de.json: `node -e "JSON.parse(require('fs').readFileSync('messages/de.json','utf-8'))"`.
+- **Locale-specific number formatting:** Dutch = dot as thousands separator (`1.385+`), Czech = space (`1 385`), English = comma (`1,385+`), French = space (`1 385+`). Don't apply FR formatting blindly when writing locale files.
+
+## Playwright `locale` option — not `extraHTTPHeaders` — for next-intl locale forcing (2026-05-07)
+
+- **Problem:** Playwright headless browser sends `Accept-Language: en` by default. With `localePrefix: 'as-needed'`, next-intl's middleware detects `en` and serves English pages even at `/`. All French-text assertions fail.
+- **Wrong fix:** `extraHTTPHeaders: { 'Accept-Language': 'fr,fr-FR;q=0.9' }` — this adds the header as an extra but doesn't override the browser's built-in `Accept-Language`. next-intl still sees the browser's default `en`.
+- **Correct fix:** `locale: 'fr-FR'` in playwright.config.ts `use` block — sets the browser's native locale, which makes Playwright send `Accept-Language: fr-FR,fr;q=0.9` as the primary header. next-intl detects `fr`, serves French at `/`.
+- **Rule:** any time a test suite checks French-language content on a next-intl site with `defaultLocale: 'fr'`, add `locale: 'fr-FR'` to `playwright.config.ts`.
 
 ## Session-End Checklist (Claude: self-enforce before commit)
 

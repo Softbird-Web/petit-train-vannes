@@ -10,6 +10,7 @@ type Period = {
   hours: string;
   frequency?: string;
   note?: string;
+  isClosed?: boolean;
 };
 
 type Departure = {
@@ -18,40 +19,6 @@ type Departure = {
   location: string;
   periods: Period[];
 };
-
-const departures: Departure[] = [
-  {
-    number: 1,
-    name: "Place Gambetta",
-    location: "Au cœur de Vannes, à deux pas des remparts",
-    periods: [
-      {
-        label: "01 avril – 12 juin · 26 août – 13 oct · 22 oct – 07 nov",
-        band: "yellow",
-        hours: "10H – 12H et 14H – 17H20",
-        frequency: "Un départ toutes les 40 min",
-      },
-      {
-        label: "13 juin – 15 juillet",
-        band: "orange",
-        hours: "10H – 12H40 et 14H – 18H",
-        frequency: "Un départ toutes les 40 min",
-      },
-      {
-        label: "16 juillet – 25 août",
-        band: "purple",
-        hours: "10H – 12H40 et 14H – 18H40",
-        frequency: "Un départ toutes les 40 min",
-      },
-      {
-        label: "13 octobre – 21 octobre",
-        band: "green",
-        hours: "Fermé",
-        note: "Fermeture exceptionnelle",
-      },
-    ],
-  },
-];
 
 const ACCENT: Record<Band, string> = {
   yellow: "border-l-[#fde68a]",
@@ -72,6 +39,41 @@ const DOT: Record<Band, string> = {
 export default function InformationsSchedule() {
   const t = useTranslations("sections.informationsScheduleLabels");
 
+  const departures: Departure[] = [
+    {
+      number: 1,
+      name: "Place Gambetta",
+      location: t("departureLocation"),
+      periods: [
+        {
+          label: "01 avril – 12 juin · 26 août – 13 oct · 22 oct – 07 nov",
+          band: "yellow",
+          hours: "10H – 12H et 14H – 17H20",
+          frequency: t("departureFrequency"),
+        },
+        {
+          label: "13 juin – 15 juillet",
+          band: "orange",
+          hours: "10H – 12H40 et 14H – 18H",
+          frequency: t("departureFrequency"),
+        },
+        {
+          label: "16 juillet – 25 août",
+          band: "purple",
+          hours: "10H – 12H40 et 14H – 18H40",
+          frequency: t("departureFrequency"),
+        },
+        {
+          label: "13 octobre – 21 octobre",
+          band: "green",
+          hours: t("periodClosed"),
+          note: t("periodClosureNote"),
+          isClosed: true,
+        },
+      ],
+    },
+  ];
+
   return (
     <section id="horaires" data-anim-section className="bg-[#f5ebdd] py-20 overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-5 xl:px-0 flex flex-col gap-8">
@@ -80,13 +82,15 @@ export default function InformationsSchedule() {
         <div data-anim-item className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div className="relative rounded-[32px] md:rounded-tr-none md:rounded-br-none overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-              <Image src="/figma-assets/practical-1.jpg" alt="" fill className="object-cover" />
+              <Image src="/figma-assets/practical-1.jpg" alt="" fill sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
               <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[41px] h-[41px]">
-                  <Image src="/figma-assets/CalendarIconBig.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                  <Image src="/figma-assets/CalendarIconBig.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
@@ -102,13 +106,15 @@ export default function InformationsSchedule() {
 
           <div className="relative rounded-[32px] md:rounded-tl-none md:rounded-bl-none overflow-hidden min-h-[156px]">
             <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-              <Image src="/figma-assets/practical-2.jpg" alt="" fill className="object-cover" />
+              <Image src="/figma-assets/practical-2.jpg" alt="" fill sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover" />
               <div className="absolute inset-0 bg-[rgba(28,27,41,0.9)]" />
             </div>
             <div className="relative z-10 flex items-start gap-4 p-6">
               <div className="shrink-0 w-[65px] h-[65px] rounded-[10px] bg-[#f7a427] border border-[rgba(28,27,41,0.15)] flex items-center justify-center shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)]">
                 <div className="relative w-[40px] h-[40px]">
-                  <Image src="/figma-assets/WeatherIconBig.svg" alt="" fill className="object-contain" aria-hidden="true" />
+                  <Image src="/figma-assets/WeatherIconBig.svg" alt="" fill sizes="64px"
+              className="object-contain" aria-hidden="true" />
                 </div>
               </div>
               <div className="flex flex-col gap-4">
@@ -172,11 +178,12 @@ export default function InformationsSchedule() {
                               src="/figma-assets/timetables-clock.svg"
                               alt=""
                               fill
-                              className="object-contain invert"
+                              sizes="64px"
+              className="object-contain invert"
                               aria-hidden="true"
                             />
                           </div>
-                          <p className={`font-['Bricolage_Grotesque',sans-serif] text-[20px] leading-tight tracking-[-1px] ${p.hours === "Fermé" ? "italic text-white/50" : "text-white"}`}>
+                          <p className={`font-['Bricolage_Grotesque',sans-serif] text-[20px] leading-tight tracking-[-1px] ${p.isClosed ? "italic text-white/50" : "text-white"}`}>
                             {p.hours}
                           </p>
                         </div>

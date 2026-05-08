@@ -1,19 +1,19 @@
 {
   "nav": {
     "home": "Startseite",
-    "routes": "Die Route",
-    "informations": "Praktische Infos",
+    "routes": "Die Strecke",
+    "informations": "Praktische Informationen",
     "prices": "Preise & Tickets",
     "pricesShort": "Preise",
-    "privatisation": "Privatfahrten",
+    "privatisation": "Privatmiete",
     "faqs": "FAQ",
     "careers": "Karriere",
     "book": "Buchen",
     "viewPrices": "Preise ansehen"
   },
   "navbar": {
-    "bannerPrefix": "Diese Seite gehört zu den Petits Trains du Morbihan. Entdecken Sie auch unsere Touren in",
-    "bannerLinkVannes": "Vannes",
+    "bannerPrefix": "Diese Website gehört zu den Petits Trains du Morbihan. Entdecken Sie unsere anderen Strecken in",
+    "bannerLinkCarnac": "Carnac",
     "bannerAnd": "und",
     "bannerLinkQuiberon": "Quiberon.",
     "openMenu": "Menü öffnen",
@@ -21,273 +21,289 @@
     "languageLabel": "Sprache"
   },
   "footer": {
-    "ctaHeading": "Bereit, Carnac auf einfache und angenehme Weise zu entdecken?",
-    "ctaBody": "Steigen Sie in den Petit Train de Carnac und erleben Sie eine geführte Tour mit Geschichte, Landschaft und Komfort. Entdecken Sie die berühmten Menhire von Carnac, die weißen Sandstrände und den Hafen von La Trinité-sur-Mer — ohne Anstrengung und mit klarem Audiokommentar entlang der gesamten Strecke.",
-    "tagline": "Der Petit Train de Carnac bietet eine geführte Tour durch eine der bemerkenswertesten Regionen der südlichen Bretagne. Bequem an Bord erleben die Besucher Carnac, seine berühmten Megalithen, seine Strände und den nahegelegenen Hafen auf entspannte und barrierefreie Weise.",
-    "quickLinks": "Schnellzugriff",
+    "ctaHeading": "Bereit, Vannes auf einfache und angenehme Weise zu entdecken?",
+    "ctaBody": "Steigen Sie in den Petit Train de Vannes ein und genießen Sie eine Führung, die Geschichte, mittelalterliche Architektur und Komfort verbindet. Entdecken Sie die Stadtmauern, die Altstadt und den Hafen von Vannes, mühelos und mit einem klaren Audio-Kommentar während der gesamten Fahrt.",
+    "tagline": "Der Petit Train de Vannes bietet eine Führung durch eine der schönsten mittelalterlichen Städte der Bretagne. Bequem an Bord sitzend entdecken die Besucher die Stadtmauern, die Altstadt und den Hafen von Vannes auf entspannte und zugängliche Weise.",
+    "quickLinks": "Schnelllinks",
     "contactUs": "Kontakt",
-    "other": "Weiteres",
+    "other": "Sonstiges",
     "mentionsLegales": "Impressum",
-    "privacy": "Datenschutz",
-    "copyrightPrefix": "© 2026 Entwickelt von",
+    "privacy": "Datenschutzrichtlinie",
+    "copyrightPrefix": "© 2026 Built by",
     "copyrightSuffix": "Alle Rechte vorbehalten."
   },
   "breadcrumb": {
     "home": "Startseite",
     "prices": "Preise & Tickets",
-    "routes": "Die Route",
+    "routes": "Die Strecke",
     "book": "Buchung",
-    "informations": "Praktische Infos",
+    "informations": "Praktische Informationen",
     "faqs": "FAQ",
     "careers": "Karriere",
-    "privatisation": "Privatfahrten"
+    "privatisation": "Privatmiete"
   },
   "shared": {
-    "googleReviewsCount": "6.000+ Bewertungen",
-    "googleRatingDescription": "Le Petit Train de Carnac ist auf Google mit 4,7 bei über 6.000 Bewertungen eingestuft — eine der beliebtesten Touristenattraktionen in Carnac.",
-    "googleRatingDescriptionAlt": "Le Petit Train de Carnac ist auf Google mit über 4,7 bei mehr als 6.000 Bewertungen eingestuft — eine der beliebtesten Touristenattraktionen in Carnac.",
+    "googleReviewsCount": "1.385+ Bewertungen",
+    "googleRatingDescription": "Der Petit Train de Vannes ist bei Google mit 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
+    "googleRatingDescriptionAlt": "Der Petit Train de Vannes ist bei Google mit über 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
     "starsAlt": "5 Sterne",
     "fourSevenStarsAlt": "4,7 von 5 Sternen"
   },
   "hero": {
-    "label": "Le Petit Trains de Morbihan · Carnac",
+    "label": "Le Petit Train de Morbihan · Vannes",
     "headingPrefix": "Entdecken Sie",
-    "headingHighlight": "Carnac",
+    "headingHighlight": "Vannes",
     "headingSuffix": "an Bord des Petit Train",
-    "description": "Der Petit Train de Carnac bietet eine geführte Sightseeing-Tour durch die Stadt und ihre Umgebung. Entdecken Sie die schönste neolithische Stätte der Welt auf dieser <strong>50-minütigen Führung.</strong> Eine einfache und bequeme Art, Carnac, sein Erbe und seine ikonischen Landschaften zu erleben — ganz ohne lange Wege.",
+    "description": "Der Petit Train de Vannes nimmt Sie mit auf eine Entdeckungsreise durch die mittelalterlichen Stadtmauern, die Altstadt und den Hafen in einem geführten Rundkurs von <strong>40 Minuten.</strong> Eine einfache, komfortable und zugängliche Möglichkeit, eine der schönsten mittelalterlichen Städte der Bretagne zu erkunden, mühelos und mit einem klaren Audio-Kommentar während der gesamten Fahrt.",
     "tagline": "Ideal für Familien, Paare, Senioren und Besucher jeden Alters.",
-    "buttonBook": "Tour buchen",
+    "buttonBook": "Ihren Besuch buchen",
     "buttonPrices": "Preise ansehen",
-    "googleBadge": "Le Petit Train de Carnac ist auf Google mit 4,7 bei über 6.000 Bewertungen eingestuft — eine der beliebtesten Touristenattraktionen in Carnac.",
-    "rightCardHeading": "Geführte Tour mit Audiokommentar in 16 Sprachen",
+    "googleBadge": "Der Petit Train de Vannes ist bei Google mit 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
+    "rightCardHeading": "Geführte Tour mit Audio-Kommentar in 16 Sprachen",
     "rightCardBody": "Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Russisch, Chinesisch, Japanisch, Schwedisch, Dänisch, Polnisch, Arabisch, Kroatisch und Slowenisch.",
-    "rightCardFlagsAlt": "Sprachen-Flaggen",
-    "rightImageAlt": "Le Petit Train de Carnac auf einer malerischen Route",
+    "rightCardFlagsAlt": "Sprachflaggen",
+    "rightImageAlt": "Der Petit Train de Vannes entlang der mittelalterlichen Stadtmauern",
     "noteImportanteLabel": "Wichtiger Hinweis",
     "noteImportanteHeading": "Online-Buchung",
-    "noteImportanteBody": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können bis zu <strong>2 Stunden</strong> vor der gewünschten Abfahrt buchen. Planen Sie ausreichend Zeit für Anreise und Parken vor Ort ein. Danach gehen Sie direkt zum Abfahrtsort und kaufen Ihre Tickets am Schalter oder beim Fahrer.",
-    "noteImportanteBodyExtra": "Nicht alle Plätze sind online verfügbar."
+    "noteImportanteBody": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können direkt am Abfahrtspunkt <strong>Place Gambetta</strong> erscheinen und Ihre Tickets beim Fahrer kaufen. In der Hochsaison empfehlen wir, im Voraus zu buchen.",
+    "noteImportanteBodyExtra": "Nicht alle Plätze sind online zum Kauf verfügbar."
   },
   "metadata": {
     "home": {
-      "title": "Petit Train de Carnac, Morbihan — Menhir-Tour",
-      "description": "Megalithen-Tour durch Carnac an Bord des Petit Train — 55-minütige Fahrt mit mehrsprachigem Audiokommentar, Strände und Hafen von La Trinité-sur-Mer."
+      "title": "Petit Train Vannes Stadtmauern — Le Petit Train de Vannes, Morbihan",
+      "description": "Geführte Tour der Stadtmauern von Vannes an Bord des Petit Train — 40-minütiger Rundkurs, Audio-Kommentar in 16 Sprachen, Altstadt und Hafen von Vannes."
     },
     "prices": {
-      "title": "Preise & Tickets — Petit Train de Carnac, Morbihan",
-      "description": "Preise für die Megalithen-Tour durch Carnac mit dem Petit Train: 8,50€ Erwachsene, 5€ Kinder, kostenlos unter 3 Jahren. Gruppentarife und Online-Buchung."
+      "title": "Preise & Tickets — Petit Train de Vannes, Morbihan",
+      "description": "Preise für den Stadtmauern-Rundkurs auf dem Petit Train de Vannes: 8,50€ Erwachsene, 5€ Kinder, kostenlos für Kinder unter 4 Jahren. Gruppenpreise und Online-Buchung."
     },
     "routes": {
-      "title": "Route & Strecke — Petit Train de Carnac, Morbihan",
-      "description": "Entdecken Sie die Route des Petit Train de Carnac: Menhire von Carnac, Carnac-Plage und Hafen von La Trinité-sur-Mer. Eine 55-minütige Führung mit Audiokommentar in 16 Sprachen."
+      "title": "Strecke & Itinerar — Petit Train de Vannes, Morbihan",
+      "description": "Entdecken Sie die Strecke des Petit Train de Vannes: mittelalterliche Stadtmauern, Altstadt, Hafen und Jardins de la Garenne. 40-minütiger Führungsrundkurs mit Audio-Kommentar in 16 Sprachen."
     },
     "book": {
-      "title": "Tour buchen — Petit Train de Carnac, Morbihan",
-      "description": "Buchen Sie Ihre Megalithen-Tour durch Carnac mit dem Petit Train — 55-minütige geführte Fahrt, mehrsprachiger Audiokommentar, Start am Parking du Ménec."
+      "title": "Ihren Besuch buchen — Petit Train de Vannes, Morbihan",
+      "description": "Buchen Sie Ihre Stadtmauern-Tour in Vannes mit dem Petit Train. 40-minütiger Rundkurs, mehrsprachiger Audio-Kommentar, Abfahrt von der Place Gambetta."
     },
     "informations": {
-      "title": "Praktische Infos — Petit Train de Carnac, Morbihan",
-      "description": "Praktische Infos zur Megalithen-Tour durch Carnac mit dem Petit Train: Fahrplan, Abfahrtsorte, Dauer, Zugang."
+      "title": "Praktische Informationen — Petit Train de Vannes, Morbihan",
+      "description": "Praktische Informationen zur Vorbereitung Ihres Besuchs mit dem Petit Train de Vannes: Fahrzeiten, Abfahrtspunkt Place Gambetta, Dauer, Zugang."
     },
     "faqs": {
-      "title": "FAQ — Petit Train de Carnac, Morbihan",
-      "description": "FAQ zur Megalithen-Tour durch Carnac mit dem Petit Train: Dauer, Preise, Strecke, Barrierefreiheit, Buchungen."
+      "title": "FAQ — Petit Train de Vannes, Morbihan",
+      "description": "Häufig gestellte Fragen zum Stadtmauern-Rundkurs in Vannes mit dem Petit Train: Dauer, Preise, Strecke, Barrierefreiheit, Buchungen."
     },
     "careers": {
-      "title": "Karriere — Petit Train de Carnac, Morbihan",
-      "description": "Werden Sie Teil des Teams des Petit Train de Carnac. Saisonpositionen: Fahrer, Ticket-Mitarbeiter und Bahnsteigassistenz."
+      "title": "Karriere — Petit Train de Vannes, Morbihan",
+      "description": "Werden Sie Teil des Teams des Petit Train de Vannes. Saisonale Stellen verfügbar."
     },
     "privatisation": {
-      "title": "Privatfahrten & Gruppen — Petit Train de Carnac, Morbihan",
-      "description": "Mieten Sie den Petit Train de Carnac für Ihre Firmenevents, Seminare, Hochzeiten oder Schülergruppen."
+      "title": "Privatmiete & Gruppen — Petit Train de Vannes, Morbihan",
+      "description": "Mieten Sie den Petit Train de Vannes privat für Firmenveranstaltungen, Seminare, Hochzeiten oder Schulgruppen."
     }
   },
   "pages": {
     "prices": {
       "heroLabel": "Preise & Tickets",
-      "heroHeadingPrefix": "Ticketpreise des",
-      "heroHeadingHighlight": "Petit Train de Carnac",
-      "heroDescription": "Hier finden Sie alle Preise und Buchungsinformationen für den Petit Train de Carnac. Diese Seite zeigt Einzel- und Gruppenpreise, Kinderermäßigungen sowie wie Sie Ihre geführte Tour bequem buchen können.",
-      "btnFlyerIndividual": "Flyer (einzeln)",
-      "btnFlyerGroup": "Flyer (Gruppe)",
-      "reviewQuote": "„Ich hätte für 8,50 € nicht so viel erwartet. Wirklich ein schönes Erlebnis.\"",
-      "reviewAuthor": "Dom L. · Google-Rezension",
-      "faqLabel": "Häufige Fragen",
+      "heroHeadingPrefix": "Ticketpreise für den",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescription": "Finden Sie alle Preise und Buchungsinformationen für den Petit Train de Vannes. Diese Seite umfasst Einzel- und Gruppenpreise, Kinderermäßigungen und wie Sie Ihre geführte Tour durch die Stadtmauern von Vannes buchen können.",
+      "btnFlyerIndividual": "Einzelflyer",
+      "btnFlyerGroup": "Gruppenflyer",
+      "reviewQuote": "„Eine wunderbare Entdeckung der Stadtmauern von Vannes. Ich empfehle diesen Besuch wirklich der ganzen Familie.\"",
+      "reviewAuthor": "Besucher · Google-Bewertung",
+      "faqLabel": "Häufig gestellte Fragen",
       "faqHeadingPrefix": "Häufig gestellte Fragen",
       "faqHeadingHighlight": "zu den Preisen",
-      "faqDescription": "Klare Antworten auf die häufigsten Fragen zu Preisen, Gruppenrabatten und der Buchung des Petit Train de Carnac.",
+      "faqDescription": "Finden Sie klare Antworten auf die häufigsten Fragen zu Preisen, Gruppenrabatten und wie man den Petit Train de Vannes bucht.",
       "faq": {
-        "q1": "Wie viel kostet ein Ticket für den Petit Train de Carnac?",
-        "a1": "Die Preise hängen von Alter und Gruppengröße ab. Für Einzelbesucher kostet das Standard-Erwachsenenticket 8,50 €. Kinder unter 12 Jahren erhalten einen ermäßigten Tarif von 5 €. Gruppentarife gelten ab 20 Personen.",
-        "q2": "Gibt es Ermäßigungen für Kinder?",
-        "a2": "Ja. Kinder unter 12 Jahren erhalten einen ermäßigten Tarif. Ihr Ticket bietet Zugang zur gleichen geführten Tour und zum Audiokommentar, einschließlich einer kindgerechten Version.",
-        "q3": "Brauchen Kinder ein Ticket für den Petit Train?",
-        "a3": "Ja. Jeder Fahrgast benötigt ein Ticket, um an Bord des Petit Train de Carnac zu gehen. Für Kinder unter 12 Jahren gelten ermäßigte Tarife.",
+        "q1": "Was kostet ein Ticket für den Petit Train de Vannes?",
+        "a1": "Die Preise hängen von Alter und Gruppengröße ab. Für Einzelbesucher beträgt das normale Erwachsenen-Ticket 8,50 Euro. Kinder von 4 bis 12 Jahren erhalten einen ermäßigten Tarif von 5 Euro. Kinder unter 4 Jahren fahren kostenlos.",
+        "q2": "Gibt es ermäßigte Preise für Kinder?",
+        "a2": "Ja. Kinder von 4 bis 12 Jahren erhalten einen ermäßigten Tarif von 5€. Kinder unter 4 Jahren fahren kostenlos.",
+        "q3": "Brauchen Kinder ein Ticket, um in den Petit Train einzusteigen?",
+        "a3": "Kinder ab 4 Jahren benötigen ein Ticket. Kinder unter 4 Jahren steigen kostenlos ein.",
         "q4": "Gibt es Gruppenrabatte?",
-        "a4": "Ja. Gruppentarife gelten ab 20 zustiegenden Personen. Diese ermäßigten Tarife gelten für Erwachsene und Kinder. Eine Vorabbuchung wird empfohlen.",
-        "q5": "Was ist im Ticketpreis enthalten?",
-        "a5": "Jedes Ticket umfasst die vollständige geführte Tour von rund 55 Minuten, den mehrsprachigen Audiokommentar, eine kindgerechte Version und ein bequemes Erlebnis an Bord. Keine Zusatzkosten.",
-        "q6": "Kann man die Tickets vor Ort kaufen?",
-        "a6": "Ja. Tickets sind am Schalter im Parkplatz Ménec erhältlich, je nach Verfügbarkeit. In der Hochsaison wird eine Vorabbuchung empfohlen.",
-        "q7": "Kann man Tickets online buchen?",
-        "a7": "Ja. Die Online-Buchung ist möglich und besonders in Stoßzeiten empfehlenswert. Online-Buchungen müssen mindestens zwei Stunden vor Abfahrt erfolgen."
+        "a4": "Ja. Gruppenpreise sind ab 20 einsteigenden Personen verfügbar. Vorabubuchen wird empfohlen. Kontaktieren Sie uns direkt für ein Angebot.",
+        "q5": "Was ist im Ticketpreis inbegriffen?",
+        "a5": "Jedes Ticket beinhaltet die vollständige geführte Tour von ca. 40 Minuten, den Audio-Kommentar in 16 Sprachen, eine kindgerechte Version und ein komfortables Erlebnis an Bord.",
+        "q6": "Können Tickets vor Ort gekauft werden?",
+        "a6": "Ja. Tickets können direkt beim Fahrer am Abfahrtspunkt Place Gambetta gekauft werden. In der Hochsaison wird eine Vorabreservierung empfohlen.",
+        "q7": "Können Tickets online gebucht werden?",
+        "a7": "Ja. Online-Buchungen sind verfügbar und werden in Stoßzeiten empfohlen."
       }
     },
     "routes": {
-      "heroLabel": "Die Route",
-      "heroHeadingPrefix": "Die Route",
-      "heroHeadingHighlight": "des Petit Train de Carnac",
-      "heroDescriptionP1": "Entdecken Sie die gesamte Route des Petit Train de Carnac durch die Menhire von Carnac, Carnac-Plage und den Hafen von La Trinité-sur-Mer.",
-      "heroDescriptionP2": "Eine 55-minütige Führung mit Audiokommentar in 16 Sprachen, die die schönsten Sehenswürdigkeiten der Region in einem komfortablen Rundgang vereint.",
-      "heroImageAlt": "Karte der Route des Petit Train de Carnac — zum Vergrößern klicken",
-      "faqLabel": "Häufige Fragen",
+      "heroLabel": "Die Strecke",
+      "heroHeadingPrefix": "Die Strecke des",
+      "heroHeadingHighlight": "Petit Train de Vannes",
+      "heroDescriptionP1": "Entdecken Sie die vollständige Strecke des Petit Train de Vannes durch die mittelalterlichen Stadtmauern, die Altstadt und den Hafen.",
+      "heroDescriptionP2": "Ein 40-minütiger geführter Rundkurs mit Audio-Kommentar in 16 Sprachen, der die schönsten Sehenswürdigkeiten von Vannes in einer einzigen komfortablen Fahrt ab der Place Gambetta vereint.",
+      "heroImageAlt": "Streckenkarte des Petit Train de Vannes — zum Vergrößern klicken",
+      "faqLabel": "Häufig gestellte Fragen",
       "faqHeadingPrefix": "Häufig gestellte Fragen",
-      "faqHeadingHighlight": "zur Route",
-      "faqDescription": "Klare Antworten auf die häufigsten Fragen zu Route, Stopps und Dauer des Petit Train de Carnac."
+      "faqHeadingHighlight": "zur Strecke",
+      "faqDescription": "Finden Sie klare Antworten auf die häufigsten Fragen zur Strecke, den Haltestellen und der Dauer des Petit Train de Vannes.",
+      "faqQ1": "Was ist die Strecke des Petit Train de Vannes?",
+      "faqA1": "Der Petit Train de Vannes startet am Place Gambetta und führt Sie zu den mittelalterlichen Stadtmauern, der Altstadt mit ihren Fachwerkhäusern, dem Hafen von Vannes und den Jardins de la Garenne. Die Rundfahrt dauert etwa 40 Minuten.",
+      "faqQ2": "Wie lange dauert die Rundfahrt des Petit Train de Vannes?",
+      "faqA2": "Die Rundfahrt dauert etwa 40 Minuten. Die Besucher entdecken die wichtigsten Sehenswürdigkeiten von Vannes in ruhigem Tempo, begleitet von einem Audiokommentar während der gesamten Fahrt.",
+      "faqQ3": "Wo beginnt und endet die Strecke?",
+      "faqA3": "Die Strecke beginnt und endet am Place Gambetta, im Herzen von Vannes, unweit der mittelalterlichen Stadtmauern. Es ist der einzige Ein- und Ausstiegspunkt.",
+      "faqQ4": "Macht der Petit Train während der Fahrt Stopps?",
+      "faqA4": "Die Rundfahrt ist durchgehend — es gibt keine Zwischenstopps. Fahrgäste steigen nur am Place Gambetta ein und aus.",
+      "faqQ5": "Sehen wir die mittelalterlichen Stadtmauern von Vannes während der Besichtigung?",
+      "faqA5": "Ja. Die Strecke folgt den berühmten mittelalterlichen Stadtmauern von Vannes, zu den besterhaltenen der Bretagne. Der Audiokommentar erklärt ihre Geschichte und Architektur während der gesamten Fahrt.",
+      "faqQ6": "Führt die Strecke durch die Altstadt und den Hafen von Vannes?",
+      "faqA6": "Ja. Die Rundfahrt führt durch die Altstadt mit ihren Fachwerkhäusern aus dem 17. Jahrhundert und entlang des Hafens von Vannes. Diese Sehenswürdigkeiten werden durch den Audiokommentar im Rahmen der Führung vorgestellt.",
+      "faqQ7": "Sind die Jardins de la Garenne in der Strecke enthalten?",
+      "faqA7": "Ja. Die Strecke führt an den Jardins de la Garenne vorbei, einem der schönsten Gärten von Vannes, mit einem bemerkenswerten Blick auf die Stadtmauern und die mittelalterlichen Waschhäuser.",
+      "faqQ8": "Ist die Rundfahrt für Menschen mit eingeschränkter Mobilität geeignet?",
+      "faqA8": "Der Petit Train ist für alle zugänglich. Er ist besonders empfehlenswert für Personen, die lange Fußmärsche vermeiden möchten und dabei die historischen Stätten von Vannes entdecken wollen."
     },
     "informations": {
-      "heroLabel": "Praktische Infos",
-      "heroHeadingPrefix": "Praktische Infos für",
-      "heroHeadingHighlight": "den Petit Train de Carnac",
-      "heroDescription": "Alle praktischen Informationen für Ihren Besuch: Fahrpläne, Anreise, Dauer, Barrierefreiheit und nützliche Tipps.",
-      "heroImageAlt": "Le Petit Train de Carnac am Meer"
+      "heroLabel": "Praktische Informationen",
+      "heroHeadingPrefix": "Praktische Informationen für",
+      "heroHeadingHighlight": "den Petit Train de Vannes",
+      "heroDescription": "Finden Sie alle praktischen Informationen zur Vorbereitung Ihres Besuchs: Fahrzeiten, Zugang, Dauer, Barrierefreiheit und nützliche Tipps.",
+      "heroImageAlt": "Der Petit Train de Vannes entlang der mittelalterlichen Stadtmauern"
     },
     "faqs": {
       "heroLabel": "FAQ",
       "heroHeadingPrefix": "Häufig gestellte Fragen",
-      "heroDescription": "Antworten auf die häufigsten Fragen zum Petit Train de Carnac: Dauer, Preise, Route, Barrierefreiheit und Buchungen."
+      "heroDescription": "Finden Sie Antworten auf die häufigsten Fragen zum Petit Train de Vannes: Dauer, Preise, Strecke, Barrierefreiheit und Buchungen."
     },
     "careers": {
       "heroLabel": "Karriere",
       "heroHeadingPrefix": "Ihre Karriere beim",
-      "heroHeadingHighlight": "Petit Train de Carnac",
+      "heroHeadingHighlight": "Petit Train de Vannes",
       "heroHeadingSuffix": "beginnt hier",
-      "heroDescription": "Unsere Philosophie ist einfach: ein herzlicher, zuverlässiger und respektvoller Service für jeden Besucher. Wir suchen Menschen, die aufmerksam, professionell und leidenschaftlich daran interessiert sind, Carnac mit unseren Gästen zu teilen.",
-      "buttonApply": "Bewerben & Lebenslauf senden",
+      "heroDescription": "Unsere Philosophie ist einfach: warmer, zuverlässiger und respektvoller Service für jeden Besucher. Wir suchen fürsorgliche, professionelle Menschen, die leidenschaftlich gern Vannes mit seinen Besuchern teilen.",
+      "buttonApply": "Bewerben & Lebenslauf einsenden",
       "jobsLabel": "Offene Stellen:",
-      "jobBadgeSeasonal": "Saisonstelle"
+      "jobBadgeSeasonal": "Saisonale Stelle"
     },
     "privatisation": {
-      "overlayLabel": "Privatfahrten & B2B",
-      "overlayHeading": "Mieten Sie den Petit Train de Carnac für Ihr Event",
-      "overlayDescription": "Der Petit Train de Carnac kann für Firmenveranstaltungen, Seminare, Hochzeiten, Schülergruppen oder VIP-Besuche privat gemietet werden. Kontaktieren Sie uns für ein individuelles Angebot."
+      "overlayLabel": "Privatmiete & B2B-Vermietung",
+      "overlayHeading": "Mieten Sie den Petit Train de Vannes für Ihre Veranstaltung",
+      "overlayDescription": "Der Petit Train de Vannes kann für Firmenveranstaltungen, Seminare, Hochzeiten, Schulgruppen oder VIP-Besuche privat gemietet werden. Kontaktieren Sie uns für ein individuelles Angebot."
     },
     "mentionsLegales": {
       "title": "Impressum"
     },
     "privacy": {
-      "title": "Datenschutzerklärung"
+      "title": "Datenschutzrichtlinie"
     }
   },
   "sections": {
     "practicalInfo": {
       "label": "Informationen",
       "heading": "Praktische Informationen",
-      "description": "Damit Sie Ihren Besuch im Sightseeing-Zug in Carnac gut planen können, hier die wichtigsten Informationen vor der Buchung.",
+      "description": "Um Ihnen bei der Planung Ihres Petit-Train-Besuchs in Vannes zu helfen, finden Sie hier die wichtigsten Informationen, die Sie vor der Buchung wissen sollten.",
       "duration": {
         "title": "Dauer",
-        "description": "Die Tour dauert etwa <strong>55 Minuten.</strong> In diesem Tempo können Sie Carnac in Ruhe entdecken und Kommentar wie Landschaft genießen — ohne Eile oder Erschöpfung."
+        "description": "Der Touristenbesuch dauert ungefähr <strong>40 Minuten.</strong> Dieser Rundkurs ermöglicht es Ihnen, Vannes in einem entspannten Tempo zu entdecken, von den Stadtmauern über die Altstadt bis zum Hafen, ohne sich gehetzt zu fühlen."
       },
       "departure": {
         "title": "Abfahrt",
-        "description": "Verbindlicher Abfahrtsort für <strong>Gruppen</strong> und <strong>Einzelbuchungen</strong>. Am <strong>Parkplatz Ménec</strong> in Carnac, direkt gegenüber der Maison des Mégalithes. Die Haltestelle ist deutlich beschildert und leicht zu erreichen."
+        "description": "Der einzige Abfahrtspunkt ist der <strong>Place Gambetta</strong>, im Herzen von Vannes, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Die Haltestelle ist klar ausgeschildert und vom Stadtzentrum aus leicht zu erreichen."
       },
       "schedule": {
         "title": "Fahrplan",
-        "description": "Abfahrten erfolgen <strong>von April bis September</strong>, mehrmals täglich. In der Hochsaison fährt der Zug täglich. Bitte aktuelle Fahrpläne für genaue Abfahrtszeiten und saisonale Anpassungen prüfen."
+        "description": "Abfahrten finden <strong>von April bis La Toussaint</strong> alle 40 Minuten statt. Der Zug fährt täglich, auch sonntags und an Feiertagen, während der Saison."
       },
       "accessibility": {
         "title": "Barrierefreiheit",
-        "description": "Der Petit Train ist <strong>für alle zugänglich</strong>. Ideal für Familien mit kleinen Kindern, ältere Besucher und alle, die längere Fußwege vermeiden möchten und trotzdem das Beste von Carnac erleben wollen."
+        "description": "Der Petit Train ist <strong>für alle zugänglich</strong>. Er ist ideal für Familien mit Kleinkindern, Senioren und alle, die lange Fußmärsche vermeiden möchten, während sie das Beste von Vannes genießen."
       },
       "payment": {
         "title": "Zahlung",
-        "description": "Tickets können <strong>direkt an Bord</strong> oder am Abfahrtsort gekauft werden. Bar- und Kartenzahlung möglich. Gruppen- und Schultarife verfügbar — kontaktieren Sie uns für ein Angebot."
+        "description": "Tickets können <strong>direkt beim Fahrer</strong> am Abfahrtspunkt Place Gambetta gekauft werden. Gruppenpreise sind verfügbar — kontaktieren Sie uns für ein Angebot."
       },
       "cta": {
-        "heading": "Mehr Informationen",
-        "description": "Lesen Sie unseren vollständigen Leitfaden zu Ticketpreisen, Zahlungsarten und Tipps, um das Beste aus Ihrer Reise durch die Megalithen herauszuholen.",
+        "heading": "Weitere Informationen",
+        "description": "Konsultieren Sie unseren vollständigen Leitfaden für Ticketpreise, Zahlungsmethoden und Tipps, um das Beste aus Ihrem Besuch an den Stadtmauern von Vannes herauszuholen.",
         "button": "Mehr erfahren"
       }
     },
     "prices": {
       "label": "Preise",
-      "heading": "Ein bezahlbares Abenteuer für die ganze Familie",
-      "description": "Vom Solo-Entdecker bis zur großen Familie — finden Sie das richtige Ticket für Ihren Besuch. Profitieren Sie von unseren Sondertarifen für Kinder und Familien.",
+      "heading": "Ein erschwingliches Abenteuer für die ganze Familie",
+      "description": "Von Einzelreisenden bis zu großen Familien — finden Sie den idealen Tarif für Ihren Besuch an den Stadtmauern von Vannes.",
       "rowAdults": "Erwachsene",
-      "rowChildren": "Kinder unter 12 Jahren",
+      "rowChildren": "Kinder (4–12 Jahre)",
       "individual": {
         "title": "Einzeltickets",
-        "note": "<strong>Für Einzelpersonen:</strong> Treffpunkt am Abfahrtsort; Kasse vor Ort. <strong>Kostenlos:</strong> Kinder unter 3 Jahren und Hunde."
+        "note": "<strong>Für Einzelpersonen:</strong> Kaufen Sie Ihre Tickets direkt beim Fahrer auf der Place Gambetta. <strong>Kostenlos:</strong> Kinder unter 4 Jahren."
       },
       "earlyBird": {
-        "title": "Frühe Abfahrten am Morgen",
-        "badge": "Bestes Angebot",
-        "note": "<strong>Ermäßigter Tarif:</strong> 1,50 € Rabatt pro Ticket, gilt nur für die ersten Morgenabfahrten (vor 10:20 oder 10:30 Uhr je nach Ziel). Tickets an der Kasse vor Ort."
+        "title": "Erste Abfahrten am Morgen",
+        "badge": "Bon Plan",
+        "note": "<strong>Ermäßigter Tarif:</strong> Gilt nur für die ersten Abfahrten am Morgen. Tickets sind beim Fahrer vor Ort erhältlich."
       },
       "group": {
         "title": "Gruppenbuchung",
-        "text": "Für Gruppentarife kontaktieren Sie uns bitte direkt:",
-        "note": "<strong>Für Gruppen:</strong> ermäßigter Tarif ab 20 zustiegenden Personen. Eine Vorabbuchung wird empfohlen."
+        "text": "Für Gruppenpreise kontaktieren Sie uns direkt:",
+        "note": "<strong>Für Gruppen:</strong> ermäßigter Tarif ab 20 einsteigenden Personen. Vorabreservierung wird empfohlen."
       }
     },
     "beforeYouBook": {
       "heading": "Vor der Buchung",
-      "description": "Bevor Sie Ihre Buchung bestätigen, lesen Sie kurz die praktischen Informationen zur Tour mit dem Petit Train de Carnac. Diese Hinweise helfen Ihnen, am Tag der Tour einen reibungslosen Ablauf zu erleben und Unsicherheiten zu Zeiten, Abfahrt und Tourablauf zu vermeiden.",
-      "imageAlt": "Megalithen von Carnac am Abfahrtsort",
-      "bullet1": "Bitte mindestens 15 Minuten vor Abfahrt eintreffen",
-      "bullet2": "Online-Buchungen müssen mindestens zwei Stunden vor Abfahrt erfolgen",
-      "bullet3": "Einzelbesucher beginnen und beenden die Tour am Abfahrtsort Ménec",
-      "bullet4": "Die Tour dauert ca. 55 Minuten",
-      "bullet5": "Audiokommentar in mehreren Sprachen, einschließlich einer Kinderversion",
+      "description": "Bevor Sie Ihre Buchung bestätigen, nehmen Sie sich einen Moment Zeit, um die praktischen Informationen zum Besuch mit dem Petit Train de Vannes zu lesen. Diese Punkte helfen Ihnen, Ihren Besuch vorzubereiten und das Stadtmauern-Rundkurs-Erlebnis voll auszuschöpfen.",
+      "imageAlt": "Die Stadtmauern von Vannes vom Petit Train aus gesehen",
+      "bullet1": "Bitte kommen Sie mindestens 10 Minuten vor der Abfahrt",
+      "bullet2": "Online-Buchung wird in der Hochsaison empfohlen",
+      "bullet3": "Abfahrt und Ankunft sind auf der Place Gambetta",
+      "bullet4": "Der Besuch dauert ca. 40 Minuten",
+      "bullet5": "Audio-Kommentar ist in 16 Sprachen verfügbar, einschließlich einer Kinderversion",
       "bullet6": "Der Petit Train fährt bei jedem Wetter",
-      "bullet7": "Die Abfahrt ist garantiert ab 6 zahlenden Erwachsenen an Bord"
+      "bullet7": "Die Abfahrt ist mit einer Mindestanzahl zahlender Erwachsener an Bord garantiert"
     },
     "features": {
-      "label": "Tour-Übersicht",
-      "heading": "Eine einfache und angenehme Art, Carnac zu erkunden",
-      "p1": "Der Petit Train de Carnac lädt Sie ein, die Stadt in entspanntem Tempo zu entdecken — bequem an Bord eines Sightseeing-Zugs, der für Besucher gedacht ist, die Carnac ohne Anstrengung genießen möchten.",
-      "p2": "Während der Tour gibt der Audiokommentar klare und verständliche Informationen zu den durchquerten Orten und hilft Ihnen, Carnacs Geschichte, Denkmäler und Atmosphäre zu verstehen. Ideal für Besucher, die einen angenehmen Einstieg in Carnac und seine Umgebung suchen.",
-      "imageAlt": "Malerische Aussicht aus dem Petit Train de Carnac",
-      "f1Title": "Komfortabler Sightseeing-Zug",
-      "f1Desc": "Entdecken Sie die Höhepunkte von Carnac bequem sitzend an Bord unseres Sightseeing-Zugs, der für müheloses Erkunden konzipiert ist.",
-      "f2Title": "Audiokommentar in 16 Sprachen — im Ticket enthalten",
-      "f2Desc": "Der Audiokommentar ist in 16 Sprachen verfügbar, mit bereitgestellten Hygiene-Kopfhörern, im Ticketpreis enthalten. Eine Kinderversion ist ebenfalls verfügbar.",
-      "f3Title": "Erbe und Landschaften von Carnac entdecken",
-      "f3Desc": "Entdecken Sie 47 kommentierte Sehenswürdigkeiten: die Steinreihen von Ménec, Kermario und Kerlescan, weiße Sandstrände und den Hafen von La Trinité-sur-Mer auf einer einzigen malerischen Fahrt.",
+      "label": "Streckenübersicht",
+      "heading": "Eine einfache und angenehme Art, Vannes zu erkunden",
+      "p1": "Der Petit Train de Vannes lädt Sie ein, die Stadt in einem entspannten Tempo zu entdecken, bequem an Bord eines Touristenzugs sitzend, der für Besucher entwickelt wurde, die Vannes mühelos genießen möchten.",
+      "p2": "Während des Besuchs liefert der Audio-Kommentar klare und zugängliche Informationen über die Stadtmauern, die Altstadt und den Hafen von Vannes. Dieser Touristenzug ist ideal für Besucher, die eine angenehme Einführung in diese mittelalterliche Stadt und ihre Geschichte suchen.",
+      "imageAlt": "Blick auf die Stadtmauern von Vannes vom Petit Train aus",
+      "f1Title": "Komfortabler Touristenzug",
+      "f1Desc": "Entdecken Sie die schönsten Sehenswürdigkeiten von Vannes bequem sitzend an Bord unseres Touristenzugs, der für Besucher entwickelt wurde, die die mittelalterliche Stadt mühelos erkunden möchten.",
+      "f2Title": "Audio-Kommentar in 16 Sprachen — im Ticket enthalten",
+      "f2Desc": "Audio-Kommentar ist in 16 Sprachen verfügbar, mit Hygieneohrhörern im Ticketpreis inbegriffen. Eine Kinderversion ist ebenfalls verfügbar.",
+      "f3Title": "Entdeckung des mittelalterlichen Erbes von Vannes",
+      "f3Desc": "Entdecken Sie die mittelalterlichen Stadtmauern, die Altstadt mit ihren Fachwerkhäusern, den Hafen von Vannes und die Jardins de la Garenne in einem einzigen malerischen 40-minütigen Rundkurs.",
       "f4Title": "Geeignet für Familien, Senioren und Gruppen",
-      "f4Desc": "Unser Zug heißt alle Altersgruppen und Gruppengrößen willkommen — keine langen Fußwege, keine Anstrengung, nur ein komfortables und angenehmes Erlebnis für alle."
+      "f4Desc": "Unser Zug begrüßt alle Altersgruppen und Gruppengrößen — keine langen Fußmärsche, keine Mühe, nur ein komfortables und angenehmes Erlebnis für alle."
     },
     "groupBookingCta": {
-      "label": "Gruppenbuchung — Privatfahrten",
-      "heading": "Buchung für private Touren",
-      "description": "Wenn Sie in einer Gruppe reisen oder den Petit Train de Carnac für eine Veranstaltung, ein Seminar oder einen Schulausflug privat mieten möchten, kontaktieren Sie uns für ein maßgeschneidertes Angebot.",
-      "button": "Privatfahrt buchen"
+      "label": "Gruppenbuchung — Privatmiete",
+      "heading": "Buchung für Privatbesuche",
+      "description": "Wenn Sie in einer Gruppe reisen oder den Petit Train de Vannes für eine Veranstaltung, ein Seminar oder einen Schulbesuch privat mieten möchten, kontaktieren Sie uns für ein maßgeschneidertes Angebot.",
+      "button": "Privatmiete buchen"
     },
     "locations": {
       "label": "Reiseziele",
-      "heading": "Entdecken Sie unsere weiteren Petit-Train-Touren im Morbihan",
-      "description": "Verlängern Sie Ihren Besuch im Morbihan mit unseren weiteren Sightseeing-Zügen. In Vannes und Quiberon erwarten Sie neue Landschaften, einzigartiges Kulturerbe und unvergessliche Momente.",
+      "heading": "Entdecken Sie unsere anderen Petit-Train-Strecken im Morbihan",
+      "description": "Verlängern Sie Ihren Besuch im Morbihan mit unseren anderen Touristenzügen. In Carnac und Quiberon entdecken Sie neue Landschaften, einzigartiges Kulturerbe und unvergessliche Momente.",
       "discover": "Entdecken",
-      "vannes": {
-        "title": "Le Petit Train de Vannes",
-        "tagline": "Entdecken Sie das historische Herz von Vannes",
-        "description": "Steigen Sie in den Petit Train de Vannes und erleben Sie die mittelalterlichen Stadtmauern, den Hafen und die malerischen Gassen der Altstadt.",
-        "cta": "Le Petit Train de Vannes entdecken",
-        "imageAlt": "Historisches Zentrum von Vannes"
+      "carnac": {
+        "title": "Le Petit Train de Carnac",
+        "tagline": "Entdecken Sie die Menhire und Strände von Carnac",
+        "description": "Steigen Sie in den Petit Train de Carnac ein und erleben Sie eine geführte Tour durch die berühmten Menhire, weißen Sandstrände und den Hafen von La Trinité-sur-Mer.",
+        "cta": "Le Petit Train de Carnac entdecken",
+        "imageAlt": "Megalith-Ausrichtungen von Carnac"
       },
       "quiberon": {
         "title": "Le Petit Train de Quiberon",
-        "tagline": "Erkunden Sie die wunderschöne Halbinsel Quiberon",
-        "description": "Steigen Sie in den Petit Train de Quiberon und erleben Sie eine unvergessliche Küstentour: Strände, Klippen und typische Dörfer.",
+        "tagline": "Erkunden Sie die atemberaubende Halbinsel Quiberon",
+        "description": "Steigen Sie in den Petit Train de Quiberon ein für eine unvergessliche Küstentour: Strände, Klippen und typische Dörfer auf dem Programm.",
         "cta": "Le Petit Train de Quiberon entdecken",
-        "imageAlt": "Küstenlandschaft der Halbinsel Quiberon"
+        "imageAlt": "Küstenansichten der Halbinsel Quiberon"
       }
     },
     "reviews": {
       "label": "Bewertungen",
-      "heading": "Was Besucher über den Zug sagen",
-      "description": "Le Petit Train de Carnac ist auf Google mit über 4,7 bei mehr als 6.000 Bewertungen eingestuft — eine der beliebtesten Touristenattraktionen in Carnac.",
+      "heading": "Was sagen Besucher über den Zug?",
+      "description": "Der Petit Train de Vannes ist bei Google mit über 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
       "googleReview": "Google-Bewertung",
       "slideAriaLabel": "Bewertung {n} von {total}",
       "regionAriaLabel": "Besucherbewertungen",
@@ -296,15 +312,15 @@
     },
     "bookingSection": {
       "label": "Buchung",
-      "headingPrefix": "Buchen Sie Ihre Tour mit dem",
+      "headingPrefix": "Buchen Sie Ihren",
       "headingHighlight": "Petit Train",
-      "headingSuffix": "in Carnac",
-      "description": "Wählen Sie Datum und Uhrzeit, die Anzahl der Tickets und bestätigen Sie Ihre Buchung online. Die Tour dauert <strong>55 Minuten</strong> mit Audiokommentar in 16 Sprachen."
+      "headingSuffix": "Besuch in Vannes",
+      "description": "Wählen Sie Ihr Datum und Ihre Uhrzeit, wählen Sie die Anzahl der Tickets und bestätigen Sie Ihre Buchung online. Der Besuch dauert <strong>40 Minuten</strong> mit Audio-Kommentar in 16 Sprachen."
     },
     "gallery": {
       "label": "Galerie",
       "heading": "Erinnerungen an Ihren Besuch",
-      "description": "Ein Vorgeschmack auf das, was Sie an Bord des Petit Train de Carnac erwartet. Klicken Sie zum Vergrößern.",
+      "description": "Ein Vorgeschmack auf das, was Sie an Bord des Petit Train de Vannes erwartet. Zum Vergrößern klicken.",
       "expandImage": "Bild {n} vergrößern",
       "prevImage": "Vorheriges Bild",
       "nextImage": "Nächstes Bild",
@@ -312,144 +328,142 @@
     },
     "ourLocation": {
       "label": "Unser Standort",
-      "heading": "So erreichen Sie den Petit Train de Carnac",
-      "description": "Der Petit Train de Carnac ist mit dem Auto, dem Zug oder dem Bus leicht zu erreichen. Hier finden Sie die wichtigsten Abfahrtsorte und Tipps für Ihre Anreise.",
-      "seeRoute": "Wegbeschreibung anzeigen",
-      "arrivalTipTitle": "Anreise-Tipp",
-      "arrivalTipDescription": "Bitte mindestens 15 Minuten vor Abfahrt eintreffen.",
-      "item1Title": "Hauptabfahrtsort — Parkplatz Ménec",
-      "item1Description": "Verbindlicher Abfahrtsort für Gruppen und Einzelbuchungen. Am Parkplatz Ménec in Carnac, direkt gegenüber der Maison des Mégalithes.",
-      "item2Title": "Halt 2 — Carnac Plage (Port-En-Drô)",
-      "item2Description": "Tickets vor Ort beim Fahrer kaufen, je nach Verfügbarkeit.",
-      "item3Title": "Halt 3 — La Trinité-sur-Mer",
-      "item3Description": "Bushaltestelle Cours des Quais, Meeresseite (vor dem Kreisverkehr Alain Barrière). Tickets vor Ort beim Fahrer kaufen, je nach Verfügbarkeit.",
-      "item4Title": "Mit dem Auto",
-      "item4Description": "Wenn Sie mit dem Auto kommen, folgen Sie den Hinweisen nach Carnac und zum Parkplatz Ménec. Das Parken ist kostenlos.",
-      "item5Title": "Mit dem Zug",
-      "item5Description": "Der nächste Bahnhof ist Auray, etwa 13 km von Carnac entfernt. In der Hochsaison verkehren Busse zwischen Auray und Carnac."
+      "heading": "So erreichen Sie den Petit Train de Vannes",
+      "description": "Der Petit Train de Vannes fährt von der Place Gambetta ab, im Herzen der Stadt, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Leicht mit dem Auto oder öffentlichen Verkehrsmitteln erreichbar.",
+      "seeRoute": "Route anzeigen",
+      "arrivalTipTitle": "Ankunftstipp",
+      "arrivalTipDescription": "Bitte kommen Sie mindestens 10 Minuten vor der Abfahrt, um Ihre Tickets beim Fahrer zu kaufen.",
+      "item1Title": "Abfahrtspunkt — Place Gambetta",
+      "item1Description": "Der einzige Abfahrts- und Ankunftspunkt. Im Herzen von Vannes gelegen, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Der Fahrer verkauft Tickets vor Ort.",
+      "item2Title": "Mit dem Auto",
+      "item2Description": "Folgen Sie den Schildern zum Stadtzentrum von Vannes und zur Place Gambetta. Parkplätze sind in der Nähe verfügbar.",
+      "item3Title": "Mit dem Zug",
+      "item3Description": "Der Bahnhof von Vannes ist etwa 10 Gehminuten von der Place Gambetta entfernt. Lokale Busse verbinden beide ebenfalls."
     },
     "informationsIntro": {
       "label": "Wichtiger Hinweis",
       "heading": "Online-Buchung",
-      "description": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können bis zu <strong>2 Stunden</strong> vor der gewünschten Abfahrt buchen. Planen Sie ausreichend Zeit für Anreise und Parken vor Ort ein. Danach gehen Sie direkt zum Abfahrtsort und kaufen Ihre Tickets am Schalter oder beim Fahrer."
+      "description": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können direkt auf der <strong>Place Gambetta</strong> erscheinen und Ihre Tickets beim Fahrer kaufen. In der Hochsaison empfehlen wir, im Voraus zu buchen."
     },
     "informationsCta": {
-      "label": "Gruppenbuchung — Privatfahrten",
-      "heading": "Buchung für private Touren",
-      "description": "Wenn Sie in einer Gruppe reisen oder den Petit Train de Carnac für eine Veranstaltung, ein Seminar oder einen Schulausflug privat mieten möchten, kontaktieren Sie uns für ein maßgeschneidertes Angebot.",
-      "button": "Privatfahrt buchen"
+      "label": "Gruppenbuchung — Privatmiete",
+      "heading": "Buchung für Privatbesuche",
+      "description": "Wenn Sie in einer Gruppe reisen oder den Petit Train de Vannes für eine Veranstaltung, ein Seminar oder einen Schulbesuch privat mieten möchten, kontaktieren Sie uns für ein maßgeschneidertes Angebot.",
+      "button": "Privatmiete buchen"
     },
     "faqsHero": {
       "label": "FAQ",
       "heading": "Häufig gestellte Fragen",
-      "description": "Antworten auf die häufigsten Fragen zum Petit Train de Carnac: Dauer, Preise, Route, Barrierefreiheit und Buchungen.",
-      "cardHeading": "Geführte Tour mit Audiokommentar in 16 Sprachen",
+      "description": "Finden Sie Antworten auf die häufigsten Fragen zum Petit Train de Vannes: Dauer, Preise, Strecke, Barrierefreiheit und Buchungen.",
+      "cardHeading": "Geführte Tour mit Audio-Kommentar in 16 Sprachen",
       "languages": "Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Russisch, Chinesisch, Japanisch, Schwedisch, Dänisch, Polnisch, Arabisch, Kroatisch und Slowenisch."
     },
     "faq": {
       "defaultLabel": "FAQ",
       "defaultHeading": "Häufig gestellte Fragen",
-      "defaultDescription": "Klare Antworten auf die häufigsten Fragen zum Petit Train de Carnac.",
-      "button": "Tour buchen",
+      "defaultDescription": "Finden Sie klare Antworten auf die häufigsten Fragen zum Petit Train de Vannes.",
+      "button": "Ihren Besuch buchen",
       "default": {
-        "q1": "Was ist der Petit Train de Carnac?",
-        "a1": "Der Petit Train de Carnac ist ein geführter Sightseeing-Zug, der durch Carnac und die Umgebung fährt: Menhire, Strände und der Hafen von La Trinité-sur-Mer.",
-        "q2": "Wie lange dauert die Tour mit dem Petit Train de Carnac?",
-        "a2": "Die geführte Tour dauert insgesamt etwa 55 Minuten, mit mehrsprachigem Audiokommentar entlang der Route.",
-        "q3": "Wo startet der Petit Train de Carnac?",
-        "a3": "Der Haupt-Abfahrts- und Endpunkt ist der Parkplatz Ménec, gegenüber der Maison des Mégalithes.",
-        "q4": "Was werde ich während der Tour mit dem Petit Train de Carnac sehen?",
-        "a4": "Während der Tour fahren Sie an den berühmten Menhir-Reihen, am Tumulus Saint-Michel, an Carnac-Plage und am Hafen von La Trinité-sur-Mer vorbei.",
-        "q5": "Ist der Petit Train de Carnac für Kinder und Familien geeignet?",
-        "a5": "Ja, der Petit Train de Carnac eignet sich für Familien mit Kindern, ältere Besucher und alle, die längere Fußwege vermeiden möchten.",
-        "q6": "In welchen Sprachen ist der Audiokommentar verfügbar?",
-        "a6": "Der Audiokommentar ist in 16 Sprachen verfügbar, darunter Französisch, Englisch, Deutsch, Spanisch, Italienisch und Niederländisch.",
-        "q7": "Muss ich den Petit Train de Carnac im Voraus buchen?",
-        "a7": "Eine Vorabbuchung wird empfohlen, besonders in der Hochsaison. Tickets können auch vor Ort gekauft werden, je nach Verfügbarkeit."
+        "q1": "Was ist der Petit Train de Vannes?",
+        "a1": "Der Petit Train de Vannes ist ein geführter Touristenzug, der Sie in 40 Minuten durch die mittelalterlichen Stadtmauern, die Altstadt und den Hafen von Vannes führt.",
+        "q2": "Wie lange dauert die Tour mit dem Petit Train de Vannes?",
+        "a2": "Die geführte Tour dauert insgesamt ca. 40 Minuten, mit mehrsprachigem Audio-Kommentar während der gesamten Fahrt.",
+        "q3": "Von wo fährt der Petit Train de Vannes ab?",
+        "a3": "Abfahrt und Ankunft sind auf der Place Gambetta, im Herzen von Vannes, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt.",
+        "q4": "Was werde ich während der Tour mit dem Petit Train de Vannes sehen?",
+        "a4": "Während des Besuchs entdecken Sie die mittelalterlichen Stadtmauern, die Altstadt mit ihren Fachwerkhäusern, den Hafen von Vannes und die Jardins de la Garenne.",
+        "q5": "Ist der Petit Train de Vannes für Kinder und Familien geeignet?",
+        "a5": "Ja, der Petit Train de Vannes ist ideal für Familien mit Kindern, Senioren und alle, die lange Fußmärsche vermeiden möchten.",
+        "q6": "In welchen Sprachen ist der Führungskommentar verfügbar?",
+        "a6": "Der Audio-Kommentar ist in 16 Sprachen verfügbar, darunter Französisch, Englisch, Deutsch, Spanisch, Italienisch und Niederländisch.",
+        "q7": "Muss ich den Petit Train de Vannes im Voraus buchen?",
+        "a7": "Eine Buchung ist möglich, aber nicht erforderlich. In der Hochsaison ist es ratsam, im Voraus zu buchen, um Ihren Platz zu sichern."
       }
     },
     "routesTimeline": {
-      "label": "Tour-Zeitablauf",
-      "headingPrefix": "Haltestellen und Strecke des",
-      "headingHighlight": "Petit Train de Carnac",
-      "intro": "Während der geführten Tour fährt der Petit Train de Carnac mehrere wichtige Orte an und bietet einen vollständigen Überblick über Carnac und seine Umgebung.",
-      "introBold": "Der Petit Train de Carnac bedient während der Tour folgende Haltestellen:",
-      "btnBook": "Tour buchen",
+      "label": "Streckenchronologie",
+      "headingPrefix": "Abfahrtspunkt des",
+      "headingHighlight": "Petit Train de Vannes",
+      "intro": "Während der geführten Tour fährt der Petit Train de Vannes von der Place Gambetta ab und nimmt Sie mit durch die Stadtmauern, die Altstadt, den Hafen und die Jardins de la Garenne.",
+      "introBold": "Der Petit Train de Vannes fährt vom folgenden Punkt ab:",
+      "btnBook": "Ihren Besuch buchen",
       "btnPrices": "Preise ansehen",
-      "stop1Name": "Parking du Ménec, Carnac",
-      "stop1Bullet1": "Gegenüber der Maison des Mégalithes gelegen",
-      "stop1Bullet2": "Abfahrtsort Nr. 1",
-      "stop1Bullet3": "Pflicht-Abfahrtsort für Einzelbesucher",
-      "stop1Bullet4": "Kasse vor Ort",
-      "stop1Note": "Dies ist der einzige garantierte Einstiegspunkt für Einzeltickets.",
-      "stop1ImageAlt": "Parking du Ménec, Carnac — Abfahrtsort des Petit Train",
-      "stop2Name": "Les Remparts Médiévaux & la Porte Prison",
-      "stop2Bullet1": "Découvrez les remparts du XIVe siècle qui ceinturent la vieille ville",
-      "stop2Bullet2": "La Porte Prison, ancienne porte de la ville et monument emblématique de Vannes",
-      "stop2Note": "Tickets vor Ort beim Abfahrtsort kaufen (keine Buchung möglich).",
-      "stop2ImageAlt": "Les remparts médiévaux de Vannes",
-      "stop3Name": "Cathédrale Saint-Pierre & Port de Vannes",
-      "stop3Bullet1": "La Cathédrale Saint-Pierre, chef-dœuvre gothique du XIIIe siècle",
-      "stop3Bullet2": "Place Henri IV et ses maisons à colombages — cœur historique de Vannes",
-      "stop3ImageAlt": "Cathédrale Saint-Pierre et le port de Vannes",
-      "stop2Bullet3": "Vue panoramique sur la cité médiévale depuis le chemin de ronde",
-      "stop3Bullet3": "Le port et les Jardins de la Garenne avant le retour à la Place Gambetta",
-      "stop3Note": "Retour au point de départ : Place Gambetta."
+      "stop1Name": "Place Gambetta, Vannes",
+      "stop1Bullet1": "Im Herzen der Stadt, nur wenige Schritte von den mittelalterlichen Stadtmauern",
+      "stop1Bullet2": "Einfacher Zugang vom Stadtzentrum und nahe gelegenen Parkplätzen",
+      "stop1Bullet3": "Fahrer vor Ort für den Ticketverkauf",
+      "stop1Note": "Einziger Einstiegspunkt — Abfahrt und Ankunft auf der Place Gambetta.",
+      "stop1ImageAlt": "Place Gambetta, Vannes — Abfahrtspunkt des Petit Train",
+      "stop2Name": "Die Mittelalterlichen Stadtmauern & Porte Prison",
+      "stop2Bullet1": "Entdecken Sie die Stadtmauern aus dem 14. Jahrhundert, die die Altstadt umgeben",
+      "stop2Bullet2": "Die Porte Prison, das alte Stadttor und Wahrzeichen von Vannes",
+      "stop2Bullet3": "Panoramablick auf die mittelalterliche Stadt vom Wehrgang",
+      "stop2ImageAlt": "Die mittelalterlichen Stadtmauern von Vannes vom Petit Train aus gesehen",
+      "stop3Name": "Cathédrale Saint-Pierre & Hafen von Vannes",
+      "stop3Bullet1": "Cathédrale Saint-Pierre, ein gotisches Meisterwerk aus dem 13. Jahrhundert",
+      "stop3Bullet2": "Place Henri IV mit seinen Fachwerkhäusern — historisches Herz von Vannes",
+      "stop3Bullet3": "Der Hafen und die Jardins de la Garenne vor der Rückkehr zur Place Gambetta",
+      "stop3Note": "Rückkehr zum Abfahrtspunkt: Place Gambetta.",
+      "stop3ImageAlt": "Cathédrale Saint-Pierre und der Hafen von Vannes"
     },
     "faqsSection": {
-      "q1": "Was ist der Petit Train de Carnac?",
-      "a1": "Der Petit Train de Carnac ist ein geführter Touristenzug, der Besucher Carnac und seine Umgebung bequem und barrierearm erleben lässt. Die Tour umfasst die Menhire von Carnac, den Strand von Carnac und den Hafen von La Trinité-sur-Mer, mit Audiokommentar entlang der gesamten Strecke.",
-      "q2": "Wie lange dauert die Tour?",
-      "a2": "Die geführte Tour dauert etwa 55 Minuten. So können Besucher die Hauptsehenswürdigkeiten von Carnac sehen, ohne lange Strecken zu Fuß zurücklegen zu müssen.",
-      "q3": "Wo startet der Petit Train de Carnac?",
-      "a3": "Hauptabfahrts- und Ankunftsort für Einzelbesucher ist das Parking du Ménec in Carnac, gegenüber der Maison des Mégalithes.",
-      "q4": "Fährt der Petit Train jeden Tag?",
-      "a4": "Ja. Der Petit Train de Carnac fährt täglich von April bis Ende Oktober, einschließlich Sonn- und Feiertagen.",
-      "q5": "Findet die Tour auch bei schlechtem Wetter statt?",
-      "a5": "Ja. Der Petit Train fährt bei jedem Wetter. Bei Regen oder starkem Wind ist der Zug an drei Seiten verglast, sodass Sie die Fahrt voll genießen können.",
-      "q6": "Was werde ich während der Tour sehen?",
-      "a6": "Während der Tour fahren Sie an den Menhiren von Carnac vorbei — einschließlich der Steinreihen von Ménec, Kermario und Kerlescan. Außerdem entdecken Sie den Strand von Carnac, den weißen Sand und den Hafen von La Trinité-sur-Mer.",
-      "q7": "In welchen Sprachen ist der Audiokommentar verfügbar?",
-      "a7": "Der geführte Audiokommentar ist in 16 Sprachen verfügbar: Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Russisch, Schwedisch, Dänisch, Tschechisch, Chinesisch, Japanisch und weitere. Der Audiokommentar ist im Ticketpreis enthalten — ohne Aufpreis. Eine Kinderversion ist ebenfalls verfügbar.",
-      "q8": "Ist die Tour für Kinder geeignet?",
-      "a8": "Ja. Der Petit Train de Carnac ist für Kinder und Familien geeignet. Der Kinder-Audiokommentar macht die Fahrt unterhaltsam und lehrreich zugleich.",
+      "q1": "Was ist der Petit Train de Vannes?",
+      "a1": "Der Petit Train de Vannes ist eine geführte Touristentour an Bord eines kleinen Zuges, der Sie zu den schönsten Sehenswürdigkeiten der Stadt führt: die mittelalterlichen Stadtmauern, die Altstadt, den Hafen und die Jardins de la Garenne. Der Besuch dauert ca. 40 Minuten und wird von einem Audio-Kommentar in 16 Sprachen begleitet.",
+      "q2": "Wie lange dauert der Besuch?",
+      "a2": "Der geführte Besuch dauert ca. 40 Minuten. Der kleine Zug fährt von der Place Gambetta ab und kehrt zum selben Ausgangspunkt zurück.",
+      "q3": "Von wo fährt der Petit Train de Vannes ab?",
+      "a3": "Der Petit Train fährt von der Place Gambetta ab, im Herzen der Stadt, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Es ist der einzige Abfahrts- und Ankunftspunkt.",
+      "q4": "Fährt der Petit Train de Vannes täglich?",
+      "a4": "Ja. Der Petit Train de Vannes fährt täglich von April bis La Toussaint, auch sonntags und an Feiertagen.",
+      "q5": "Fährt die Tour bei schlechtem Wetter?",
+      "a5": "Ja. Der Petit Train fährt bei jedem Wetter. Bei außergewöhnlich schwerem Unwetter kann der Betrieb aus Sicherheitsgründen eingestellt werden.",
+      "q6": "Was werde ich während des Besuchs sehen?",
+      "a6": "Während des Besuchs entdecken Sie die mittelalterlichen Stadtmauern von Vannes, die Altstadt mit ihren Fachwerkhäusern, den Hafen von Vannes, die Jardins de la Garenne und die schönsten Panoramen der mittelalterlichen Stadt.",
+      "q7": "In welchen Sprachen ist der Audio-Kommentar verfügbar?",
+      "a7": "Der geführte Audio-Kommentar ist in 16 Sprachen verfügbar: Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Russisch, Schwedisch, Dänisch, Chinesisch, Japanisch, Arabisch, Kroatisch und Slowenisch. Der Audio-Kommentar ist im Ticketpreis enthalten. Eine speziell für Kinder konzipierte Version ist ebenfalls verfügbar.",
+      "q8": "Ist der Besuch für Kinder geeignet?",
+      "a8": "Ja. Der Petit Train de Vannes ist für Kinder und Familien geeignet. Der Audio-Kommentar für Kinder bietet ein spielerisches und lehrreiches Erlebnis.",
       "q9": "Was kostet ein Ticket?",
-      "q9Pre": "Die Preise variieren je nach Alter und Gruppengröße. Erwachsene und Kinder unter 12 Jahren haben unterschiedliche Tarife. Vollständige Preise finden Sie auf der ",
-      "q9LinkText": "Preise & Tickets-Seite",
-      "q9Post": ".",
+      "q9Pre": "Die Preise variieren je nach Alter und Gruppengröße. Erwachsene zahlen 8,50€ und Kinder von 4 bis 12 Jahren zahlen 5€. Kinder unter 4 Jahren sind kostenlos. Die vollständigen Preise sind auf der ",
+      "q9LinkText": "Seite Preise & Tickets",
+      "q9Post": " verfügbar.",
       "q10": "Muss ich im Voraus buchen?",
-      "a10": "Eine Buchung im Voraus wird empfohlen, besonders in der Hochsaison. Online-Buchungen müssen mindestens zwei Stunden vor Abfahrt erfolgen.",
+      "a10": "Eine Buchung ist möglich, aber nicht erforderlich. In der Hochsaison (Juli–August) empfehlen wir, im Voraus zu buchen, um Ihren Platz zu sichern.",
       "q11": "Kann ich Tickets vor Ort kaufen?",
-      "a11": "Ja. Tickets können an der Kasse am Parking du Ménec gekauft werden, je nach Verfügbarkeit.",
-      "q12": "Wie früh sollte ich vor Abfahrt da sein?",
-      "a12": "Besucher werden gebeten, mindestens 15 Minuten vor Abfahrt einzutreffen, um ihr Ticket zu validieren und einzusteigen.",
+      "a11": "Ja. Tickets können direkt beim Fahrer am Abfahrtspunkt Place Gambetta gekauft werden.",
+      "q12": "Wie früh sollte ich vor der Abfahrt ankommen?",
+      "a12": "Es wird empfohlen, mindestens 10 Minuten vor der Abfahrt anzukommen, um Ihre Tickets zu kaufen und einzusteigen.",
       "q13": "Sind Gruppenbuchungen verfügbar?",
-      "a13": "Ja. Gruppenbuchungen sind ab 20 Personen möglich. Eine Buchung im Voraus wird empfohlen.",
-      "q14": "Kann ich den Petit Train für eine Veranstaltung mieten?",
-      "q14Pre": "Ja. Der Petit Train de Carnac kann für Firmenevents, Vereine, Schulgruppen und private Anlässe gemietet werden. Ein eigenes Anfrageformular finden Sie auf der ",
-      "q14LinkText": "Privatfahrten-Seite",
-      "q14Post": "."
+      "a13": "Ja. Gruppenbuchungen sind für Gruppen ab 20 Personen verfügbar. Vorabreservierung wird empfohlen.",
+      "q14": "Kann ich den Petit Train für eine Veranstaltung privat mieten?",
+      "q14Pre": "Ja. Der Petit Train de Vannes kann für Firmenveranstaltungen, Vereine, Schulgruppen und private Anlässe privat gemietet werden. Ein spezielles Anfrageformular ist auf der ",
+      "q14LinkText": "Privatmiete-Seite",
+      "q14Post": " verfügbar."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Betriebszeitraum",
-      "operatingPeriodBody": "Der Petit Train de Carnac fährt täglich von April bis Ende Oktober, einschließlich Sonn- und Feiertagen.",
+      "operatingPeriodBody": "Der Petit Train de Vannes fährt 7 Tage die Woche von April bis La Toussaint, auch sonntags und an Feiertagen.",
       "weatherTitle": "Wetter",
-      "weatherBody": "Bei Regen oder starkem Wind ist der Zug an drei Seiten verglast, sodass Sie die Fahrt voll genießen können.",
+      "weatherBody": "Der Petit Train fährt bei jedem Wetter. Bei außergewöhnlich schwerem Unwetter kann der Betrieb aus Sicherheitsgründen eingestellt werden.",
       "timetableHeading": "Fahrplan",
       "departurePrefix": "Abfahrt —",
-      "saturdayRule": "<strong>Samstag im Juli & August:</strong> Abfahrten von Carnac Plage und La Trinité-sur-Mer folgen dem « orangen » Nebensaison-Fahrplan.",
-      "onlineBookingNote": "<strong>Online-Buchung:</strong> nur verfügbar für Abfahrt Nr. 1 — Parking du Ménec.",
-      "closuresHeading": "Feiertage & Schließzeiten",
-      "closuresBody": "An Feiertagen gilt der reguläre Fahrplan. Der Petit Train ist <strong>vom 9. bis 16. Oktober geschlossen</strong> sowie <strong>von November bis März einschließlich</strong>.",
-      "viewPlanButton": "Streckenkarte ansehen",
-      "viewPlanImageAlt": "Streckenkarte — Menhirs Tour mit dem Petit Train de Carnac",
-      "lightboxClose": "Schließen"
+      "saturdayRule": "<strong>Feiertage:</strong> gleicher Fahrplan wie an normalen Tagen. Der Petit Train ist an allen Feiertagen der Saison geöffnet.",
+      "onlineBookingNote": "<strong>Online-Buchung:</strong> verfügbar ab der Place Gambetta. Abfahrten alle 40 Minuten während der Saison.",
+      "closuresHeading": "Schließzeiten",
+      "closuresBody": "Der Petit Train ist <strong>vom 13. bis 21. Oktober</strong> sowie <strong>von Dezember bis März einschließlich</strong> geschlossen.",
+      "viewPlanButton": "Karte ansehen",
+      "viewPlanImageAlt": "Streckenkarte — Petit Train de Vannes",
+      "lightboxClose": "Schließen",
+      "departureLocation": "Im Herzen von Vannes, unweit der Stadtmauern",
+      "departureFrequency": "Abfahrt alle 40 Min",
+      "periodClosed": "Geschlossen",
+      "periodClosureNote": "Außerordentliche Schließung"
     },
     "routesHeroDefaults": {
       "primaryButton": "Einzelflyer",
       "secondaryButton": "Gruppenflyer",
-      "googleReviewsCount": "6 000+ Bewertungen",
-      "googleBadgeText": "<strong>Le Petit Train de Carnac</strong> ist mit mehr als 4,7 auf Google bewertet, basierend auf über 6 000 Bewertungen, und gehört zu den beliebtesten Sehenswürdigkeiten in Carnac.",
+      "googleReviewsCount": "1.385+ Bewertungen",
+      "googleBadgeText": "<strong>Le Petit Train de Vannes</strong> ist bei Google mit über 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
       "lightboxClose": "Schließen",
       "lightboxEnlarge": "Vergrößern: {alt}",
       "lightboxAriaLabel": "Vergrößerte Ansicht: {alt}"
@@ -458,37 +472,37 @@
       "sectionLabel": "Karriere",
       "headingPrefix": "Ihre Karriere beim",
       "headingSuffix": "beginnt hier",
-      "description": "Unsere Philosophie ist einfach: den Besuchern einen herzlichen Empfang und ein reibungsloses touristisches Erlebnis zu bieten, während sie Carnac und seine Umgebung entdecken. Beim Petit Train de Carnac spielt jedes Teammitglied eine wichtige Rolle bei der Schaffung eines freundlichen und unvergesslichen Besuchs für Menschen jeden Alters aus der ganzen Welt.",
+      "description": "Unsere Philosophie ist einfach: Besuchern einen herzlichen Empfang und ein reibungsloses Touristenerlebnis beim Entdecken von Vannes und seinen Stadtmauern zu bieten. Beim Petit Train de Vannes spielt jedes Teammitglied eine wichtige Rolle bei der Gestaltung eines freundlichen und unvergesslichen Besuchs für Menschen jeden Alters aus aller Welt.",
       "ctaButton": "Bewerben & Lebenslauf einsenden",
       "openPositionsLabel": "Offene Stellen:",
       "seasonalBadge": "Saisonale Stelle",
-      "job1Title": "Fahrer des Petit Train",
-      "job1Description": "Den Petit Train sicher auf der Touristikstrecke fahren und Besucher an Bord begrüßen. Diese Stelle umfasst das Fahren des Zuges, die Sorge um den Komfort der Fahrgäste und den Beitrag zu einer positiven Atmosphäre während der gesamten Besichtigung.",
-      "job1Requirement": "Führerschein Klasse D (öffentlicher Personennahverkehr) erforderlich. Vorherige Erfahrung mit Touristikfahrzeugen ist von Vorteil.",
-      "job2Title": "Kassenmitarbeiter/in",
-      "job2Description": "Besucher empfangen, Tickets verkaufen und klare Informationen zu Fahrplänen, Preisen und der Tour geben. Diese Stelle ist ideal für Personen, die gerne mit dem Publikum und in einem lebhaften touristischen Umfeld arbeiten.",
-      "job2Requirement": "Gute kommunikative Fähigkeiten und ein freundliches Auftreten sind unerlässlich. Kenntnisse in Fremdsprachen werden geschätzt.",
-      "job3Title": "Bahnsteigmitarbeiter/in",
-      "job3Description": "Fahrgäste beim Einsteigen begleiten und einen reibungslosen Ablauf von Abfahrten und Ankünften gewährleisten. Diese Stelle unterstützt sowohl den Fahrer als auch das Kassenpersonal.",
-      "job3Requirement": "Eine positive Einstellung, Zuverlässigkeit und ein leichter Umgang mit Besuchern jeden Alters sind unerlässlich.",
-      "imageAlt": "Arbeiten beim Petit Train de Carnac"
+      "job1Title": "Petit-Train-Fahrer",
+      "job1Description": "Fahren Sie den Petit Train sicher entlang der Stadtmauern-Strecke von Vannes und heißen Sie Besucher an Bord willkommen. Diese Stelle umfasst das Führen des Zuges, die Gewährleistung des Komforts der Fahrgäste und die Schaffung einer positiven Atmosphäre während des gesamten Besuchs.",
+      "job1Requirement": "Führerschein D (öffentlicher Nahverkehr) erforderlich. Erfahrung mit Touristenfahrzeugen ist ein Plus.",
+      "job2Title": "Ticketverkäufer",
+      "job2Description": "Besucher begrüßen, Tickets verkaufen und klare Informationen zu Fahrzeiten, Preisen und der Vannes-Strecke geben. Diese Stelle ist ideal für Menschen, die gern im Kundenkontakt arbeiten und in einem lebhaften Touristenumfeld tätig sind.",
+      "job2Requirement": "Gute Kommunikationsfähigkeiten und eine freundliche Einstellung sind unerlässlich. Fremdsprachenkenntnisse werden geschätzt.",
+      "job3Title": "Bahnsteigmitarbeiter",
+      "job3Description": "Fahrgäste beim Einsteigen auf der Place Gambetta unterstützen und reibungslose Abfahrten und Ankünfte sicherstellen.",
+      "job3Requirement": "Eine positive Einstellung, Zuverlässigkeit und Umgang mit Besuchern jeden Alters sind unerlässlich.",
+      "imageAlt": "Arbeiten beim Petit Train de Vannes"
     },
     "careersInfo": {
       "panel1Heading": "Wen wir suchen",
-      "panel1P1": "Wir suchen motivierte und zuverlässige Menschen, die gerne mit dem Publikum arbeiten und zu einem hochwertigen touristischen Erlebnis beitragen.",
-      "panel1P2": "Sie fühlen sich mit internationalen Besuchern wohl, sind während der Touristensaison verfügbar und können bei Bedarf an Wochenenden und Feiertagen arbeiten.",
-      "panel2Heading": "Arbeiten bei uns",
-      "panel2P1": "Die Stellen sind hauptsächlich saisonal und in Carnac ansässig. Vor Dienstantritt wird eine Schulung durchgeführt. Die Arbeitszeiten richten sich nach der Saison und der Besucherzahl.",
-      "panel2P2": "Sie arbeiten im Freien und in einem kleinen, freundlichen Team, das auf die Zufriedenheit der Besucher ausgerichtet ist.",
+      "panel1P1": "Wir suchen motivierte und zuverlässige Menschen, die gern mit der Öffentlichkeit arbeiten und zu einem qualitativ hochwertigen Touristenerlebnis in Vannes beitragen.",
+      "panel1P2": "Sie sind vertraut mit internationalen Besuchern, während der Touristensaison verfügbar und bereit, bei Bedarf an Wochenenden und Feiertagen zu arbeiten.",
+      "panel2Heading": "Bei uns arbeiten",
+      "panel2P1": "Die Stellen sind hauptsächlich saisonal und in Vannes angesiedelt. Es wird eine Schulung vor Arbeitsbeginn angeboten. Die Arbeitszeiten hängen von der Saison und der Besucherzahl ab.",
+      "panel2P2": "Sie arbeiten im Freien und als Teil eines kleinen, freundlichen Teams, das sich auf die Besucherzufriedenheit konzentriert.",
       "panel3Heading": "Wie man sich bewirbt",
-      "panel3P1": "Um sich zu bewerben, füllen Sie bitte das Bewerbungsformular aus und fügen Ihren Lebenslauf bei. Wenn Ihr Profil unseren Anforderungen entspricht, wird unser Team Sie kontaktieren.",
-      "panel4Heading": "Treten Sie dem Team des Petit Train de Carnac bei",
-      "panel4P1": "Bewerben Sie sich jetzt und nehmen Sie an einem lokalen Touristenerlebnis teil, das Besuchern hilft, Carnac auf einfache und angenehme Weise zu entdecken.",
+      "panel3P1": "Um sich zu bewerben, füllen Sie bitte das Bewerbungsformular aus und fügen Sie Ihren Lebenslauf bei. Wenn Ihr Profil unseren Bedürfnissen entspricht, wird unser Team Sie kontaktieren.",
+      "panel4Heading": "Werden Sie Teil des Teams des Petit Train de Vannes",
+      "panel4P1": "Bewerben Sie sich jetzt und nehmen Sie an einem lokalen Touristenerlebnis teil, das Besuchern hilft, Vannes auf einfache und angenehme Weise zu entdecken.",
       "ctaButton": "Bewerben & Lebenslauf einsenden",
-      "imageAlt": "Wen wir beim Petit Train de Carnac suchen"
+      "imageAlt": "Wen wir beim Petit Train de Vannes suchen"
     },
     "privatisationForm": {
-      "yourDetailsHeading": "Ihre Daten",
+      "yourDetailsHeading": "Ihre Angaben",
       "eventDetailsHeading": "Veranstaltungsdetails",
       "firstNameLabel": "Ihr Vorname*",
       "firstNamePlaceholder": "Alexandre",
@@ -498,8 +512,8 @@
       "phonePlaceholder": "+00 000 000 0000",
       "emailLabel": "Ihre E-Mail*",
       "emailPlaceholder": "name@email.com",
-      "companyNameLabel": "Unternehmensname",
-      "companyNamePlaceholder": "Unternehmensname",
+      "companyNameLabel": "Firmenname",
+      "companyNamePlaceholder": "Firmenname",
       "eventTypeLabel": "Veranstaltungsart*",
       "eventTypePlaceholder": "Firmenveranstaltung, Vereinsbesuch, Schulgruppe, Familienveranstaltung, Privatführung…",
       "departureLocationLabel": "Gewünschter Abfahrtsort*",
@@ -511,18 +525,18 @@
       "guestCountLabel": "Anzahl der Gäste",
       "guestCountMin": "(mind. 10 Gäste)",
       "guestCountPlaceholder": "z.B. 10 - 15, 25 - 35…",
-      "additionalInfoLabel": "Weitere Informationen",
-      "additionalInfoPlaceholder": "Besondere Wünsche, Zeitvorgaben, bevorzugte Sprache oder sonstige Details",
+      "additionalInfoLabel": "Zusätzliche Informationen",
+      "additionalInfoPlaceholder": "Sonderwünsche, Zeitvorgaben, bevorzugte Sprache oder andere Details",
       "infoNote": "ⓘ Je mehr Details Sie uns mitteilen, desto besser können wir auf Ihre Anfrage eingehen",
       "submitButton": "Anfrage senden",
       "loadingButton": "Wird gesendet…",
       "successHeading": "Anfrage gesendet!",
-      "successBody": "Vielen Dank für Ihr Interesse. Unser Team wird Ihre Anfrage prüfen und sich so schnell wie möglich mit Ihnen in Verbindung setzen, um die Verfügbarkeit zu bestätigen und die Details zu besprechen.",
-      "sectionLabel": "Privatisierung & B2B-Miete",
-      "imageHeading": "Den Petit Train de Carnac für Ihre Veranstaltung privatisieren",
-      "imageDescription": "Der Petit Train de Carnac kann für Gruppenführungen, Firmenveranstaltungen und besondere Anlässe privatisiert werden. Diese flexible Lösung ermöglicht es Ihnen, Ihren Gästen eine komfortable und originelle geführte Tour durch Carnac anzubieten, die auf Ihre Bedürfnisse und Ihren Zeitplan zugeschnitten ist.",
-      "googleReviewsCount": "6.000+ Bewertungen",
-      "imageAlt": "Privatisierung des Petit Train de Carnac"
+      "successBody": "Vielen Dank für Ihr Interesse. Unser Team wird Ihre Anfrage prüfen und sich so schnell wie möglich bei Ihnen melden, um die Verfügbarkeit zu bestätigen und die Details zu besprechen.",
+      "sectionLabel": "Privatmiete & B2B-Vermietung",
+      "imageHeading": "Mieten Sie den Petit Train de Vannes für Ihre Veranstaltung",
+      "imageDescription": "Der Petit Train de Vannes kann für Gruppenbesuche, Firmenveranstaltungen und besondere Anlässe privat gemietet werden. Diese flexible Lösung ermöglicht es Ihnen, Ihren Gästen eine geführte Tour durch Vannes anzubieten, komfortabel und originell, angepasst an Ihre Bedürfnisse und Ihr Programm.",
+      "googleReviewsCount": "1.385+ Bewertungen",
+      "imageAlt": "Privatmiete des Petit Train de Vannes"
     }
   }
 }
