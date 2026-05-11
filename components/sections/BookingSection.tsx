@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import RegiondoWidget from '@/components/ui/RegiondoWidget'
-
-const REGIONDO_WIDGET_ID = '5712cb43-2e72-445b-956b-947f1f624735'
+import { brand } from '@/lib/brand'
 
 export default function BookingSection() {
   const t = useTranslations('sections.bookingSection')
@@ -52,7 +51,7 @@ export default function BookingSection() {
 
         {/* Widget card */}
         <div data-anim-item className="w-full">
-          <RegiondoWidget widgetId={REGIONDO_WIDGET_ID} />
+          <RegiondoWidget widgetId={brand.regiondoWidgetId} />
         </div>
       </div>
     </section>

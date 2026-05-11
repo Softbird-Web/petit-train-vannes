@@ -2,7 +2,7 @@
 // When cloning this project for a new Petit Train site, only edit this file.
 export const brand = {
   city: "Vannes",
-  regiondoWidgetId: "REPLACE_WITH_VANNES_WIDGET_ID",
+  regiondoWidgetId: "7f41df60-fb18-48fb-9e68-6c78ed158962",
   contact: {
     email: "petittrain-lebayon@orange.fr",
     phone: "+33297240629",
