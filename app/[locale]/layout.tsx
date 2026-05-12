@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/figma-assets/logo.svg",
+    icon: "/figma-assets/Favicon.png",
     apple: "/figma-assets/Webclip.png",
-    shortcut: "/figma-assets/logo.svg",
+    shortcut: "/figma-assets/Favicon.png",
   },
   openGraph: {
     title: "Le Petit Train de Vannes — Remparts & Vieille Ville",
