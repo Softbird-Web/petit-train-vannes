@@ -25,7 +25,8 @@ Session end: propose new mistakes/patterns if any emerged.
 1. Append 1–3 entries to `docs/lessons.md` covering anything non-obvious learned this session
 2. Update `docs/progress.md` with what shipped
 3. If any image was added/changed: update `docs/image-manifest.md`
-4. Only then: commit
+4. **If this session deployed to production**: run `/seo audit https://<canonical-url>` and save output to `docs/post-deploy-audit-{YYYY-MM-DD}.md`. Surface Critical findings before declaring "done". (See `docs/NEW-SITE-PLAYBOOK.md` Phase 7.)
+5. Only then: commit
 
 **Before taste-driven sections (Reviews, Hero, CTAs, forms):**
 - Fill out `docs/acceptance-spec-template.md` with the user in 2 minutes. Do NOT start coding without it.

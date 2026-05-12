@@ -484,3 +484,63 @@ Before running `git commit`, ask yourself:
 - [ ] No `.env`, no build artifacts, no `test-results/` in the stage list
 
 If any is No → do that first. Committing without these is how the knowledge loop breaks.
+
+---
+
+## 2026-05-12 · Three-site launch lessons (Carnac + Vannes + Quiberon)
+
+After all three Petit Train sites went live on their custom `.fr` domains, a three-part audit (SEO parity + content parity + old-vs-new migration gaps) surfaced lessons worth remembering for any future Petit Train spawn.
+
+### L-12 · `lib/site.ts` SITE_URL fallback must NEVER be `*.vercel.app` in production
+
+**Symptom**: `<link rel="canonical">`, every `<link rel="alternate" hreflang="...">`, every JSON-LD `url` field, and the `og:image` URL all point at `petit-train-{city}.vercel.app` instead of the production `.fr` domain. Google indexes the Vercel subdomain as canonical and effectively deindexes the `.fr` site as a duplicate. Vannes + Quiberon both shipped with this bug; Carnac was correct from day one.
+
+**Root cause**: `lib/site.ts` reads `process.env.NEXT_PUBLIC_SITE_URL ?? '<fallback>'`. The fallback was hardcoded to the Vercel preview URL ("safest interim until custom domain goes live"). When the custom domain launched but the env var was never set in Vercel's Production env vars, every render shipped the Vercel URL.
+
+**Fix**: either set `NEXT_PUBLIC_SITE_URL=https://www.lepetittrainde{city}.fr` in Vercel Production env vars (Settings → Environment Variables → Production), **OR** hardcode the `.fr` domain as the fallback in `lib/site.ts:12`. We chose the hardcoded fallback (belt-and-suspenders) — env var still overrides if set.
+
+**Verification**: `curl -s https://<prod-url> | grep -E 'rel="canonical"|hrefLang="fr"|"url":"https'` — every URL in the head should be `.fr`, zero `vercel.app` hits.
+
+**Detection during spawn**: after Phase 6 (Vercel deploy) and BEFORE declaring the site done, always curl the production URL and grep for `vercel.app`. Zero hits = good. Any hit = misconfigured SITE_URL.
+
+### L-13 · `InformationsPrices.tsx` and `InformationsReviews.tsx` were hardcoded English across all 3 sites
+
+**Symptom**: French / German / Spanish / etc. users see English copy on the `/informations` page. The Prices + Reviews section components had zero `useTranslations` calls in any of the 3 projects — they shipped with hardcoded English strings (`Adults`, `Children under 12`, `Individual Tickets`, `Early Morning Departures`, `For groups: reduced rate...`, etc.).
+
+**Root cause**: The translation keys for `sections.prices.*` already existed in every locale file from the original Figma-to-React pass. The component was just never wired to consume them.
+
+**Fix**: replace every hardcoded string with `t("...")` and pull prices from `brand.prices.individual.adult|child` (+ `brand.prices.earlyBird.*` for Carnac/Vannes). Strong-formatted notes via `t.rich("key", { strong: (chunks) => <strong>{chunks}</strong> })`. Book button via `tHero("buttonBook")` from the `hero` namespace.
+
+**Detection during spawn**: after Phase 3 (content swap) but before deploy, run
+```bash
+grep -L 'useTranslations\|t(' components/sections/*.tsx
+```
+The output should be EMPTY (every section component uses translations). Currently `InformationsReviews.tsx` is still hardcoded English on all 3 sites — queued for next round once we have real Google reviews per city.
+
+### L-14 · Stale Carnac-specific cards/keys leak into Vannes & Quiberon clones
+
+The Carnac template carries several city-specific details that must be re-evaluated per clone, not blindly carried over:
+
+| Detail | Carnac | Vannes | Quiberon |
+|---|---|---|---|
+| Number of route stops | 3 (Ménec / Port-en-Drô / La Trinité) | 1 (Place Gambetta) | 2 (Place Hoche / Port Haliguen) |
+| Audio language count | 16 | 16 | **8** (per onboarding) |
+| Children age range | "under 12" | "(4–12 ans)" | **"3–11 ans"** |
+| Adult price | €8.50 | **€8** | €8.50 |
+| Early-bird card | ✓ keep | ✓ keep | **delete entirely** (no early-bird offered) |
+| Season | April–Oct | April–Nov | **May–Oct** |
+| Privatisation page | draft only | draft only | draft only |
+| Cross-locale CS | yes (7 locales) | yes (7 locales) | yes (7 locales — added retroactively for parity) |
+
+**Detection script during spawn**:
+```bash
+grep -rn -E 'Carnac|menhirs|mégalithes|Petit Train des Menhirs|Ménec|Kermario|Kerlescan|Trinité-sur-Mer' components/ messages/
+```
+Any hit outside of `sections.locations.carnac.*` (the cross-link "other sites" card) is a clone leftover and MUST be re-translated or deleted.
+
+The Quiberon `InformationsPrices.tsx` shipped with the entire Carnac "Early Morning Departures" card — including hardcoded €7,00 / €3,50 prices Quiberon doesn't offer AND a `t("earlyBird.badge")` call that referenced a key that didn't exist in any Quiberon locale file. Result: the badge rendered as a missing-translation placeholder, and customers saw fake pricing. Caught and removed in Round 7.
+
+### L-15 · Post-deploy SEO audit is now part of the spawn checklist
+
+Phase 7 was added to `docs/NEW-SITE-PLAYBOOK.md`: after Vercel reports green production, before declaring a site done, the agent MUST run a claude-seo audit on the canonical URL. See playbook for the exact steps. Three bugs in this launch cycle (L-12, L-13, parts of L-14) would have been caught at Phase 7 if it had existed earlier.
+

@@ -237,3 +237,56 @@ What you DO need to do for the new site:
 - **Check `docs/lessons.md`** first — it's auto-loaded and covers SSR/hydration, Tailwind v4, git hygiene, Vercel deploy gotchas, tool selection, etc.
 - **Check `docs/ARCHITECTURE.md`** for the WHY behind any decision that seems wrong — it probably isn't wrong, it was considered.
 - **Don't refactor load-bearing systems** (animation contract, SSR rules, SEO foundation, Regiondo integration) without reading ARCHITECTURE.md first. These decisions took hours to land; re-discovering them on site #2 is a regression.
+
+---
+
+## Phase 7 · Post-deploy SEO/AEO audit (MANDATORY — added 2026-05-12)
+
+After Phase 6 ships and Vercel reports green production, a site is **not done** until Phase 7 passes. Three sub-steps:
+
+### 7.1 — Canonical / hreflang leak check (5 min, BLOCKING)
+
+```bash
+curl -s https://<custom-domain> | grep -E 'rel="canonical"|hrefLang="fr"|"url":"https'
+```
+
+Every URL in the output **must** be the production `.fr` domain. Zero `*.vercel.app` hits. If any hit: `lib/site.ts:12` SITE_URL fallback is wrong, or `NEXT_PUBLIC_SITE_URL` env var is missing in Vercel Production. Fix and redeploy. **See lessons.md L-12.**
+
+### 7.2 — Full claude-seo audit (~10 min, REPORTING)
+
+Run the installed `claude-seo` skill on the canonical URL:
+
+```
+/seo audit https://<custom-domain>
+```
+
+This delegates to up to 15 specialist sub-agents (technical, content, schema, sitemap, performance, geo, sxo, etc.) and produces a unified report with a SEO Health Score 0–100 and a prioritised action plan.
+
+If `claude-seo` isn't available, fall back to manual checks following the SKILL.md methodology at `~/.claude/skills/seo-audit/SKILL.md`. The audit must cover:
+
+- Title + meta description per page × per locale
+- All JSON-LD blocks validate (TouristAttraction, WebSite, FAQPage)
+- Hreflang × every locale × every route
+- Image alt-text spot check (5 hero images)
+- Heading hierarchy (one `<h1>` per page max)
+- Sitemap coverage matches route count × locale count
+- robots.txt + canonical consistency
+
+### 7.3 — Save the audit + flag critical findings (BLOCKING)
+
+```
+Save audit output to: docs/post-deploy-audit-{YYYY-MM-DD}.md
+```
+
+Surface every "Critical" and "High" severity item to the user **before** declaring the launch done. Don't ship the site to the client until either:
+- (a) all Critical items are fixed and redeployed, or
+- (b) the user has explicitly accepted them as known follow-ups.
+
+### Why this phase exists
+
+In the 2026-04 → 2026-05 launch cycle, three serious bugs would have been caught at this phase if it had existed:
+- `lib/site.ts` SITE_URL leaked to `*.vercel.app` on both Vannes and Quiberon (canonical/hreflang/JSON-LD all pointing at wrong domain — see L-12)
+- `InformationsPrices.tsx` shipped hardcoded English on all 3 sites — French users saw English on `/informations` (see L-13)
+- Quiberon shipped the entire Carnac "Early Morning Departures" pricing card with non-existent translation key + wrong prices (see L-14)
+
+Don't let the next site repeat any of these.
