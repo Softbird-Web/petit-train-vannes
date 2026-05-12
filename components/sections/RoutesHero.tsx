@@ -192,7 +192,7 @@ export default function RoutesHero({
   return (
     <>
       <section data-anim-section="hero" className="bg-[#f5ebdd] py-16 xl:py-[112px] px-5 xl:px-[64px]">
-        <div className="max-w-[1312px] mx-auto flex flex-col xl:flex-row items-center gap-[80px]">
+        <div className={`max-w-[1312px] mx-auto flex ${flip ? 'flex-col' : 'flex-col-reverse'} xl:flex-row items-center gap-[80px]`}>
           {flip ? (
             <>
               {contentBlock}

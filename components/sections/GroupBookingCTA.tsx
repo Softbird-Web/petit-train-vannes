@@ -8,8 +8,15 @@ export default function GroupBookingCTA() {
   return (
     <section data-anim-section className="relative overflow-hidden">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-        <Image src="/figma-assets/group-booking-bg.jpg" alt="" fill sizes="100vw"
-              className="object-cover" />
+        <video
+          src="/figma-assets/hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-black/75" />
       </div>
 

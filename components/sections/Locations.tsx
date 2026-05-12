@@ -83,15 +83,9 @@ export default function Locations() {
                 </div>
 
                 <div className="absolute bottom-0 left-6 right-6 pb-6 flex flex-col gap-2 text-white transition-opacity duration-300 ease-[cubic-bezier(0.625,0.05,0,1)] group-hover:opacity-0">
-                  <div className="flex items-center gap-2.5">
-                    <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] leading-[1.5] tracking-[-2.24px]">
-                      {t(`${key}.title`)}
-                    </p>
-                    <div className="relative shrink-0 w-6 h-6">
-                      <Image src="/figma-assets/icon-link.svg" alt="" fill sizes="64px"
-              className="object-contain" aria-hidden="true" />
-                    </div>
-                  </div>
+                  <p className="font-['Bricolage_Grotesque',sans-serif] text-[32px] leading-[1.5] tracking-[-2.24px]">
+                    {t(`${key}.title`)}
+                  </p>
                   <p className="font-['Manrope',sans-serif] font-light italic text-[14px] leading-[1.3] tracking-[-0.42px] w-[271px]">
                     {t(`${key}.tagline`)}
                   </p>
