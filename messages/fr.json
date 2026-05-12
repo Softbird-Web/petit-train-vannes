@@ -75,7 +75,7 @@
     },
     "prices": {
       "title": "Tarifs & Billets — Petit Train de Vannes, Morbihan",
-      "description": "Tarifs du circuit des remparts en Petit Train de Vannes : 8,50€ adulte, 5€ enfant, gratuit pour les moins de 4 ans. Tarifs groupes et réservation en ligne."
+      "description": "Tarifs du circuit des remparts en Petit Train de Vannes : 8€ adulte, 5€ enfant, gratuit pour les moins de 4 ans. Tarifs groupes et réservation en ligne."
     },
     "routes": {
       "title": "Parcours & Itinéraire — Petit Train de Vannes, Morbihan",
@@ -118,7 +118,7 @@
       "faqDescription": "Trouvez des réponses claires aux questions les plus fréquentes sur les tarifs, les réductions de groupe et comment réserver le Petit Train de Vannes.",
       "faq": {
         "q1": "Quel est le tarif d'un billet pour le Petit Train de Vannes ?",
-        "a1": "Les tarifs dépendent de l'âge et de la taille du groupe. Pour les visiteurs individuels, le billet adulte standard est à 8,50 euros. Les enfants de 4 à 12 ans bénéficient d'un tarif réduit à 5 euros. Les enfants de moins de 4 ans sont gratuits.",
+        "a1": "Les tarifs dépendent de l'âge et de la taille du groupe. Pour les visiteurs individuels, le billet adulte standard est à 8 euros. Les enfants de 4 à 12 ans bénéficient d'un tarif réduit à 5 euros. Les enfants de moins de 4 ans sont gratuits.",
         "q2": "Y a-t-il des tarifs réduits pour les enfants ?",
         "a2": "Oui. Les enfants de 4 à 12 ans bénéficient d'un tarif réduit à 5€. Les enfants de moins de 4 ans montent gratuitement à bord.",
         "q3": "Les enfants ont-ils besoin d'un billet pour monter dans le Petit Train ?",
@@ -424,7 +424,7 @@
       "q8": "La visite est-elle adaptée aux enfants ?",
       "a8": "Oui. Le Petit Train de Vannes convient aux enfants et aux familles. Le commentaire audio pour enfants offre une expérience à la fois ludique et éducative.",
       "q9": "Combien coûte un billet ?",
-      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes payent 8,50€ et les enfants de 4 à 12 ans payent 5€. Les enfants de moins de 4 ans sont gratuits. Les tarifs complets sont disponibles sur la ",
+      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes payent 8€ et les enfants de 4 à 12 ans payent 5€. Les enfants de moins de 4 ans sont gratuits. Les tarifs complets sont disponibles sur la ",
       "q9LinkText": "page Tarifs et Billets",
       "q9Post": ".",
       "q10": "Faut-il réserver à l'avance ?",

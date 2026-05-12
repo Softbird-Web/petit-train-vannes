@@ -75,7 +75,7 @@
     },
     "prices": {
       "title": "Prices & Tickets — Petit Train de Vannes, Morbihan",
-      "description": "Prices for the ramparts circuit on the Petit Train de Vannes: 8.50€ adult, 5€ child, free for under-4s. Group rates and online booking."
+      "description": "Prices for the ramparts circuit on the Petit Train de Vannes: 8€ adult, 5€ child, free for under-4s. Group rates and online booking."
     },
     "routes": {
       "title": "Route & Itinerary — Petit Train de Vannes, Morbihan",
@@ -118,7 +118,7 @@
       "faqDescription": "Find clear answers to the most common questions about prices, group discounts and how to book the Petit Train de Vannes.",
       "faq": {
         "q1": "What is the ticket price for the Petit Train de Vannes?",
-        "a1": "Prices depend on age and group size. For individual visitors, the standard adult ticket is 8.50 euros. Children aged 4 to 12 benefit from a reduced rate of 5 euros. Children under 4 are free.",
+        "a1": "Prices depend on age and group size. For individual visitors, the standard adult ticket is 8 euros. Children aged 4 to 12 benefit from a reduced rate of 5 euros. Children under 4 are free.",
         "q2": "Are there reduced prices for children?",
         "a2": "Yes. Children aged 4 to 12 benefit from a reduced rate of 5€. Children under 4 travel free.",
         "q3": "Do children need a ticket to board the Petit Train?",
@@ -424,7 +424,7 @@
       "q8": "Is the visit suitable for children?",
       "a8": "Yes. The Petit Train de Vannes is suitable for children and families. The children's audio commentary offers a fun and educational experience.",
       "q9": "How much does a ticket cost?",
-      "q9Pre": "Prices vary depending on age and group size. Adults pay 8.50€ and children aged 4 to 12 pay 5€. Children under 4 are free. Full prices are available on the ",
+      "q9Pre": "Prices vary depending on age and group size. Adults pay 8€ and children aged 4 to 12 pay 5€. Children under 4 are free. Full prices are available on the ",
       "q9LinkText": "Prices & Tickets page",
       "q9Post": ".",
       "q10": "Do I need to book in advance?",
