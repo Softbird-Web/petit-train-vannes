@@ -1,44 +1,5 @@
 import Image from "next/image";
 
-const reviews = [
-  {
-    id: 1,
-    text: "A wonderful way to discover the medieval ramparts of Vannes. Comfortable ride with excellent audio commentary in many languages!",
-    author: "Walter H.",
-    col: 1,
-  },
-  {
-    id: 2,
-    text: "It was existential and out of body. All was pretty so so until we reached the megaliths at which I was overtaken by a spirit of wonder and wellness. At some point I was bathed in a bright white light and I felt my spirit leave my body. I became aware of 1000's of beings surrounding me, asking questions in tongues I'd never heard of. Then I woke up in the back of the train on its way back to the car park. Didn't expect all that for 8.50 euros. Well worth it I'd say.",
-    author: "Dom L.",
-    col: 2,
-  },
-  {
-    id: 3,
-    text: "A great way to see the megaliths, and also the added wonderfulness of having some English audio commentary, so that it all makes sense….very good value and totally worthwhile",
-    author: "Marc G.",
-    col: 2,
-  },
-  {
-    id: 4,
-    text: "Very nice people operating the little train, we got separated and they wanted and helped my husband join us. The tour is interesting, the train is comfortable and there are plenty of language options.",
-    author: "Judit Benard M.",
-    col: 2,
-  },
-  {
-    id: 5,
-    text: "We took a wonderful tour around Vannes — the audio guide was also available in Dutch, which made it so much more pleasant! Highly recommended!",
-    author: "Carine V.",
-    col: 3,
-  },
-  {
-    id: 6,
-    text: "A beautiful trip around Vannes! Highly recommended for anyone who wants to discover the medieval city!",
-    author: "B Ked.",
-    col: 3,
-  },
-];
-
 function ReviewCard({ text, author }: { text: string; author: string }) {
   return (
     <div className="bg-[#fffcf9] rounded-[6px] shadow-[0px_1px_4px_0px_rgba(0,0,0,0.15)] p-5 flex flex-col gap-3">
@@ -93,7 +54,7 @@ export default function InformationsReviews() {
           </h2>
 
           <p className="font-['Manrope',sans-serif] text-base leading-[1.2] tracking-[-0.48px] text-[#1c1b29]">
-            <strong>Le Petit Train de Vannes</strong> est noté plus de{" "}
+            <strong>Le Petit Train de Vannes</strong> has a rating over{" "}
             <a
               href="https://www.google.com/search?q=PETITS+TRAINS+TOURISTIQUES+LE+BAYON+VANNES+Reviews"
               target="_blank"
@@ -102,8 +63,8 @@ export default function InformationsReviews() {
             >
               4.7 on Google
             </a>
-            , with over 6,000 reviews, making it one of the most popular
-            attractions les plus appréciées de Vannes.
+            , with over 1,300 reviews, making it one of the most popular
+            tourist attractions in Vannes.
           </p>
 
           {/* Google badge */}
@@ -134,7 +95,7 @@ export default function InformationsReviews() {
                   </div>
                 </div>
                 <span className="font-['Manrope',sans-serif] text-[11px] text-black opacity-60 tracking-[-0.33px]">
-                  6,000+ reviews
+                  1,300+ reviews
                 </span>
               </div>
             </div>
@@ -155,8 +116,8 @@ export default function InformationsReviews() {
               />
             </div>
             <ReviewCard
-              text="A wonderful way to discover the medieval ramparts of Vannes. Comfortable ride with excellent audio commentary in many languages!"
-              author="Walter H."
+              text="charming little tour for a fair price. i would recommend walking around town a bit and reading about the town's history and then getting this train for the cherry on top!"
+              author="Lener"
             />
             <div className="relative h-[220px] rounded-[6px] overflow-hidden">
               <Image
@@ -172,28 +133,28 @@ export default function InformationsReviews() {
           {/* Column 2: 3 text reviews */}
           <div className="flex flex-col gap-4">
             <ReviewCard
-              text="It was existential and out of body. All was pretty so so until we reached the megaliths at which I was overtaken by a spirit of wonder and wellness. At some point I was bathed in a bright white light and I felt my spirit leave my body. I became aware of 1000's of beings surrounding me, asking questions in tongues I'd never heard of. Then I woke up in the back of the train on its way back to the car park. Didn't expect all that for 8 euros. Well worth it I'd say."
-              author="Dom L."
+              text="Very nice experience to (re)discover the beautiful Vannes. A train trip in history and culture that be missed if you visit Vannes."
+              author="Simon LE LARGE"
             />
             <ReviewCard
-              text="A great way to see the megaliths, and also the added wonderfulness of having some English audio commentary, so that it all makes sense….very good value and totally worthwhile"
-              author="Marc G."
+              text="Lovely to have a guided tour of vannes. Would definitely recommend. A fun thing to do with the kids."
+              author="fatima werner"
             />
             <ReviewCard
-              text="Very nice people operating the little train, we got separated and they wanted and helped my husband join us. The tour is interesting, the train is comfortable and there are plenty of language options."
-              author="Judit Benard M."
+              text="A great little walk right in the heart of Vannes' tourist center. The commentary is excellent, and the children's route along Canal 21 makes it interesting for little ones."
+              author="Nadine POTIER"
             />
           </div>
 
           {/* Column 3: 2 text reviews */}
           <div className="flex flex-col gap-4">
             <ReviewCard
-              text="We took a wonderful tour around Vannes — the audio guide was also available in Dutch, which made it so much more pleasant! Highly recommended!"
-              author="Carine V."
+              text="A good option for a quick visit to Vannes and its city center. The driver was excellent, as some streets are very narrow. It's very helpful for finding the monuments you want to see."
+              author="Gorce Romain"
             />
             <ReviewCard
-              text="A beautiful trip around Vannes! Highly recommended for anyone who wants to discover the medieval city!"
-              author="B Ked."
+              text="A lovely little train that goes everywhere, even through the narrow streets of old Vannes! A must-do when you're in Vannes 😄 The driver is friendly. Headphones are available to listen to the guided tour in many different languages. Departure from the Port and then just let yourself be guided!"
+              author="marjory coll"
             />
           </div>
         </div>

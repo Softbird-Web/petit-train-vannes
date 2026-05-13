@@ -9,63 +9,51 @@ import { useTranslations } from 'next-intl'
 
 gsap.registerPlugin(Draggable, InertiaPlugin)
 
-// Authentic customer reviews left in original French. The wrapping <span lang="fr">
-// signals the original language to screen readers and search engines, while
-// surrounding UI labels (subtitle, aria-labels) translate per the active locale.
+// Real Google reviews captured from the Vannes business profile. Reviews #6 and #7
+// were originally French and are shown here in the Google-translated English form;
+// surrounding UI labels (Google-review subtitle, aria-labels) translate per the active locale.
 const reviews = [
   {
-    id: "walter",
-    name: "Walter H.",
-    text: "Les menhirs sont bien plus impressionnants qu'on ne le pense, et le cadre est magnifique. Le commentaire audio est bien construit et instructif. Plus d'une heure vraiment bien passée.",
-    image: "/figma-assets/testimonial-img-1.jpg",
+    id: "lener",
+    name: "Lener",
+    text: "charming little tour for a fair price. i would recommend walking around town a bit and reading about the town's history and then getting this train for the cherry on top!",
+    image: "/figma-assets/review-1.jpg",
   },
   {
-    id: "dom",
-    name: "Dom L.",
-    text: "C'était une expérience existentielle et hors du commun. Tout était assez banal jusqu'à ce que nous atteignions les mégalithes, où j'ai été envahi par un sentiment d'émerveillement et de bien-être. À un moment, j'ai été baigné d'une lumière blanche et j'ai senti mon âme quitter mon corps. Tout ça pour 8,50 euros — ça vaut vraiment le coup.",
-    image: "/figma-assets/testimonial-img-2.jpg",
+    id: "fatima",
+    name: "fatima werner",
+    text: "Lovely to have a guided tour of vannes. Would definitely recommend. A fun thing to do with the kids.",
+    image: "/figma-assets/review-2.jpg",
   },
   {
-    id: "carine",
-    name: "Carine V.",
-    text: "Nous avons effectué une merveilleuse visite avec le Petit Train des Menhirs. À notre grande surprise, le guide audio était également disponible en néerlandais, avec une voix flamande — ce qui rendait l'écoute bien plus agréable !",
-    image: "/figma-assets/testimonial-img-3.jpg",
+    id: "simon",
+    name: "Simon LE LARGE",
+    text: "Very nice experience to (re)discover the beautiful Vannes. A train trip in history and culture that be missed if you visit Vannes.",
+    image: "/figma-assets/review-3.jpg",
   },
   {
-    id: "marc",
-    name: "Marc G.",
-    text: "Une excellente façon de voir les mégalithes, avec en prime un commentaire audio en anglais vraiment apprécié, pour que tout prenne sens... très bon rapport qualité-prix et vraiment incontournable.",
-    image: "/figma-assets/stop-1.jpg",
+    id: "laura",
+    name: "Laura Fitch",
+    text: "Such a cute experience! Have been on the train every year I have been to France since I was a little girl 🥰",
+    image: "/figma-assets/review-4.jpg",
   },
   {
-    id: "judit",
-    name: "Judit Benard M.",
-    text: "Des personnes vraiment chaleureuses à la tête de ce petit train. Nous nous étions séparés et ils ont tout fait pour aider mon mari à nous rejoindre. La visite est intéressante, le train est confortable et les options linguistiques sont nombreuses.",
-    image: "/figma-assets/stop-2.jpg",
+    id: "nadine",
+    name: "Nadine POTIER",
+    text: "A great little walk right in the heart of Vannes' tourist center. The commentary is excellent, and the children's route along Canal 21 makes it interesting for little ones.",
+    image: "/figma-assets/review-5.jpg",
   },
   {
-    id: "bked",
-    name: "B Ked.",
-    text: "Une visite magnifique de Vannes ! Je le recommande vraiment à tous ceux qui viennent à Vannes et souhaitent découvrir la cité médiévale de façon simple et agréable.",
-    image: "/figma-assets/stop-1.jpg",
+    id: "gorce",
+    name: "Gorce Romain",
+    text: "A good option for a quick visit to Vannes and its city center. The driver was excellent, as some streets are very narrow. It's very helpful for finding the monuments you want to see.",
+    image: "/figma-assets/review-6.jpg",
   },
   {
-    id: "sophie",
-    name: "Sophie M.",
-    text: "Une belle expérience en famille. Le train est confortable et le conducteur était très sympathique. Une façon parfaite de découvrir les remparts et la vieille ville de Vannes sans avoir à marcher !",
-    image: "/figma-assets/gallery-1.jpg",
-  },
-  {
-    id: "david",
-    name: "David R.",
-    text: "Nous avons fait la visite par un beau après-midi de juillet — absolument incontournable. Le commentaire multilingue est excellent et le parcours vous emmène à tous les sites clés de Vannes. Fortement recommandé.",
-    image: "/figma-assets/gallery-3.jpg",
-  },
-  {
-    id: "anneclaire",
-    name: "Anne-Claire B.",
-    text: "Charmant petit train ! Nos enfants ont adoré chaque instant et ont tellement appris sur les pierres levées. Le guide audio est clair et captivant. Nous reviendrons certainement l'été prochain.",
-    image: "/figma-assets/PracticalInfo5.jpg",
+    id: "marjory",
+    name: "marjory coll",
+    text: "A lovely little train that goes everywhere, even through the narrow streets of old Vannes! A must-do when you're in Vannes 😄 The driver is friendly. Headphones are available to listen to the guided tour in many different languages. Departure from the Port and then just let yourself be guided!",
+    image: "/figma-assets/review-7.jpg",
   },
 ]
 
@@ -86,7 +74,7 @@ function ReviewCard({ name, subtitle, text, image }: { name: string; subtitle: s
     <div className="bg-white rounded-2xl overflow-hidden flex flex-col md:flex-row md:h-[420px] w-full shadow-[0px_2px_12px_0px_rgba(0,0,0,0.08)]">
       {/* Text content */}
       <div className="flex-1 p-6 md:p-8 flex flex-col justify-between gap-6 md:gap-0 min-w-0">
-        <p lang="fr" className="font-['Manrope',sans-serif] text-[#1c1b29] text-[17px] md:text-[20px] leading-[1.5] tracking-[-0.4px]">
+        <p lang="en" className="font-['Manrope',sans-serif] text-[#1c1b29] text-[17px] md:text-[20px] leading-[1.5] tracking-[-0.4px]">
           {text}
         </p>
         <div className="flex flex-col gap-1">
