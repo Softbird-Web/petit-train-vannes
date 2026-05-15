@@ -12,7 +12,7 @@ export const brand = {
     facebook: "https://www.facebook.com/lespetitstrainsdumorbihan",
   },
   prices: {
-    individual: { adult: "8€", child: "5€" },
+    individual: { adult: "8,50€", child: "5€" },
     earlyBird: { adult: "7,00€", child: "3,50€" },
   },
 } as const
