@@ -2,12 +2,11 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import TransitionLink from "@/components/ui/TransitionLink";
 
-const cardKeys = ["duration", "departure", "schedule", "accessibility"] as const;
+const cardKeys = ["duration", "departure", "schedule"] as const;
 const cardConfig: Record<(typeof cardKeys)[number], { photo: string; icon: string; href?: string }> = {
   duration: { photo: "/figma-assets/PracticalInfo1.jpg", icon: "/figma-assets/Icon01.svg" },
   departure: { photo: "/figma-assets/PricesHero.jpg", icon: "/figma-assets/Icon02.svg" },
   schedule: { photo: "/figma-assets/PracticalInfo3.jpg", icon: "/figma-assets/Icon03.svg", href: "/informations#horaires" },
-  accessibility: { photo: "/figma-assets/PracticalInfo4.jpg", icon: "/figma-assets/Icon04.svg" },
 };
 
 export default function PracticalInfo() {
@@ -42,7 +41,7 @@ export default function PracticalInfo() {
         </div>
 
         {/* Cards grid */}
-        <div data-anim-item className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div data-anim-item className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {/* Row 1: 4 photo cards */}
           {cardKeys.map((key) => {
             const { photo, icon, href } = cardConfig[key];

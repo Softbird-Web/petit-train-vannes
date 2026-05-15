@@ -59,27 +59,27 @@
     "buttonBook": "Rezervujte svůj výlet",
     "buttonPrices": "Zobrazit ceny",
     "googleBadge": "Petit Train de Vannes je hodnocen 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
-    "rightCardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
+    "rightCardHeading": "Průvodcovský výlet s audio komentářem v 22 jazycích",
     "rightCardBody": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky.",
     "rightCardFlagsAlt": "Vlajky jazyků",
     "rightImageAlt": "Petit Train de Vannes podél středověkých hradeb",
     "noteImportanteLabel": "Důležitá poznámka",
     "noteImportanteHeading": "Online rezervace",
-    "noteImportanteBody": "Rezervace je možná, ale není povinná. Můžete se dostavit přímo na místo odjezdu <strong>Place Gambetta</strong> a koupit jízdenky u řidiče. V hlavní sezóně doporučujeme rezervovat předem.",
+    "noteImportanteBody": "<strong>Rezervace je možná, ale není povinná.</strong> Můžete se dostavit přímo na místo odjezdu <strong>Place Gambetta</strong> a koupit jízdenky u pokladny na místě.",
     "noteImportanteBodyExtra": "Ne všechna místa jsou dostupná k prodeji online."
   },
   "metadata": {
     "home": {
       "title": "Petit Train Vannes Hradby — Petit Train de Vannes, Morbihan",
-      "description": "Průvodcovský výlet k hradbám Vannes na palubě Petit Train — 40minutový okruh, audio komentář v 16 jazycích, staré město a přístav Vannes."
+      "description": "Průvodcovský výlet k hradbám Vannes na palubě Petit Train — 40minutový okruh, audio komentář v 22 jazycích, staré město a přístav Vannes."
     },
     "prices": {
       "title": "Ceny & Jízdenky — Petit Train de Vannes, Morbihan",
-      "description": "Ceny okruhu hradbami ve Vannes na Petit Train: 8,50 € dospělý, 5 € dítě 4–12 let, zdarma pro děti do 4 let. Skupinové ceny a online rezervace."
+      "description": "Ceny okruhu hradbami ve Vannes na Petit Train: 8,50 € dospělý, 5 € dítě 3–11 let, zdarma pro děti do 3 let. Skupinové ceny a online rezervace."
     },
     "routes": {
       "title": "Trasa & Itinerář — Petit Train de Vannes, Morbihan",
-      "description": "Objevte trasu Petit Train de Vannes: středověké hradby, staré město, přístav a Jardins de la Garenne. Průvodcovský výlet 40 minut s audio komentářem v 16 jazycích."
+      "description": "Objevte trasu Petit Train de Vannes: středověké hradby, staré město, přístav a Jardins de la Garenne. Průvodcovský výlet 40 minut s audio komentářem v 22 jazycích."
     },
     "book": {
       "title": "Rezervujte svůj výlet — Petit Train de Vannes, Morbihan",
@@ -118,17 +118,17 @@
       "faqDescription": "Najděte jasné odpovědi na nejčastější otázky ohledně cen, skupinových slev a způsobu rezervace Petit Train de Vannes.",
       "faq": {
         "q1": "Jaká je cena jízdenky na Petit Train de Vannes?",
-        "a1": "Ceny se liší podle věku a velikosti skupiny. Pro individuální návštěvníky je standardní cena dospělého 8,50 €. Děti od 4 do 12 let mají zvýhodněnou cenu 5 €. Děti do 4 let jsou zdarma.",
+        "a1": "Ceny se liší podle věku a velikosti skupiny. Pro individuální návštěvníky je standardní cena dospělého 8,50 €. Děti od 3 do 11 let mají zvýhodněnou cenu 5 €. Děti do 3 let jsou zdarma.",
         "q2": "Jsou pro děti zvýhodněné ceny?",
-        "a2": "Ano. Děti od 4 do 12 let mají zvýhodněnou cenu 5 €. Děti do 4 let nastoupí zdarma.",
+        "a2": "Ano. Děti od 3 do 11 let mají zvýhodněnou cenu 5 €. Děti do 3 let nastoupí zdarma.",
         "q3": "Potřebují děti jízdenku pro nastoupení do Petit Train?",
-        "a3": "Děti od 4 let potřebují jízdenku. Děti do 4 let nastoupí zdarma.",
+        "a3": "Děti od 4 let potřebují jízdenku. Děti do 3 let nastoupí zdarma.",
         "q4": "Existují skupinové slevy?",
         "a4": "Ano. Skupinové ceny jsou dostupné od 20 nastupujících osob. Doporučuje se předem rezervovat. Kontaktujte nás přímo pro nabídku.",
         "q5": "Co je zahrnuto v ceně jízdenky?",
-        "a5": "Každá jízdenka zahrnuje kompletní průvodcovský výlet v délce přibližně 40 minut, audio komentář v 16 jazycích, verzi pro děti a pohodlný zážitek na palubě.",
+        "a5": "Každá jízdenka zahrnuje kompletní průvodcovský výlet v délce přibližně 40 minut, audio komentář v 22 jazycích, verzi pro děti a pohodlný zážitek na palubě.",
         "q6": "Lze koupit jízdenky na místě?",
-        "a6": "Ano. Jízdenky lze koupit přímo u řidiče na odjezdovém místě Place Gambetta. V hlavní sezóně se doporučuje předem rezervovat.",
+        "a6": "Ano. Jízdenky lze koupit přímo u pokladny na místě na odjezdovém místě Place Gambetta.",
         "q7": "Lze rezervovat jízdenky online?",
         "a7": "Ano. Online rezervace je dostupná a doporučována v době špičky."
       }
@@ -138,7 +138,7 @@
       "heroHeadingPrefix": "Trasa",
       "heroHeadingHighlight": "Petit Train de Vannes",
       "heroDescriptionP1": "Objevte celou trasu Petit Train de Vannes přes středověké hradby, staré město a přístav.",
-      "heroDescriptionP2": "Průvodcovský výlet 40 minut s audio komentářem v 16 jazycích, který kombinuje nejkrásnější místa Vannes do jednoho pohodlného okruhu od Place Gambetta.",
+      "heroDescriptionP2": "Průvodcovský výlet 40 minut s audio komentářem v 22 jazycích, který kombinuje nejkrásnější místa Vannes do jednoho pohodlného okruhu od Place Gambetta.",
       "heroImageAlt": "Mapa trasy Petit Train de Vannes — klikněte pro zvětšení",
       "faqLabel": "Časté dotazy",
       "faqHeadingPrefix": "Často kladené otázky",
@@ -158,8 +158,8 @@
       "faqA6": "Ano. Okruh prochází starým městem s hrázděnými domy ze 17. století a podél přístavu Vannes. Tato místa jsou představena prostřednictvím audio komentáře v rámci řízené prohlídky.",
       "faqQ7": "Jsou zahrady Jardins de la Garenne součástí trasy?",
       "faqA7": "Ano. Okruh prochází nedaleko zahrad Jardins de la Garenne, jedných z nejkrásnějších zahrad Vannes, s pozoruhodným výhledem na hradby a středověké prádelny.",
-      "faqQ8": "Je okruh vhodný pro osoby s omezenou pohyblivostí?",
-      "faqA8": "Petit Train je přístupný pro všechny. Je zvláště doporučen pro osoby, které preferují vyhnout se dlouhým procházkám při objevování historických památek Vannes."
+      "faqQ8": "Je Petit Train vhodný pro rodiny?",
+      "faqA8": "Ano. Petit Train je ideální pro rodiny s dětmi a všechny návštěvníky, kteří chtějí objevit Vannes bez dlouhé chůze."
     },
     "informations": {
       "heroLabel": "Praktické informace",
@@ -210,15 +210,15 @@
       },
       "schedule": {
         "title": "Jízdní řád",
-        "description": "Odjezdy probíhají <strong>od dubna do La Toussaint</strong>, každých 40 minut. Vlak jezdí každý den včetně nedělí a svátků v sezóně."
+        "description": "Odjezdy probíhají <strong>od dubna do 8. října a během podzimních prázdnin</strong>, každých 40 minut. Vlak jezdí každý den včetně nedělí a svátků v sezóně."
       },
       "accessibility": {
         "title": "Přístupnost",
-        "description": "Petit Train je <strong>přístupný pro všechny</strong>. Je ideální pro rodiny s malými dětmi, starší návštěvníky a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám při poznávání to nejlepšího z Vannes."
+        "description": "Petit Train je ideální pro rodiny, seniory a všechny, kteří chtějí objevit Vannes pohodlně, bez dlouhé chůze."
       },
       "payment": {
         "title": "Platba",
-        "description": "Jízdenky lze koupit <strong>přímo u řidiče</strong> na odjezdovém místě Place Gambetta. Skupinové ceny jsou k dispozici — kontaktujte nás pro nabídku."
+        "description": "Akceptované platební metody: hotovost, šeky, chèques-vacances ANCV. Platba kartou je možná pouze pro online rezervace. Skupinové ceny jsou k dispozici, kontaktujte nás pro nabídku."
       },
       "cta": {
         "heading": "Více informací",
@@ -231,15 +231,15 @@
       "heading": "Dostupné dobrodružství pro celou rodinu",
       "description": "Od sólových cestovatelů po velké rodiny — najděte ideální cenu pro svůj výlet k hradbám Vannes.",
       "rowAdults": "Dospělí",
-      "rowChildren": "Děti (4–12 let)",
+      "rowChildren": "Děti (3–11 let)",
       "individual": {
         "title": "Individuální jízdenky",
-        "note": "<strong>Pro jednotlivce:</strong> kupte jízdenky přímo u řidiče na Place Gambetta. <strong>Zdarma:</strong> děti do 4 let."
+        "note": "<strong>Pro jednotlivce:</strong> kupte jízdenky přímo u pokladny na místě na Place Gambetta. <strong>Zdarma:</strong> děti do 3 let."
       },
       "earlyBird": {
         "title": "První ranní odjezdy",
         "badge": "Výhodná cena",
-        "note": "<strong>Zvýhodněná cena:</strong> platí pouze pro první ranní odjezdy. Jízdenky dostupné u řidiče na místě."
+        "note": "<strong>Zvýhodněná cena:</strong> platí pouze pro první ranní odjezdy. Jízdenky dostupné u pokladny na místě na místě."
       },
       "group": {
         "title": "Skupinová rezervace",
@@ -252,10 +252,10 @@
       "description": "Před potvrzením rezervace si věnujte chvíli přečtení praktických informací o výletu Petit Train de Vannes. Tyto informace vám pomohou připravit výlet a plně si užít okruh po hradbách.",
       "imageAlt": "Hradby Vannes viděné z Petit Train",
       "bullet1": "Přijďte prosím alespoň 10 minut před odjezdem",
-      "bullet2": "Online rezervace se doporučuje v hlavní sezóně",
+      "bullet2": "Online rezervace je možná, ale není povinná",
       "bullet3": "Odjezd i příjezd na Place Gambetta",
       "bullet4": "Výlet trvá přibližně 40 minut",
-      "bullet5": "Audio komentář je dostupný v 16 jazycích, včetně verze pro děti",
+      "bullet5": "Audio komentář je dostupný v 22 jazycích, včetně verze pro děti",
       "bullet6": "Petit Train jezdí za každého počasí",
       "bullet7": "Odjezd je zajištěn od minimálního počtu platících dospělých na palubě"
     },
@@ -267,8 +267,8 @@
       "imageAlt": "Výhled na hradby Vannes z Petit Train",
       "f1Title": "Pohodlný turistický vláček",
       "f1Desc": "Objevte nejkrásnější místa Vannes pohodlně usazeni na palubě našeho turistického vlaku, navrženého pro návštěvníky, kteří chtějí prozkoumávat středověké město bez námahy.",
-      "f2Title": "Audio komentář v 16 jazycích — součást jízdenky",
-      "f2Desc": "Audio komentář je dostupný v 16 jazycích, s hygienickými sluchátky v ceně jízdenky. K dispozici je také verze pro děti.",
+      "f2Title": "Audio komentář v 22 jazycích — součást jízdenky",
+      "f2Desc": "Audio komentář je dostupný v 22 jazycích, s hygienickými sluchátky v ceně jízdenky. K dispozici je také verze pro děti.",
       "f3Title": "Objevování středověkého dědictví Vannes",
       "f3Desc": "Prohlédněte si středověké hradby, staré město s hrázděnými domy, přístav Vannes a Jardins de la Garenne v jediné malebné cestě trvající 40 minut.",
       "f4Title": "Vhodné pro rodiny, seniory a skupiny",
@@ -315,7 +315,7 @@
       "headingPrefix": "Rezervujte svůj výlet na",
       "headingHighlight": "Petit Train",
       "headingSuffix": "ve Vannes",
-      "description": "Vyberte si datum a čas, zvolte počet jízdenek a potvrďte rezervaci online. Výlet trvá <strong>40 minut</strong> s audio komentářem dostupným v 16 jazycích."
+      "description": "Vyberte si datum a čas, zvolte počet jízdenek a potvrďte rezervaci online. Výlet trvá <strong>40 minut</strong> s audio komentářem dostupným v 22 jazycích."
     },
     "gallery": {
       "label": "Galerie",
@@ -332,7 +332,7 @@
       "description": "Petit Train de Vannes odjíždí z Place Gambetta, v srdci města, dva kroky od středověkých hradeb. Snadno dostupné autem nebo MHD.",
       "seeRoute": "Zobrazit trasu",
       "arrivalTipTitle": "Tip pro příjezd",
-      "arrivalTipDescription": "Přijďte prosím alespoň 10 minut před odjezdem, abyste si koupili jízdenky u řidiče.",
+      "arrivalTipDescription": "Přijďte prosím alespoň 10 minut před odjezdem, abyste si koupili jízdenky u pokladny na místě.",
       "item1Title": "Odjezdový bod — Place Gambetta",
       "item1Description": "Jediné místo odjezdu a příjezdu. Nachází se v srdci Vannes, dva kroky od středověkých hradeb. Řidič prodává jízdenky na místě.",
       "item2Title": "Autem",
@@ -343,7 +343,7 @@
     "informationsIntro": {
       "label": "Důležitá poznámka",
       "heading": "Online rezervace",
-      "description": "Rezervace je možná, ale není povinná. Můžete se dostavit přímo na <strong>Place Gambetta</strong> a koupit jízdenky u řidiče. V hlavní sezóně doporučujeme rezervovat předem."
+      "description": "<strong>Rezervace je možná, ale není povinná.</strong> Můžete se dostavit přímo na <strong>Place Gambetta</strong> a koupit jízdenky u pokladny na místě."
     },
     "informationsCta": {
       "label": "Skupinová rezervace — Pronájem",
@@ -355,7 +355,7 @@
       "label": "FAQ",
       "heading": "Často kladené otázky",
       "description": "Najděte odpovědi na nejčastější otázky o Petit Train de Vannes: délka, ceny, trasa, přístupnost a rezervace.",
-      "cardHeading": "Průvodcovský výlet s audio komentářem v 16 jazycích",
+      "cardHeading": "Průvodcovský výlet s audio komentářem v 22 jazycích",
       "languages": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky."
     },
     "faq": {
@@ -375,9 +375,9 @@
         "q5": "Je Petit Train de Vannes vhodný pro děti a rodiny?",
         "a5": "Ano, Petit Train de Vannes je vhodný pro rodiny s dětmi, starší osoby a kohokoli, kdo preferuje vyhnutí se dlouhým pěším trasám.",
         "q6": "V jakých jazycích je dostupný průvodcovský komentář?",
-        "a6": "Audio průvodcovský komentář je dostupný v 16 jazycích, včetně francouzštiny, angličtiny, němčiny, španělštiny, italštiny a nizozemštiny.",
+        "a6": "Audio průvodcovský komentář je dostupný v 22 jazycích, včetně francouzštiny, angličtiny, němčiny, španělštiny, italštiny a nizozemštiny.",
         "q7": "Je nutné si Petit Train de Vannes předem rezervovat?",
-        "a7": "Rezervace je možná, ale není povinná. V hlavní sezóně se doporučuje předem rezervovat pro zajištění místa."
+        "a7": "<strong>Rezervace je možná, ale není povinná.</strong>"
       }
     },
     "routesTimeline": {
@@ -408,29 +408,29 @@
     },
     "faqsSection": {
       "q1": "Co je Petit Train de Vannes?",
-      "a1": "Petit Train de Vannes je průvodcovský turistický vlak, který umožňuje návštěvníkům pohodlně a přístupně poznat nejkrásnější místa města: středověké hradby, staré město, přístav a Jardins de la Garenne. Výlet trvá přibližně 40 minut a je doprovázen audio komentářem dostupným v 16 jazycích.",
+      "a1": "Petit Train de Vannes je průvodcovský turistický vlak, který umožňuje návštěvníkům pohodlně a přístupně poznat nejkrásnější místa města: středověké hradby, staré město, přístav a Jardins de la Garenne. Výlet trvá přibližně 40 minut a je doprovázen audio komentářem dostupným v 22 jazycích.",
       "q2": "Jak dlouho trvá výlet?",
       "a2": "Průvodcovský výlet trvá přibližně 40 minut. Petit Train odjíždí z Place Gambetta a vrací se na stejné místo.",
       "q3": "Odkud odjíždí Petit Train de Vannes?",
       "a3": "Petit Train odjíždí z Place Gambetta, v srdci města, dva kroky od středověkých hradeb. Toto je jediné místo odjezdu i příjezdu.",
       "q4": "Jezdí Petit Train každý den?",
-      "a4": "Ano. Petit Train de Vannes jezdí každý den od dubna do La Toussaint, včetně nedělí a svátků.",
+      "a4": "Ano. Petit Train de Vannes jezdí každý den od dubna do 8. října a během podzimních prázdnin, včetně nedělí a svátků.",
       "q5": "Funguje výlet za špatného počasí?",
       "a5": "Ano. Petit Train jezdí za každého počasí. V případě výjimečně silných bouří může být provoz přerušen z bezpečnostních důvodů.",
       "q6": "Co uvidím během výletu?",
       "a6": "Během výletu uvidíte středověké hradby Vannes, staré město s hrázděnými domy, přístav Vannes, Jardins de la Garenne a nejkrásnější panoramata středověkého města.",
       "q7": "V jakých jazycích je dostupný audio komentář?",
-      "a7": "Audio průvodcovský komentář je dostupný v 16 jazycích: francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, polsky, rusky, švédsky, dánsky, čínsky, japonsky, arabsky, chorvatsky a slovinsky. Audio komentář je zahrnut v ceně jízdenky — bez příplatku. K dispozici je také speciální verze pro děti.",
+      "a7": "Audio průvodcovský komentář je dostupný v 22 jazycích: francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, polsky, rusky, švédsky, dánsky, čínsky, japonsky, arabsky, chorvatsky a slovinsky. Audio komentář je zahrnut v ceně jízdenky — bez příplatku. K dispozici je také speciální verze pro děti.",
       "q8": "Je výlet vhodný pro děti?",
       "a8": "Ano. Petit Train de Vannes je vhodný pro děti a rodiny. Audio komentář pro děti nabízí zážitek, který je zároveň zábavný a vzdělávací.",
       "q9": "Kolik stojí jízdenka?",
-      "q9Pre": "Ceny se liší podle věku a velikosti skupiny. Dospělí platí 8,50 € a děti od 4 do 12 let platí 5 €. Děti do 4 let jsou zdarma. Kompletní ceník je dostupný na ",
+      "q9Pre": "Ceny se liší podle věku a velikosti skupiny. Dospělí platí 8,50 € a děti od 3 do 11 let platí 5 €. Děti do 3 let jsou zdarma. Kompletní ceník je dostupný na ",
       "q9LinkText": "stránce Ceny a Jízdenky",
       "q9Post": ".",
       "q10": "Je nutné rezervovat předem?",
-      "a10": "Rezervace je možná, ale není povinná. V hlavní sezóně (červenec–srpen) doporučujeme rezervovat předem pro zajištění místa.",
+      "a10": "<strong>Rezervace je možná, ale není povinná.</strong>",
       "q11": "Mohu koupit jízdenky na místě?",
-      "a11": "Ano. Jízdenky lze koupit přímo u řidiče na odjezdovém místě Place Gambetta.",
+      "a11": "Ano. Jízdenky lze koupit přímo u pokladny na místě na odjezdovém místě Place Gambetta.",
       "q12": "Jak dlouho před odjezdem mám přijít?",
       "a12": "Doporučuje se přijít alespoň 10 minut před odjezdem, abyste si koupili jízdenky a nastoupili.",
       "q13": "Jsou dostupné skupinové rezervace?",
@@ -442,7 +442,7 @@
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Provozní období",
-      "operatingPeriodBody": "Petit Train de Vannes jezdí 7 dní v týdnu od dubna do La Toussaint, včetně nedělí a svátků.",
+      "operatingPeriodBody": "Petit Train de Vannes jezdí 7 dní v týdnu od dubna do 8. října a během podzimních prázdnin, včetně nedělí a svátků.",
       "weatherTitle": "Počasí",
       "weatherBody": "Petit Train jezdí za každého počasí. V případě výjimečně silných bouří může být provoz přerušen z bezpečnostních důvodů.",
       "timetableHeading": "Jízdní řády",

@@ -59,27 +59,27 @@
     "buttonBook": "Ihren Besuch buchen",
     "buttonPrices": "Preise ansehen",
     "googleBadge": "Der Petit Train de Vannes ist bei Google mit 4,7 bewertet, mit über 1.300 Bewertungen, und ist damit eine der beliebtesten Touristenattraktionen in Vannes.",
-    "rightCardHeading": "Geführte Tour mit Audio-Kommentar in 16 Sprachen",
+    "rightCardHeading": "Geführte Tour mit Audio-Kommentar in 22 Sprachen",
     "rightCardBody": "Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Russisch, Chinesisch, Japanisch, Schwedisch, Dänisch, Polnisch, Arabisch, Kroatisch und Slowenisch.",
     "rightCardFlagsAlt": "Sprachflaggen",
     "rightImageAlt": "Der Petit Train de Vannes entlang der mittelalterlichen Stadtmauern",
     "noteImportanteLabel": "Wichtiger Hinweis",
     "noteImportanteHeading": "Online-Buchung",
-    "noteImportanteBody": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können direkt am Abfahrtspunkt <strong>Place Gambetta</strong> erscheinen und Ihre Tickets beim Fahrer kaufen. In der Hochsaison empfehlen wir, im Voraus zu buchen.",
+    "noteImportanteBody": "<strong>Eine Buchung ist möglich, aber nicht erforderlich.</strong> Sie können direkt am Abfahrtspunkt <strong>Place Gambetta</strong> erscheinen und Ihre Tickets an der Kasse vor Ort kaufen.",
     "noteImportanteBodyExtra": "Nicht alle Plätze sind online zum Kauf verfügbar."
   },
   "metadata": {
     "home": {
       "title": "Petit Train Vannes Stadtmauern — Le Petit Train de Vannes, Morbihan",
-      "description": "Geführte Tour der Stadtmauern von Vannes an Bord des Petit Train — 40-minütiger Rundkurs, Audio-Kommentar in 16 Sprachen, Altstadt und Hafen von Vannes."
+      "description": "Geführte Tour der Stadtmauern von Vannes an Bord des Petit Train — 40-minütiger Rundkurs, Audio-Kommentar in 22 Sprachen, Altstadt und Hafen von Vannes."
     },
     "prices": {
       "title": "Preise & Tickets — Petit Train de Vannes, Morbihan",
-      "description": "Preise für den Stadtmauern-Rundkurs auf dem Petit Train de Vannes: 8,50€ Erwachsene, 5€ Kinder, kostenlos für Kinder unter 4 Jahren. Gruppenpreise und Online-Buchung."
+      "description": "Preise für den Stadtmauern-Rundkurs auf dem Petit Train de Vannes: 8,50€ Erwachsene, 5€ Kinder, kostenlos für Kinder unter 3 Jahren. Gruppenpreise und Online-Buchung."
     },
     "routes": {
       "title": "Strecke & Itinerar — Petit Train de Vannes, Morbihan",
-      "description": "Entdecken Sie die Strecke des Petit Train de Vannes: mittelalterliche Stadtmauern, Altstadt, Hafen und Jardins de la Garenne. 40-minütiger Führungsrundkurs mit Audio-Kommentar in 16 Sprachen."
+      "description": "Entdecken Sie die Strecke des Petit Train de Vannes: mittelalterliche Stadtmauern, Altstadt, Hafen und Jardins de la Garenne. 40-minütiger Führungsrundkurs mit Audio-Kommentar in 22 Sprachen."
     },
     "book": {
       "title": "Ihren Besuch buchen — Petit Train de Vannes, Morbihan",
@@ -118,17 +118,17 @@
       "faqDescription": "Finden Sie klare Antworten auf die häufigsten Fragen zu Preisen, Gruppenrabatten und wie man den Petit Train de Vannes bucht.",
       "faq": {
         "q1": "Was kostet ein Ticket für den Petit Train de Vannes?",
-        "a1": "Die Preise hängen von Alter und Gruppengröße ab. Für Einzelbesucher beträgt das normale Erwachsenen-Ticket 8,50 Euro. Kinder von 4 bis 12 Jahren erhalten einen ermäßigten Tarif von 5 Euro. Kinder unter 4 Jahren fahren kostenlos.",
+        "a1": "Die Preise hängen von Alter und Gruppengröße ab. Für Einzelbesucher beträgt das normale Erwachsenen-Ticket 8,50 Euro. Kinder von 3 bis 11 Jahren erhalten einen ermäßigten Tarif von 5 Euro. Kinder unter 3 Jahren fahren kostenlos.",
         "q2": "Gibt es ermäßigte Preise für Kinder?",
-        "a2": "Ja. Kinder von 4 bis 12 Jahren erhalten einen ermäßigten Tarif von 5€. Kinder unter 4 Jahren fahren kostenlos.",
+        "a2": "Ja. Kinder von 3 bis 11 Jahren erhalten einen ermäßigten Tarif von 5€. Kinder unter 3 Jahren fahren kostenlos.",
         "q3": "Brauchen Kinder ein Ticket, um in den Petit Train einzusteigen?",
-        "a3": "Kinder ab 4 Jahren benötigen ein Ticket. Kinder unter 4 Jahren steigen kostenlos ein.",
+        "a3": "Kinder ab 4 Jahren benötigen ein Ticket. Kinder unter 3 Jahren steigen kostenlos ein.",
         "q4": "Gibt es Gruppenrabatte?",
         "a4": "Ja. Gruppenpreise sind ab 20 einsteigenden Personen verfügbar. Vorabubuchen wird empfohlen. Kontaktieren Sie uns direkt für ein Angebot.",
         "q5": "Was ist im Ticketpreis inbegriffen?",
-        "a5": "Jedes Ticket beinhaltet die vollständige geführte Tour von ca. 40 Minuten, den Audio-Kommentar in 16 Sprachen, eine kindgerechte Version und ein komfortables Erlebnis an Bord.",
+        "a5": "Jedes Ticket beinhaltet die vollständige geführte Tour von ca. 40 Minuten, den Audio-Kommentar in 22 Sprachen, eine kindgerechte Version und ein komfortables Erlebnis an Bord.",
         "q6": "Können Tickets vor Ort gekauft werden?",
-        "a6": "Ja. Tickets können direkt beim Fahrer am Abfahrtspunkt Place Gambetta gekauft werden. In der Hochsaison wird eine Vorabreservierung empfohlen.",
+        "a6": "Ja. Tickets können direkt an der Kasse vor Ort am Abfahrtspunkt Place Gambetta gekauft werden.",
         "q7": "Können Tickets online gebucht werden?",
         "a7": "Ja. Online-Buchungen sind verfügbar und werden in Stoßzeiten empfohlen."
       }
@@ -138,7 +138,7 @@
       "heroHeadingPrefix": "Die Strecke des",
       "heroHeadingHighlight": "Petit Train de Vannes",
       "heroDescriptionP1": "Entdecken Sie die vollständige Strecke des Petit Train de Vannes durch die mittelalterlichen Stadtmauern, die Altstadt und den Hafen.",
-      "heroDescriptionP2": "Ein 40-minütiger geführter Rundkurs mit Audio-Kommentar in 16 Sprachen, der die schönsten Sehenswürdigkeiten von Vannes in einer einzigen komfortablen Fahrt ab der Place Gambetta vereint.",
+      "heroDescriptionP2": "Ein 40-minütiger geführter Rundkurs mit Audio-Kommentar in 22 Sprachen, der die schönsten Sehenswürdigkeiten von Vannes in einer einzigen komfortablen Fahrt ab der Place Gambetta vereint.",
       "heroImageAlt": "Streckenkarte des Petit Train de Vannes — zum Vergrößern klicken",
       "faqLabel": "Häufig gestellte Fragen",
       "faqHeadingPrefix": "Häufig gestellte Fragen",
@@ -158,8 +158,8 @@
       "faqA6": "Ja. Die Rundfahrt führt durch die Altstadt mit ihren Fachwerkhäusern aus dem 17. Jahrhundert und entlang des Hafens von Vannes. Diese Sehenswürdigkeiten werden durch den Audiokommentar im Rahmen der Führung vorgestellt.",
       "faqQ7": "Sind die Jardins de la Garenne in der Strecke enthalten?",
       "faqA7": "Ja. Die Strecke führt an den Jardins de la Garenne vorbei, einem der schönsten Gärten von Vannes, mit einem bemerkenswerten Blick auf die Stadtmauern und die mittelalterlichen Waschhäuser.",
-      "faqQ8": "Ist die Rundfahrt für Menschen mit eingeschränkter Mobilität geeignet?",
-      "faqA8": "Der Petit Train ist für alle zugänglich. Er ist besonders empfehlenswert für Personen, die lange Fußmärsche vermeiden möchten und dabei die historischen Stätten von Vannes entdecken wollen."
+      "faqQ8": "Ist der Petit Train für Familien geeignet?",
+      "faqA8": "Ja. Der Petit Train ist ideal für Familien mit Kindern und alle Besucher, die Vannes ohne lange Fußwege entdecken möchten."
     },
     "informations": {
       "heroLabel": "Praktische Informationen",
@@ -210,15 +210,15 @@
       },
       "schedule": {
         "title": "Fahrplan",
-        "description": "Abfahrten finden <strong>von April bis La Toussaint</strong> alle 40 Minuten statt. Der Zug fährt täglich, auch sonntags und an Feiertagen, während der Saison."
+        "description": "Abfahrten finden <strong>von April bis zum 8. Oktober sowie während der Allerheiligenferien</strong> alle 40 Minuten statt. Der Zug fährt täglich, auch sonntags und an Feiertagen, während der Saison."
       },
       "accessibility": {
         "title": "Barrierefreiheit",
-        "description": "Der Petit Train ist <strong>für alle zugänglich</strong>. Er ist ideal für Familien mit Kleinkindern, Senioren und alle, die lange Fußmärsche vermeiden möchten, während sie das Beste von Vannes genießen."
+        "description": "Der Petit Train ist ideal für Familien, Senioren und alle, die Vannes bequem entdecken möchten, ohne lange Fußwege."
       },
       "payment": {
         "title": "Zahlung",
-        "description": "Tickets können <strong>direkt beim Fahrer</strong> am Abfahrtspunkt Place Gambetta gekauft werden. Gruppenpreise sind verfügbar — kontaktieren Sie uns für ein Angebot."
+        "description": "Akzeptierte Zahlungsmethoden: Bargeld, Schecks, chèques-vacances ANCV. Kartenzahlung ist nur bei Online-Buchungen möglich. Gruppenpreise sind verfügbar, kontaktieren Sie uns für ein Angebot."
       },
       "cta": {
         "heading": "Weitere Informationen",
@@ -234,12 +234,12 @@
       "rowChildren": "Kinder (4–12 Jahre)",
       "individual": {
         "title": "Einzeltickets",
-        "note": "<strong>Für Einzelpersonen:</strong> Kaufen Sie Ihre Tickets direkt beim Fahrer auf der Place Gambetta. <strong>Kostenlos:</strong> Kinder unter 4 Jahren."
+        "note": "<strong>Für Einzelpersonen:</strong> Kaufen Sie Ihre Tickets direkt an der Kasse vor Ort auf der Place Gambetta. <strong>Kostenlos:</strong> Kinder unter 3 Jahren."
       },
       "earlyBird": {
         "title": "Erste Abfahrten am Morgen",
         "badge": "Bon Plan",
-        "note": "<strong>Ermäßigter Tarif:</strong> Gilt nur für die ersten Abfahrten am Morgen. Tickets sind beim Fahrer vor Ort erhältlich."
+        "note": "<strong>Ermäßigter Tarif:</strong> Gilt nur für die ersten Abfahrten am Morgen. Tickets sind an der Kasse vor Ort vor Ort erhältlich."
       },
       "group": {
         "title": "Gruppenbuchung",
@@ -252,10 +252,10 @@
       "description": "Bevor Sie Ihre Buchung bestätigen, nehmen Sie sich einen Moment Zeit, um die praktischen Informationen zum Besuch mit dem Petit Train de Vannes zu lesen. Diese Punkte helfen Ihnen, Ihren Besuch vorzubereiten und das Stadtmauern-Rundkurs-Erlebnis voll auszuschöpfen.",
       "imageAlt": "Die Stadtmauern von Vannes vom Petit Train aus gesehen",
       "bullet1": "Bitte kommen Sie mindestens 10 Minuten vor der Abfahrt",
-      "bullet2": "Online-Buchung wird in der Hochsaison empfohlen",
+      "bullet2": "Eine Online-Buchung ist möglich, aber nicht erforderlich",
       "bullet3": "Abfahrt und Ankunft sind auf der Place Gambetta",
       "bullet4": "Der Besuch dauert ca. 40 Minuten",
-      "bullet5": "Audio-Kommentar ist in 16 Sprachen verfügbar, einschließlich einer Kinderversion",
+      "bullet5": "Audio-Kommentar ist in 22 Sprachen verfügbar, einschließlich einer Kinderversion",
       "bullet6": "Der Petit Train fährt bei jedem Wetter",
       "bullet7": "Die Abfahrt ist mit einer Mindestanzahl zahlender Erwachsener an Bord garantiert"
     },
@@ -267,8 +267,8 @@
       "imageAlt": "Blick auf die Stadtmauern von Vannes vom Petit Train aus",
       "f1Title": "Komfortabler Touristenzug",
       "f1Desc": "Entdecken Sie die schönsten Sehenswürdigkeiten von Vannes bequem sitzend an Bord unseres Touristenzugs, der für Besucher entwickelt wurde, die die mittelalterliche Stadt mühelos erkunden möchten.",
-      "f2Title": "Audio-Kommentar in 16 Sprachen — im Ticket enthalten",
-      "f2Desc": "Audio-Kommentar ist in 16 Sprachen verfügbar, mit Hygieneohrhörern im Ticketpreis inbegriffen. Eine Kinderversion ist ebenfalls verfügbar.",
+      "f2Title": "Audio-Kommentar in 22 Sprachen — im Ticket enthalten",
+      "f2Desc": "Audio-Kommentar ist in 22 Sprachen verfügbar, mit Hygieneohrhörern im Ticketpreis inbegriffen. Eine Kinderversion ist ebenfalls verfügbar.",
       "f3Title": "Entdeckung des mittelalterlichen Erbes von Vannes",
       "f3Desc": "Entdecken Sie die mittelalterlichen Stadtmauern, die Altstadt mit ihren Fachwerkhäusern, den Hafen von Vannes und die Jardins de la Garenne in einem einzigen malerischen 40-minütigen Rundkurs.",
       "f4Title": "Geeignet für Familien, Senioren und Gruppen",
@@ -315,7 +315,7 @@
       "headingPrefix": "Buchen Sie Ihren",
       "headingHighlight": "Petit Train",
       "headingSuffix": "Besuch in Vannes",
-      "description": "Wählen Sie Ihr Datum und Ihre Uhrzeit, wählen Sie die Anzahl der Tickets und bestätigen Sie Ihre Buchung online. Der Besuch dauert <strong>40 Minuten</strong> mit Audio-Kommentar in 16 Sprachen."
+      "description": "Wählen Sie Ihr Datum und Ihre Uhrzeit, wählen Sie die Anzahl der Tickets und bestätigen Sie Ihre Buchung online. Der Besuch dauert <strong>40 Minuten</strong> mit Audio-Kommentar in 22 Sprachen."
     },
     "gallery": {
       "label": "Galerie",
@@ -332,7 +332,7 @@
       "description": "Der Petit Train de Vannes fährt von der Place Gambetta ab, im Herzen der Stadt, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Leicht mit dem Auto oder öffentlichen Verkehrsmitteln erreichbar.",
       "seeRoute": "Route anzeigen",
       "arrivalTipTitle": "Ankunftstipp",
-      "arrivalTipDescription": "Bitte kommen Sie mindestens 10 Minuten vor der Abfahrt, um Ihre Tickets beim Fahrer zu kaufen.",
+      "arrivalTipDescription": "Bitte kommen Sie mindestens 10 Minuten vor der Abfahrt, um Ihre Tickets an der Kasse vor Ort zu kaufen.",
       "item1Title": "Abfahrtspunkt — Place Gambetta",
       "item1Description": "Der einzige Abfahrts- und Ankunftspunkt. Im Herzen von Vannes gelegen, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Der Fahrer verkauft Tickets vor Ort.",
       "item2Title": "Mit dem Auto",
@@ -343,7 +343,7 @@
     "informationsIntro": {
       "label": "Wichtiger Hinweis",
       "heading": "Online-Buchung",
-      "description": "Eine Buchung ist möglich, aber nicht erforderlich. Sie können direkt auf der <strong>Place Gambetta</strong> erscheinen und Ihre Tickets beim Fahrer kaufen. In der Hochsaison empfehlen wir, im Voraus zu buchen."
+      "description": "<strong>Eine Buchung ist möglich, aber nicht erforderlich.</strong> Sie können direkt auf der <strong>Place Gambetta</strong> erscheinen und Ihre Tickets an der Kasse vor Ort kaufen."
     },
     "informationsCta": {
       "label": "Gruppenbuchung — Privatmiete",
@@ -355,7 +355,7 @@
       "label": "FAQ",
       "heading": "Häufig gestellte Fragen",
       "description": "Finden Sie Antworten auf die häufigsten Fragen zum Petit Train de Vannes: Dauer, Preise, Strecke, Barrierefreiheit und Buchungen.",
-      "cardHeading": "Geführte Tour mit Audio-Kommentar in 16 Sprachen",
+      "cardHeading": "Geführte Tour mit Audio-Kommentar in 22 Sprachen",
       "languages": "Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Russisch, Chinesisch, Japanisch, Schwedisch, Dänisch, Polnisch, Arabisch, Kroatisch und Slowenisch."
     },
     "faq": {
@@ -375,9 +375,9 @@
         "q5": "Ist der Petit Train de Vannes für Kinder und Familien geeignet?",
         "a5": "Ja, der Petit Train de Vannes ist ideal für Familien mit Kindern, Senioren und alle, die lange Fußmärsche vermeiden möchten.",
         "q6": "In welchen Sprachen ist der Führungskommentar verfügbar?",
-        "a6": "Der Audio-Kommentar ist in 16 Sprachen verfügbar, darunter Französisch, Englisch, Deutsch, Spanisch, Italienisch und Niederländisch.",
+        "a6": "Der Audio-Kommentar ist in 22 Sprachen verfügbar, darunter Französisch, Englisch, Deutsch, Spanisch, Italienisch und Niederländisch.",
         "q7": "Muss ich den Petit Train de Vannes im Voraus buchen?",
-        "a7": "Eine Buchung ist möglich, aber nicht erforderlich. In der Hochsaison ist es ratsam, im Voraus zu buchen, um Ihren Platz zu sichern."
+        "a7": "<strong>Eine Buchung ist möglich, aber nicht erforderlich.</strong>"
       }
     },
     "routesTimeline": {
@@ -408,29 +408,29 @@
     },
     "faqsSection": {
       "q1": "Was ist der Petit Train de Vannes?",
-      "a1": "Der Petit Train de Vannes ist eine geführte Touristentour an Bord eines kleinen Zuges, der Sie zu den schönsten Sehenswürdigkeiten der Stadt führt: die mittelalterlichen Stadtmauern, die Altstadt, den Hafen und die Jardins de la Garenne. Der Besuch dauert ca. 40 Minuten und wird von einem Audio-Kommentar in 16 Sprachen begleitet.",
+      "a1": "Der Petit Train de Vannes ist eine geführte Touristentour an Bord eines kleinen Zuges, der Sie zu den schönsten Sehenswürdigkeiten der Stadt führt: die mittelalterlichen Stadtmauern, die Altstadt, den Hafen und die Jardins de la Garenne. Der Besuch dauert ca. 40 Minuten und wird von einem Audio-Kommentar in 22 Sprachen begleitet.",
       "q2": "Wie lange dauert der Besuch?",
       "a2": "Der geführte Besuch dauert ca. 40 Minuten. Der kleine Zug fährt von der Place Gambetta ab und kehrt zum selben Ausgangspunkt zurück.",
       "q3": "Von wo fährt der Petit Train de Vannes ab?",
       "a3": "Der Petit Train fährt von der Place Gambetta ab, im Herzen der Stadt, nur wenige Schritte von den mittelalterlichen Stadtmauern entfernt. Es ist der einzige Abfahrts- und Ankunftspunkt.",
       "q4": "Fährt der Petit Train de Vannes täglich?",
-      "a4": "Ja. Der Petit Train de Vannes fährt täglich von April bis La Toussaint, auch sonntags und an Feiertagen.",
+      "a4": "Ja. Der Petit Train de Vannes fährt täglich von April bis zum 8. Oktober sowie während der Allerheiligenferien, auch sonntags und an Feiertagen.",
       "q5": "Fährt die Tour bei schlechtem Wetter?",
       "a5": "Ja. Der Petit Train fährt bei jedem Wetter. Bei außergewöhnlich schwerem Unwetter kann der Betrieb aus Sicherheitsgründen eingestellt werden.",
       "q6": "Was werde ich während des Besuchs sehen?",
       "a6": "Während des Besuchs entdecken Sie die mittelalterlichen Stadtmauern von Vannes, die Altstadt mit ihren Fachwerkhäusern, den Hafen von Vannes, die Jardins de la Garenne und die schönsten Panoramen der mittelalterlichen Stadt.",
       "q7": "In welchen Sprachen ist der Audio-Kommentar verfügbar?",
-      "a7": "Der geführte Audio-Kommentar ist in 16 Sprachen verfügbar: Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Russisch, Schwedisch, Dänisch, Chinesisch, Japanisch, Arabisch, Kroatisch und Slowenisch. Der Audio-Kommentar ist im Ticketpreis enthalten. Eine speziell für Kinder konzipierte Version ist ebenfalls verfügbar.",
+      "a7": "Der geführte Audio-Kommentar ist in 22 Sprachen verfügbar: Französisch, Englisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Russisch, Schwedisch, Dänisch, Chinesisch, Japanisch, Arabisch, Kroatisch und Slowenisch. Der Audio-Kommentar ist im Ticketpreis enthalten. Eine speziell für Kinder konzipierte Version ist ebenfalls verfügbar.",
       "q8": "Ist der Besuch für Kinder geeignet?",
       "a8": "Ja. Der Petit Train de Vannes ist für Kinder und Familien geeignet. Der Audio-Kommentar für Kinder bietet ein spielerisches und lehrreiches Erlebnis.",
       "q9": "Was kostet ein Ticket?",
-      "q9Pre": "Die Preise variieren je nach Alter und Gruppengröße. Erwachsene zahlen 8,50€ und Kinder von 4 bis 12 Jahren zahlen 5€. Kinder unter 4 Jahren sind kostenlos. Die vollständigen Preise sind auf der ",
+      "q9Pre": "Die Preise variieren je nach Alter und Gruppengröße. Erwachsene zahlen 8,50€ und Kinder von 3 bis 11 Jahren zahlen 5€. Kinder unter 3 Jahren sind kostenlos. Die vollständigen Preise sind auf der ",
       "q9LinkText": "Seite Preise & Tickets",
       "q9Post": " verfügbar.",
       "q10": "Muss ich im Voraus buchen?",
-      "a10": "Eine Buchung ist möglich, aber nicht erforderlich. In der Hochsaison (Juli–August) empfehlen wir, im Voraus zu buchen, um Ihren Platz zu sichern.",
+      "a10": "<strong>Eine Buchung ist möglich, aber nicht erforderlich.</strong>",
       "q11": "Kann ich Tickets vor Ort kaufen?",
-      "a11": "Ja. Tickets können direkt beim Fahrer am Abfahrtspunkt Place Gambetta gekauft werden.",
+      "a11": "Ja. Tickets können direkt an der Kasse vor Ort am Abfahrtspunkt Place Gambetta gekauft werden.",
       "q12": "Wie früh sollte ich vor der Abfahrt ankommen?",
       "a12": "Es wird empfohlen, mindestens 10 Minuten vor der Abfahrt anzukommen, um Ihre Tickets zu kaufen und einzusteigen.",
       "q13": "Sind Gruppenbuchungen verfügbar?",
@@ -442,7 +442,7 @@
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Betriebszeitraum",
-      "operatingPeriodBody": "Der Petit Train de Vannes fährt 7 Tage die Woche von April bis La Toussaint, auch sonntags und an Feiertagen.",
+      "operatingPeriodBody": "Der Petit Train de Vannes fährt 7 Tage die Woche von April bis zum 8. Oktober sowie während der Allerheiligenferien, auch sonntags und an Feiertagen.",
       "weatherTitle": "Wetter",
       "weatherBody": "Der Petit Train fährt bei jedem Wetter. Bei außergewöhnlich schwerem Unwetter kann der Betrieb aus Sicherheitsgründen eingestellt werden.",
       "timetableHeading": "Fahrplan",

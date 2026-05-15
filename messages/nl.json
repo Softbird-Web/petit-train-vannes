@@ -59,27 +59,27 @@
     "buttonBook": "Boek je bezoek",
     "buttonPrices": "Tarieven bekijken",
     "googleBadge": "De Petit Train de Vannes heeft een 4,7-beoordeling op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
-    "rightCardHeading": "Rondleiding met audiocommentaar in 16 talen",
+    "rightCardHeading": "Rondleiding met audiocommentaar in 22 talen",
     "rightCardBody": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens.",
     "rightCardFlagsAlt": "Taalvlaggen",
     "rightImageAlt": "De Petit Train de Vannes langs de middeleeuwse vestingmuren",
     "noteImportanteLabel": "Belangrijke opmerking",
     "noteImportanteHeading": "Online boeken",
-    "noteImportanteBody": "Reserveren kan, maar is niet verplicht. Je kunt je rechtstreeks melden op het vertrekpunt <strong>Place Gambetta</strong> en je tickets kopen bij de chauffeur. In het hoogseizoen raden we aan vooraf te reserveren.",
+    "noteImportanteBody": "<strong>Reserveren kan, maar is niet verplicht.</strong> Je kunt je rechtstreeks melden op het vertrekpunt <strong>Place Gambetta</strong> en je tickets kopen aan de kassa ter plaatse.",
     "noteImportanteBodyExtra": "Niet alle plaatsen zijn online beschikbaar."
   },
   "metadata": {
     "home": {
       "title": "Petit Train Vannes Vestingmuren — De Petit Train de Vannes, Morbihan",
-      "description": "Begeleide rondleiding langs de vestingmuren van Vannes aan boord van de Petit Train — rit van 40 minuten, audiocommentaar in 16 talen, oude stad en haven van Vannes."
+      "description": "Begeleide rondleiding langs de vestingmuren van Vannes aan boord van de Petit Train — rit van 40 minuten, audiocommentaar in 22 talen, oude stad en haven van Vannes."
     },
     "prices": {
       "title": "Tarieven & Tickets — Petit Train de Vannes, Morbihan",
-      "description": "Tarieven voor de vestingmuurtour van Vannes met de Petit Train: €8,50 volwassenen, €5 kinderen 4–12 jaar, gratis onder de 4 jaar. Groepstarieven en online boeken."
+      "description": "Tarieven voor de vestingmuurtour van Vannes met de Petit Train: €8,50 volwassenen, €5 kinderen 3–11 jaar, gratis onder de 3 jaar. Groepstarieven en online boeken."
     },
     "routes": {
       "title": "Route & Traject — Petit Train de Vannes, Morbihan",
-      "description": "Ontdek de route van de Petit Train de Vannes: middeleeuwse vestingmuren, oude stad, haven en Jardins de la Garenne. Rondleiding van 40 minuten met audio in 16 talen."
+      "description": "Ontdek de route van de Petit Train de Vannes: middeleeuwse vestingmuren, oude stad, haven en Jardins de la Garenne. Rondleiding van 40 minuten met audio in 22 talen."
     },
     "book": {
       "title": "Boek je bezoek — Petit Train de Vannes, Morbihan",
@@ -118,19 +118,19 @@
       "faqDescription": "Vind heldere antwoorden op de meest gestelde vragen over tarieven, groepskortingen en hoe je de Petit Train de Vannes boekt.",
       "faq": {
         "q1": "Wat kost een ticket voor de Petit Train de Vannes?",
-        "a1": "De tarieven hangen af van de leeftijd en de groepsgrootte. Voor individuele bezoekers is het standaard volwassenenticket € 8,50. Kinderen van 4 tot 12 jaar krijgen een gereduceerd tarief van € 5. Kinderen onder de 4 jaar zijn gratis.",
+        "a1": "De tarieven hangen af van de leeftijd en de groepsgrootte. Voor individuele bezoekers is het standaard volwassenenticket € 8,50. Kinderen van 3 tot 11 jaar krijgen een gereduceerd tarief van € 5. Kinderen onder de 3 jaar zijn gratis.",
         "q2": "Zijn er kortingen voor kinderen?",
-        "a2": "Ja. Kinderen van 4 tot 12 jaar krijgen een gereduceerd tarief van €5. Kinderen onder de 4 jaar stappen gratis in.",
+        "a2": "Ja. Kinderen van 3 tot 11 jaar krijgen een gereduceerd tarief van €5. Kinderen onder de 3 jaar stappen gratis in.",
         "q3": "Hebben kinderen een ticket nodig om in de Petit Train te stappen?",
-        "a3": "Kinderen van 4 jaar en ouder hebben een ticket nodig. Kinderen onder de 4 jaar stappen gratis in.",
+        "a3": "Kinderen van 4 jaar en ouder hebben een ticket nodig. Kinderen onder de 3 jaar stappen gratis in.",
         "q4": "Zijn er groepskortingen?",
         "a4": "Ja. Groepstarieven zijn beschikbaar vanaf 20 instappende personen. Vooraf boeken wordt aanbevolen. Neem rechtstreeks contact met ons op voor een offerte.",
         "q5": "Wat is inbegrepen in de ticketprijs?",
-        "a5": "Elk ticket omvat de volledige begeleide rondleiding van ongeveer 40 minuten, het audiocommentaar in 16 talen, een kindvriendelijke versie en een comfortabele beleving aan boord.",
+        "a5": "Elk ticket omvat de volledige begeleide rondleiding van ongeveer 40 minuten, het audiocommentaar in 22 talen, een kindvriendelijke versie en een comfortabele beleving aan boord.",
         "q6": "Kan ik tickets ter plaatse kopen?",
-        "a6": "Ja. Tickets kunnen rechtstreeks bij de chauffeur worden gekocht op het vertrekpunt Place Gambetta. In het hoogseizoen wordt vooraf boeken aanbevolen.",
+        "a6": "Ja. Tickets kunnen rechtstreeks aan de kassa ter plaatse worden gekocht op het vertrekpunt Place Gambetta.",
         "q7": "Kunnen tickets online worden geboekt?",
-        "a7": "Ja. Online boeken is mogelijk en aanbevolen in drukke periodes."
+        "a7": "Ja. Online boeken is mogelijk maar niet verplicht."
       }
     },
     "routes": {
@@ -138,7 +138,7 @@
       "heroHeadingPrefix": "De route",
       "heroHeadingHighlight": "van de Petit Train de Vannes",
       "heroDescriptionP1": "Ontdek de volledige route van de Petit Train de Vannes langs de middeleeuwse vestingmuren, de oude stad en de haven.",
-      "heroDescriptionP2": "Een begeleide rit van 40 minuten met audiocommentaar in 16 talen, die de mooiste plekken van Vannes in één comfortabele rit combineert vanaf Place Gambetta.",
+      "heroDescriptionP2": "Een begeleide rit van 40 minuten met audiocommentaar in 22 talen, die de mooiste plekken van Vannes in één comfortabele rit combineert vanaf Place Gambetta.",
       "heroImageAlt": "Kaart van de route van de Petit Train de Vannes — klik om te vergroten",
       "faqLabel": "Veelgestelde vragen",
       "faqHeadingPrefix": "Veelgestelde vragen",
@@ -158,8 +158,8 @@
       "faqA6": "Ja. Het circuit loopt door de oude binnenstad met vakwerkhuizen uit de 17e eeuw en langs de haven van Vannes. Deze plekken worden via het audiocommentaar gepresenteerd als onderdeel van de rondleiding.",
       "faqQ7": "Zijn de Jardins de la Garenne opgenomen in de route?",
       "faqA7": "Ja. Het circuit passeert de Jardins de la Garenne, een van de mooiste tuinen van Vannes, met een opmerkelijk uitzicht op de vestingmuren en middeleeuwse wasplaatsen.",
-      "faqQ8": "Is het circuit geschikt voor mensen met beperkte mobiliteit?",
-      "faqA8": "De Petit Train is voor iedereen toegankelijk. Het is bijzonder aan te bevelen voor mensen die lange wandelingen willen vermijden terwijl ze de historische bezienswaardigheden van Vannes ontdekken."
+      "faqQ8": "Is de Petit Train geschikt voor gezinnen?",
+      "faqA8": "Ja. De Petit Train is ideaal voor gezinnen met kinderen en alle bezoekers die Vannes willen ontdekken zonder veel te wandelen."
     },
     "informations": {
       "heroLabel": "Praktische info",
@@ -210,15 +210,15 @@
       },
       "schedule": {
         "title": "Tijden",
-        "description": "Vertrekken zijn er <strong>van april tot La Toussaint</strong>, elke 40 minuten. De trein rijdt dagelijks, inclusief zondagen en feestdagen in het seizoen."
+        "description": "Vertrekken zijn er <strong>van april tot 8 oktober, plus de Allerheiligenvakantie</strong>, elke 40 minuten. De trein rijdt dagelijks, inclusief zondagen en feestdagen in het seizoen."
       },
       "accessibility": {
         "title": "Toegankelijkheid",
-        "description": "De Petit Train is <strong>voor iedereen toegankelijk</strong>. Ideaal voor gezinnen met jonge kinderen, senioren en iedereen die liever lange wandelingen vermijdt en toch het beste van Vannes wil zien."
+        "description": "De Petit Train is ideaal voor gezinnen, senioren en iedereen die Vannes comfortabel wil ontdekken, zonder veel te wandelen."
       },
       "payment": {
         "title": "Betaling",
-        "description": "Tickets kunnen <strong>rechtstreeks bij de chauffeur</strong> worden gekocht op het vertrekpunt Place Gambetta. Groepstarieven zijn beschikbaar — neem contact op voor een offerte."
+        "description": "Geaccepteerde betaalmethoden: contant, cheques, chèques-vacances ANCV. Creditcardbetaling is alleen beschikbaar voor online boekingen. Groepstarieven zijn beschikbaar, neem contact op voor een offerte."
       },
       "cta": {
         "heading": "Meer informatie",
@@ -231,15 +231,15 @@
       "heading": "Een betaalbaar avontuur voor het hele gezin",
       "description": "Van solo-ontdekkers tot grote gezinnen — vind het juiste tarief voor je bezoek aan de vestingmuren van Vannes.",
       "rowAdults": "Volwassenen",
-      "rowChildren": "Kinderen (4–12 jaar)",
+      "rowChildren": "Kinderen (3–11 jaar)",
       "individual": {
         "title": "Individuele tickets",
-        "note": "<strong>Voor individuele bezoekers:</strong> koop je tickets rechtstreeks bij de chauffeur op Place Gambetta. <strong>Gratis:</strong> kinderen onder de 4 jaar."
+        "note": "<strong>Voor individuele bezoekers:</strong> koop je tickets rechtstreeks aan de kassa ter plaatse op Place Gambetta. <strong>Gratis:</strong> kinderen onder de 3 jaar."
       },
       "earlyBird": {
         "title": "Eerste vertrekken in de ochtend",
         "badge": "Beste deal",
-        "note": "<strong>Gereduceerd tarief:</strong> alleen geldig voor de eerste ochtendvertrekken. Tickets bij de chauffeur ter plaatse."
+        "note": "<strong>Gereduceerd tarief:</strong> alleen geldig voor de eerste ochtendvertrekken. Tickets aan de kassa ter plaatse ter plaatse."
       },
       "group": {
         "title": "Groepsboeking",
@@ -252,10 +252,10 @@
       "description": "Voordat je je boeking bevestigt, neem even de tijd om de praktische informatie over je bezoek met de Petit Train de Vannes door te lezen. Deze punten helpen je om je bezoek voor te bereiden en optimaal te genieten van de vestingmuurtour.",
       "imageAlt": "De vestingmuren van Vannes gezien vanuit de Petit Train",
       "bullet1": "Kom minstens 10 minuten voor vertrek aan",
-      "bullet2": "Online boeken wordt aanbevolen in het hoogseizoen",
+      "bullet2": "Online boeken is mogelijk maar niet verplicht",
       "bullet3": "Vertrek en aankomst bij Place Gambetta",
       "bullet4": "De rit duurt ongeveer 40 minuten",
-      "bullet5": "Audiocommentaar is beschikbaar in 16 talen, inclusief een kinderversie",
+      "bullet5": "Audiocommentaar is beschikbaar in 22 talen, inclusief een kinderversie",
       "bullet6": "De Petit Train rijdt bij elk weer",
       "bullet7": "Vertrek is gegarandeerd vanaf een minimum aantal betalende volwassenen aan boord"
     },
@@ -267,8 +267,8 @@
       "imageAlt": "Uitzicht op de vestingmuren van Vannes vanuit de Petit Train",
       "f1Title": "Comfortabele toeristische trein",
       "f1Desc": "Ontdek de mooiste plekken van Vannes comfortabel zittend aan boord van onze toeristische trein, ontworpen om de middeleeuwse stad moeiteloos te verkennen.",
-      "f2Title": "Audiocommentaar in 16 talen — inbegrepen in de ticketprijs",
-      "f2Desc": "Het audiocommentaar is beschikbaar in 16 talen met hygiënische koptelefoons inbegrepen bij de ticketprijs. Er is ook een kinderversie beschikbaar.",
+      "f2Title": "Audiocommentaar in 22 talen — inbegrepen in de ticketprijs",
+      "f2Desc": "Het audiocommentaar is beschikbaar in 22 talen met hygiënische koptelefoons inbegrepen bij de ticketprijs. Er is ook een kinderversie beschikbaar.",
       "f3Title": "Ontdek het middeleeuwse erfgoed van Vannes",
       "f3Desc": "Ontdek de middeleeuwse vestingmuren, de oude stad met vakwerkhuizen, de haven van Vannes en de Jardins de la Garenne in één schilderachtige rit van 40 minuten.",
       "f4Title": "Geschikt voor gezinnen, senioren en groepen",
@@ -315,7 +315,7 @@
       "headingPrefix": "Boek je bezoek aan de",
       "headingHighlight": "Petit Train",
       "headingSuffix": "in Vannes",
-      "description": "Kies je datum en tijd, selecteer het aantal tickets en bevestig je boeking online. De rit duurt <strong>40 minuten</strong> met audiocommentaar in 16 talen."
+      "description": "Kies je datum en tijd, selecteer het aantal tickets en bevestig je boeking online. De rit duurt <strong>40 minuten</strong> met audiocommentaar in 22 talen."
     },
     "gallery": {
       "label": "Galerij",
@@ -332,7 +332,7 @@
       "description": "De Petit Train de Vannes vertrekt vanaf Place Gambetta, in het hart van de stad, op een steenworp afstand van de middeleeuwse vestingmuren. Goed bereikbaar met de auto of het openbaar vervoer.",
       "seeRoute": "Route bekijken",
       "arrivalTipTitle": "Tip voor aankomst",
-      "arrivalTipDescription": "Kom minstens 10 minuten voor vertrek aan om je tickets bij de chauffeur te kopen.",
+      "arrivalTipDescription": "Kom minstens 10 minuten voor vertrek aan om je tickets aan de kassa ter plaatse te kopen.",
       "item1Title": "Vertrekpunt — Place Gambetta",
       "item1Description": "Enig vertrek- en aankomstpunt. Gelegen in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren. De chauffeur verkoopt tickets ter plaatse.",
       "item2Title": "Met de auto",
@@ -343,7 +343,7 @@
     "informationsIntro": {
       "label": "Belangrijke opmerking",
       "heading": "Online boeken",
-      "description": "Reserveren kan, maar is niet verplicht. Je kunt je rechtstreeks melden bij de <strong>Place Gambetta</strong> en je tickets kopen bij de chauffeur. In het hoogseizoen raden we aan vooraf te reserveren."
+      "description": "<strong>Reserveren kan, maar is niet verplicht.</strong> Je kunt je rechtstreeks melden bij de <strong>Place Gambetta</strong> en je tickets kopen aan de kassa ter plaatse."
     },
     "informationsCta": {
       "label": "Groepsboeking — Privatisering",
@@ -355,7 +355,7 @@
       "label": "FAQ",
       "heading": "Veelgestelde vragen",
       "description": "Vind antwoorden op de meest gestelde vragen over de Petit Train de Vannes: duur, tarieven, route, toegankelijkheid en reserveringen.",
-      "cardHeading": "Rondleiding met audiocommentaar in 16 talen",
+      "cardHeading": "Rondleiding met audiocommentaar in 22 talen",
       "languages": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens."
     },
     "faq": {
@@ -375,9 +375,9 @@
         "q5": "Is de Petit Train de Vannes geschikt voor kinderen en gezinnen?",
         "a5": "Ja, de Petit Train de Vannes is geschikt voor gezinnen met kinderen, senioren en iedereen die liever lange wandelingen vermijdt.",
         "q6": "In welke talen is het audiocommentaar beschikbaar?",
-        "a6": "Het audiocommentaar is beschikbaar in 16 talen, waaronder Frans, Engels, Duits, Spaans, Italiaans en Nederlands.",
+        "a6": "Het audiocommentaar is beschikbaar in 22 talen, waaronder Frans, Engels, Duits, Spaans, Italiaans en Nederlands.",
         "q7": "Moet ik de Petit Train de Vannes vooraf reserveren?",
-        "a7": "Reserveren kan, maar is niet verplicht. In het hoogseizoen wordt vooraf boeken aanbevolen om je plaats te garanderen."
+        "a7": "<strong>Reserveren kan, maar is niet verplicht.</strong>"
       }
     },
     "routesTimeline": {
@@ -408,29 +408,29 @@
     },
     "faqsSection": {
       "q1": "Wat is de Petit Train de Vannes?",
-      "a1": "De Petit Train de Vannes is een begeleide toeristische trein waarmee bezoekers de mooiste bezienswaardigheden van de stad ontdekken: de middeleeuwse vestingmuren, de oude stad, de haven en de Jardins de la Garenne. De rit duurt ongeveer 40 minuten en gaat vergezeld van audiocommentaar in 16 talen.",
+      "a1": "De Petit Train de Vannes is een begeleide toeristische trein waarmee bezoekers de mooiste bezienswaardigheden van de stad ontdekken: de middeleeuwse vestingmuren, de oude stad, de haven en de Jardins de la Garenne. De rit duurt ongeveer 40 minuten en gaat vergezeld van audiocommentaar in 22 talen.",
       "q2": "Hoe lang duurt de rondleiding?",
       "a2": "De rondleiding duurt ongeveer 40 minuten. De trein vertrekt vanaf Place Gambetta en keert terug naar hetzelfde vertrekpunt.",
       "q3": "Waar vertrekt de Petit Train de Vannes?",
       "a3": "De Petit Train vertrekt vanaf Place Gambetta, in het hart van de stad, op een steenworp afstand van de middeleeuwse vestingmuren. Dit is het enige vertrek- en aankomstpunt.",
       "q4": "Rijdt de Petit Train de Vannes elke dag?",
-      "a4": "Ja. De Petit Train de Vannes rijdt elke dag van april tot La Toussaint, inclusief zondagen en feestdagen.",
+      "a4": "Ja. De Petit Train de Vannes rijdt elke dag van april tot 8 oktober, plus de Allerheiligenvakantie, inclusief zondagen en feestdagen.",
       "q5": "Gaat de rondleiding door bij slecht weer?",
       "a5": "Ja. De Petit Train rijdt bij elk weer. Bij uitzonderlijk zware weersomstandigheden kan de dienst worden onderbroken omwille van de veiligheid van de passagiers.",
       "q6": "Wat zal ik zien tijdens de rondleiding?",
       "a6": "Tijdens de rondleiding kom je langs de middeleeuwse vestingmuren van Vannes, de oude stad met vakwerkhuizen, de haven van Vannes, de Jardins de la Garenne en de mooiste panorama's van de middeleeuwse stad.",
       "q7": "In welke talen is het audiocommentaar beschikbaar?",
-      "a7": "Het begeleide audiocommentaar is beschikbaar in 16 talen: Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Pools, Russisch, Zweeds, Deens, Chinees, Japans, Arabisch, Kroatisch en Sloveens. Het audiocommentaar is inbegrepen bij de ticketprijs. Er is ook een speciaal ontworpen versie voor kinderen beschikbaar.",
+      "a7": "Het begeleide audiocommentaar is beschikbaar in 22 talen: Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Pools, Russisch, Zweeds, Deens, Chinees, Japans, Arabisch, Kroatisch en Sloveens. Het audiocommentaar is inbegrepen bij de ticketprijs. Er is ook een speciaal ontworpen versie voor kinderen beschikbaar.",
       "q8": "Is de rondleiding geschikt voor kinderen?",
       "a8": "Ja. De Petit Train de Vannes is geschikt voor kinderen en gezinnen. Het audiocommentaar voor kinderen maakt de ervaring zowel leuk als leerzaam.",
       "q9": "Hoeveel kost een ticket?",
-      "q9Pre": "De tarieven variëren op leeftijd en groepsgrootte. Volwassenen betalen €8,50 en kinderen van 4 tot 12 jaar betalen €5. Kinderen onder de 4 jaar zijn gratis. Volledige tarieven vind je op de ",
+      "q9Pre": "De tarieven variëren op leeftijd en groepsgrootte. Volwassenen betalen €8,50 en kinderen van 3 tot 11 jaar betalen €5. Kinderen onder de 3 jaar zijn gratis. Volledige tarieven vind je op de ",
       "q9LinkText": "pagina Tarieven & Tickets",
       "q9Post": ".",
       "q10": "Moet ik vooraf reserveren?",
-      "a10": "Reserveren kan, maar is niet verplicht. In het hoogseizoen (juli–augustus) raden we aan vooraf te reserveren om je plaats te garanderen.",
+      "a10": "<strong>Reserveren kan, maar is niet verplicht.</strong>",
       "q11": "Kan ik tickets ter plaatse kopen?",
-      "a11": "Ja. Tickets kunnen rechtstreeks bij de chauffeur worden gekocht op vertrekpunt Place Gambetta.",
+      "a11": "Ja. Tickets kunnen rechtstreeks aan de kassa ter plaatse worden gekocht op vertrekpunt Place Gambetta.",
       "q12": "Hoe vroeg moet ik voor vertrek aankomen?",
       "a12": "Het wordt aanbevolen minstens 10 minuten voor vertrek aanwezig te zijn om tickets te kopen en in te stappen.",
       "q13": "Zijn groepsboekingen mogelijk?",
@@ -442,7 +442,7 @@
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Seizoen",
-      "operatingPeriodBody": "De Petit Train de Vannes rijdt 7 dagen per week van april tot La Toussaint, inclusief zondagen en feestdagen.",
+      "operatingPeriodBody": "De Petit Train de Vannes rijdt 7 dagen per week van april tot 8 oktober, plus de Allerheiligenvakantie, inclusief zondagen en feestdagen.",
       "weatherTitle": "Weer",
       "weatherBody": "De Petit Train rijdt bij elk weer. Bij uitzonderlijk zware weersomstandigheden kan de dienst worden onderbroken omwille van de veiligheid van de passagiers.",
       "timetableHeading": "Dienstregeling",
