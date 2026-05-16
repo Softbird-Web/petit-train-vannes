@@ -212,10 +212,6 @@
         "title": "Horaires",
         "description": "Les départs ont lieu <strong>d'avril au 8 octobre, ainsi que pendant les vacances de la Toussaint</strong>, toutes les 40 minutes. Le train fonctionne tous les jours y compris les dimanches et jours fériés en saison."
       },
-      "accessibility": {
-        "title": "Accessibilité",
-        "description": "Le Petit Train est idéal pour les familles, les seniors et toute personne souhaitant découvrir Vannes confortablement, sans marcher longtemps."
-      },
       "payment": {
         "title": "Paiement",
         "description": "Modes de paiement acceptés : espèces, chèques, chèques-vacances ANCV. Le paiement par carte bancaire est disponible uniquement pour les réservations en ligne. Des tarifs groupes sont disponibles, contactez-nous pour un devis."
@@ -424,7 +420,7 @@
       "q8": "La visite est-elle adaptée aux enfants ?",
       "a8": "Oui. Le Petit Train de Vannes convient aux enfants et aux familles. Le commentaire audio pour enfants offre une expérience à la fois ludique et éducative.",
       "q9": "Combien coûte un billet ?",
-      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes payent 8€ et les enfants de 3 à 11 ans payent 5€. Les enfants de moins de 3 ans sont gratuits. Les tarifs complets sont disponibles sur la ",
+      "q9Pre": "Les tarifs varient en fonction de l'âge et de la taille du groupe. Les adultes payent 8,50€ et les enfants de 3 à 11 ans payent 5€. Les enfants de moins de 3 ans sont gratuits. Les tarifs complets sont disponibles sur la ",
       "q9LinkText": "page Tarifs et Billets",
       "q9Post": ".",
       "q10": "Faut-il réserver à l'avance ?",

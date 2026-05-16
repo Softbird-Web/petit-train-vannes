@@ -125,16 +125,16 @@ export default async function LocaleLayout({
                 {
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-                  "validFrom": "2025-04-01",
-                  "validThrough": "2025-10-12",
+                  "validFrom": "2026-04-01",
+                  "validThrough": "2026-10-08",
                   "opens": "10:00",
                   "closes": "18:00"
                 },
                 {
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-                  "validFrom": "2025-10-22",
-                  "validThrough": "2025-11-01",
+                  "validFrom": "2026-10-17",
+                  "validThrough": "2026-11-02",
                   "opens": "10:00",
                   "closes": "18:00"
                 }
