@@ -24,7 +24,6 @@ const faqs: FaqEntry[] = [
   { questionKey: 'q11', answerKey: 'a11' },
   { questionKey: 'q12', answerKey: 'a12' },
   { questionKey: 'q13', answerKey: 'a13' },
-  { questionKey: 'q14', richAnswer: { preKey: 'q14Pre', href: '/privatisation', linkKey: 'q14LinkText', postKey: 'q14Post' } },
 ]
 
 function FaqItem({

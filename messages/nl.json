@@ -5,7 +5,6 @@
     "informations": "Praktische info",
     "prices": "Tarieven & Tickets",
     "pricesShort": "Tarieven",
-    "privatisation": "Privatisering",
     "faqs": "FAQ",
     "careers": "Vacatures",
     "book": "Boeken",
@@ -39,8 +38,7 @@
     "book": "Boeken",
     "informations": "Praktische info",
     "faqs": "FAQ",
-    "careers": "Vacatures",
-    "privatisation": "Privatisering"
+    "careers": "Vacatures"
   },
   "shared": {
     "googleReviewsCount": "1.385+ recensies",
@@ -55,12 +53,12 @@
     "headingHighlight": "Vannes",
     "headingSuffix": "aan boord van de Petit Train",
     "description": "De Petit Train de Vannes brengt je langs de middeleeuwse vestingmuren, de oude stad en de haven tijdens een begeleide rit van <strong>40 minuten.</strong> Een eenvoudige, comfortabele en toegankelijke manier om een van de mooiste middeleeuwse steden van Bretagne te ontdekken — zonder inspanning en met heldere audio-uitleg gedurende de hele route.",
-    "tagline": "Ideaal voor gezinnen, koppels, senioren en bezoekers van alle leeftijden.",
+    "tagline": "Ideaal voor gezinnen, koppels, senioren en bezoekers van alle leeftijden. Elektrische trein, milieuvriendelijk.",
     "buttonBook": "Boek je bezoek",
     "buttonPrices": "Tarieven bekijken",
     "googleBadge": "De Petit Train de Vannes heeft een 4,7-beoordeling op Google met meer dan 1.300 recensies — een van de populairste toeristische attracties in Vannes.",
     "rightCardHeading": "Rondleiding met audiocommentaar in 22 talen",
-    "rightCardBody": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens.",
+    "rightCardBody": "Frans, Engels, Duits, Spaans, Italiaans, Portugees, Nederlands, Russisch, Chinees, Japans, Zweeds, Deens, Pools, Arabisch, Kroatisch en Sloveens. 6 verhalende versies voor kinderen.",
     "rightCardFlagsAlt": "Taalvlaggen",
     "rightImageAlt": "De Petit Train de Vannes langs de middeleeuwse vestingmuren",
     "noteImportanteLabel": "Belangrijke opmerking",
@@ -96,10 +94,6 @@
     "careers": {
       "title": "Vacatures — Petit Train de Vannes, Morbihan",
       "description": "Word lid van het team van de Petit Train de Vannes. Seizoensfuncties beschikbaar."
-    },
-    "privatisation": {
-      "title": "Privatisering & Groepen — Petit Train de Vannes, Morbihan",
-      "description": "Huur de Petit Train de Vannes af voor je bedrijfsevenementen, seminars, bruiloften of schoolgroepen."
     }
   },
   "pages": {
@@ -183,11 +177,6 @@
       "jobsLabel": "Open vacatures:",
       "jobBadgeSeasonal": "Seizoensfunctie"
     },
-    "privatisation": {
-      "overlayLabel": "Privatisering & B2B-verhuur",
-      "overlayHeading": "Huur de Petit Train de Vannes af voor je evenement",
-      "overlayDescription": "De Petit Train de Vannes kan privé worden afgehuurd voor bedrijfsevenementen, seminars, bruiloften, schoolgroepen of VIP-bezoeken. Neem contact op voor een offerte op maat."
-    },
     "mentionsLegales": {
       "title": "Wettelijke vermeldingen"
     },
@@ -206,7 +195,7 @@
       },
       "departure": {
         "title": "Vertrek",
-        "description": "Het enige vertrekpunt is de <strong>Place Gambetta</strong>, in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren. De halte is duidelijk aangegeven en goed bereikbaar vanuit het stadscentrum."
+        "description": "Het enige vertrekpunt is de <strong>Place Gambetta</strong>, in het hart van Vannes, op een steenworp afstand van de middeleeuwse vestingmuren. De halte is duidelijk aangegeven en goed bereikbaar vanuit het stadscentrum. Parkeren in de buurt: Parking du Port (Q-Park). Vinci- / Q-Park-abonnees kunnen hun plek reserveren via de app."
       },
       "schedule": {
         "title": "Tijden",
@@ -271,10 +260,10 @@
       "f4Desc": "Onze trein verwelkomt alle leeftijden en groepsgroottes — geen lange wandelingen, geen moeite, alleen een comfortabele en plezierige ervaring voor iedereen."
     },
     "groupBookingCta": {
-      "label": "Groepsboeking — Privatisering",
+      "label": "Groepsboeking",
       "heading": "Boeking voor privérondleidingen",
       "description": "Reis je in een groep of wil je de Petit Train de Vannes privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
-      "button": "Privatisering boeken"
+      "button": "Vraag een offerte aan"
     },
     "locations": {
       "label": "Bestemmingen",
@@ -342,10 +331,10 @@
       "description": "<strong>Reserveren kan, maar is niet verplicht.</strong> Je kunt je rechtstreeks melden bij de <strong>Place Gambetta</strong> en je tickets kopen aan de kassa ter plaatse."
     },
     "informationsCta": {
-      "label": "Groepsboeking — Privatisering",
+      "label": "Groepsboeking",
       "heading": "Boeking voor privérondleidingen",
       "description": "Reis je in een groep of wil je de Petit Train de Vannes privé afhuren voor een evenement, seminar of schoolbezoek? Neem contact op voor een offerte op maat.",
-      "button": "Privatisering boeken"
+      "button": "Vraag een offerte aan"
     },
     "faqsHero": {
       "label": "FAQ",
@@ -430,11 +419,7 @@
       "q12": "Hoe vroeg moet ik voor vertrek aankomen?",
       "a12": "Het wordt aanbevolen minstens 10 minuten voor vertrek aanwezig te zijn om tickets te kopen en in te stappen.",
       "q13": "Zijn groepsboekingen mogelijk?",
-      "a13": "Ja. Groepsboekingen zijn beschikbaar voor groepen van 20 personen of meer. Vooraf reserveren wordt aanbevolen.",
-      "q14": "Kan ik de Petit Train privé reserveren voor een evenement?",
-      "q14Pre": "Ja. De Petit Train de Vannes kan privé worden gereserveerd voor bedrijfsevents, verenigingen, schoolgroepen en privégelegenheden. Een speciaal aanvraagformulier vind je op de ",
-      "q14LinkText": "pagina Privatisering",
-      "q14Post": "."
+      "a13": "Ja. Groepsboekingen zijn beschikbaar voor groepen van 20 personen of meer. Vooraf reserveren wordt aanbevolen."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Seizoen",
@@ -496,43 +481,6 @@
       "panel4P1": "Solliciteer nu en neem deel aan een lokale toeristische beleving die bezoekers helpt Vannes op een eenvoudige en plezierige manier te ontdekken.",
       "ctaButton": "Solliciteer & Stuur ons je CV",
       "imageAlt": "Wie we zoeken bij de Petit Train de Vannes"
-    },
-    "privatisationForm": {
-      "yourDetailsHeading": "Uw Gegevens",
-      "eventDetailsHeading": "Evenementdetails",
-      "firstNameLabel": "Uw voornaam*",
-      "firstNamePlaceholder": "Alexandre",
-      "lastNameLabel": "Uw achternaam*",
-      "lastNamePlaceholder": "Bourgeois",
-      "phoneLabel": "Uw telefoonnummer*",
-      "phonePlaceholder": "+00 000 000 0000",
-      "emailLabel": "Uw e-mail*",
-      "emailPlaceholder": "name@email.com",
-      "companyNameLabel": "Bedrijfsnaam",
-      "companyNamePlaceholder": "Bedrijfsnaam",
-      "eventTypeLabel": "Type evenement*",
-      "eventTypePlaceholder": "Bedrijfsevenement, verenigingsbezoek, schoolgroep, familieevenement, privétour…",
-      "departureLocationLabel": "Gewenste vertreklocatie*",
-      "departureLocationAriaLabel": "Gewenste vertreklocatie",
-      "departureTimeLabel": "Gewenste vertrektijd*",
-      "departureTimeAriaLabel": "Gewenste vertrektijd",
-      "eventDateLabel": "Datum van uw evenement",
-      "eventDateAriaLabel": "Datum van uw evenement",
-      "guestCountLabel": "Aantal gasten",
-      "guestCountMin": "(min. 10 gasten)",
-      "guestCountPlaceholder": "bv. 10 - 15, 25 - 35…",
-      "additionalInfoLabel": "Aanvullende informatie",
-      "additionalInfoPlaceholder": "Speciale verzoeken, tijdsbeperkingen, voorkeurstaal of andere details",
-      "infoNote": "ⓘ Hoe meer details u ons geeft, hoe beter we op uw aanvraag kunnen ingaan",
-      "submitButton": "Aanvraag versturen",
-      "loadingButton": "Wordt verzonden…",
-      "successHeading": "Aanvraag verzonden!",
-      "successBody": "Bedankt voor uw interesse. Ons team zal uw aanvraag beoordelen en zo snel mogelijk contact met u opnemen om de beschikbaarheid te bevestigen en de details te bespreken.",
-      "sectionLabel": "Privatisering & B2B-verhuur",
-      "imageHeading": "Privatiseer de Petit Train de Vannes voor uw evenement",
-      "imageDescription": "De Petit Train de Vannes kan worden geprivatiseerd voor groepsrondleidingen, bedrijfsevenementen en speciale gelegenheden. Met deze flexibele oplossing kunt u uw gasten een comfortabele en originele rondleiding door Vannes aanbieden, afgestemd op uw wensen en programma.",
-      "googleReviewsCount": "1.385+ beoordelingen",
-      "imageAlt": "Privatisering van de Petit Train de Vannes"
     }
   }
 }

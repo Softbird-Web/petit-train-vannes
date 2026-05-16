@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import TransitionLink from "@/components/ui/TransitionLink";
+import { brand } from "@/lib/brand";
 
 export default function GroupBookingCTA() {
   const t = useTranslations("sections.groupBookingCta");
@@ -44,8 +44,8 @@ export default function GroupBookingCTA() {
             </p>
 
             <div data-anim="hero-button">
-              <TransitionLink
-                href="/privatisation"
+              <a
+                href={`mailto:${brand.contact.email}?subject=${encodeURIComponent("Demande de réservation de groupe")}`}
                 aria-label={t("button")}
                 className="btn-animate-chars btn-primary h-[45px] px-[22px] bg-[#f7a427] rounded-[4px] shadow-[0px_1px_2px_0px_rgba(10,13,18,0.05)] ring-1 ring-inset ring-[rgba(10,13,18,0.18)] text-[#1c1b29] text-base font-medium font-['Manrope',sans-serif] tracking-[-0.64px] whitespace-nowrap"
               >
@@ -53,7 +53,7 @@ export default function GroupBookingCTA() {
                 <span data-button-animate-chars="" className="btn-animate-chars__text">
                   {t("button")}
                 </span>
-              </TransitionLink>
+              </a>
             </div>
           </div>
         </div>

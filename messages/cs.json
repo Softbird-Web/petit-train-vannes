@@ -5,7 +5,6 @@
     "informations": "Praktické informace",
     "prices": "Ceny & Jízdenky",
     "pricesShort": "Ceny",
-    "privatisation": "Pronájem",
     "faqs": "FAQ",
     "careers": "Kariéra",
     "book": "Rezervovat",
@@ -39,8 +38,7 @@
     "book": "Rezervace",
     "informations": "Praktické informace",
     "faqs": "FAQ",
-    "careers": "Kariéra",
-    "privatisation": "Pronájem"
+    "careers": "Kariéra"
   },
   "shared": {
     "googleReviewsCount": "1 385+ recenzí",
@@ -55,12 +53,12 @@
     "headingHighlight": "Vannes",
     "headingSuffix": "na palubě Petit Train",
     "description": "Petit Train de Vannes vás zaveze k objevení středověkých hradeb, starého města a přístavu při průvodcovském výletu trvajícím <strong>40 minut.</strong> Jednoduchý, pohodlný a přístupný způsob, jak poznat jedno z nejkrásnějších středověkých měst Bretagne – bez námahy a s jasným audio komentářem po celou dobu trasy.",
-    "tagline": "Ideální pro rodiny, páry, seniory a návštěvníky všech věkových kategorií.",
+    "tagline": "Ideální pro rodiny, páry, seniory a návštěvníky všech věkových kategorií. Elektrický vlak, šetrný k životnímu prostředí.",
     "buttonBook": "Rezervujte svůj výlet",
     "buttonPrices": "Zobrazit ceny",
     "googleBadge": "Petit Train de Vannes je hodnocen 4,7 na Google s více než 1 300 recenzemi, což z něj činí jednu z nejpopulárnějších turistických atrakcí ve Vannes.",
     "rightCardHeading": "Průvodcovský výlet s audio komentářem v 22 jazycích",
-    "rightCardBody": "Francouzsky, anglicky, německy, španělsky, italsky, portugalsky, nizozemsky, rusky, čínsky, japonsky, švédsky, dánsky, polsky, arabsky, chorvatsky a slovinsky.",
+    "rightCardBody": "Francouzština, angličtina, němčina, španělština, italština, portugalština, nizozemština, ruština, čínština, japonština, švédština, dánština, polština, arabština, chorvatština a slovinština. 6 vyprávěcích verzí pro děti.",
     "rightCardFlagsAlt": "Vlajky jazyků",
     "rightImageAlt": "Petit Train de Vannes podél středověkých hradeb",
     "noteImportanteLabel": "Důležitá poznámka",
@@ -96,10 +94,6 @@
     "careers": {
       "title": "Kariéra — Petit Train de Vannes, Morbihan",
       "description": "Připojte se k týmu Petit Train de Vannes. Sezónní pozice dostupné v sezóně."
-    },
-    "privatisation": {
-      "title": "Pronájem & skupiny — Petit Train de Vannes, Morbihan",
-      "description": "Pronajměte si Petit Train de Vannes pro vaše firemní akce, semináře, svatby nebo školní skupiny."
     }
   },
   "pages": {
@@ -183,11 +177,6 @@
       "jobsLabel": "Otevřené pozice:",
       "jobBadgeSeasonal": "Sezónní pozice"
     },
-    "privatisation": {
-      "overlayLabel": "Pronájem & B2B nájmy",
-      "overlayHeading": "Pronajměte si Petit Train de Vannes pro vaši akci",
-      "overlayDescription": "Petit Train de Vannes lze pronajmout pro firemní akce, semináře, svatby, školní skupiny nebo VIP prohlídky. Kontaktujte nás pro individuální nabídku."
-    },
     "mentionsLegales": {
       "title": "Mentions Légales"
     },
@@ -206,7 +195,7 @@
       },
       "departure": {
         "title": "Odjezd",
-        "description": "Jediné místo odjezdu je <strong>Place Gambetta</strong>, v srdci Vannes, dva kroky od středověkých hradeb. Zastávka je jasně označena a snadno dostupná z centra města."
+        "description": "Jediné místo odjezdu je <strong>Place Gambetta</strong>, v srdci Vannes, dva kroky od středověkých hradeb. Zastávka je jasně označena a snadno dostupná z centra města. Parkování v blízkosti: Parking du Port (Q-Park). Předplatitelé Vinci / Q-Park si mohou rezervovat místo přes aplikaci."
       },
       "schedule": {
         "title": "Jízdní řád",
@@ -271,10 +260,10 @@
       "f4Desc": "Náš vlak vítá všechny věkové kategorie a velikosti skupin — žádné dlouhé pochody, žádná námaha, jen pohodlný a příjemný zážitek pro všechny."
     },
     "groupBookingCta": {
-      "label": "Skupinová rezervace — Pronájem",
+      "label": "Skupinová rezervace",
       "heading": "Rezervace pro soukromé výlety",
       "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Vannes pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
-      "button": "Rezervace pronájmu"
+      "button": "Vyžádat nabídku"
     },
     "locations": {
       "label": "Destinace",
@@ -342,10 +331,10 @@
       "description": "<strong>Rezervace je možná, ale není povinná.</strong> Můžete se dostavit přímo na <strong>Place Gambetta</strong> a koupit jízdenky u pokladny na místě."
     },
     "informationsCta": {
-      "label": "Skupinová rezervace — Pronájem",
+      "label": "Skupinová rezervace",
       "heading": "Rezervace pro soukromé výlety",
       "description": "Cestujete-li ve skupině nebo chcete pronajmout Petit Train de Vannes pro akci, seminář nebo školní výlet, kontaktujte nás pro individuální nabídku.",
-      "button": "Rezervace pronájmu"
+      "button": "Vyžádat nabídku"
     },
     "faqsHero": {
       "label": "FAQ",
@@ -430,11 +419,7 @@
       "q12": "Jak dlouho před odjezdem mám přijít?",
       "a12": "Doporučuje se přijít alespoň 10 minut před odjezdem, abyste si koupili jízdenky a nastoupili.",
       "q13": "Jsou dostupné skupinové rezervace?",
-      "a13": "Ano. Skupinové rezervace jsou dostupné pro skupiny 20 a více osob. Doporučuje se předem rezervovat.",
-      "q14": "Mohu pronajmout Petit Train pro akci?",
-      "q14Pre": "Ano. Petit Train de Vannes lze pronajmout pro firemní akce, spolky, školní skupiny a soukromé příležitosti. Dedikovaný formulář žádosti je dostupný na ",
-      "q14LinkText": "stránce Pronájem",
-      "q14Post": "."
+      "a13": "Ano. Skupinové rezervace jsou dostupné pro skupiny 20 a více osob. Doporučuje se předem rezervovat."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Provozní období",
@@ -496,43 +481,6 @@
       "panel4P1": "Požádejte hned teď a staňte se součástí místního turistického zážitku, který pomáhá návštěvníkům objevovat Vannes jednoduchým a příjemným způsobem.",
       "ctaButton": "Požádat o práci a poslat životopis",
       "imageAlt": "Koho hledáme v Petit Train de Vannes"
-    },
-    "privatisationForm": {
-      "yourDetailsHeading": "Vaše údaje",
-      "eventDetailsHeading": "Podrobnosti akce",
-      "firstNameLabel": "Vaše jméno*",
-      "firstNamePlaceholder": "Jan",
-      "lastNameLabel": "Vaše příjmení*",
-      "lastNamePlaceholder": "Novák",
-      "phoneLabel": "Vaše telefonní číslo*",
-      "phonePlaceholder": "+00 000 000 0000",
-      "emailLabel": "Váš email*",
-      "emailPlaceholder": "jmeno@email.com",
-      "companyNameLabel": "Název společnosti",
-      "companyNamePlaceholder": "Název společnosti",
-      "eventTypeLabel": "Typ akce*",
-      "eventTypePlaceholder": "Firemní akce, spolková návštěva, školní skupina, rodinná akce, soukromý výlet…",
-      "departureLocationLabel": "Požadované místo odjezdu*",
-      "departureLocationAriaLabel": "Požadované místo odjezdu",
-      "departureTimeLabel": "Požadovaný čas odjezdu*",
-      "departureTimeAriaLabel": "Požadovaný čas odjezdu",
-      "eventDateLabel": "Datum vaší akce",
-      "eventDateAriaLabel": "Datum vaší akce",
-      "guestCountLabel": "Počet hostů",
-      "guestCountMin": "(min. 10 hostů)",
-      "guestCountPlaceholder": "např.: 10 - 15, 25 - 35…",
-      "additionalInfoLabel": "Další informace",
-      "additionalInfoPlaceholder": "Zvláštní požadavky, časová omezení, preferovaný jazyk nebo jiné podrobnosti",
-      "infoNote": "ⓘ Čím více podrobností nám poskytnete, tím lépe budeme moci vyhovět vašemu požadavku",
-      "submitButton": "Odeslat žádost",
-      "loadingButton": "Odesílání…",
-      "successHeading": "Žádost odeslána!",
-      "successBody": "Děkujeme za váš zájem. Náš tým přezkoumá vaši žádost a co nejdříve vás kontaktuje, aby potvrdil dostupnost a prodiskutoval podrobnosti.",
-      "sectionLabel": "Pronájem & B2B nájmy",
-      "imageHeading": "Pronajměte si Petit Train de Vannes pro vaši akci",
-      "imageDescription": "Petit Train de Vannes lze pronajmout pro skupinové výlety, firemní akce a zvláštní příležitosti. Toto flexibilní řešení vám umožní nabídnout vašim hostům průvodcovský výlet přes Vannes, pohodlný a originální, přizpůsobený vašim potřebám a programu.",
-      "googleReviewsCount": "1 385+ recenzí",
-      "imageAlt": "Pronájem Petit Train de Vannes"
     }
   }
 }

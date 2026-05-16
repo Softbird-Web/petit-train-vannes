@@ -5,7 +5,6 @@
     "informations": "Informations Pratiques",
     "prices": "Tarifs & Billets",
     "pricesShort": "Tarifs",
-    "privatisation": "Privatisation",
     "faqs": "FAQ",
     "careers": "Carrières",
     "book": "Réserver",
@@ -39,8 +38,7 @@
     "book": "Réservation",
     "informations": "Informations Pratiques",
     "faqs": "FAQ",
-    "careers": "Carrières",
-    "privatisation": "Privatisation"
+    "careers": "Carrières"
   },
   "shared": {
     "googleReviewsCount": "1 385+ avis",
@@ -55,12 +53,12 @@
     "headingHighlight": "Vannes",
     "headingSuffix": "à bord du Petit Train",
     "description": "Le Petit Train de Vannes vous emmène à la découverte des remparts médiévaux, de la vieille ville et du port dans un circuit guidé de <strong>40 minutes.</strong> Une façon simple, confortable et accessible de découvrir l'une des plus belles cités médiévales de Bretagne, sans effort et avec un commentaire audio clair tout au long du parcours.",
-    "tagline": "Idéal pour les familles, les couples, les seniors et les visiteurs de tous âges.",
+    "tagline": "Idéal pour les familles, les couples, les seniors et les visiteurs de tous âges. Train électrique, respectueux de l'environnement.",
     "buttonBook": "Réservez votre visite",
     "buttonPrices": "Voir les Tarifs",
     "googleBadge": "Le Petit Train de Vannes est noté 4,7 sur Google, avec plus de 1 300 avis, ce qui en fait l'une des attractions touristiques les plus appréciées de Vannes.",
     "rightCardHeading": "Visite guidée avec commentaire audio en 22 langues",
-    "rightCardBody": "Français, anglais, allemand, espagnol, italien, portugais, néerlandais, russe, chinois, japonais, suédois, danois, polonais, arabe, croate et slovène.",
+    "rightCardBody": "Français, anglais, allemand, espagnol, italien, portugais, néerlandais, russe, chinois, japonais, suédois, danois, polonais, arabe, croate et slovène. 6 versions scénarisées pour les enfants.",
     "rightCardFlagsAlt": "Drapeaux des langues",
     "rightImageAlt": "Le Petit Train de Vannes longeant les remparts médiévaux",
     "noteImportanteLabel": "Note Importante",
@@ -96,10 +94,6 @@
     "careers": {
       "title": "Carrières — Petit Train de Vannes, Morbihan",
       "description": "Rejoignez l'équipe du Petit Train de Vannes. Postes saisonniers disponibles en saison."
-    },
-    "privatisation": {
-      "title": "Privatisation & Groupes — Petit Train de Vannes, Morbihan",
-      "description": "Privatisez le Petit Train de Vannes pour vos événements professionnels, séminaires, mariages ou groupes scolaires."
     }
   },
   "pages": {
@@ -183,11 +177,6 @@
       "jobsLabel": "Postes Ouverts :",
       "jobBadgeSeasonal": "Poste saisonnier"
     },
-    "privatisation": {
-      "overlayLabel": "Privatisation & location B2B",
-      "overlayHeading": "Privatisez le Petit Train de Vannes pour votre événement",
-      "overlayDescription": "Le Petit Train de Vannes peut être privatisé pour vos événements d'entreprise, séminaires, mariages, groupes scolaires ou visites VIP. Contactez-nous pour un devis personnalisé."
-    },
     "mentionsLegales": {
       "title": "Mentions Légales"
     },
@@ -206,7 +195,7 @@
       },
       "departure": {
         "title": "Départ",
-        "description": "Le seul point de départ est la <strong>Place Gambetta</strong>, au cœur de Vannes, à deux pas des remparts médiévaux. L'arrêt est clairement signalisé et facile d'accès depuis le centre-ville."
+        "description": "Le seul point de départ est la <strong>Place Gambetta</strong>, au cœur de Vannes, à deux pas des remparts médiévaux. L'arrêt est clairement signalisé et facile d'accès depuis le centre-ville. Stationnement à proximité : Parking du Port (Q-Park). Les abonnés Vinci / Q-Park peuvent réserver leur place via l'application."
       },
       "schedule": {
         "title": "Horaires",
@@ -271,10 +260,10 @@
       "f4Desc": "Notre train accueille tous les âges et toutes les tailles de groupes — pas de longues marches, pas d'effort, juste une expérience confortable et agréable pour tous."
     },
     "groupBookingCta": {
-      "label": "Réservation de Groupe — Privatisation",
+      "label": "Réservation de Groupe",
       "heading": "Réservation pour visites privées",
       "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Vannes pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
-      "button": "Réservation privatisation"
+      "button": "Demander un devis"
     },
     "locations": {
       "label": "Destinations",
@@ -342,10 +331,10 @@
       "description": "<strong>La réservation est possible mais pas obligatoire.</strong> Vous pouvez vous présenter directement à la <strong>Place Gambetta</strong> et acheter vos billets à la caisse sur place."
     },
     "informationsCta": {
-      "label": "Réservation de Groupe — Privatisation",
+      "label": "Réservation de Groupe",
       "heading": "Réservation pour visites privées",
       "description": "Si vous voyagez en groupe ou souhaitez privatiser le Petit Train de Vannes pour un événement, un séminaire ou une visite scolaire, contactez-nous pour un devis sur mesure.",
-      "button": "Réservation privatisation"
+      "button": "Demander un devis"
     },
     "faqsHero": {
       "label": "FAQ",
@@ -430,11 +419,7 @@
       "q12": "Combien de temps à l'avance dois-je arriver avant le départ ?",
       "a12": "Il est conseillé d'arriver au moins 10 minutes avant le départ pour acheter vos billets et embarquer.",
       "q13": "Les réservations de groupe sont-elles disponibles ?",
-      "a13": "Oui. Les réservations de groupe sont disponibles pour les groupes de 20 personnes ou plus. La réservation à l'avance est recommandée.",
-      "q14": "Puis-je privatiser le Petit Train pour un événement ?",
-      "q14Pre": "Oui. Le Petit Train de Vannes peut être privatisé pour des événements d'entreprise, des associations, des groupes scolaires et des occasions privées. Un formulaire de demande dédié est disponible sur la ",
-      "q14LinkText": "page Privatisation",
-      "q14Post": "."
+      "a13": "Oui. Les réservations de groupe sont disponibles pour les groupes de 20 personnes ou plus. La réservation à l'avance est recommandée."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Période d'exploitation",
@@ -496,43 +481,6 @@
       "panel4P1": "Postulez dès maintenant et participez à une expérience touristique locale qui aide les visiteurs à découvrir Vannes de façon simple et agréable.",
       "ctaButton": "Postulez & Envoyez-nous votre CV",
       "imageAlt": "Qui cherchons-nous au Petit Train de Vannes"
-    },
-    "privatisationForm": {
-      "yourDetailsHeading": "Vos Coordonnées",
-      "eventDetailsHeading": "Détails de l'événement",
-      "firstNameLabel": "Votre prénom*",
-      "firstNamePlaceholder": "Alexandre",
-      "lastNameLabel": "Votre nom*",
-      "lastNamePlaceholder": "Bourgeois",
-      "phoneLabel": "Votre numéro de téléphone*",
-      "phonePlaceholder": "+00 000 000 0000",
-      "emailLabel": "Votre email*",
-      "emailPlaceholder": "name@email.com",
-      "companyNameLabel": "Nom de l'entreprise",
-      "companyNamePlaceholder": "Nom de l'entreprise",
-      "eventTypeLabel": "Type d'évènement*",
-      "eventTypePlaceholder": "Événement d'entreprise, visite associative, groupe scolaire, événement familial, tour privé…",
-      "departureLocationLabel": "Lieu de départ souhaité*",
-      "departureLocationAriaLabel": "Lieu de départ souhaité",
-      "departureTimeLabel": "Heure de départ souhaitée*",
-      "departureTimeAriaLabel": "Heure de départ souhaitée",
-      "eventDateLabel": "Date de votre évènement",
-      "eventDateAriaLabel": "Date de votre évènement",
-      "guestCountLabel": "Nombre d'invités",
-      "guestCountMin": "(min. 10 invités)",
-      "guestCountPlaceholder": "ex : 10 - 15, 25 - 35…",
-      "additionalInfoLabel": "Autres informations",
-      "additionalInfoPlaceholder": "Demandes particulières, contraintes horaires, langue préférée ou autres détails",
-      "infoNote": "ⓘ Plus vous nous fournissez de détails, mieux nous pourrons répondre à votre demande",
-      "submitButton": "Envoyer la demande",
-      "loadingButton": "Envoi en cours…",
-      "successHeading": "Demande envoyée !",
-      "successBody": "Merci de votre intérêt. Notre équipe examinera votre demande et vous recontactera dès que possible pour confirmer la disponibilité et discuter des détails.",
-      "sectionLabel": "Privatisation & location B2B",
-      "imageHeading": "Privatisez le Petit Train de Vannes pour votre événement",
-      "imageDescription": "Le Petit Train de Vannes peut être privatisé pour des visites de groupe, des événements d'entreprise et des occasions spéciales. Cette solution flexible vous permet d'offrir à vos invités une visite guidée à travers Vannes, confortable et originale, adaptée à vos besoins et à votre programme.",
-      "googleReviewsCount": "1 385+ avis",
-      "imageAlt": "Privatisation du Petit Train de Vannes"
     }
   }
 }

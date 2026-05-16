@@ -5,7 +5,6 @@
     "informations": "Informazioni Pratiche",
     "prices": "Tariffe e Biglietti",
     "pricesShort": "Tariffe",
-    "privatisation": "Noleggio Privato",
     "faqs": "FAQ",
     "careers": "Carriere",
     "book": "Prenota",
@@ -39,8 +38,7 @@
     "book": "Prenotazione",
     "informations": "Informazioni Pratiche",
     "faqs": "FAQ",
-    "careers": "Carriere",
-    "privatisation": "Noleggio Privato"
+    "careers": "Carriere"
   },
   "shared": {
     "googleReviewsCount": "1.385+ recensioni",
@@ -55,12 +53,12 @@
     "headingHighlight": "Vannes",
     "headingSuffix": "a bordo del Petit Train",
     "description": "Il Petit Train de Vannes vi porta alla scoperta delle mura medievali, del centro storico e del porto in un circuito guidato di <strong>40 minuti.</strong> Un modo semplice, comodo e accessibile per esplorare una delle più belle città medievali della Bretagna, senza fatica e con un commento audio chiaro per tutto il percorso.",
-    "tagline": "Ideale per famiglie, coppie, anziani e visitatori di tutte le età.",
+    "tagline": "Ideale per famiglie, coppie, anziani e visitatori di tutte le età. Treno elettrico, rispettoso dell'ambiente.",
     "buttonBook": "Prenota la tua visita",
     "buttonPrices": "Vedi Tariffe",
     "googleBadge": "Il Petit Train de Vannes è valutato 4,7 su Google, con oltre 1.300 recensioni, il che lo rende una delle attrazioni turistiche più apprezzate di Vannes.",
     "rightCardHeading": "Visita guidata con commento audio in 22 lingue",
-    "rightCardBody": "Francese, inglese, tedesco, spagnolo, italiano, portoghese, olandese, russo, cinese, giapponese, svedese, danese, polacco, arabo, croato e sloveno.",
+    "rightCardBody": "Francese, inglese, tedesco, spagnolo, italiano, portoghese, olandese, russo, cinese, giapponese, svedese, danese, polacco, arabo, croato e sloveno. 6 versioni narrate per bambini.",
     "rightCardFlagsAlt": "Bandiere delle lingue",
     "rightImageAlt": "Il Petit Train de Vannes lungo le mura medievali",
     "noteImportanteLabel": "Nota Importante",
@@ -96,10 +94,6 @@
     "careers": {
       "title": "Carriere — Petit Train de Vannes, Morbihan",
       "description": "Unitevi al team del Petit Train de Vannes. Posizioni stagionali disponibili."
-    },
-    "privatisation": {
-      "title": "Noleggio Privato e Gruppi — Petit Train de Vannes, Morbihan",
-      "description": "Noleggiate il Petit Train de Vannes per eventi aziendali, seminari, matrimoni o gruppi scolastici."
     }
   },
   "pages": {
@@ -183,11 +177,6 @@
       "jobsLabel": "Posizioni Aperte:",
       "jobBadgeSeasonal": "Posizione stagionale"
     },
-    "privatisation": {
-      "overlayLabel": "Noleggio privato e B2B",
-      "overlayHeading": "Noleggiate il Petit Train de Vannes per il vostro evento",
-      "overlayDescription": "Il Petit Train de Vannes può essere noleggiato per eventi aziendali, seminari, matrimoni, gruppi scolastici o visite VIP. Contattateci per un preventivo personalizzato."
-    },
     "mentionsLegales": {
       "title": "Note Legali"
     },
@@ -206,7 +195,7 @@
       },
       "departure": {
         "title": "Partenza",
-        "description": "L'unico punto di partenza è la <strong>Place Gambetta</strong>, nel cuore di Vannes, a pochi passi dalle mura medievali. La fermata è chiaramente segnalata e facilmente accessibile dal centro città."
+        "description": "L'unico punto di partenza è la <strong>Place Gambetta</strong>, nel cuore di Vannes, a pochi passi dalle mura medievali. La fermata è chiaramente segnalata e facilmente accessibile dal centro città. Parcheggio nelle vicinanze: Parking du Port (Q-Park). Gli abbonati Vinci / Q-Park possono prenotare il loro posto tramite l'app."
       },
       "schedule": {
         "title": "Orari",
@@ -271,10 +260,10 @@
       "f4Desc": "Il nostro treno accoglie tutte le età e le dimensioni di gruppo — nessuna lunga passeggiata, nessuna fatica, solo un'esperienza comoda e piacevole per tutti."
     },
     "groupBookingCta": {
-      "label": "Prenotazione di Gruppo — Noleggio Privato",
+      "label": "Prenotazione di Gruppo",
       "heading": "Prenotazione per visite private",
       "description": "Se viaggiate in gruppo o desiderate noleggiare il Petit Train de Vannes per un evento, un seminario o una visita scolastica, contattateci per un preventivo su misura.",
-      "button": "Prenotazione noleggio privato"
+      "button": "Richiedi un preventivo"
     },
     "locations": {
       "label": "Destinazioni",
@@ -342,10 +331,10 @@
       "description": "<strong>La prenotazione è possibile ma non obbligatoria.</strong> Potete presentarvi direttamente alla <strong>Place Gambetta</strong> e acquistare i biglietti alla cassa sul posto."
     },
     "informationsCta": {
-      "label": "Prenotazione di Gruppo — Noleggio Privato",
+      "label": "Prenotazione di Gruppo",
       "heading": "Prenotazione per visite private",
       "description": "Se viaggiate in gruppo o desiderate noleggiare il Petit Train de Vannes per un evento, un seminario o una visita scolastica, contattateci per un preventivo su misura.",
-      "button": "Prenotazione noleggio privato"
+      "button": "Richiedi un preventivo"
     },
     "faqsHero": {
       "label": "FAQ",
@@ -430,11 +419,7 @@
       "q12": "Con quanto anticipo devo arrivare prima della partenza?",
       "a12": "È consigliabile arrivare almeno 10 minuti prima della partenza per acquistare i biglietti e salire a bordo.",
       "q13": "Sono disponibili prenotazioni di gruppo?",
-      "a13": "Sì. Le prenotazioni di gruppo sono disponibili per gruppi di 20 persone o più. Si consiglia la prenotazione anticipata.",
-      "q14": "Posso noleggiare il Petit Train per un evento?",
-      "q14Pre": "Sì. Il Petit Train de Vannes può essere noleggiato per eventi aziendali, associazioni, gruppi scolastici e occasioni private. Un modulo di richiesta dedicato è disponibile nella ",
-      "q14LinkText": "pagina Noleggio Privato",
-      "q14Post": "."
+      "a13": "Sì. Le prenotazioni di gruppo sono disponibili per gruppi di 20 persone o più. Si consiglia la prenotazione anticipata."
     },
     "informationsScheduleLabels": {
       "operatingPeriodTitle": "Periodo di esercizio",
@@ -496,43 +481,6 @@
       "panel4P1": "Candidatevi ora e partecipate a un'esperienza turistica locale che aiuta i visitatori a scoprire Vannes in modo semplice e piacevole.",
       "ctaButton": "Candidati & Inviaci il tuo CV",
       "imageAlt": "Chi stiamo cercando al Petit Train de Vannes"
-    },
-    "privatisationForm": {
-      "yourDetailsHeading": "I Vostri Dati",
-      "eventDetailsHeading": "Dettagli dell'Evento",
-      "firstNameLabel": "Il vostro nome*",
-      "firstNamePlaceholder": "Alexandre",
-      "lastNameLabel": "Il vostro cognome*",
-      "lastNamePlaceholder": "Bourgeois",
-      "phoneLabel": "Il vostro numero di telefono*",
-      "phonePlaceholder": "+00 000 000 0000",
-      "emailLabel": "La vostra email*",
-      "emailPlaceholder": "name@email.com",
-      "companyNameLabel": "Nome dell'azienda",
-      "companyNamePlaceholder": "Nome dell'azienda",
-      "eventTypeLabel": "Tipo di evento*",
-      "eventTypePlaceholder": "Evento aziendale, visita di associazione, gruppo scolastico, evento familiare, tour privato…",
-      "departureLocationLabel": "Luogo di partenza preferito*",
-      "departureLocationAriaLabel": "Luogo di partenza preferito",
-      "departureTimeLabel": "Orario di partenza preferito*",
-      "departureTimeAriaLabel": "Orario di partenza preferito",
-      "eventDateLabel": "Data del vostro evento",
-      "eventDateAriaLabel": "Data del vostro evento",
-      "guestCountLabel": "Numero di ospiti",
-      "guestCountMin": "(min. 10 ospiti)",
-      "guestCountPlaceholder": "es.: 10 - 15, 25 - 35…",
-      "additionalInfoLabel": "Informazioni aggiuntive",
-      "additionalInfoPlaceholder": "Richieste speciali, vincoli di orario, lingua preferita o altri dettagli",
-      "infoNote": "ⓘ Più dettagli ci fornite, meglio potremo rispondere alla vostra richiesta",
-      "submitButton": "Invia richiesta",
-      "loadingButton": "Invio in corso…",
-      "successHeading": "Richiesta inviata!",
-      "successBody": "Grazie per il vostro interesse. Il nostro team esaminerà la vostra richiesta e vi ricontatterà al più presto per confermare la disponibilità e discutere i dettagli.",
-      "sectionLabel": "Noleggio privato e B2B",
-      "imageHeading": "Noleggiate il Petit Train de Vannes per il vostro evento",
-      "imageDescription": "Il Petit Train de Vannes può essere noleggiato per visite di gruppo, eventi aziendali e occasioni speciali. Questa soluzione flessibile vi permette di offrire ai vostri ospiti una visita guidata attraverso Vannes, comoda e originale, adattata alle vostre esigenze e al vostro programma.",
-      "googleReviewsCount": "1.385+ recensioni",
-      "imageAlt": "Noleggio privato del Petit Train de Vannes"
     }
   }
 }

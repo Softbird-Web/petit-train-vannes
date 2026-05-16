@@ -24,7 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/book', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/faqs', priority: 0.7, changeFrequency: 'yearly' },
     { path: '/careers', priority: 0.4, changeFrequency: 'yearly' },
-    // Privatisation page is draft — not linked in nav, excluded from sitemap
     // Legal pages are noindex — excluded from sitemap to avoid crawl budget waste
   ]
 
